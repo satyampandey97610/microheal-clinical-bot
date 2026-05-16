@@ -1,6 +1,33 @@
 version: '3.8'
 
 services:
+  gastrorag-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: microheal-gastrorag-api
+    command: ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+      - GASTRO_RAG_RESULTS_DIR=/app/results
+    env_file:
+      - .env
+    volumes:
+      - ./results:/app/results
+      - ./logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    networks:
+      - gastrobot-network
+
   gastrobot:
     build:
       context: .
