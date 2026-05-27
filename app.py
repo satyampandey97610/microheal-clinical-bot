@@ -34,6 +34,7 @@ st.markdown("""
     .specialty-badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 20px; }
     .badge-gastro { background-color: #dbeafe; color: #1e3a8a; }
     .badge-cardio { background-color: #fee2e2; color: #991b1b; }
+    .badge-nephro { background-color: #ccfbf1; color: #115e59; }
     [data-testid="stChatMessage"] { border-radius: 12px !important; border: 1px solid #e2e8f0 !important; background: #ffffff !important; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 15px;}
     [data-testid="stChatMessage"]:nth-child(even) { background: #f8fafc !important; }
     .micro-ref { font-size: 0.85rem !important; color: #475569 !important; margin-bottom: 6px; padding: 6px; background: #f1f5f9; border-radius: 6px; border-left: 3px solid #3b82f6; }
@@ -60,12 +61,17 @@ col1, col2 = st.columns([1, 4])
 with col1:
     selected_domain = st.selectbox(
         "Model Selector",
-        ["Gastroenterology", "Cardiology"],
+        ["Gastroenterology", "Cardiology", "Nephrology"],
         label_visibility="collapsed"
     )
 
 # Map UI domain to engine key
-domain_key = "gastro" if selected_domain == "Gastroenterology" else "cardio"
+domain_map = {
+    "Gastroenterology": "gastro",
+    "Cardiology": "cardio",
+    "Nephrology": "nephro"
+}
+domain_key = domain_map[selected_domain]
 
 # Initialize engine (cached)
 @st.cache_resource
@@ -89,9 +95,18 @@ elif st.session_state.current_domain != selected_domain:
 #  Header
 # ──────────────────────────────────────────────────────────────────
 
-theme_color = "#3b82f6" if selected_domain == "Gastroenterology" else "#ef4444"
-icon = "🩺" if selected_domain == "Gastroenterology" else "❤️"
-badge_class = "badge-gastro" if selected_domain == "Gastroenterology" else "badge-cardio"
+if selected_domain == "Gastroenterology":
+    theme_color = "#3b82f6"
+    icon = "🩺"
+    badge_class = "badge-gastro"
+elif selected_domain == "Cardiology":
+    theme_color = "#ef4444"
+    icon = "❤️"
+    badge_class = "badge-cardio"
+else:  # Nephrology
+    theme_color = "#14b8a6"
+    icon = "💧"
+    badge_class = "badge-nephro"
 
 st.markdown(f'<h1 class="stTitle" style="color: {theme_color};">MicroHeal Clinical Bot</h1>', unsafe_allow_html=True)
 st.markdown(f'<div class="specialty-badge {badge_class}">{icon} {selected_domain} Expert</div>', unsafe_allow_html=True)

@@ -1256,13 +1256,103 @@
         "total_tokens": 146572,
         "api_calls": 16
       }
+    },
+    {
+      "session_start": "2026-05-23T18:19:20.935490",
+      "session_end": "2026-05-23T20:32:17.120540",
+      "pdfs": {
+        "0071449035": {
+          "prompt_tokens": 105779,
+          "completion_tokens": 9162,
+          "total_tokens": 114941,
+          "api_calls": 18
+        },
+        "2017-KDIGO-CKD-MBD-GL-Update": {
+          "prompt_tokens": 25315,
+          "completion_tokens": 1674,
+          "total_tokens": 26989,
+          "api_calls": 10
+        },
+        "clinical-handbook-of-nephrology-2024-trungtamthuoc": {
+          "prompt_tokens": 163294,
+          "completion_tokens": 6375,
+          "total_tokens": 169669,
+          "api_calls": 26
+        },
+        "KDIGO-2021-Glomerular-Diseases-Guideline_English_LN-2024-Update (1)": {
+          "prompt_tokens": 263600,
+          "completion_tokens": 13548,
+          "total_tokens": 277148,
+          "api_calls": 29
+        },
+        "KDIGO-2024-CKD-Guideline-Executive-Summary": {
+          "prompt_tokens": 78677,
+          "completion_tokens": 4605,
+          "total_tokens": 83282,
+          "api_calls": 25
+        },
+        "KDIGO-2024-CKD-Guideline": {
+          "prompt_tokens": 175792,
+          "completion_tokens": 22218,
+          "total_tokens": 198010,
+          "api_calls": 17
+        },
+        "KDIGO-2025-ADPKD-Guideline": {
+          "prompt_tokens": 199009,
+          "completion_tokens": 22811,
+          "total_tokens": 221820,
+          "api_calls": 19
+        },
+        "KDIGO-2025-ADPKD-Guideline_Executive-Summary": {
+          "prompt_tokens": 58870,
+          "completion_tokens": 2359,
+          "total_tokens": 61229,
+          "api_calls": 26
+        },
+        "KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children (1)": {
+          "prompt_tokens": 57185,
+          "completion_tokens": 1574,
+          "total_tokens": 58759,
+          "api_calls": 11
+        },
+        "KDIGO-Glomerular-Diseases-Guideline-2021-English": {
+          "prompt_tokens": 179847,
+          "completion_tokens": 13129,
+          "total_tokens": 192976,
+          "api_calls": 22
+        },
+        "KDIGO_2012_CKD_GL": {
+          "prompt_tokens": 231851,
+          "completion_tokens": 6655,
+          "total_tokens": 238506,
+          "api_calls": 22
+        },
+        "NEPHROLOGY FOR MEDICAL STUDENTS": {
+          "prompt_tokens": 118756,
+          "completion_tokens": 9855,
+          "total_tokens": 128611,
+          "api_calls": 28
+        },
+        "therap": {
+          "prompt_tokens": 160098,
+          "completion_tokens": 3921,
+          "total_tokens": 164019,
+          "api_calls": 25
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 1818073,
+        "completion_tokens": 117886,
+        "total_tokens": 1935959,
+        "api_calls": 278
+      }
     }
   ],
   "grand_total": {
-    "prompt_tokens": 7916944,
-    "completion_tokens": 662515,
-    "total_tokens": 8579459,
-    "api_calls": 2462,
-    "last_updated": "2026-05-22T08:57:25.759690"
+    "prompt_tokens": 9735017,
+    "completion_tokens": 780401,
+    "total_tokens": 10515418,
+    "api_calls": 2740,
+    "last_updated": "2026-05-23T20:32:17.120540"
   }
 }

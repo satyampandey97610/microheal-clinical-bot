@@ -41,14 +41,20 @@ DOMAIN_CONFIG = {
     "gastro": {
         "label": "Gastroenterology",
         "index_dir": BASE_DIR / "GastroRAG" / "index",
-        "other_label": "Cardiology",
-        "other_key": "cardio",
+        "other_label": "Cardiology or Nephrology",
+        "other_key": "cardio or nephro",
     },
     "cardio": {
         "label": "Cardiology",
         "index_dir": BASE_DIR / "CardioRAG" / "index",
-        "other_label": "Gastroenterology",
-        "other_key": "gastro",
+        "other_label": "Gastroenterology or Nephrology",
+        "other_key": "gastro or nephro",
+    },
+    "nephro": {
+        "label": "Nephrology",
+        "index_dir": BASE_DIR / "NephroRAG" / "index",
+        "other_label": "Gastroenterology or Cardiology",
+        "other_key": "gastro or cardio",
     }
 }
 
@@ -297,16 +303,15 @@ def _classify_query(query: str, domain_label: str, other_label: str) -> str:
     """
     prompt = f"""You are a medical query classifier. Classify the following user message into exactly ONE category.
 
-The active specialist is: {domain_label}
-The other available specialist is: {other_label}
+Active specialist: {domain_label}
+Other available specialists: {other_label}
 
-Categories:
-- "in_domain" — The query is related to {domain_label} or is a general medical/health question that a {domain_label} specialist could reasonably answer.
-- "out_of_domain" — The query is CLEARLY and SPECIFICALLY about {other_label} topics that only a {other_label} specialist should handle (e.g., specific {other_label} conditions, procedures, or guidelines).
-- "casual" — The user is greeting, thanking, asking who you are, or having casual conversation (not a medical question).
+Categories to choose from:
+- "in_domain" — The query is directly related to {domain_label}, or is a general medical/health query that a {domain_label} specialist can answer.
+- "out_of_domain" — The query is CLEARLY and SPECIFICALLY about topics belonging to {other_label} and NOT {domain_label} (e.g., GERD or stomach issues when active is Nephrology/Cardiology, or heart attacks/ECGs when active is Gastroenterology/Nephrology).
+- "casual" — Greetings, thanks, or general conversation.
 
-IMPORTANT: If the query is a general health question that BOTH specialists could answer, classify as "in_domain".
-Only classify as "out_of_domain" if it is CLEARLY specific to {other_label}.
+Rule: If the query is specific to the other specialists ({other_label}), reply "out_of_domain".
 
 User message: "{query}"
 
@@ -372,10 +377,10 @@ class ClinicalEngine:
     """
 
     def __init__(self, domain: str):
-        """Initialize with 'gastro' or 'cardio'."""
+        """Initialize with 'gastro', 'cardio', or 'nephro'."""
         domain = domain.lower().strip()
         if domain not in DOMAIN_CONFIG:
-            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro' or 'cardio'.")
+            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro', 'cardio', or 'nephro'.")
 
         self.config = DOMAIN_CONFIG[domain]
         self.domain = domain
@@ -572,6 +577,9 @@ if __name__ == "__main__":
     cardio = ClinicalEngine("cardio")
     print(f"[CARDIO] Loaded {cardio.get_source_count()} sources")
 
+    nephro = ClinicalEngine("nephro")
+    print(f"[NEPHRO] Loaded {nephro.get_source_count()} sources")
+
     # Test domain isolation
     print("\n--- Domain Isolation Test ---")
     result = gastro.query("What is atrial fibrillation?")
@@ -580,6 +588,10 @@ if __name__ == "__main__":
 
     result = cardio.query("What is stomach pain?")
     print(f"\nCardio asked about gastro -> out_of_domain={result['out_of_domain']}, sources={len(result['sources'])}")
+    print(f"Answer: {result['answer']}")
+
+    result = nephro.query("What is GERD or stomach pain?")
+    print(f"\nNephro asked about gastro -> out_of_domain={result['out_of_domain']}, sources={len(result['sources'])}")
     print(f"Answer: {result['answer']}")
 
     # Test casual

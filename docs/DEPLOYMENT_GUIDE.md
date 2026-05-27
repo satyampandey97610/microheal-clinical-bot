@@ -4,9 +4,9 @@
 
 ### What's Included
 - **Unified Clinical Engine**: `clinical_engine.py` — platform-independent brain
-- **Dual-Domain Support**: Gastroenterology (14 sources) + Cardiology (14 sources)
+- **Triple-Domain Support**: Gastroenterology (14 sources) + Cardiology (14 sources) + Nephrology (13 sources)
 - **Streamlit Frontend**: `app.py` — thin UI layer for testing and demo
-- **Agent Wrappers**: `gastro_agent.py` and `cardio_agent.py` for direct integration
+- **Agent Wrappers**: `gastro_agent.py`, `cardio_agent.py`, and `nephro_agent.py` for direct integration
 
 ---
 
@@ -51,7 +51,9 @@ result = engine.query("What is GERD?")
 | `app.py` | Streamlit UI frontend |
 | `GastroRAG/gastro_agent.py` | Gastro specialist wrapper |
 | `CardioRAG/cardio_agent.py` | Cardio specialist wrapper |
+| `NephroRAG/nephro_agent.py` | Nephrology specialist wrapper |
 | `GastroRAG/index/` | 14 Gastro indexed JSON files |
 | `CardioRAG/index/` | 14 Cardio indexed JSON files |
+| `NephroRAG/index/` | 13 Nephrology indexed JSON files |
 | `requirements.txt` | Python dependencies |
 | `Dockerfile` | Container deployment |

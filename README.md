@@ -1,19 +1,20 @@
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/3004/3004458.png" width="80" alt="MicroHeal Logo">
   <h1>MicroHeal Clinical Bot</h1>
-  <p><b>Unified Gastroenterology & Cardiology RAG Assistant</b></p>
-  <p><i>A dual-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
+  <p><b>Unified Gastroenterology, Cardiology & Nephrology RAG Assistant</b></p>
+  <p><i>A triple-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
 </div>
 
 ---
 
 ## 🎯 System Overview
 
-**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **28 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
+**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **41 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
 
-Users can switch between two isolated specialist engines:
+Users can switch between three isolated specialist engines:
 - 🩺 **Gastroenterology Expert** — 14 GI sources including casebooks, GLP-1 research, and clinical datasets.
 - ❤️ **Cardiology Expert** — 14 cardiovascular sources including ACC/AHA guidelines, ESC protocols, and heart failure studies.
+- 💧 **Nephrology Expert** — 13 kidney health sources including KDIGO guidelines, clinical handbooks, and textbook references.
 
 ---
 
@@ -43,6 +44,10 @@ MicroHeal Clinical Bot
 ├── CardioRAG/
 │   ├── cardio_agent.py     ← Cardio wrapper with query_cardio()
 │   ├── index/              ← 14 indexed JSON knowledge files
+│   └── data/               ← Source PDFs
+├── NephroRAG/
+│   ├── nephro_agent.py     ← Nephro wrapper with query_nephro()
+│   ├── index/              ← 13 indexed JSON knowledge files
 │   └── data/               ← Source PDFs
 ├── PageIndex/              ← PDF indexing pipeline
 ├── docs/                   ← Deployment guide
@@ -81,6 +86,7 @@ from clinical_engine import ClinicalEngine
 # Initialize the specialist you need
 gastro = ClinicalEngine("gastro")
 cardio = ClinicalEngine("cardio")
+nephro = ClinicalEngine("nephro")
 
 # Query it
 result = gastro.query("What causes GERD?")
@@ -98,7 +104,7 @@ result = gastro.query("How is it treated?", history=history)
 
 ---
 
-## 📚 Knowledge Base (28 Indexed Sources)
+## 📚 Knowledge Base (41 Indexed Sources)
 
 ### Gastroenterology (14 Sources)
 | # | Source | Type |
@@ -135,6 +141,23 @@ result = gastro.query("How is it treated?", history=history)
 | 12 | ESC Guideline — ehab368 | Guideline |
 | 13 | ESC Guideline — ehad193 | Guideline |
 | 14 | Heart Disease Prevention (Côté) | Reference |
+
+### Nephrology (13 Sources)
+| # | Source | Type |
+|---|--------|------|
+| 1 | Nephrology for Medical Students | Textbook |
+| 2 | Clinical Handbook of Nephrology (2024) | Reference |
+| 3 | KDIGO 2012 CKD Guideline | Guideline |
+| 4 | KDIGO 2017 CKD-MBD Guideline Update | Guideline |
+| 5 | KDIGO 2021 Glomerular Diseases Guideline | Guideline |
+| 6 | KDIGO 2024 CKD Guideline | Guideline |
+| 7 | KDIGO 2024 CKD Guideline — Executive Summary | Guideline |
+| 8 | KDIGO 2025 ADPKD Guideline | Guideline |
+| 9 | KDIGO 2025 ADPKD Guideline — Executive Summary | Guideline |
+| 10 | KDIGO 2025 Nephrotic Syndrome in Children | Guideline |
+| 11 | KDIGO Glomerular Diseases Guideline 2021 (LN-2024 Update) | Guideline |
+| 12 | Nephrology Clinical Manual (0071449035) | Reference |
+| 13 | Nephrology Therapeutic Guide (therap) | Reference |
 
 ---
 
