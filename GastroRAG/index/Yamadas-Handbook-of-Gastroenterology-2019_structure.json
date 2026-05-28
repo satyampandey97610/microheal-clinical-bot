@@ -1,0 +1,581 @@
+{
+  "doc_name": "Yamadas-Handbook-of-Gastroenterology-2019.pdf",
+  "structure": [
+    {
+      "title": "Preface",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 2,
+      "summary": "The partial document appears to cover topics related to Yamada\u2019s Handbook of Gastroenterology, likely focusing on comprehensive information about the diagnosis, treatment, and management of gastrointestinal disorders, as well as clinical guidelines and advancements in the field of gastroenterology.",
+      "nodes": [
+        {
+          "title": "Yamada\u2019s Handbook of Gastroenterology",
+          "node_id": "0001",
+          "start_index": 2,
+          "end_index": 2,
+          "summary": "The partial document appears to cover topics related to gastroenterology, likely including the diagnosis, treatment, and management of gastrointestinal disorders, as well as clinical guidelines, research findings, and practical approaches for healthcare professionals in the field.",
+          "nodes": [
+            {
+              "title": "Yamada\u2019s Handbook of Gastroenterology - Fourth Edition",
+              "node_id": "0002",
+              "start_index": 3,
+              "end_index": 9,
+              "summary": "The partial document is an excerpt from the fourth edition of \"Yamada\u2019s Handbook of Gastroenterology,\" authored by John M. Inadomi, Renuka Bhattacharya, Joo Ha Hwang, and Cynthia Ko. It provides a comprehensive guide to the evaluation and management of gastrointestinal and liver diseases. The handbook is divided into two main sections: symptom-based evaluation and disease-based management. It includes updated content, key practice points, essentials of diagnosis, potential pitfalls, case scenarios, and questions with detailed answers to enhance clinical understanding. The text references recent clinical practice guidelines and features endoscopic and radiographic images to illustrate concepts. It serves as a condensed reference for healthcare professionals and trainees, complementing the \"Yamada Textbook of Gastroenterology\" and \"Principles of Clinical Gastroenterology.\""
+            }
+          ]
+        },
+        {
+          "title": "Preface",
+          "node_id": "0003",
+          "start_index": 9,
+          "end_index": 10,
+          "summary": "The partial document introduces the fourth edition of *Yamada\u2019s Handbook of Gastroenterology*, which is based on *Yamada\u2019s Textbook of Gastroenterology* and *Principles of Clinical Gastroenterology*. It highlights the handbook's structure, divided into symptom-based evaluation and disease-based management chapters, and mentions updates such as Key Practice Points, Essentials of Diagnosis, Potential Pitfalls, case scenarios, and questions with detailed answers for knowledge testing. The edition includes references to recent clinical practice guidelines, endoscopic and radiographic images, and aims to serve as a concise reference for gastrointestinal and liver disease care. It is designed to benefit trainees and practitioners by providing a solid foundation in the field. Additionally, the document includes a comprehensive list of abbreviations relevant to gastroenterology."
+        },
+        {
+          "title": "List of Abbreviations",
+          "node_id": "0004",
+          "start_index": 10,
+          "end_index": 13,
+          "summary": "The partial document is a comprehensive list of medical abbreviations and their corresponding full forms, primarily related to gastrointestinal, hepatic, and general medical conditions, diagnostic tests, procedures, enzymes, antibodies, diseases, and treatments. It serves as a reference for understanding commonly used medical terms and acronyms in clinical and research contexts."
+        },
+        {
+          "title": "Part 1 Approach to Patients with Gastrointestinal Symptoms or Signs",
+          "node_id": "0005",
+          "start_index": 14,
+          "end_index": 15,
+          "summary": "The partial document focuses on the evaluation and management of patients with gastrointestinal symptoms, specifically dysphagia and odynophagia. It defines dysphagia as the sensation of food being hindered in its passage from the mouth to the stomach and distinguishes it from odynophagia (pain on swallowing) and globus sensation (a lump or tightness in the throat). The document outlines the four phases of swallowing (oral preparation, oral transfer, pharyngeal, and esophageal) and categorizes dysphagia into oropharyngeal and esophageal types, with distinct etiologies and evaluations for each. It emphasizes the importance of patient history in identifying the location and cause of dysphagia, whether structural or neuromuscular, and describes clinical presentations such as timing of symptoms, associated signs (e.g., choking, regurgitation), and the differentiation between solid and liquid food dysphagia.",
+          "nodes": [
+            {
+              "title": "The Patient with Dysphagia or Odynophagia",
+              "node_id": "0006",
+              "start_index": 15,
+              "end_index": 24,
+              "summary": "The partial document provides a detailed overview of dysphagia and odynophagia, including their definitions, clinical presentations, differential diagnoses, diagnostic investigations, management strategies, and potential complications. Dysphagia is categorized into oropharyngeal and esophageal types, with distinct causes such as structural, neuromuscular, or functional disorders. Odynophagia is discussed in the context of mechanical, inflammatory, and infectious etiologies. Diagnostic approaches include patient history, physical examination, endoscopy, manometry, and imaging studies like barium swallow or videofluoroscopy. Management strategies vary based on the underlying cause, ranging from dietary modifications and pharmacological treatments to surgical interventions like myotomy or endoscopic procedures. Complications such as aspiration, malnutrition, and esophageal ulceration are highlighted. Case studies illustrate real-world scenarios of food impaction, achalasia, and odynophagia in immunocompromised patients, emphasizing diagnostic and therapeutic considerations. Additionally, the document briefly introduces gastroesophageal reflux disease (GERD), its clinical presentation, associated symptoms, and the importance of distinguishing esophageal chest pain from cardiac etiologies."
+            },
+            {
+              "title": "The Patient with Heartburn or Chest Pain",
+              "node_id": "0007",
+              "start_index": 24,
+              "end_index": 33,
+              "summary": "The partial document primarily covers the clinical presentation, diagnosis, and management of gastroesophageal reflux disease (GERD) and noncardiac chest pain. It discusses the symptoms of GERD, including heartburn and atypical presentations like chest pain, and emphasizes the importance of ruling out cardiac causes before attributing chest pain to esophageal disorders. The document outlines diagnostic approaches such as upper endoscopy, esophageal manometry, and ambulatory pH monitoring to evaluate GERD and esophageal motility disorders. It also highlights treatment strategies, including acid suppression therapy, lifestyle modifications, and the use of neuromodulators for conditions like reflux hypersensitivity and functional heartburn. Additionally, it addresses complications of GERD, such as esophagitis, Barrett esophagus, and esophageal adenocarcinoma, and provides case studies to illustrate diagnostic and therapeutic challenges. The document briefly transitions to gastrointestinal (GI) bleeding, discussing its assessment, symptoms, and initial evaluation based on history, hemodynamic status, and physical examination findings."
+            },
+            {
+              "title": "The Patient with Gastrointestinal Bleeding",
+              "node_id": "0008",
+              "start_index": 33,
+              "end_index": 43,
+              "summary": "The partial document provides a comprehensive overview of gastrointestinal (GI) bleeding, including its types, causes, diagnostic approaches, and management strategies. It discusses acute GI bleeding, differentiating between upper and lower GI sources, and highlights symptoms such as hematemesis, melena, and hematochezia. The document emphasizes the importance of initial assessment, including history, physical examination, hemodynamic evaluation, and laboratory studies. It outlines resuscitation protocols, blood transfusion guidelines, and the role of endoscopy in identifying and treating bleeding sources. Specific causes of upper GI bleeding, such as peptic ulcer disease, esophagitis, varices, and Mallory-Weiss tears, are detailed, along with their management through medical therapy, endoscopy, angiography, and surgery. Lower GI bleeding causes, including diverticulosis, angiodysplasia, and ischemic colitis, are also addressed, with recommendations for colonoscopy and therapeutic interventions. The document further explores obscure and occult GI bleeding, diagnostic algorithms, and treatment options, including iron supplementation for chronic blood loss. Key practice points emphasize hemodynamic stabilization, timely endoscopy, and targeted diagnostic evaluations based on clinical presentation.",
+              "nodes": [
+                {
+                  "title": "Endoscopy and radiography",
+                  "node_id": "0009",
+                  "start_index": 43,
+                  "end_index": 43,
+                  "summary": "The partial document discusses the evaluation, diagnosis, management, and complications of gastrointestinal (GI) bleeding. It highlights diagnostic approaches such as colonoscopy, upper endoscopy, small intestinal biopsies, capsule endoscopy, and imaging techniques like CT or MR enterography. Management strategies include iron supplementation for chronic blood loss and prioritizing hemodynamic stabilization in acute cases. Key practice points emphasize the importance of endoscopy timing, ruling out upper GI sources in severe bleeding, and the appropriate use of diagnostic procedures based on the presence of anemia or iron deficiency. Complications of chronic GI bleeding, particularly in older patients, are also addressed."
+                },
+                {
+                  "title": "Management",
+                  "node_id": "0010",
+                  "start_index": 43,
+                  "end_index": 43,
+                  "summary": "The partial document discusses the evaluation, diagnosis, and management of gastrointestinal (GI) bleeding. It highlights diagnostic approaches such as colonoscopy, upper endoscopy, small intestinal biopsies, capsule endoscopy, and imaging techniques like CT or MR enterography. The document emphasizes the importance of assessing hemodynamic status and fluid resuscitation in acute GI bleeding cases, with endoscopy as a key diagnostic tool after stabilization. It outlines specific recommendations for managing occult GI bleeding, including iron supplementation for chronic blood loss and the need for urgent colonoscopy in severe lower GI bleeding. Complications such as anemia-related symptoms in older patients are also addressed, along with key practice points for clinical management."
+                },
+                {
+                  "title": "Complications",
+                  "node_id": "0011",
+                  "start_index": 43,
+                  "end_index": 43,
+                  "summary": "The partial document discusses the evaluation, diagnosis, and management of gastrointestinal (GI) bleeding. It highlights diagnostic approaches such as colonoscopy, upper endoscopy, small intestinal biopsies, capsule endoscopy, and imaging techniques like CT or MR enterography. It emphasizes the importance of assessing hemodynamic status and fluid resuscitation in acute GI bleeding cases, with endoscopy as a key diagnostic tool after stabilization. Management strategies include iron supplementation for chronic blood loss, and complications like anemia-related fatigue in older patients are noted. Key practice points outline diagnostic and treatment protocols for various GI bleeding scenarios, including occult bleeding, hematochezia, and severe lower GI bleeding."
+                },
+                {
+                  "title": "Key practice points",
+                  "node_id": "0012",
+                  "start_index": 43,
+                  "end_index": 44,
+                  "summary": "The partial document focuses on the evaluation, diagnosis, management, and complications of gastrointestinal (GI) bleeding. It discusses diagnostic approaches such as endoscopy, colonoscopy, and imaging techniques for patients with occult or acute GI bleeding, emphasizing the importance of identifying the source of bleeding. Management strategies include fluid resuscitation, iron supplementation, proton pump inhibitors, antibiotics, and endoscopic interventions. Key practice points highlight the urgency of endoscopy in severe cases, the role of nasogastric lavage, and the need for targeted diagnostic procedures based on symptoms. Two case studies illustrate the clinical presentation, diagnostic workup, and treatment of patients with GI bleeding, including the management of peptic ulcer disease and the importance of H. pylori testing and eradication. Complications such as anemia and its impact on older patients are also addressed."
+                },
+                {
+                  "title": "Case studies",
+                  "node_id": "0013",
+                  "start_index": 44,
+                  "end_index": 47,
+                  "summary": "The partial document focuses on the approach to patients with gastrointestinal symptoms or signs, specifically gastrointestinal bleeding and unexplained weight loss. It includes detailed case studies illustrating the management of upper and lower GI bleeding, as well as obscure GI bleeding. Key points discussed include the use of diagnostic tools like endoscopy, capsule endoscopy, and imaging for evaluation, as well as therapeutic interventions such as proton pump inhibitors, antibiotics, and endoscopic procedures. The document also addresses the evaluation of unexplained weight loss, emphasizing the importance of history-taking, identifying potential causes such as malignancy, malabsorption, psychiatric conditions, and systemic diseases, and considering environmental and psychological factors influencing appetite and nutrient intake."
+                }
+              ]
+            },
+            {
+              "title": "The Patient with Unexplained Weight Loss",
+              "node_id": "0014",
+              "start_index": 47,
+              "end_index": 47,
+              "summary": "The partial document discusses unexplained weight loss, highlighting its potential causes, including biological, behavioral, and psychological factors. It defines clinically significant weight loss and identifies malignancy, particularly in the gastrointestinal tract, as a major cause, along with psychiatric conditions. The clinical evaluation process is outlined, emphasizing the importance of documenting weight loss, assessing dietary intake, medications, and symptoms that may indicate underlying conditions such as infections, gastrointestinal malignancies, malabsorption, or systemic diseases. Psychiatric causes like depression, alcoholism, anorexia nervosa, and bulimia are also explored, with specific symptoms and behaviors associated with each condition.",
+              "nodes": [
+                {
+                  "title": "Clinical presentation",
+                  "node_id": "0015",
+                  "start_index": 47,
+                  "end_index": 48,
+                  "summary": "The partial document discusses unexplained weight loss, its causes, clinical presentation, physical examination, and additional testing. It highlights biological and behavioral factors influencing weight loss, including malignancies, psychiatric conditions, and malabsorption. The clinical presentation section emphasizes the importance of patient history, dietary patterns, medications, and symptoms like nausea, diarrhea, or jaundice. Physical examination findings are linked to malnutrition, endocrine diseases, or gastrointestinal issues. Severe malnutrition signs, such as bradycardia, dehydration, and muscle wasting, are detailed, particularly in anorexia nervosa. The document also outlines laboratory, radiological, and endoscopic evaluations, including tests for infections, malabsorption, and malignancies, guided by patient history and symptoms."
+                },
+                {
+                  "title": "Additional testing",
+                  "node_id": "0016",
+                  "start_index": 48,
+                  "end_index": 49,
+                  "summary": "The partial document focuses on the approach to patients with gastrointestinal symptoms or signs, particularly unexplained weight loss. It discusses the association of anorexia nervosa with altered gut function and endocrine activity, along with physical examination findings such as malnutrition, jaundice, lymphadenopathy, and signs of self-induced vomiting. Severe malnutrition manifestations like bradycardia, dehydration, and loss of secondary sexual characteristics are highlighted. The document outlines additional diagnostic testing, including laboratory studies, imaging, and endoscopic evaluations, guided by patient history, symptoms, and risk factors. It also emphasizes screening for conditions like HIV, tuberculosis, celiac disease, and malignancies. The differential diagnosis section addresses the causes of unexplained weight loss, including organic diseases, psychiatric conditions, and gastrointestinal syndromes, with a structured diagnostic evaluation process illustrated in Figure 4.1."
+                },
+                {
+                  "title": "Differential diagnosis",
+                  "node_id": "0017",
+                  "start_index": 49,
+                  "end_index": 52,
+                  "summary": "The partial document focuses on the evaluation, differential diagnosis, and management of patients with unexplained weight loss. It outlines potential causes, including general medical disorders (e.g., malignancy, endocrinopathies, chronic infections, renal disease, and neurologic conditions), gastrointestinal disorders (e.g., malabsorption, motility disorders, and gastrointestinal malignancies), psychiatric and behavioral disorders (e.g., depression, schizophrenia, anorexia nervosa, bulimia nervosa, and adult rumination syndrome), and eating disorders. Diagnostic approaches include a thorough history, physical examination, laboratory tests, imaging, and endoscopy. Management strategies emphasize addressing the underlying cause, nutritional support, psychological interventions, and pharmacological treatments. Specific therapies for eating disorders and severe malnutrition, including refeeding protocols and monitoring for refeeding syndrome, are also discussed."
+                },
+                {
+                  "title": "Management",
+                  "node_id": "0018",
+                  "start_index": 52,
+                  "end_index": 53,
+                  "summary": "The partial document discusses the approach to patients with gastrointestinal symptoms or signs, focusing on eating disorders, unexplained weight loss, and their management. It describes adult rumination syndrome, its symptoms, differential diagnosis, and characteristic patterns. Management strategies include nutritional support, refeeding protocols, pharmacological therapy, and psychological interventions like psychotherapy and cognitive behavioral therapy. Complications of profound weight loss, such as cardiac issues, liver abnormalities, and hypothyroidism, are highlighted. Prognosis varies based on the underlying cause, with recovery rates and mortality statistics provided for anorexia nervosa and bulimia. Key practice points emphasize the importance of investigating sustained unexplained weight loss, identifying underlying causes, and adopting a multidisciplinary approach for mental health-related weight loss."
+                },
+                {
+                  "title": "Complications",
+                  "node_id": "0019",
+                  "start_index": 53,
+                  "end_index": 53,
+                  "summary": "The partial document discusses the management and complications of unexplained weight loss, including refeeding goals to restore ideal body weight and psychological therapies for eating disorders such as cognitive behavioral therapy, family therapy, and interpersonal therapy. It highlights complications of profound weight loss, including cardiac issues, liver abnormalities, fecal impaction, and hypothyroidism. Prognosis varies based on the underlying cause, with specific recovery and mortality rates for conditions like anorexia nervosa and bulimia. Key practice points emphasize the need for investigation of sustained weight loss, evaluation of nutritional intake, ruling out malignancies and malabsorption, and addressing mental health disorders with a multidisciplinary approach."
+                },
+                {
+                  "title": "Key practice points",
+                  "node_id": "0020",
+                  "start_index": 53,
+                  "end_index": 54,
+                  "summary": "The partial document discusses the evaluation and management of patients with unexplained weight loss. It covers refeeding goals, psychological therapies for eating disorders, and complications of profound weight loss, including cardiac issues, liver abnormalities, and gastrointestinal problems. Prognosis varies based on the underlying cause, with specific recovery and mortality rates for anorexia nervosa and bulimia. Key practice points emphasize the importance of investigating sustained weight loss, assessing nutritional intake, and ruling out malignancies and mental health disorders. Two case studies illustrate diagnostic approaches: one involving celiac disease and another with pancreatic exocrine insufficiency. The discussion highlights the importance of symptom-directed evaluation, malignancy exclusion, and targeted therapy for underlying conditions to resolve weight loss."
+                },
+                {
+                  "title": "Case studies",
+                  "node_id": "0021",
+                  "start_index": 54,
+                  "end_index": 56,
+                  "summary": "The partial document discusses the approach to patients with gastrointestinal symptoms, focusing on case studies and clinical presentations. It includes two case studies: one involving a 30-year-old man diagnosed with celiac disease after presenting with weight loss, diarrhea, and abdominal discomfort, and another involving a 58-year-old woman with pancreatic exocrine insufficiency leading to weight loss and diarrhea. The document emphasizes the diagnostic process for unexplained weight loss, including ruling out malignancy and identifying malabsorption or pancreatic insufficiency. It also provides a detailed discussion on nausea and vomiting, covering definitions, clinical presentations, and diagnostic clues based on the timing, character, and associated symptoms of vomiting."
+                }
+              ]
+            },
+            {
+              "title": "The Patient with Nausea and Vomiting",
+              "node_id": "0022",
+              "start_index": 56,
+              "end_index": 56,
+              "summary": "The partial document discusses nausea and vomiting, defining key terms such as regurgitation, rumination, anorexia, and early satiety. It explores the clinical presentation of nausea and vomiting, emphasizing the importance of patient history in diagnosis. Acute vomiting is linked to infections, medications, toxins, or metabolic conditions, while chronic vomiting is associated with long-term medical or psychiatric issues. The timing and characteristics of vomiting, such as after meals or in the morning, provide diagnostic clues for conditions like gastric outlet obstruction, gastroparesis, psychogenic vomiting, pregnancy, or cannabinoid hyperemesis. The nature of vomitus, such as undigested food or bile, is also highlighted as a diagnostic indicator.",
+              "nodes": [
+                {
+                  "title": "Clinical presentation",
+                  "node_id": "0023",
+                  "start_index": 56,
+                  "end_index": 57,
+                  "summary": "The partial document discusses nausea and vomiting, including their definitions, associated symptoms, clinical presentations, and diagnostic approaches. It differentiates between acute and chronic vomiting, highlights potential causes such as infections, medications, toxins, and medical conditions, and describes diagnostic clues from the character of vomitus. It emphasizes the importance of associated symptoms like pain, weight loss, fever, and neurological signs in identifying underlying conditions. The physical examination section outlines findings like dehydration, abdominal tenderness, and neurological abnormalities. Additional testing, including laboratory studies, is recommended for chronic or unclear cases, with tests such as serum electrolytes, blood counts, and pregnancy tests aiding diagnosis."
+                },
+                {
+                  "title": "Additional testing",
+                  "node_id": "0024",
+                  "start_index": 57,
+                  "end_index": 59,
+                  "summary": "The partial document provides a comprehensive approach to diagnosing and managing patients with gastrointestinal symptoms, particularly nausea and vomiting. It discusses the importance of assessing associated symptoms, physical examination findings, and potential underlying causes such as infections, central nervous system disorders, metabolic conditions, and gastrointestinal obstructions. The document outlines diagnostic steps, including laboratory tests, structural imaging, and functional studies like scintigraphy and manometry, to identify causes such as gastroparesis, intestinal dysmotility, or central nervous system etiologies. It also highlights the differential diagnosis, including medication effects, gastrointestinal and peritoneal disorders, and systemic diseases. Treatment strategies are suggested based on identified etiologies, with supportive care and hospitalization for severe cases."
+                },
+                {
+                  "title": "Differential diagnosis",
+                  "node_id": "0025",
+                  "start_index": 59,
+                  "end_index": 62,
+                  "summary": "The partial document discusses the approach to patients with gastrointestinal symptoms, focusing on nausea and vomiting. It covers diagnostic methods, including scintigraphy, antral-duodenal manometry, electrogastrography, and intestinal biopsy for severe cases. The differential diagnosis includes medication effects, gastrointestinal and peritoneal disorders, central nervous system conditions, endocrine and metabolic issues, infections, and miscellaneous causes like myocardial infarction and cannabinoid hyperemesis syndrome. Management strategies include assessing fluid loss, dietary modifications, withholding medications that impair gastric motility, and addressing underlying illnesses. Antiemetic therapies such as antihistamines, anticholinergics, antidopaminergics, serotonin receptor antagonists, and prokinetic agents like metoclopramide and domperidone are discussed, along with their indications and side effects."
+                },
+                {
+                  "title": "Management",
+                  "node_id": "0026",
+                  "start_index": 62,
+                  "end_index": 63,
+                  "summary": "The partial document discusses the causes, management, and complications of nausea and vomiting. It highlights specific conditions such as cannabinoid hyperemesis syndrome, acute graft-versus-host disease, and gut motility disorders. Management strategies include assessing the need for intravenous fluid resuscitation, dietary modifications, and withholding medications that impair gastric motility. It reviews various antiemetic medications, including antihistamines, anticholinergics, antidopaminergics, serotonin receptor antagonists, and prokinetic agents like metoclopramide and domperidone. Nondrug therapies such as acupuncture, ginger, and jejunostomy feedings are also mentioned. Complications like dehydration, malnutrition, Mallory-Weiss tears, Boerhaave syndrome, and aspiration pneumonitis are outlined. Key diagnostic approaches and the importance of targeting the underlying illness in treatment are emphasized."
+                },
+                {
+                  "title": "Complications",
+                  "node_id": "0027",
+                  "start_index": 63,
+                  "end_index": 63,
+                  "summary": "The partial document discusses the approach to patients with gastrointestinal symptoms, focusing on treatments for chronic nausea and vomiting. It highlights the use of medications like erythromycin and octreotide, as well as nondrug therapies such as acupuncture, acupressure, ginger, and jejunostomy feedings. Complications of chronic nausea and vomiting, including dehydration, malnutrition, electrolyte imbalances, and severe conditions like Boerhaave syndrome, are detailed. Key diagnostic practices, such as analyzing vomiting patterns, abdominal radiographs, contrast radiography, and upper endoscopy, are outlined. The importance of targeting medical therapy to the underlying illness is emphasized."
+                },
+                {
+                  "title": "Key practice points",
+                  "node_id": "0028",
+                  "start_index": 63,
+                  "end_index": 64,
+                  "summary": "The partial document discusses the approach to patients with gastrointestinal symptoms, focusing on nausea and vomiting. It covers pharmacological treatments like erythromycin and octreotide, as well as nondrug therapies such as acupuncture, ginger, and jejunostomy feedings. Complications of chronic nausea and vomiting, including dehydration, malnutrition, and severe conditions like Boerhaave syndrome, are outlined. Key diagnostic practices, including imaging and endoscopy, are highlighted. Two case studies are presented: one on gastroparesis with delayed gastric emptying and another on cannabinoid hyperemesis syndrome, emphasizing cessation of cannabis use. Management strategies, including dietary modifications and medications, are discussed, along with potential diagnostic pitfalls."
+                },
+                {
+                  "title": "Case studies",
+                  "node_id": "0029",
+                  "start_index": 64,
+                  "end_index": 65,
+                  "summary": "The partial document discusses the clinical evaluation and management of patients with nausea, vomiting, and abdominal pain. It includes case studies highlighting gastroparesis and cannabinoid hyperemesis syndrome, detailing their symptoms, diagnostic findings, and management strategies. The document also provides a discussion on the clinical presentation of abdominal pain, emphasizing the importance of history-taking, pain localization, and its potential migration to identify underlying conditions such as esophagitis, peptic ulcer disease, colonic pain, gallbladder issues, pancreatic disease, renal pain, and gynecological conditions."
+                }
+              ]
+            },
+            {
+              "title": "The Patient with Abdominal Pain",
+              "node_id": "0030",
+              "start_index": 65,
+              "end_index": 65,
+              "summary": "The partial document discusses the clinical presentation and history-taking for patients with abdominal pain. It emphasizes the importance of evaluating the location, character, intensity, timing, and modifying factors of pain. The text details pain localization for various gastrointestinal and related conditions, including esophageal, gastric, intestinal, colonic, liver, gallbladder, pancreatic, renal, ureteral, uterine, and adnexal diseases. It also highlights the significance of pain migration in diagnosing conditions like cholecystitis and appendicitis.",
+              "nodes": [
+                {
+                  "title": "Clinical presentation",
+                  "node_id": "0031",
+                  "start_index": 65,
+                  "end_index": 69,
+                  "summary": "The partial document is an excerpt from \"Yamada\u2019s Handbook of Gastroenterology, Fourth Edition,\" focusing on the clinical presentation and evaluation of abdominal pain. It covers the following main points:\n\n1. **Pain Characteristics**: Detailed descriptions of pain localization, quality, intensity, and chronology for various gastrointestinal and related conditions.\n2. **Alleviating and Aggravating Factors**: Factors that relieve or worsen pain, including dietary triggers, body positioning, and specific conditions.\n3. **Associated Symptoms**: Symptoms accompanying abdominal pain, such as nausea, diarrhea, fever, jaundice, and weight loss, and their diagnostic implications.\n4. **Risk Factors**: Conditions and behaviors predisposing patients to abdominal pain, including alcohol use, medication, prior surgeries, and pregnancy.\n5. **Physical Examination**: Comprehensive abdominal and extra-abdominal examinations to identify potential causes, including signs of peritonitis, organ-specific findings, and functional pain tests.\n6. **Additional Testing**: Laboratory and imaging studies to diagnose underlying causes, including blood tests, urinalysis, radiography, and specialized imaging techniques."
+                },
+                {
+                  "title": "Additional testing",
+                  "node_id": "0032",
+                  "start_index": 69,
+                  "end_index": 71,
+                  "summary": "The partial document focuses on the evaluation and management of patients with abdominal pain. It discusses the importance of history-taking, physical examination, and diagnostic testing, including laboratory tests (e.g., CBC, liver chemistries, urinalysis) and imaging studies (e.g., ultrasound, CT, radiography). It highlights specific findings that suggest various conditions such as Crohn\u2019s disease, pancreatitis, biliary disease, or malignancy. The document also covers advanced diagnostic tools like endoscopy, MRCP, and laparoscopy for complex cases. Differential diagnoses are explored, including functional abdominal pain, metabolic conditions, and referred pain from non-abdominal sources. The text emphasizes the need for a systematic approach to acute, recurrent, and chronic abdominal pain, considering both organic and functional causes."
+                },
+                {
+                  "title": "Differential diagnosis",
+                  "node_id": "0033",
+                  "start_index": 71,
+                  "end_index": 73,
+                  "summary": "The partial document discusses the evaluation, differential diagnosis, and management of abdominal pain. It highlights diagnostic tools like sigmoidoscopy, colonoscopy, MRCP, EUS, and ERCP for specific conditions such as ischemia, infection, inflammatory bowel disease, choledocholithiasis, and chronic pancreatitis. The differential diagnosis includes intra-abdominal, extra-abdominal, and systemic causes, categorized into conditions like peritoneal inflammation, visceral obstruction, vascular disorders, metabolic conditions, and functional disorders. It also addresses functional abdominal pain syndrome, its psychosocial associations, and challenges in diagnosis. Management strategies focus on treating the underlying cause, pain relief, and hospitalization criteria for severe cases. Specific therapies, including acid suppressants, surgery, NSAIDs, and opioids, are discussed, with emphasis on integrated treatment approaches for chronic pain."
+                },
+                {
+                  "title": "Management",
+                  "node_id": "0034",
+                  "start_index": 73,
+                  "end_index": 75,
+                  "summary": "The partial document discusses the evaluation and management of patients with abdominal pain, emphasizing the importance of obtaining an accurate history, performing a thorough physical examination, and conducting appropriate diagnostic tests. It highlights various causes of chronic and acute abdominal pain, including malignancy, pancreatitis, irritable bowel syndrome, and functional abdominal pain, as well as complications such as peritonitis, ruptured ectopic pregnancy, and aortic aneurysm. Management strategies include addressing the underlying cause, pain control through medications like NSAIDs, opioids, and tricyclic antidepressants, and nonmedical treatments such as neural blockade, transcutaneous electrical nerve stimulation, and behavioral therapy. The document also stresses the importance of a multidisciplinary approach, psychological support, and improving the patient\u2019s quality of life. A case study of a patient with a perforated duodenal ulcer is provided to illustrate diagnostic and treatment approaches."
+                },
+                {
+                  "title": "Complications",
+                  "node_id": "0035",
+                  "start_index": 75,
+                  "end_index": 75,
+                  "summary": "The partial document discusses the evaluation and management of patients with abdominal pain, emphasizing the importance of accurate diagnosis to prevent complications such as peritonitis, ruptured ectopic pregnancy, or aortic aneurysm, which can be fatal. It highlights the need for a detailed history, thorough physical examination, and appropriate diagnostic tests. Key conditions like pancreatitis, inflammatory bowel disease, pelvic inflammatory disease, renal stones, and chronic non-inflammatory conditions such as irritable bowel syndrome are mentioned. A case study of a 53-year-old man with a perforated duodenal ulcer is presented, illustrating the clinical approach, diagnostic findings, and surgical intervention."
+                },
+                {
+                  "title": "Key practice points",
+                  "node_id": "0036",
+                  "start_index": 75,
+                  "end_index": 75,
+                  "summary": "The partial document discusses the evaluation and management of patients with abdominal pain, emphasizing the importance of accurate diagnosis to prevent complications such as peritonitis, ruptured ectopic pregnancy, or aortic aneurysm, which can be life-threatening. It highlights the need for a detailed history, thorough physical examination, and appropriate diagnostic tests. Key practice points focus on rapid identification of critical conditions like intestinal perforation, obstruction, appendicitis, and ruptured aneurysms. A case study is presented involving a 53-year-old man with worsening epigastric pain, diagnosed with a perforated duodenal ulcer after clinical evaluation and imaging, requiring surgical intervention."
+                },
+                {
+                  "title": "Case studies",
+                  "node_id": "0037",
+                  "start_index": 75,
+                  "end_index": 77,
+                  "summary": "The partial document discusses the evaluation and management of abdominal pain, highlighting potential complications such as peritonitis, ruptured ectopic pregnancy, aortic aneurysm, pancreatitis, inflammatory bowel disease, pelvic inflammatory disease, and renal stones. It emphasizes the importance of obtaining an accurate history, performing a thorough physical exam, and conducting appropriate diagnostic tests for rapid diagnosis, particularly in critical conditions like intestinal perforation, obstruction, appendicitis, and ruptured aortic aneurysm. Two case studies are presented: one involving a perforated duodenal ulcer and another with acute appendicitis, detailing their clinical presentations, diagnostic approaches, and management. The document also discusses gastrointestinal perforation and acute appendicitis, stressing the need for timely diagnosis and intervention to reduce mortality. Additionally, it addresses gas and bloating, differentiating symptoms like eructation, flatulence, and bloating, and explores their causes, clinical presentations, and diagnostic considerations, including functional bloating and excessive gastrointestinal gas sources."
+                }
+              ]
+            },
+            {
+              "title": "The Patient with Gas and Bloating",
+              "node_id": "0038",
+              "start_index": 77,
+              "end_index": 77,
+              "summary": "The partial document discusses common gastrointestinal complaints such as gas and bloating, differentiating between symptoms like eructation (belching), flatulence, bloating, and abdominal distension. It explains the causes of excessive gastrointestinal gas, including swallowed air, digestion-related carbon dioxide, bacterial fermentation, and gas diffusion from blood. Functional bloating is defined using Rome III criteria. The clinical presentation section emphasizes the importance of patient history, including symptom timing, dietary habits, medical history, family history of gastrointestinal conditions, and associated symptoms like pain, nausea, and halitosis.",
+              "nodes": [
+                {
+                  "title": "Clinical presentation",
+                  "node_id": "0039",
+                  "start_index": 77,
+                  "end_index": 77,
+                  "summary": "The partial document discusses gas and bloating as common gastrointestinal complaints, differentiating between eructation (belching), flatulence, bloating, and abdominal distension. It explains the causes of excessive gastrointestinal gas, including swallowed air, digestion-related carbon dioxide, bacterial fermentation, and gas diffusion from blood. Functional bloating is defined using Rome III criteria. The clinical presentation section emphasizes the importance of patient history, including symptom timing, dietary habits, medical history, family history of gastrointestinal conditions, and associated symptoms like pain, nausea, and halitosis."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "The Patient with Gas and Bloating",
+      "node_id": "0040",
+      "start_index": 77,
+      "end_index": 86,
+      "summary": "The partial document focuses on the clinical evaluation, diagnosis, and management of gas and bloating in patients, as well as related gastrointestinal conditions. It discusses the differentiation of symptoms such as eructation, flatulence, bloating, and abdominal distension, and identifies potential causes including functional disorders, carbohydrate malabsorption, small intestinal bacterial overgrowth (SIBO), dysmotility syndromes, and miscellaneous factors like aerophagia and medications. The document outlines diagnostic approaches, including dietary history, physical examination, laboratory tests, imaging, and functional studies like breath testing. Management strategies include dietary modifications (e.g., low FODMAP diet), probiotics, enzyme supplements, antibiotics for SIBO, and addressing underlying conditions. Case studies illustrate practical applications of these approaches. Additionally, the document briefly introduces acute ileus, chronic pseudo-obstruction, and toxic megacolon, describing their clinical presentations and symptoms."
+    },
+    {
+      "title": "The Patient with Ileus or Obstruction",
+      "node_id": "0041",
+      "start_index": 86,
+      "end_index": 96,
+      "summary": "The partial document provides an in-depth discussion on gastrointestinal conditions, focusing on acute ileus, chronic pseudo-obstruction, and mechanical obstruction. It covers their definitions, clinical presentations, diagnostic approaches, and management strategies. Key points include the differentiation between ileus and obstruction through physical examination and imaging, causes of these conditions (e.g., postoperative ileus, adhesions, volvulus, tumors, metabolic disorders), and complications such as bowel infarction and peritonitis. Diagnostic tools like radiographs, CT scans, endoscopy, and functional studies are detailed. Management strategies include fluid replacement, bowel decompression, medication (e.g., neostigmine), and surgical interventions. Case studies illustrate real-world presentations and treatments. The document also introduces constipation, its classifications (primary and secondary), clinical presentation, and the importance of thorough history-taking to distinguish between functional and organic causes."
+    },
+    {
+      "title": "The Patient with Constipation",
+      "node_id": "0042",
+      "start_index": 96,
+      "end_index": 106,
+      "summary": "The partial document focuses on the evaluation, causes, clinical presentation, diagnosis, and management of constipation. It defines constipation, differentiates between primary and secondary causes, and outlines classifications such as slow-transit constipation, evacuation disorders, and IBS-related constipation. The clinical presentation section emphasizes the importance of patient history, physical examination, and associated symptoms to identify underlying conditions like hypothyroidism, malignancy, or systemic illnesses. It discusses diagnostic tools like the Bristol Stool Form Scale, Rome IV criteria, anorectal manometry, colonic transit studies, and defecography for functional and structural evaluations. \n\nThe document also details secondary causes of constipation, including anorectal and colonic disorders, medications, endocrine and metabolic disorders, neuromuscular conditions, and idiopathic or functional causes. Management strategies include dietary and lifestyle changes, pharmacological therapies (e.g., stool softeners, osmotic and stimulant laxatives, chloride channel activators, guanylate cyclase agonists), biofeedback for defecatory disorders, and surgical interventions for severe cases like Hirschsprung disease or rectal prolapse. Complications such as rectal prolapse, hemorrhoidal bleeding, and fecal impaction are also discussed. Case studies illustrate diagnostic and treatment approaches for chronic constipation and dyssynergic defecation. The document transitions into Chapter 10, introducing diarrhea, its definitions, classifications, and clinical presentation, distinguishing acute, persistent, and chronic diarrhea, and briefly mentioning its management."
+    },
+    {
+      "title": "The Patient with Diarrhea",
+      "node_id": "0043",
+      "start_index": 106,
+      "end_index": 121,
+      "summary": "The partial document provides a comprehensive overview of diarrhea, including its classification (acute, persistent, and chronic), clinical presentation, diagnostic evaluation, and management strategies. It discusses the broad range of normal bowel patterns and defines diarrhea based on frequency, consistency, and associated symptoms. The document categorizes diarrhea into osmotic, secretory, inflammatory, and normal-output types, detailing their causes, pathophysiology, and distinguishing features. It emphasizes the importance of patient history, physical examination, and stool analysis in identifying underlying etiologies, such as infections, malabsorption, inflammatory bowel diseases, endocrine disorders, and medication effects. Diagnostic tools like stool tests, endoscopy, imaging, and breath tests are outlined for specific cases. Management approaches include hydration, dietary modifications, antidiarrheal agents, antibiotics for infections, and targeted treatments for underlying conditions like IBS, celiac disease, or endocrine tumors. The document also highlights complications, particularly in high-risk populations, and provides case studies to illustrate diagnostic and therapeutic strategies."
+    },
+    {
+      "title": "The Patient with an Abdominal Mass",
+      "node_id": "0044",
+      "start_index": 121,
+      "end_index": 130,
+      "summary": "The partial document focuses on the evaluation and management of abdominal masses and suspected liver disease. It discusses the clinical presentation, history, physical examination, laboratory studies, imaging techniques, and histopathological evaluation for diagnosing abdominal masses. Specific types of masses, including hepatic, pancreaticobiliary, gastrointestinal, and miscellaneous masses, are detailed with their potential causes, diagnostic approaches, and management strategies. The document also includes case studies illustrating gastrointestinal stromal tumors (GISTs) and metastatic carcinoid tumors, highlighting diagnostic challenges and treatment options. Additionally, it introduces the evaluation of liver disease, emphasizing serum markers like bilirubin and albumin to assess hepatic function and disease severity."
+    },
+    {
+      "title": "The Patient with Jaundice or Abnormal Liver Biochemical Tests",
+      "node_id": "0045",
+      "start_index": 130,
+      "end_index": 148,
+      "summary": "The partial document provides a detailed overview of liver function evaluation and the diagnosis and management of liver diseases. It covers the interpretation of serum markers such as bilirubin, albumin, clotting factors, and aminotransferases to assess hepatic function and identify hepatobiliary dysfunction or necrosis. It discusses the diagnostic approach to jaundice, hyperbilirubinemia (conjugated and unconjugated), and cholestatic disorders, including congenital and acquired causes. The document also addresses hepatocellular injury, infiltrative liver diseases, and the role of viral serology, immunological tests, and genetic markers in diagnosing conditions like Wilson disease, hemochromatosis, and \u03b11-antitrypsin deficiency. It emphasizes the importance of imaging, liver biopsy, and clinical history in diagnosis and management. Additionally, it includes case studies illustrating diagnostic challenges and management strategies for conditions like cirrhosis, Wilson disease, and primary sclerosing cholangitis. The document concludes with an introduction to ascites, its pathogenesis, and the theories explaining fluid accumulation in liver disease."
+    },
+    {
+      "title": "The Patient with Ascites",
+      "node_id": "0046",
+      "start_index": 148,
+      "end_index": 161,
+      "summary": "The partial document focuses on the pathological condition of ascites, its causes, pathogenesis, clinical presentation, diagnostic approaches, and management strategies. It discusses the primary causes of ascites, including liver disease, cardiac disease, renal disease, pancreatic disease, biliary disease, malignancy, infectious diseases, and other rare conditions. The document elaborates on the pathophysiology of ascites formation, including theories like underfill, overfill, and peripheral arterial vasodilation. It provides a detailed clinical approach to diagnosing ascites, including history, physical examination, laboratory tests, and ascitic fluid analysis, emphasizing the serum-ascites albumin gradient (SAAG) for classification. Management strategies are outlined for ascites related to portal hypertension and non-portal hypertension causes, including dietary sodium restriction, diuretics, paracentesis, and advanced interventions like TIPS and liver transplantation. Complications such as spontaneous bacterial peritonitis (SBP), hernias, hepatic hydrothorax, and hepatorenal syndrome are discussed, along with their treatment protocols. The document also briefly transitions to nutritional support for patients unable to meet dietary needs, covering fluid, electrolyte, and caloric requirements, as well as supplementation for specific deficiencies."
+    },
+    {
+      "title": "The Patient Requiring Nutritional Support",
+      "node_id": "0047",
+      "start_index": 161,
+      "end_index": 175,
+      "summary": "The partial document primarily covers the following main points:\n\n1. **Nutritional Support**:\n   - Importance of enteral and parenteral nutrition for patients unable to meet nutritional needs orally due to disease or surgery.\n   - Fluid, caloric, and protein requirements for healthy and stressed individuals.\n   - Monitoring and supplementation of electrolytes, vitamins, and trace elements during nutritional support.\n   - Management of protein-calorie malnutrition and nutrient deficiencies, including causes, clinical manifestations, and treatment strategies.\n\n2. **Enteral Nutrition**:\n   - Methods of administration (oral, nasogastric, gastrostomy, jejunostomy) and indications for short-term and long-term support.\n   - Use of disease-specific formulas and management of complications like aspiration, diarrhea, and infections.\n\n3. **Parenteral Nutrition (PN)**:\n   - Indications for peripheral (PPN) and total parenteral nutrition (TPN), including long-term intravenous nutritional support.\n   - Customization of TPN formulations based on patient needs and monitoring for complications such as infections, metabolic abnormalities, and liver dysfunction.\n\n4. **Vitamin and Mineral Deficiencies**:\n   - Causes, clinical signs, and management of deficiencies in fat-soluble and water-soluble vitamins, trace minerals, and essential fatty acids.\n   - Specific conditions leading to deficiencies, such as malabsorption, medications, and chronic diseases.\n\n5. **Complications of Nutritional Support**:\n   - Risks associated with enteral and parenteral nutrition, including mechanical, infectious, and metabolic complications.\n   - Strategies to minimize complications and improve patient outcomes.\n\n6. **Case Studies**:\n   - Clinical scenarios illustrating the application of nutritional support in Crohn\u2019s disease and severe acute pancreatitis, emphasizing early intervention and monitoring.\n\n7. **Introduction to Endoscopy**:\n   - Overview of gastrointestinal endoscopy, its indications, contraindications, and preparation requirements.\n   - Importance of informed consent and consideration of patient comorbidities.\n\n8. **Moderate Sedation in Endoscopy**:\n   - Use of sedation during endoscopic procedures, associated risks, and monitoring requirements.\n   - Reversal agents for sedation-related complications."
+    },
+    {
+      "title": "The Patient Requiring Endoscopic Procedures",
+      "node_id": "0048",
+      "start_index": 175,
+      "end_index": 188,
+      "summary": "The partial document provides a comprehensive overview of gastrointestinal endoscopy, including its utility, principles of moderate sedation, antibiotic prophylaxis, management of coagulation disorders, and patient preparation. It details the indications, contraindications, performance, and complications of various endoscopic procedures such as upper gastrointestinal endoscopy, video capsule endoscopy, lower gastrointestinal endoscopy, endoscopic retrograde cholangiopancreatography (ERCP), and endoscopic ultrasound (EUS). Specific guidelines for diagnostic, therapeutic, and surveillance purposes are outlined, along with recommendations for patient monitoring, sedation, and management of anticoagulation. The document also highlights the safety profiles, risks, and complications associated with these procedures, emphasizing the importance of clinical judgment and adherence to established guidelines."
+    },
+    {
+      "title": "Specific Gastrointestinal Diseases",
+      "node_id": "0049",
+      "start_index": 189,
+      "end_index": 190,
+      "summary": "The partial document discusses specific gastrointestinal diseases, focusing on dysphagia. It classifies dysphagia into oropharyngeal and esophageal types, detailing their causes, clinical presentations, and distinguishing features. Oropharyngeal dysphagia is linked to neuromuscular diseases affecting swallowing initiation and food propulsion, with symptoms such as nasal regurgitation, aspiration, drooling, and food impaction. It highlights associated conditions like Zenker diverticulum, nerve dysfunction, vocal cord issues, and neurological or muscular disorders such as myasthenia gravis and Parkinson's disease. Physical examination findings and symptom localization are also emphasized."
+    },
+    {
+      "title": "Motor Disorders of the Esophagus",
+      "node_id": "0050",
+      "start_index": 190,
+      "end_index": 200,
+      "summary": "The partial document provides an in-depth discussion on disorders of swallowing and esophageal motility, focusing on oropharyngeal dysphagia, esophageal dysphagia, and gastroesophageal reflux disease (GERD). It covers the clinical presentation, diagnostic investigations, differential diagnoses, and treatment options for these conditions. Key topics include:\n\n1. **Oropharyngeal Dysphagia**: Causes include neuromuscular diseases, hypopharyngeal diverticula, and neurological disorders. Diagnostic tools like video-esophagography, manometry, and endoscopy are highlighted. Treatment involves addressing reversible causes, surgical interventions, and nutritional support.\n\n2. **Esophageal Dysphagia and Achalasia**: Achalasia is characterized by impaired esophageal motility and lower esophageal sphincter (LES) dysfunction. Diagnostic methods include barium swallow radiography, high-resolution manometry, and endoscopy. Treatment options include medications, pneumatic dilation, botulinum toxin injections, and surgical myotomy.\n\n3. **Other Esophageal Motor Disorders**: Disorders such as diffuse esophageal spasm, jackhammer esophagus, and scleroderma-related esophageal dysfunction are discussed. Diagnostic approaches include manometry and pH monitoring, with treatment focusing on symptom management through medications, dilation, or surgery.\n\n4. **Gastroesophageal Reflux Disease (GERD)**: GERD is described as the retrograde flow of gastric contents causing symptoms or complications. Clinical manifestations include heartburn, regurgitation, and extraesophageal symptoms like hoarseness and asthma. Diagnostic and treatment strategies emphasize acid suppression, lifestyle modifications, and addressing complications like strictures or Barrett\u2019s esophagus."
+    },
+    {
+      "title": "Gastroesophageal Reflux Disease and Eosinophilic Esophagitis",
+      "node_id": "0051",
+      "start_index": 200,
+      "end_index": 215,
+      "summary": "The partial document provides an in-depth discussion on gastroesophageal reflux disease (GERD), eosinophilic esophagitis (EoE), and esophageal neoplasia, including adenocarcinoma and squamous cell carcinoma (SCC). Key points include:\n\n1. **GERD**:\n   - Definition, symptoms (heartburn, regurgitation, dysphagia), and extraesophageal manifestations (e.g., respiratory and otolaryngological complications).\n   - Diagnostic methods: history, proton pump inhibitor (PPI) test, endoscopy, pH monitoring, impedance, and manometry.\n   - Management: lifestyle modifications, medication (PPIs, H2 receptor antagonists, antacids, prokinetics), and surgical options.\n   - Complications: strictures, Barrett esophagus, and alkaline reflux esophagitis.\n\n2. **Eosinophilic Esophagitis (EoE)**:\n   - Chronic immune-mediated condition with symptoms like dysphagia and food impaction.\n   - Diagnosis: endoscopy, histological criteria (>15 eosinophils per high power field), and allergen testing.\n   - Treatment: dietary elimination, PPIs, topical/systemic steroids, and emerging therapies targeting eosinophilic inflammation.\n   - Complications: esophageal strictures managed with dilation.\n\n3. **Esophageal Neoplasia**:\n   - **Adenocarcinoma**:\n     - Linked to Barrett esophagus, characterized by intestinal metaplasia and genomic instability.\n     - Diagnosis: endoscopy with biopsy, histological evaluation, and staging (TNM system).\n     - Management: surveillance, endoscopic eradication therapy, and surgical resection.\n   - **Squamous Cell Carcinoma (SCC)**:\n     - Risk factors include alcohol, tobacco, nutritional deficiencies, and certain medical conditions.\n     - Symptoms: progressive dysphagia, weight loss, and complications like fistulas or nerve involvement.\n     - Diagnosis: endoscopy, radiographic studies, and staging.\n     - Treatment: endoscopic excision, surgical resection, and palliative care for advanced stages.\n\nThe document also includes case studies illustrating diagnostic and treatment approaches for GERD and EoE, as well as management strategies for Barrett esophagus and esophageal cancers."
+    },
+    {
+      "title": "Esophageal Neoplasia",
+      "node_id": "0052",
+      "start_index": 216,
+      "end_index": 219,
+      "summary": "The partial document discusses esophageal neoplasia, including the management and treatment of esophageal cancer. It covers surgical and non-surgical approaches, such as esophagectomy, chemoradiotherapy, and palliative therapies like stent placement and photodynamic therapy. It outlines treatment essentials based on cancer staging, including endoscopic resection for early-stage cancer, neoadjuvant chemoradiation followed by surgery for advanced stages, and systemic chemotherapy for metastatic disease. The document also describes various malignant and benign esophageal tumors, including their characteristics, prognosis, and associated complications. Additionally, it briefly introduces disorders of gastric motility, focusing on gastroparesis, its clinical presentation, diagnostic investigations, and associated symptoms like nausea, vomiting, and abdominal pain."
+    },
+    {
+      "title": "Disorders of Gastric Emptying",
+      "node_id": "0053",
+      "start_index": 219,
+      "end_index": 231,
+      "summary": "The partial document focuses on disorders of gastric motility, specifically delayed and accelerated gastric emptying. It covers clinical presentations, diagnostic investigations, differential diagnoses, and treatment options for gastroparesis (delayed gastric emptying) and dumping syndrome (accelerated gastric emptying). Key topics include symptoms, diagnostic tools like gastric scintigraphy and SmartPill, and conditions such as diabetic gastroparesis, postsurgical gastroparesis, medication-induced delays, idiopathic gastroparesis, and other related disorders like eating disorders, rheumatological, neurological, and metabolic conditions. Treatment approaches include dietary modifications, prokinetic and antiemetic medications, endoscopic and surgical interventions, and management of complications like bezoars and malnutrition. The document also briefly introduces acid peptic disorders, highlighting Helicobacter pylori infection and NSAID use as primary causes of ulcers, along with their associated risks and complications."
+    },
+    {
+      "title": "Acid Peptic Disorders",
+      "node_id": "0054",
+      "start_index": 231,
+      "end_index": 241,
+      "summary": "The partial document provides an in-depth discussion on acid peptic disorders, including their causes, clinical presentation, diagnostic investigations, management, and complications. It highlights Helicobacter pylori infection and NSAID use as primary causes of peptic ulcers, detailing their pathophysiology, diagnostic methods (e.g., endoscopy, urea breath tests, stool antigen tests), and treatment strategies, including eradication therapies and acid suppression medications like PPIs and H2 receptor antagonists. The document also addresses additional factors contributing to ulcer disease, such as smoking, stress, and comorbidities, and explores diseases associated with duodenal ulcers. It outlines the differential diagnosis of dyspepsia, emphasizing functional dyspepsia and its subtypes, and discusses the psychosocial factors and stress-related mechanisms linked to its pathogenesis. Management strategies for refractory ulcers, complications like hemorrhage, perforation, and obstruction, and the role of endoscopic and surgical interventions are also covered. Case studies illustrate practical applications of diagnostic and therapeutic approaches."
+    },
+    {
+      "title": "Functional Dyspepsia",
+      "node_id": "0055",
+      "start_index": 241,
+      "end_index": 247,
+      "summary": "The partial document focuses on functional dyspepsia and gastric neoplasia. It provides an in-depth discussion on the clinical presentation, diagnosis, management, and treatment of functional dyspepsia, including its classification into postprandial distress syndrome and epigastric pain syndrome using the Rome IV criteria. The document highlights the role of psychological factors, H. pylori infection, motility disturbances, and visceral hypersensitivity in the pathogenesis of functional dyspepsia. Diagnostic approaches such as endoscopy, H. pylori testing, and empiric medical therapy are outlined, with recommendations based on patient age, symptoms, and regional prevalence of H. pylori. Treatment options include acid suppression, tricyclic antidepressants, prokinetic agents, and psychological therapies, though no universally effective therapy exists.\n\nThe section on gastric neoplasia primarily addresses gastric adenocarcinoma, its clinical presentation, and diagnostic evaluation. It describes nonspecific symptoms such as epigastric pain, early satiety, and weight loss, as well as physical findings like lymphadenopathy and paraneoplastic syndromes. Diagnostic investigation emphasizes the use of upper gastrointestinal endoscopy for further evaluation of suggestive symptoms or findings."
+    },
+    {
+      "title": "Gastric Neoplasia",
+      "node_id": "0056",
+      "start_index": 247,
+      "end_index": 256,
+      "summary": "The partial document primarily covers gastric neoplasia, including gastric adenocarcinoma, lymphoma, gastrointestinal stromal tumors (GISTs), metastatic tumors, and other benign and malignant gastric tumors. It discusses the clinical presentation, diagnostic investigations, staging, histopathology, management, and prognosis of these conditions. Key diagnostic tools such as endoscopy, biopsy, CT scans, and EUS are highlighted, along with the role of surgical resection, chemotherapy, and radiation therapy in treatment. Specific tumor types like MALT lymphoma, leiomyosarcoma, and gastric carcinoids are detailed, including their unique features, risk factors, and therapeutic approaches. Case studies illustrate real-world diagnostic and treatment scenarios. Additionally, the document briefly introduces celiac disease, describing its pathophysiology, genetic predisposition, clinical presentation, and the importance of gluten withdrawal in management."
+    },
+    {
+      "title": "Celiac Disease",
+      "node_id": "0057",
+      "start_index": 256,
+      "end_index": 265,
+      "summary": "The partial document provides an in-depth discussion on celiac disease, covering its definition, epidemiology, pathophysiology, clinical presentation, diagnostic methods, management, and associated complications. It explains the immune-mediated nature of the disease triggered by gluten ingestion in genetically predisposed individuals, primarily those with HLA DQ-2 or DQ-8 genes. The document details the wide spectrum of symptoms, ranging from gastrointestinal issues like diarrhea and malabsorption to extraintestinal manifestations such as anemia, osteoporosis, neurological disorders, and infertility. It emphasizes the importance of serological testing (e.g., anti-tTG, anti-DGP antibodies) and small intestinal biopsy for diagnosis, while also discussing differential diagnoses and the role of HLA genotyping. Management focuses on a lifelong gluten-free diet, nutritional supplementation, and monitoring for adherence and complications. The document also addresses refractory celiac disease, its classification, and associated risks like enteropathy-associated T-cell lymphoma. Additionally, it includes case studies and diagnostic algorithms to illustrate clinical approaches."
+    },
+    {
+      "title": "Short Bowel Syndrome",
+      "node_id": "0058",
+      "start_index": 265,
+      "end_index": 272,
+      "summary": "The partial document provides an in-depth discussion on short bowel syndrome (SBS), covering its causes, clinical presentation, diagnostic investigations, management, and complications. It explains SBS as a condition resulting from significant loss of intestinal absorption due to surgical resection, congenital defects, or disease. The clinical symptoms include chronic diarrhea, dehydration, nutrient deficiencies, and electrolyte imbalances, with specific absorption roles of the jejunum, ileum, and colon highlighted. Diagnostic methods include laboratory tests, radiographic studies, and differential diagnosis of underlying causes like Crohn\u2019s disease and vascular insults.\n\nManagement strategies focus on nutritional therapy, including parenteral nutrition, dietary modifications, and supplementation of vitamins, minerals, and electrolytes. Medical therapies aim to reduce diarrhea and malnutrition using agents like loperamide, octreotide, and emerging treatments like GLP-2 analogues (e.g., teduglutide). Surgical options include bowel lengthening procedures and small intestinal transplantation for severe cases. Complications such as renal calculi, gallstones, hepatic dysfunction, and bacterial overgrowth are discussed, along with their management.\n\nThe document also briefly introduces small intestinal tumors, describing their rarity, types (e.g., adenocarcinomas, carcinoids, lymphomas), clinical presentation, and diagnostic approaches, including endoscopy."
+    },
+    {
+      "title": "Small Intestinal Neoplasia",
+      "node_id": "0059",
+      "start_index": 272,
+      "end_index": 280,
+      "summary": "The partial document focuses on gastrointestinal diseases, specifically tumors of the small intestine, including adenocarcinomas, carcinoids, mesenchymal tumors, and lymphomas. It discusses their clinical presentations, diagnostic investigations, and management strategies. Key points include the rarity of small intestine tumors, diagnostic tools like endoscopy, CT scans, and specific biomarkers, and treatment options such as surgical resection, chemotherapy, and targeted therapies like imatinib for GISTs. The document also highlights survival rates based on disease stages and provides case studies on conditions like Peutz\u2013Jeghers syndrome and carcinoid tumors. Additionally, it introduces diverticular disease of the colon, describing its prevalence, pathogenesis, and associated risk factors, including dietary and structural influences."
+    },
+    {
+      "title": "Diverticular Disease of the Colon",
+      "node_id": "0060",
+      "start_index": 280,
+      "end_index": 288,
+      "summary": "The partial document provides an in-depth discussion on diverticular disease of the colon, including its definition, prevalence, pathogenesis, risk factors, clinical spectrum, diagnostic investigations, management, and prevention strategies. It covers diverticulosis, symptomatic uncomplicated diverticular disease, segmental colitis associated with diverticulosis, diverticulitis, and diverticular hemorrhage. Key points include the role of dietary and lifestyle factors, diagnostic tools like colonoscopy and CT imaging, and treatment approaches such as dietary modifications, antibiotics, surgical interventions, and endoscopic techniques. The document also highlights complications like abscesses, fistulas, and hemorrhage, along with their respective management strategies. Additionally, it briefly introduces irritable bowel syndrome (IBS), its prevalence, diagnostic criteria (Rome IV), subtypes, associated conditions, and clinical presentation."
+    },
+    {
+      "title": "Irritable Bowel Syndrome",
+      "node_id": "0061",
+      "start_index": 288,
+      "end_index": 297,
+      "summary": "The partial document provides an in-depth overview of Irritable Bowel Syndrome (IBS), including its definition, prevalence, clinical presentation, diagnostic criteria (Rome IV), and subtypes based on bowel habits (constipation-predominant, diarrhea-predominant, mixed, and unclassified). It discusses associated conditions like fibromyalgia, depression, and anxiety, and highlights the impact of IBS on quality of life and healthcare costs. Diagnostic approaches include ruling out organic diseases through laboratory tests, structural studies, and other evaluations like hydrogen breath testing and anorectal manometry. Management strategies focus on patient education, dietary modifications (e.g., low FODMAP diet), and tailored medical therapies such as laxatives, antidiarrheal agents, antispasmodics, antidepressants, and antibiotics. Psychological and behavioral therapies, including cognitive-behavioral therapy and mindfulness-based stress reduction, are also emphasized. The document includes case studies illustrating IBS management and briefly introduces chronic inflammatory bowel diseases like ulcerative colitis and Crohn\u2019s disease, describing their clinical presentations and complications."
+    },
+    {
+      "title": "Inflammatory Bowel Disease",
+      "node_id": "0062",
+      "start_index": 297,
+      "end_index": 314,
+      "summary": "The partial document provides an in-depth overview of chronic inflammatory bowel diseases (IBDs), specifically ulcerative colitis and Crohn's disease. It covers their clinical presentations, complications, extraintestinal manifestations, diagnostic investigations (laboratory studies, endoscopy, radiography, and pathology), and management strategies. The document discusses medical treatments, including 5-aminosalicylates, corticosteroids, immunomodulators, antibiotics, biologics, and small molecule therapies, as well as surgical interventions for severe cases. It also addresses preventive health maintenance, nutritional management, and surveillance for colonic neoplasia. Additionally, it includes case studies to illustrate treatment approaches and outcomes. The document transitions into colorectal cancer (CRC), highlighting its prevalence, screening methods, and the role of polyp removal in reducing CRC incidence and mortality. It briefly introduces colorectal polyps, their clinical presentation, diagnostic investigations, and the use of computed tomography colonography for detection."
+    },
+    {
+      "title": "Colonic Neoplasia",
+      "node_id": "0063",
+      "start_index": 314,
+      "end_index": 324,
+      "summary": "The partial document provides an in-depth discussion on colorectal cancer (CRC), colorectal polyps, familial adenomatous polyposis (FAP), Lynch syndrome, and colorectal adenocarcinoma. It covers the clinical presentation, diagnostic investigations, histology, management, and surveillance strategies for these conditions. Key points include the role of screening methods like fecal occult blood testing (FOBT), colonoscopy, and genetic testing in reducing CRC incidence and mortality. The document also highlights the classification and malignant potential of various types of polyps, including adenomatous, serrated, and hamartomatous polyps, and their genetic pathways. Management strategies such as endoscopic polypectomy, surgical resection, and surveillance programs are detailed, along with recommendations for CRC screening in average-risk and high-risk populations. Additionally, it discusses the diagnosis and management of anorectal disorders, particularly hemorrhoids, including their classification, symptoms, and conservative treatment approaches."
+    },
+    {
+      "title": "Anorectal Diseases",
+      "node_id": "0064",
+      "start_index": 324,
+      "end_index": 332,
+      "summary": "The partial document provides a detailed overview of various anorectal disorders, their causes, symptoms, diagnostic methods, and treatment options. It covers conditions such as hemorrhoids, anal fissures, anorectal abscesses and fistulae, rectal prolapse, fecal incontinence, pruritus ani, proctalgia fugax, levator ani syndrome, coccygodynia, pilonidal disease, and hidradenitis suppurativa. Key points include the classification and management of hemorrhoids, conservative and surgical treatments for anal fissures, the importance of surgical drainage for anorectal abscesses, and the role of diagnostic tools like endoscopy, MRI, and manometry in evaluating conditions like fecal incontinence. The document also emphasizes lifestyle modifications, physical therapy, and biofeedback for managing certain conditions, while surgical interventions are reserved for severe or refractory cases. Additionally, it briefly introduces acute pancreatitis, describing its clinical presentation, common causes, symptoms, and physical examination findings."
+    },
+    {
+      "title": "Pancreatitis",
+      "node_id": "0065",
+      "start_index": 332,
+      "end_index": 345,
+      "summary": "The partial document provides a comprehensive overview of acute and chronic pancreatitis, including their clinical presentations, diagnostic investigations, management, complications, and prognosis. It discusses the causes and symptoms of acute pancreatitis, such as abdominal pain, nausea, vomiting, and fever, and highlights diagnostic tools like serum enzyme levels, imaging studies (ultrasound, CT, MRCP), and the Ranson criteria for severity assessment. Management strategies include supportive care, early enteral feeding, and interventions like ERCP for biliary pancreatitis. Complications such as necrosis, infections, pseudo-cysts, and systemic effects are detailed.\n\nFor chronic pancreatitis, the document outlines its irreversible nature, common causes (e.g., alcohol use, malnutrition), and symptoms like abdominal pain, malabsorption, and diabetes. Diagnostic methods include imaging (CT, EUS) and pancreatic function tests. Management focuses on pain relief, enzyme replacement, and dietary adjustments, with surgical options for severe cases. Complications like pseudo-cysts and pancreatic calcifications are also addressed.\n\nAdditionally, the document briefly introduces pancreatic ductal adenocarcinoma, emphasizing its clinical presentation, including abdominal pain, jaundice, weight loss, and its poor prognosis. Diagnostic and management roles of gastroenterologists are highlighted."
+    },
+    {
+      "title": "Pancreatic Neoplasia",
+      "node_id": "0066",
+      "start_index": 345,
+      "end_index": 354,
+      "summary": "The partial document provides an in-depth discussion on pancreatic ductal adenocarcinoma, its clinical presentation, diagnostic investigations, management, and associated pancreatic neoplasms. Key points include the high mortality rate and poor prognosis of pancreatic cancer, common symptoms such as abdominal pain, jaundice, and weight loss, and the role of imaging techniques like CT, EUS, and ERCP in diagnosis and staging. It emphasizes the importance of surgical resection for curative treatment, though most cases are unresectable at presentation, and discusses palliative care options for symptom management. The document also covers pancreatic cystic neoplasms, their classification, malignant potential, and management strategies, including surgical resection for high-risk lesions. Additionally, it briefly introduces gallstone-related conditions, their prevalence, clinical presentations, and complications such as biliary colic, acute cholecystitis, and pancreatitis."
+    },
+    {
+      "title": "Biliary Tract Stones and Cysts",
+      "node_id": "0067",
+      "start_index": 354,
+      "end_index": 363,
+      "summary": "The partial document provides an in-depth discussion on gallstone-related conditions, their clinical presentations, diagnostic investigations, and management strategies. It covers various types of gallstones, including cholesterol and pigment stones, and their prevalence across different populations. The document details the clinical manifestations of gallstones, such as biliary colic, acute and chronic cholecystitis, and acalculous cholecystitis, along with their associated symptoms and complications like jaundice, cholangitis, and pancreatitis.\n\nDiagnostic approaches, including laboratory studies, ultrasound, CT, MRI, MRCP, and ERCP, are outlined for identifying gallstones and related complications. Management strategies are discussed, emphasizing cholecystectomy as the definitive treatment for symptomatic cases, with laparoscopic cholecystectomy being preferred. Alternative treatments like dissolution therapy, extracorporeal shock wave lithotripsy, and endoscopic procedures are also mentioned.\n\nThe document further explores choledocholithiasis, its clinical presentation, diagnostic methods, and therapeutic options, including endoscopic sphincterotomy and surgical interventions. Complications such as bile duct strictures, biliary fistulae, hematobilia, recurrent pyogenic cholangitis, and biliary cysts are described, along with their diagnostic and management approaches. The text concludes with key practice points summarizing diagnostic and treatment highlights for gallstone-related conditions."
+    },
+    {
+      "title": "Viral Hepatitis",
+      "node_id": "0068",
+      "start_index": 363,
+      "end_index": 377,
+      "summary": "The partial document provides an in-depth discussion on various types of hepatitis, including Hepatitis A, B, C, D, and E, covering their epidemiology, pathogenesis, clinical course, diagnostic methods, management, and prevention strategies. It highlights the modes of transmission, risk factors, and the acute and chronic phases of these viral infections. The document also emphasizes the importance of serological and diagnostic studies, liver biopsy, and advancements in antiviral treatments, particularly for Hepatitis B and C. Preventive measures such as vaccination and post-exposure prophylaxis are detailed for Hepatitis A and B. Additionally, the document briefly introduces nonviral liver diseases, focusing on nonalcoholic fatty liver disease (NAFLD) and nonalcoholic steatohepatitis (NASH), discussing their clinical presentation, diagnostic evaluation, and the rising prevalence due to obesity and diabetes."
+    },
+    {
+      "title": "Genetic and Metabolic Diseases of the Liver",
+      "node_id": "0069",
+      "start_index": 377,
+      "end_index": 385,
+      "summary": "The partial document provides an in-depth discussion on various liver diseases, including nonalcoholic fatty liver disease (NAFLD), Wilson disease, hemochromatosis, \u03b11-antitrypsin deficiency, and cholestatic liver diseases. Key points include:\n\n1. **Nonalcoholic Fatty Liver Disease (NAFLD):** Covers the spectrum from simple steatosis to nonalcoholic steatohepatitis (NASH) and cirrhosis. Discusses clinical presentation, diagnostic evaluation (e.g., fibrosis scoring, imaging, liver biopsy), and management strategies such as weight loss, pharmacological treatments (e.g., Pioglitazone, Vitamin E), and bariatric surgery. Highlights associated comorbidities like obesity, diabetes, and cardiovascular risks.\n\n2. **Wilson Disease:** Describes its genetic basis (ATP7B mutation), copper metabolism abnormalities, clinical manifestations (hepatic and neuropsychiatric), diagnostic methods (e.g., ceruloplasmin levels, urinary copper, liver biopsy), and management with copper chelation, zinc therapy, and liver transplantation.\n\n3. **Hemochromatosis:** Discusses hereditary and secondary forms, pathophysiology (iron overload), clinical features (e.g., liver disease, diabetes, skin discoloration), diagnostic approaches (e.g., serum ferritin, transferrin saturation, liver biopsy, genetic testing), and treatment with phlebotomy or iron chelation. Emphasizes screening for hepatocellular carcinoma in advanced cases.\n\n4. **\u03b11-Antitrypsin Deficiency:** Explains its genetic basis (PiZZ phenotype), clinical presentations (e.g., cholestatic hepatitis, cirrhosis), diagnostic methods (e.g., serum protein electrophoresis, liver biopsy), and management through liver transplantation.\n\n5. **Cholestatic Liver Diseases:** Introduces cholestasis as a defect in bile excretion, distinguishing between intrahepatic and extrahepatic causes. Focuses on primary biliary cholangitis (PBC), its autoimmune nature, associated conditions (e.g., Sj\u00f6gren syndrome, autoimmune thyroiditis), and pathophysiology involving bile duct destruction and toxic hepatocyte injury.\n\nThe document also references diagnostic guidelines and management strategies from authoritative sources like the American Association for the Study of Liver Diseases (AASLD)."
+    },
+    {
+      "title": "Cholestatic Liver Diseases",
+      "node_id": "0070",
+      "start_index": 385,
+      "end_index": 394,
+      "summary": "The partial document provides an in-depth discussion on cholestatic liver diseases, focusing on their classification, causes, clinical presentation, diagnostic investigations, and management. It covers intrahepatic and extrahepatic cholestasis, with detailed sections on primary biliary cholangitis (PBC) and primary sclerosing cholangitis (PSC). PBC is described as a chronic autoimmune disease affecting bile ducts, with symptoms like fatigue, pruritus, and jaundice, and is managed with ursodiol and other therapies. PSC is characterized by bile duct inflammation and fibrosis, often associated with ulcerative colitis, and managed supportively or with liver transplantation in advanced cases. The document also discusses other cholestatic conditions, including hepatocellular diseases, cholestasis of pregnancy, systemic infections, TPN-associated cholestasis, and postoperative cholestasis, highlighting their causes, diagnostic approaches, and treatments. Additionally, it briefly introduces alcohol-related liver disease, its metabolism, and clinical manifestations, including steatosis, alcoholic hepatitis, and cirrhosis."
+    },
+    {
+      "title": "Alcoholic Liver Disease",
+      "node_id": "0071",
+      "start_index": 394,
+      "end_index": 400,
+      "summary": "The partial document provides an in-depth discussion on Alcohol-Related Liver Disease (ALD) and briefly introduces Autoimmune Hepatitis (AIH). Key points covered include:\n\n1. **Alcohol-Related Liver Disease (ALD):**\n   - **Epidemiology and Risk Factors:** ALD is a common liver disease in the U.S., with alcohol consumption thresholds for risk outlined for men and women.\n   - **Pathophysiology:** Ethanol metabolism involves enzymes like ADH and CYP2E1, with chronic alcohol use affecting drug metabolism and liver function.\n   - **Clinical Presentation:** ALD manifests as steatosis (benign and reversible), alcoholic hepatitis (severe with high mortality), and alcoholic cirrhosis (advanced stage with complications like portal hypertension and stigmata).\n   - **Diagnosis:** Diagnostic markers include elevated AST/ALT ratios, bilirubin, and prolonged prothrombin time. Liver biopsy is used for confirmation and differentiation from other liver diseases.\n   - **Management:** Emphasis on alcohol abstinence, nutritional support, corticosteroids for severe alcoholic hepatitis, and liver transplantation for advanced cases. Prognosis depends on disease stage and abstinence.\n   - **Guidelines:** Recommendations include avoiding alcohol in high-risk groups, using corticosteroids for severe cases, and considering liver transplantation for selected patients.\n\n2. **Autoimmune Hepatitis (AIH):**\n   - **Epidemiology and Pathogenesis:** AIH affects women more frequently and has genetic and immunological components. It may be triggered by infections or drugs.\n   - **Classification:** AIH is categorized into types 1, 2, and 3, with type 1 being the most common in North America and type 2 more prevalent in Europe. Type 2 progresses to cirrhosis more rapidly.\n   - **Diagnosis and Treatment:** Associated autoantibodies (ANA, ASMA, anti-LKM) aid diagnosis, and immunosuppressive therapy effectively resolves inflammation.\n\nThe document highlights the clinical features, diagnostic approaches, and management strategies for both ALD and AIH, emphasizing the importance of early intervention and lifestyle modifications."
+    },
+    {
+      "title": "Autoimmune Hepatitis",
+      "node_id": "0072",
+      "start_index": 400,
+      "end_index": 405,
+      "summary": "The partial document provides an in-depth discussion on Autoimmune Hepatitis (AIH) and briefly introduces cirrhosis. Key points covered include:\n\n1. **Autoimmune Hepatitis (AIH):**\n   - AIH affects individuals of all ages and races, with a higher prevalence in women.\n   - The etiology involves genetic predisposition and immune dysregulation, with associations to specific HLA alleles.\n   - AIH can be triggered by viral infections, certain drugs, or interferon therapy.\n   - Classification into Type 1 (most common in North America), Type 2 (more aggressive, common in children in Europe), and rare Type 3.\n   - Clinical presentation includes nonspecific symptoms like fatigue, jaundice, and abnormal liver tests, with some patients being asymptomatic.\n   - Diagnosis relies on serological markers (autoantibodies like ANA, ASMA, anti-LKM, SLA) and liver histology, supported by diagnostic scoring systems.\n   - Management involves immunosuppressive therapy (prednisone, azathioprine) with potential lifelong treatment. Alternative agents are used for intolerant or non-responsive patients.\n\n2. **Cirrhosis:**\n   - Cirrhosis is the end stage of chronic liver diseases, characterized by fibrosis and regenerative nodules leading to portal hypertension.\n   - Common causes include alcoholic liver disease, chronic viral hepatitis, nonalcoholic steatohepatitis (NASH), autoimmune hepatitis, and genetic/metabolic disorders.\n   - Rare causes include Wilson disease, \u03b11-antitrypsin deficiency, and drug-induced liver damage.\n   - Cryptogenic cirrhosis, potentially linked to undetectable immunological or viral processes or advanced NAFLD, accounts for 10\u201320% of cases.\n\nThe document emphasizes the importance of accurate diagnosis and tailored management strategies for both conditions."
+    },
+    {
+      "title": "Complications of Cirrhosis",
+      "node_id": "0073",
+      "start_index": 405,
+      "end_index": 415,
+      "summary": "The partial document provides an in-depth discussion on cirrhosis, its causes, complications, diagnostic approaches, and management strategies. It highlights cirrhosis as the end stage of various liver diseases, characterized by fibrosis and nodular liver distortion, leading to portal hypertension. Common causes include alcoholic liver disease, chronic viral hepatitis, and nonalcoholic steatohepatitis (NASH), among others. Complications such as portal hypertension, variceal bleeding, hepatic encephalopathy (HE), ascites, hepatocellular carcinoma (HCC), and rare conditions like hepatopulmonary syndrome and hepatic hydrothorax are detailed. Diagnostic methods include laboratory tests, imaging, endoscopy, liver biopsy, and portal pressure measurements. Management strategies focus on controlling complications, preventing variceal bleeding, and treating HE with therapies like lactulose and rifaximin. Liver transplantation is discussed as a treatment for end-stage liver disease, with considerations for patient evaluation and contraindications. The document also introduces hepatocellular carcinoma (HCC), its association with cirrhosis, rising incidence due to hepatitis C and NASH, clinical presentation, and complications such as portal vein thrombosis and paraneoplastic phenomena."
+    },
+    {
+      "title": "Primary Hepatic Neoplasms",
+      "node_id": "0074",
+      "start_index": 415,
+      "end_index": 423,
+      "summary": "The partial document primarily discusses hepatocellular carcinoma (HCC) and cholangiocarcinoma, focusing on their clinical presentation, diagnostic investigations, and management strategies. Key points include:\n\n1. **Hepatocellular Carcinoma (HCC):**\n   - HCC is a leading cause of cancer deaths worldwide, with primary risk factors being cirrhosis and hepatitis B.\n   - Clinical symptoms include fatigue, jaundice, abdominal pain, and complications like portal hypertension and paraneoplastic phenomena.\n   - Diagnosis relies on imaging (CT/MRI) showing arterial vascularity and tumor markers like \u03b1\u2010fetoprotein (AFP).\n   - Management options include surgical resection, liver transplantation (with Milan and UCSF criteria), locoregional therapies (e.g., radiofrequency ablation, transarterial chemoembolization, and radioembolization), and systemic therapies like tyrosine kinase inhibitors (e.g., sorafenib) and immunotherapy.\n\n2. **Cholangiocarcinoma:**\n   - An aggressive malignancy of bile duct epithelial cells, often leading to biliary obstruction.\n   - Symptoms include jaundice, anorexia, and weight loss, with diagnostic imaging (ultrasound, CT, ERCP) and cytology aiding in detection.\n   - Management includes surgical resection for eligible patients, palliative stenting or anastomosis for unresectable cases, and liver transplantation for select patients following neoadjuvant therapy.\n\n3. **Key Practice Points:**\n   - HCC diagnosis often depends on imaging, and liver biopsy is not always required.\n   - Treatment modalities for HCC include surgical, locoregional, and systemic therapies.\n   - Cholangiocarcinoma has limited treatment options, with liver transplantation reserved for a small subset of patients.\n\nThe document also briefly introduces bacterial and viral gastrointestinal infections, highlighting Campylobacter species as a common cause of bacterial diarrhea in the United States, with details on transmission, clinical presentation, and complications."
+    },
+    {
+      "title": "Infections of the Gastrointestinal Tract",
+      "node_id": "0075",
+      "start_index": 423,
+      "end_index": 439,
+      "summary": "The partial document provides an in-depth discussion on bacterial and viral infections of the gastrointestinal tract, focusing on their etiology, clinical presentation, diagnostic methods, complications, and management strategies. It covers common bacterial pathogens such as Campylobacter, Shigella, E. coli (with its various pathogenic strains), Salmonella, Yersinia, Vibrio species, and others like Staphylococcus aureus, Bacillus cereus, Clostridium botulinum, Clostridium perfringens, and Listeria monocytogenes. The document also addresses nosocomial infections like Clostridium difficile, detailing its pathogenesis, diagnostic approaches, and treatment options, including fecal microbiota transplant for recurrent cases.\n\nFor viral infections, the document highlights rotavirus, Norwalk virus, astrovirus, and enteric adenovirus, describing their transmission, clinical features, diagnostic techniques, and supportive management. It emphasizes the importance of rehydration therapy for viral gastroenteritis and notes the availability of vaccines for certain pathogens like rotavirus.\n\nAdditionally, the document briefly introduces vascular lesions in the gastrointestinal tract, such as Dieulafoy lesions, describing their clinical presentation, diagnostic methods (e.g., endoscopy and Doppler ultrasound), and their association with gastrointestinal bleeding."
+    },
+    {
+      "title": "Gastrointestinal Vascular Lesions",
+      "node_id": "0076",
+      "start_index": 439,
+      "end_index": 450,
+      "summary": "The partial document covers gastrointestinal vascular lesions and obesity. It provides detailed classifications, clinical presentations, diagnostic investigations, and management strategies for various gastrointestinal vascular conditions, including Dieulafoy lesions, angiodysplasia, gastric antral vascular ectasia (GAVE), systemic telangiectasia syndromes, hemangiomas, and other vascular lesions. It discusses their symptoms, diagnostic methods like endoscopy and angiography, and treatment options such as endoscopic therapies, medical management, and surgical interventions. Additionally, the document addresses obesity, including its definition, clinical evaluation, physical examination, diagnostic investigations, complications like metabolic syndrome, and management strategies. It emphasizes the importance of BMI and waist circumference in assessing obesity-related disease risks."
+    },
+    {
+      "title": "Medical, Surgical, and Endoscopic Treatment of Obesity",
+      "node_id": "0077",
+      "start_index": 451,
+      "end_index": 490,
+      "summary": "The partial document focuses on the medical, surgical, and endoscopic treatment of obesity. It discusses the complications of obesity, including cardiovascular disease, osteoarthritis, obstructive sleep apnea, nonalcoholic fatty liver disease (NAFLD), gastroesophageal reflux disease (GERD), gallstone disease, pancreatitis, and colon cancer. The document outlines various therapeutic approaches:\n\n1. **Lifestyle Modifications**: Recommends diet, exercise, and behavioral therapy for patients with BMI >25 kg/m\u00b2, aiming for a 10% weight reduction over six months.\n\n2. **Pharmacotherapy**: Details the use of FDA-approved anti-obesity drugs like orlistat, lorcaserin, phentermine, and phentermine/topiramate for patients with BMI \u226530 or BMI \u226527 with comorbidities.\n\n3. **Surgical Therapy**: Highlights bariatric surgery for patients with BMI \u226540 or BMI 35\u201339.9 with serious comorbidities. It describes different surgical procedures, including laparoscopic adjustable gastric banding, sleeve gastrectomy, Roux-en-Y gastric bypass (RYGB), and biliopancreatic diversion with duodenal switch (BPD-DS), comparing their mechanisms, outcomes, and associated risks.\n\n4. **Endoscopic Therapy**: Discusses investigational endoscopic treatments like intragastric balloons and endoscopic sleeve gastroplasty, their effectiveness, and associated adverse events.\n\nThe document also includes a table summarizing weight loss agents, their mechanisms, dosages, side effects, and usage notes. It emphasizes the importance of BMI in diagnosing and managing obesity and the role of bariatric surgery in achieving sustained weight loss and resolving comorbidities."
+    },
+    {
+      "title": "Questions and Answers",
+      "node_id": "0078",
+      "start_index": 491,
+      "end_index": 517,
+      "summary": "The partial document covers a wide range of topics in gastroenterology, including diagnostic and therapeutic approaches for various gastrointestinal conditions. Key points include the use of EUS-FNA for tissue diagnosis, the role of CA 19-9 in pancreatic cancer, complications of cholestasis, neonatal jaundice mechanisms, gallstone formation, autoimmune liver diseases, and management of ascites. It discusses diagnostic criteria and treatments for conditions like GERD, achalasia, Barrett esophagus, functional dyspepsia, and eosinophilic esophagitis. The document also addresses gastrointestinal bleeding, diverticular disease, IBS, IBD, celiac disease, and colorectal cancer screening. It highlights the management of liver diseases such as hepatitis, cirrhosis, and hepatocellular carcinoma, as well as pancreatic disorders like pancreatitis and pancreatic cancer. Additionally, it includes nutritional support strategies, obesity treatments, and the evaluation of gastrointestinal infections and vascular lesions."
+    },
+    {
+      "title": "Index",
+      "node_id": "0079",
+      "start_index": 518,
+      "end_index": 536,
+      "summary": "The partial document is an index and excerpt from a gastroenterology handbook, covering a wide range of gastrointestinal conditions, treatments, diagnostic criteria, and procedures. Key topics include various deficiencies (e.g., vitamins, minerals), gastrointestinal diseases (e.g., achalasia, celiac disease, Crohn\u2019s disease, ulcerative colitis), infections (e.g., Salmonella, Shigella, viral hepatitis), cancers (e.g., esophageal, gastric, colon), polyps and their classifications, therapeutic interventions (e.g., endoscopy, stents, ablation), diagnostic tools (e.g., imaging, endoscopy, capsule endoscopy), and treatments (e.g., medications, surgical procedures). It also includes specific syndromes, criteria for diagnosis, and complications such as bleeding, strictures, and obstructions. The document provides detailed descriptions of conditions, endoscopic findings, and therapeutic approaches."
+    }
+  ]
+}
