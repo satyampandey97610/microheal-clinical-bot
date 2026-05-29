@@ -1,14 +1,13 @@
 version: '3.8'
 
 services:
-  gastrorag-api:
+  gastrorag:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: microheal-gastrorag-api
-    command: ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
+    container_name: microheal-gastrorag
     ports:
-      - "8000:8000"
+      - "8501:8501"
     environment:
       - PYTHONDONTWRITEBYTECODE=1
       - PYTHONUNBUFFERED=1
@@ -18,41 +17,14 @@ services:
     volumes:
       - ./results:/app/results
       - ./logs:/app/logs
-    restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 30s
-      timeout: 5s
-      retries: 3
-      start_period: 20s
-    networks:
-      - gastrobot-network
-
-  gastrobot:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: microheal-gastrobot
-    ports:
-      - "8501:8501"
-    environment:
-      - PYTHONDONTWRITEBYTECODE=1
-      - PYTHONUNBUFFERED=1
-      - STREAMLIT_SERVER_PORT=8501
-      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
-    env_file:
-      - .env
-    volumes:
-      - ./results:/app/results
-      - ./logs:/app/logs
       - ./pageindex:/app/pageindex
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      test: ["CMD", "curl", "-f", "http://localhost:8501/health"]
       interval: 30s
-      timeout: 3s
+      timeout: 5s
       retries: 3
-      start_period: 40s
+      start_period: 45s
     networks:
       - gastrobot-network
 

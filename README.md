@@ -96,13 +96,27 @@ streamlit run app.py
 ```
 
 ### 4. Docker Deployment (Optional)
-```bash
-# Build the image
-docker build -t gastrorag:latest .
+One container runs a **single server on port 8501** (`server.py` via uvicorn):
+- Streamlit UI internally on 8502 (proxied through 8501)
+- Retrieval API routes served directly on 8501
 
-# Run the container
+| Path | Service |
+|------|---------|
+| `http://localhost:8501/` | Streamlit UI |
+| `POST http://localhost:8501/v1/retrieve` | Retrieval API |
+| `GET http://localhost:8501/health` | API health check |
+| `http://localhost:8501/docs` | FastAPI Swagger |
+
+```bash
+# Build and run (docker compose)
+docker compose up --build
+
+# Or run the image directly
+docker build -t gastrorag:latest .
 docker run -p 8501:8501 --env-file .env gastrorag:latest
 ```
+
+For **agentic-chatbot**, set `GASTRO_RAG_API_URL=http://localhost:8501` (same host/port as Streamlit).
 
 ---
 
