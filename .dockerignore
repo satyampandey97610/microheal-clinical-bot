@@ -1,0 +1,25 @@
+# Git and IDE files
+.git
+.gitignore
+.vscode/
+.idea/
+.dockerignore
+
+# Environment and Secrets
+.env
+*.env
+secrets.toml
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Data and Logs
+logs/
+*.log
+PageIndex_Optimized_GI_Report_structure.json.tmp
