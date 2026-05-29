@@ -14,8 +14,8 @@ from PageIndex.pageindex.page_index import page_index_main
 from PageIndex.pageindex.utils import ConfigLoader, GLOBAL_USAGE
 
 # Directories
-PDF_DIR = root_dir / "NephroRAG" / "data"
-RESULTS_DIR = root_dir / "NephroRAG" / "index"
+PDF_DIR = root_dir / "NeuroRAG" / "data"
+RESULTS_DIR = root_dir / "NeuroRAG" / "index"
 LOGS_DIR = root_dir / "logs"
 TOKEN_LOG_PATH = LOGS_DIR / "token_usage_master.json"
 
@@ -92,10 +92,14 @@ def save_token_log(pdf_stem=None, before_usage=None):
         json.dump(data, f, indent=2)
 
 def main():
-    print(f"\n--- NephroRAG Batch Indexer ---")
+    print(f"\n--- NeuroRAG Batch Indexer ---")
     
     # Ensure index directory exists
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    
+    # Set the global SESSION_START in PageIndex.utils
+    import PageIndex.pageindex.utils as pi_utils
+    pi_utils.SESSION_START = SESSION_START
     
     # Find all PDFs
     pdfs = list(PDF_DIR.glob("*.pdf"))
@@ -118,9 +122,13 @@ def main():
 
         print(f"[INDEXING] {pdf_path.name}...")
         try:
+            # Set the current PDF stem in PageIndex.utils for real-time logging
+            pi_utils.CURRENT_PDF_STEM = stem
+            
             # Record usage before this PDF
             before_usage = {k: v for k, v in GLOBAL_USAGE.items()}
             
+            # Explicitly force gpt-4o-mini per user request
             options = {
                 'model': 'gpt-4o-mini',
                 'if_add_node_id': 'yes',

@@ -41,20 +41,26 @@ DOMAIN_CONFIG = {
     "gastro": {
         "label": "Gastroenterology",
         "index_dir": BASE_DIR / "GastroRAG" / "index",
-        "other_label": "Cardiology or Nephrology",
-        "other_key": "cardio or nephro",
+        "other_label": "Cardiology, Nephrology, or Neurology",
+        "other_key": "cardio, nephro, or neuro",
     },
     "cardio": {
         "label": "Cardiology",
         "index_dir": BASE_DIR / "CardioRAG" / "index",
-        "other_label": "Gastroenterology or Nephrology",
-        "other_key": "gastro or nephro",
+        "other_label": "Gastroenterology, Nephrology, or Neurology",
+        "other_key": "gastro, nephro, or neuro",
     },
     "nephro": {
         "label": "Nephrology",
         "index_dir": BASE_DIR / "NephroRAG" / "index",
-        "other_label": "Gastroenterology or Cardiology",
-        "other_key": "gastro or cardio",
+        "other_label": "Gastroenterology, Cardiology, or Neurology",
+        "other_key": "gastro, cardio, or neuro",
+    },
+    "neuro": {
+        "label": "Neurology",
+        "index_dir": BASE_DIR / "NeuroRAG" / "index",
+        "other_label": "Gastroenterology, Cardiology, or Nephrology",
+        "other_key": "gastro, cardio, or nephro",
     }
 }
 
@@ -180,19 +186,24 @@ def _retrieve(query: str, registry: dict, domain_label: str) -> list:
 #  LLM Integration (platform-independent)
 # ──────────────────────────────────────────────────────────────────
 
-def _get_default_model() -> str:
-    """Read the model name from config.yaml in the parent directory of this file."""
+def _load_config() -> dict:
+    """Load config.yaml once and return as dict."""
     try:
         import yaml
         config_path = Path(__file__).parent / "config.yaml"
         if config_path.exists():
             with open(config_path, "r", encoding="utf-8") as f:
                 cfg = yaml.safe_load(f)
-                if isinstance(cfg, dict) and "model" in cfg:
-                    return cfg["model"]
+                if isinstance(cfg, dict):
+                    return cfg
     except Exception:
         pass
-    return "gpt-4o-mini"
+    return {}
+
+
+def _get_default_model() -> str:
+    """Read the model name from config.yaml in the parent directory of this file."""
+    return _load_config().get("model", "gpt-4o-mini")
 
 
 def _get_premium_model() -> str:
@@ -200,48 +211,48 @@ def _get_premium_model() -> str:
     Retrieve the configured premium reasoning model.
     
     Attempts to read the 'premium_model' parameter from the root config.yaml file,
-    defaulting to 'gpt-4o' if not specified or config is unavailable.
+    defaulting to 'gpt-4o-mini' if not specified or config is unavailable.
     """
-    try:
-        import yaml
-        config_path = Path(__file__).parent / "config.yaml"
-        if config_path.exists():
-            with open(config_path, "r", encoding="utf-8") as f:
-                cfg = yaml.safe_load(f)
-                if isinstance(cfg, dict) and "premium_model" in cfg:
-                    return cfg["premium_model"]
-    except Exception:
-        pass
-    return "gpt-4o"
+    return _load_config().get("premium_model", "gpt-4o-mini")
+
+
+def _get_max_tokens() -> int:
+    """
+    Read the max_tokens setting from config.yaml.
+    Defaults to 2000 if not specified — enough for detailed clinical answers.
+    """
+    return int(_load_config().get("max_tokens", 2000))
 
 
 def _should_use_premium_model(question: str) -> bool:
     """
     Determine if a clinical query requires premium model reasoning capability.
     
-    Standard queries are answered using gpt-4o-mini to remain highly cost-efficient.
-    If the query contains explicit requests for expert/advanced analysis or describes
-    a highly complex clinical scenario, it is routed to the premium model tier.
+    Forced to False to guarantee low cost (gpt-4o-mini only).
     """
-    q_lower = question.lower()
-    premium_keywords = ["expert", "gpt4", "gpt-4", "premium", "second opinion", "advanced reasoning", "complex case"]
-    if any(kw in q_lower for kw in premium_keywords):
-        return True
-    
-    # Check if the query is a highly complex/critical clinical scenario
-    if len(question) > 250 and any(w in q_lower for w in ["differential diagnosis", "chronic condition", "severe case", "acute scenario"]):
-        return True
-        
     return False
 
 
-def _llm_call(messages: list, temperature: float = 0.1, max_tokens: int = 500, model: str = None) -> str:
+def _llm_call(messages: list, temperature: float = 0.1, max_tokens: int = 2000, model: str = None) -> str:
     """Make an LLM call. Uses litellm if available, falls back to openai."""
     api_key = os.getenv("OPENAI_API_KEY")
     model_name = model or _get_default_model()
     print(f"[DEBUG] Calling LLM with model: {model_name}")
     try:
         import litellm
+        try:
+            from PageIndex.pageindex.utils import _core_token_callback
+            import PageIndex.pageindex.utils as pi_utils
+            if pi_utils.SESSION_START is None:
+                pi_utils.SESSION_START = "clinical_engine_queries"
+            pi_utils.CURRENT_PDF_STEM = "chat_queries"
+            if not hasattr(litellm, "success_callback") or litellm.success_callback is None:
+                litellm.success_callback = []
+            if _core_token_callback not in litellm.success_callback:
+                litellm.success_callback.append(_core_token_callback)
+        except Exception as e_callback:
+            print(f"[DEBUG] Callback registration failed: {e_callback}")
+        
         response = litellm.completion(
             model=model_name,
             messages=messages,
@@ -380,7 +391,7 @@ class ClinicalEngine:
         """Initialize with 'gastro', 'cardio', or 'nephro'."""
         domain = domain.lower().strip()
         if domain not in DOMAIN_CONFIG:
-            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro', 'cardio', or 'nephro'.")
+            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro', 'cardio', 'nephro', or 'neuro'.")
 
         self.config = DOMAIN_CONFIG[domain]
         self.domain = domain
@@ -496,7 +507,7 @@ Context:
             messages.append({"role": "user", "content": question})
 
             try:
-                answer = _llm_call(messages, temperature=0.1, model=response_model)
+                answer = _llm_call(messages, temperature=0.1, max_tokens=_get_max_tokens(), model=response_model)
                 # Parse the <sources>...</sources> tag from the response
                 import re
                 sources_match = re.search(r"<sources>(.*?)</sources>", answer, re.IGNORECASE | re.DOTALL)
@@ -545,7 +556,7 @@ DO NOT end your response with repetitive sign-offs, signatures, or greetings (e.
             messages.append({"role": "user", "content": question})
 
             try:
-                answer = _llm_call(messages, temperature=0.2, model=response_model)
+                answer = _llm_call(messages, temperature=0.2, max_tokens=_get_max_tokens(), model=response_model)
             except Exception as e:
                 answer = f"Error generating response: {str(e)}"
 
@@ -579,6 +590,11 @@ if __name__ == "__main__":
 
     nephro = ClinicalEngine("nephro")
     print(f"[NEPHRO] Loaded {nephro.get_source_count()} sources")
+
+    neuro = ClinicalEngine("neuro")
+    print(f"[NEURO] Loaded {neuro.get_source_count()} sources")
+
+    print(f"\n[CONFIG] max_tokens = {_get_max_tokens()}")
 
     # Test domain isolation
     print("\n--- Domain Isolation Test ---")

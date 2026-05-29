@@ -1,20 +1,21 @@
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/3004/3004458.png" width="80" alt="MicroHeal Logo">
   <h1>MicroHeal Clinical Bot</h1>
-  <p><b>Unified Gastroenterology, Cardiology & Nephrology RAG Assistant</b></p>
-  <p><i>A triple-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
+  <p><b>Unified Gastroenterology, Cardiology, Nephrology & Neurology RAG Assistant</b></p>
+  <p><i>A quad-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
 </div>
 
 ---
 
 ## 🎯 System Overview
 
-**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **41 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
+**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **53 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
 
-Users can switch between three isolated specialist engines:
+Users can switch between four isolated specialist engines:
 - 🩺 **Gastroenterology Expert** — 14 GI sources including casebooks, GLP-1 research, and clinical datasets.
 - ❤️ **Cardiology Expert** — 14 cardiovascular sources including ACC/AHA guidelines, ESC protocols, and heart failure studies.
 - 💧 **Nephrology Expert** — 13 kidney health sources including KDIGO guidelines, clinical handbooks, and textbook references.
+- 🧠 **Neurology Expert** — 12 neuroscience sources including Harrison’s Neurology chapters, WHO neurological disorders, AHA stroke guidelines, and clinical case studies.
 
 ---
 
@@ -48,6 +49,10 @@ MicroHeal Clinical Bot
 ├── NephroRAG/
 │   ├── nephro_agent.py     ← Nephro wrapper with query_nephro()
 │   ├── index/              ← 13 indexed JSON knowledge files
+│   └── data/               ← Source PDFs
+├── NeuroRAG/
+│   ├── neuro_agent.py      ← Neuro wrapper with query_neuro()
+│   ├── index/              ← 12 indexed JSON knowledge files
 │   └── data/               ← Source PDFs
 ├── PageIndex/              ← PDF indexing pipeline
 ├── docs/                   ← Deployment guide
@@ -87,12 +92,17 @@ from clinical_engine import ClinicalEngine
 gastro = ClinicalEngine("gastro")
 cardio = ClinicalEngine("cardio")
 nephro = ClinicalEngine("nephro")
+neuro = ClinicalEngine("neuro")
 
 # Query it
 result = gastro.query("What causes GERD?")
 print(result["answer"])     # The clinical response
 print(result["sources"])    # Real sources (empty if none used)
 print(result["out_of_domain"])  # True if wrong specialty
+
+# Neurology example
+result = neuro.query("What is intracerebral hemorrhage management?")
+print(result["answer"])
 
 # With conversation history
 history = [
@@ -104,7 +114,7 @@ result = gastro.query("How is it treated?", history=history)
 
 ---
 
-## 📚 Knowledge Base (41 Indexed Sources)
+## 📚 Knowledge Base (53 Indexed Sources)
 
 ### Gastroenterology (14 Sources)
 | # | Source | Type |
@@ -158,6 +168,22 @@ result = gastro.query("How is it treated?", history=history)
 | 11 | KDIGO Glomerular Diseases Guideline 2021 (LN-2024 Update) | Guideline |
 | 12 | Nephrology Clinical Manual (0071449035) | Reference |
 | 13 | Nephrology Therapeutic Guide (therap) | Reference |
+
+### Neurology (12 Sources)
+| # | Source | Type |
+|---|--------|------|
+| 1 | Harrison’s Principles of Internal Medicine — Neurology Part 1 | Textbook |
+| 2 | Harrison’s Principles of Internal Medicine — Neurology Part 2 | Textbook |
+| 3 | Harrison’s Principles of Internal Medicine — Neurology Part 3 (Chunk 1) | Textbook |
+| 4 | Harrison’s Principles of Internal Medicine — Neurology Part 3 (Chunk 2) | Textbook |
+| 5 | Harrison’s Principles of Internal Medicine — Neurology Part 3 (Chunk 3) | Textbook |
+| 6 | Harrison’s Principles of Internal Medicine — Neurology Part 3 (Chunk 4) | Textbook |
+| 7 | WHO Neurological Disorders: Public Health Challenges | Reference |
+| 8 | 20 Common Neurological Disorders | Reference |
+| 9 | A Saga of Indian Neurology | Reference |
+| 10 | AHA/ASA Spontaneous Intracerebral Hemorrhage Guideline (2022) | Guideline |
+| 11 | European Neurology — ENE-27-1805 | Journal |
+| 12 | Teaching NeuroImages: Venous System & DVA | Journal |
 
 ---
 

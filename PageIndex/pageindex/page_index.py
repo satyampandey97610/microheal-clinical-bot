@@ -592,7 +592,12 @@ def process_no_toc(page_list, start_index=1, model=None, logger=None):
     except:
         pass
     toc_with_page_number= generate_toc_init(group_texts[0], model)
-    for group_text in group_texts[1:]:
+    for idx, group_text in enumerate(group_texts[1:], start=2):
+        try:
+            with open("live_progress.txt", "w") as f:
+                f.write(f"Generating TOC: Part {idx} of {len(group_texts)}...\n")
+        except:
+            pass
         toc_with_page_number_additional = generate_toc_continue(toc_with_page_number, group_text, model)    
         toc_with_page_number.extend(toc_with_page_number_additional)
     logger.info(f'generate_toc: {toc_with_page_number}')
@@ -1149,14 +1154,14 @@ def validate_and_truncate_physical_indices(toc_with_page_number, page_list_lengt
     for i, item in enumerate(toc_with_page_number):
         if item.get('physical_index') is not None:
             original_index = item['physical_index']
-            if original_index > max_allowed_page:
+            if original_index > max_allowed_page or original_index < start_index:
                 item['physical_index'] = None
                 truncated_items.append({
                     'title': item.get('title', 'Unknown'),
                     'original_index': original_index
                 })
                 if logger:
-                    logger.info(f"Removed physical_index for '{item.get('title', 'Unknown')}' (was {original_index}, too far beyond document)")
+                    logger.info(f"Removed physical_index for '{item.get('title', 'Unknown')}' (was {original_index}, out of document bounds)")
     
     if truncated_items and logger:
         logger.info(f"Total removed items: {len(truncated_items)}")

@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 root_dir = Path(__file__).parent.parent.parent
 sys.path.append(str(root_dir))
 
-from PageIndex.page_index import page_index_main
-from PageIndex.utils import ConfigLoader, GLOBAL_USAGE
+from PageIndex.pageindex.page_index import page_index_main
+from PageIndex.pageindex.utils import ConfigLoader, GLOBAL_USAGE
 
 # Directories
 PDF_DIR = root_dir / "CardioRAG" / "data"

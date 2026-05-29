@@ -36,7 +36,18 @@ GLOBAL_USAGE = {
     "api_calls": 0
 }
 
+SESSION_START = None
+CURRENT_PDF_STEM = "unknown"
+
+def get_logs_dir():
+    current = Path(__file__).resolve()
+    for parent in [current] + list(current.parents):
+        if parent.name == "Medical RAG":
+            return parent / "logs"
+    return Path(__file__).resolve().parents[2] / "logs"
+
 def _core_token_callback(kwargs, completion_response, start_time, end_time):
+    global SESSION_START, CURRENT_PDF_STEM
     try:
         usage = completion_response.get("usage") or {}
         pt = usage.get("prompt_tokens", 0) or 0
@@ -50,14 +61,45 @@ def _core_token_callback(kwargs, completion_response, start_time, end_time):
         
         # Immediate console feedback for the user
         print(f"   [TOKEN CAPTURE] +{pt} prompt, +{ct} completion (Total: {GLOBAL_USAGE['total_tokens']})")
+        
+        # Write to raw append-only log file in real-time
+        try:
+            logs_dir = get_logs_dir()
+            logs_dir.mkdir(exist_ok=True, parents=True)
+            raw_log_path = logs_dir / "token_usage_raw.jsonl"
+            
+            if SESSION_START is None:
+                SESSION_START = datetime.now().isoformat()
+                
+            entry = {
+                "timestamp": datetime.now().isoformat(),
+                "session_start": SESSION_START,
+                "pdf_stem": CURRENT_PDF_STEM,
+                "prompt_tokens": pt,
+                "completion_tokens": ct,
+                "total_tokens": tt,
+                "model": kwargs.get("model") or "unknown"
+            }
+            with open(raw_log_path, "a", encoding="utf-8") as f:
+                f.write(json.dumps(entry) + "\n")
+        except Exception as e_file:
+            print(f"   [TOKEN WRITE ERROR] Failed to write token log: {e_file}")
+            
     except Exception as e:
-        pass
+        print(f"   [TOKEN CAPTURE ERROR] {e}")
 
 litellm.success_callback = [_core_token_callback]
+litellm._async_success_callback = [_core_token_callback]
 # ───────────────────────────────────────────────────────────────
 
 # Semaphore to limit concurrent requests and avoid rate limits
-llm_semaphore = asyncio.Semaphore(5) 
+llm_semaphores = {}
+def get_llm_semaphore():
+    import asyncio
+    loop = asyncio.get_running_loop()
+    if loop not in llm_semaphores:
+        llm_semaphores[loop] = asyncio.Semaphore(5)
+    return llm_semaphores[loop] 
 
 def count_tokens(text, model=None):
     if not text:
@@ -78,7 +120,8 @@ def llm_completion(model, prompt, chat_history=None, return_finish_reason=False)
                 messages=messages,
                 temperature=0,
                 api_key=os.getenv("OPENAI_API_KEY"),
-                max_tokens=16384
+                max_tokens=16384,
+                timeout=300
             )
             content = response.choices[0].message.content
             if return_finish_reason:
@@ -109,12 +152,13 @@ async def llm_acompletion(model, prompt):
     
     for i in range(max_retries):
         try:
-            async with llm_semaphore:
+            async with get_llm_semaphore():
                 response = await litellm.acompletion(
                     model=model,
                     messages=messages,
                     temperature=0,
-                    api_key=os.getenv("OPENAI_API_KEY")
+                    api_key=os.getenv("OPENAI_API_KEY"),
+                    timeout=300
                 )
             return response.choices[0].message.content
         except litellm.exceptions.RateLimitError as e:
@@ -643,7 +687,13 @@ async def generate_node_summary(node, model=None):
 
 async def generate_summaries_for_structure(structure, model=None):
     nodes = structure_to_list(structure)
-    tasks = [generate_node_summary(node, model=model) for node in nodes]
+    semaphore = asyncio.Semaphore(5)
+    
+    async def sem_summary(node):
+        async with semaphore:
+            return await generate_node_summary(node, model=model)
+            
+    tasks = [sem_summary(node) for node in nodes]
     summaries = await asyncio.gather(*tasks, return_exceptions=True)
     
     for node, summary in zip(nodes, summaries):
