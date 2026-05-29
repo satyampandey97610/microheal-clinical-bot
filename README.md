@@ -1,175 +1,117 @@
-<div align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/3004/3004458.png" width="80" alt="MicroHeal Logo">
-  <h1>MicroHeal Clinical Bot</h1>
-  <p><b>Unified Gastroenterology, Cardiology & Nephrology RAG Assistant</b></p>
-  <p><i>A triple-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
-</div>
+# 🩺 GastroRAG: Elite Gastroenterology Clinical Intelligence
+
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/frontend-streamlit-FF4B4B.svg)](https://streamlit.io/)
+[![Engine: PageIndex](https://img.shields.io/badge/engine-PageIndex-000000.svg)](https://github.com/VectifyAI/PageIndex)
+[![Model: GPT--4o](https://img.shields.io/badge/llm-GPT--4o-412991.svg)](https://openai.com/)
+
+**GastroRAG** is a production-grade clinical decision support system (CDSS) designed for professional gastroenterologists. Unlike traditional vector-based RAG, it utilizes the **PageIndex** engine to perform reasoning-based retrieval across a high-density clinical knowledge base, ensuring unprecedented accuracy and traceability.
 
 ---
 
-## 🎯 System Overview
+## 🛠️ Technology Stack
 
-**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **41 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
-
-Users can switch between three isolated specialist engines:
-- 🩺 **Gastroenterology Expert** — 14 GI sources including casebooks, GLP-1 research, and clinical datasets.
-- ❤️ **Cardiology Expert** — 14 cardiovascular sources including ACC/AHA guidelines, ESC protocols, and heart failure studies.
-- 💧 **Nephrology Expert** — 13 kidney health sources including KDIGO guidelines, clinical handbooks, and textbook references.
+*   **Core Engine**: `PageIndex` — Hierarchical, vectorless reasoning RAG.
+*   **Orchestration**: `GPT-4o` — High-reasoning LLM for intent analysis and clinical synthesis.
+*   **Frontend**: `Streamlit` — Sleek, responsive clinical interface.
+*   **Data Integrity**: `LiteLLM` & `PyPDF2` — Standardized API management and local document parsing.
 
 ---
 
-## ✨ Key Features
+## 🏥 Clinical Knowledge Repository (14 Sources)
 
-| Feature | Description |
-|---------|-------------|
-| **LLM-Powered Domain Isolation** | Uses GPT intelligence to classify queries — no hardcoded keyword lists. Each specialist only answers its own domain. |
-| **Real Evidence Only** | Citations are shown ONLY when the answer is derived from the indexed knowledge base. No fake references ever. |
-| **Dynamic Registry** | Zero hardcoded paths. Automatically scans and loads all available index files on startup. |
-| **Platform-Independent Engine** | The core brain (`clinical_engine.py`) has no UI dependency. Import it from WhatsApp bots, APIs, workflows, or any system. |
-| **Conversational Intelligence** | Handles greetings, casual chat, and clinical questions naturally — no rigid format for simple conversations. |
-| **Hindi/Hinglish Support** | Detects Hinglish queries and responds in Hindi automatically. |
+The system is pre-indexed with over **2,500 pages** of elite medical literature, providing a "Deep Context" environment for clinical queries.
+
+| Category | Key Sources | Context Highlights |
+| :--- | :--- | :--- |
+| **Academic** | *First Principles of GI*, *Yamada's Handbook* | Comprehensive pathophysiology and clinical guidelines. |
+| **Research** | *EMJ Journal*, *GLP-1 Peer-Reviewed Studies* | Latest clinical trials and therapeutic breakthroughs (2021-2024). |
+| **Clinical** | *Casebook in Gastroenterology* | Protocol-driven case studies and diagnostic logic. |
+| **Data** | *GI Disease Dataset*, *CRAN Clinical Sets* | 30,000+ patient record insights and symptomatic mapping. |
+| **Nutritional** | *GLP-1 Diet Guides*, *Protein Balance Plans* | Specialized nutritional strategies for GLP-1 therapy. |
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Project Blueprint
 
+A clean, modular structure designed for production stability and easy maintenance.
+
+```text
+gastroRAG/
+├── PageIndex/
+│   ├── app.py                  # 🚀 Main Application (Streamlit UI)
+│   ├── gastro_agent_tool.py    # 🧠 Core RAG Engine & Document Registry
+│   ├── pageindex/              # 🌲 PageIndex Framework (Vectorless Core)
+│   ├── pdfs/                   # 📚 Local Knowledge Vault (14 PDFs)
+│   ├── results/                # 🌳 Pre-computed Semantic Trees (JSON)
+│   ├── tools/                  # 🛠️ Maintenance & Indexing Utilities
+│   │   ├── batch_index_all.py  # Automated multi-PDF indexer
+│   │   └── run_pageindex.py    # Single document processing tool
+│   ├── logs/                   # 📊 Token usage and system telemetry
+│   ├── config.yaml             # ⚙️ Engine parameters & AI settings
+│   ├── Dockerfile              # 🐳 Production Container Manifest
+│   ├── .dockerignore           # 🛡️ Build Optimization & Security
+│   ├── requirements.txt        # Production dependencies
+│   └── .env                    # Secure API credentials (Local)
+├── docs/                       # 📖 Technical Documentation & Integration Guides
+└── README.md                   # 🩺 Project Landing Page
 ```
-MicroHeal Clinical Bot
-├── clinical_engine.py      ← The core brain (import from anywhere)
-├── app.py                  ← Streamlit UI (thin skin over the engine)
-├── GastroRAG/
-│   ├── gastro_agent.py     ← Gastro wrapper with query_gastro()
-│   ├── index/              ← 14 indexed JSON knowledge files
-│   └── data/               ← Source PDFs
-├── CardioRAG/
-│   ├── cardio_agent.py     ← Cardio wrapper with query_cardio()
-│   ├── index/              ← 14 indexed JSON knowledge files
-│   └── data/               ← Source PDFs
-├── NephroRAG/
-│   ├── nephro_agent.py     ← Nephro wrapper with query_nephro()
-│   ├── index/              ← 13 indexed JSON knowledge files
-│   └── data/               ← Source PDFs
-├── PageIndex/              ← PDF indexing pipeline
-├── docs/                   ← Deployment guide
-├── logs/                   ← Processing logs
-├── Dockerfile
-├── requirements.txt
-└── .env
-```
 
 ---
 
-## 🚀 Quick Start
+## ⚙️ How It Works: The Clinical Pipeline
 
-### 1. Clone & Install
+GastroRAG follows a rigorous 5-step process to ensure clinical safety and relevance:
+
+1.  **Intent Classification**: Analyzes if a query is medical, administrative, or out-of-scope.
+2.  **Terminology Expansion**: Expands medical shorthand (e.g., "GERD") into comprehensive search terms.
+3.  **Hierarchical Tree Search**: PageIndex navigates the document "Table of Contents" to find the exact relevant page ranges.
+4.  **Evidence Synthesis**: GPT-4o processes the raw retrieved text to form a coherent, professional response.
+5.  **Structured Output**: Delivers an **Answer**, followed by **Technical Details**, and a **Clinical Note**.
+6.  **Interactive Evidence**: Citations are consolidated into a dedicated **"View Sources & Citations"** UI expander to keep the primary response clean and professional.
+
+---
+
+## 🚀 Deployment & Usage
+
+### 1. Environment Setup
 ```bash
-git clone https://github.com/satyampandey97610/microheal-clinical-bot.git
-cd microheal-clinical-bot
+# Clone the repository
+git clone https://github.com/MicroHeal-Wellness/gastroRAG.git
+cd gastroRAG/PageIndex
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 2. Set API Key
-```bash
-# Create .env file
-echo "OPENAI_API_KEY=sk-your-key-here" > .env
+### 2. Configure Credentials
+Create a `.env` file in the `PageIndex/` directory:
+```env
+OPENAI_API_KEY=sk-xxxx-your-clinical-key
 ```
 
-### 3. Run the Streamlit App
+### 3. Launch the Assistant
 ```bash
 streamlit run app.py
 ```
 
-### 4. Use in Your Own Code (WhatsApp Bot, API, etc.)
-```python
-from clinical_engine import ClinicalEngine
-
-# Initialize the specialist you need
-gastro = ClinicalEngine("gastro")
-cardio = ClinicalEngine("cardio")
-nephro = ClinicalEngine("nephro")
-
-# Query it
-result = gastro.query("What causes GERD?")
-print(result["answer"])     # The clinical response
-print(result["sources"])    # Real sources (empty if none used)
-print(result["out_of_domain"])  # True if wrong specialty
-
-# With conversation history
-history = [
-    {"role": "user", "content": "What is acid reflux?"},
-    {"role": "assistant", "content": "Acid reflux is..."}
-]
-result = gastro.query("How is it treated?", history=history)
-```
-
----
-
-## 📚 Knowledge Base (41 Indexed Sources)
-
-### Gastroenterology (14 Sources)
-| # | Source | Type |
-|---|--------|------|
-| 1 | Yamada's Handbook of Gastroenterology (2019) | Handbook |
-| 2 | First Principles of Gastroenterology & Hepatology | Textbook |
-| 3 | Casebook in Gastroenterology | Casebook |
-| 4 | EMJ Gastroenterology Vol.10.1 (2021) | Journal |
-| 5 | GLP-1 Research Article (2023) | Journal |
-| 6 | GLP-1 Clinical Study (e002519) | Journal |
-| 7 | Frontiers in Clinical Diabetes — GLP-1 | Journal |
-| 8 | GLP-1s and Diet | Guide |
-| 9 | Nutritional Priorities for GLP-1 Therapy | Guide |
-| 10 | The Ultimate GLP-1 Diet Cookbook | Guide |
-| 11 | Protein Balance Sample Meal Plan | Guide |
-| 12 | Your Ultimate Guide to GLP-1 Medications | Guide |
-| 13 | GI Disease Clinical Dataset (30,560 records) | Dataset |
-| 14 | DigestiveDataSets CRAN | Dataset |
-
-### Cardiology (14 Sources)
-| # | Source | Type |
-|---|--------|------|
-| 1 | Oxford Cardiology Book | Textbook |
-| 2 | ESC Guideline ACS 2023 | Guideline |
-| 3 | ESC Guidelines 2022 — Ventricular Arrhythmias | Guideline |
-| 4 | ESC CCS 2024 Guideline | Guideline |
-| 5 | 2024 ESC Compressed | Guideline |
-| 6 | ACC/AHA Primary Prevention (2019) | Guideline |
-| 7 | ACC/AHA Heart Failure Management (2022) | Guideline |
-| 8 | ACC/AHA Aortic Disease (2022) | Guideline |
-| 9 | ACC/AHA Chest Pain Evaluation (2021) | Guideline |
-| 10 | ACC/AHA/HRS AF Management (2019) | Guideline |
-| 11 | ACC/AHA/ACCP/HRS AF Diagnosis (2023) | Guideline |
-| 12 | ESC Guideline — ehab368 | Guideline |
-| 13 | ESC Guideline — ehad193 | Guideline |
-| 14 | Heart Disease Prevention (Côté) | Reference |
-
-### Nephrology (13 Sources)
-| # | Source | Type |
-|---|--------|------|
-| 1 | Nephrology for Medical Students | Textbook |
-| 2 | Clinical Handbook of Nephrology (2024) | Reference |
-| 3 | KDIGO 2012 CKD Guideline | Guideline |
-| 4 | KDIGO 2017 CKD-MBD Guideline Update | Guideline |
-| 5 | KDIGO 2021 Glomerular Diseases Guideline | Guideline |
-| 6 | KDIGO 2024 CKD Guideline | Guideline |
-| 7 | KDIGO 2024 CKD Guideline — Executive Summary | Guideline |
-| 8 | KDIGO 2025 ADPKD Guideline | Guideline |
-| 9 | KDIGO 2025 ADPKD Guideline — Executive Summary | Guideline |
-| 10 | KDIGO 2025 Nephrotic Syndrome in Children | Guideline |
-| 11 | KDIGO Glomerular Diseases Guideline 2021 (LN-2024 Update) | Guideline |
-| 12 | Nephrology Clinical Manual (0071449035) | Reference |
-| 13 | Nephrology Therapeutic Guide (therap) | Reference |
-
----
-
-## 🐳 Docker Deployment
-
+### 4. Docker Deployment (Optional)
 ```bash
-docker build -t microheal-clinical-bot .
-docker run -p 8501:8501 --env-file .env microheal-clinical-bot
+# Build the image
+docker build -t gastrorag:latest .
+
+# Run the container
+docker run -p 8501:8501 --env-file .env gastrorag:latest
 ```
 
 ---
 
-## 📄 License
+## 🔒 Security & Compliance
 
-This project is intended for educational and research purposes only. Always consult a qualified healthcare professional for medical advice.
+*   **Data Privacy**: All knowledge retrieval is performed locally against the indexed PDF vault.
+*   **No PII**: The system does not store or process Protected Health Information (PHI).
+*   **Traceability**: Every response is anchored to a specific clinical source, section, and page range.
+
+---
+
+**GastroRAG** | Built with precision by **MicroHeal Wellness** | Powered by **PageIndex**
