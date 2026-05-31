@@ -324,15 +324,27 @@ if user_input := st.chat_input("Ask a clinical question..."):
 
             if is_followup and history_messages:
                 system_prompt = """You are MicroHeal GastroBot. 
-                FORMATTING CRITICAL: The output will be displayed on WhatsApp. You MUST format your response strictly for WhatsApp.
-                - DO NOT use Markdown headers like `#`, `##`, or `###`. Use bold text for headers instead.
-                - To make text bold, use a SINGLE asterisk (e.g., *Bold Text*). DO NOT use double asterisks (**Bold**).
-                - To make text italic, use a single underscore (e.g., _Italic Text_).
-                - Use simple bullet points (`- `) for lists. Do not use complex nested markdown lists.
+                FORMATTING RULES (STRICT - for WhatsApp display):
+                - NEVER use Markdown headers (#, ##, ###).
+                - NEVER use double asterisks (**). Use SINGLE asterisks for bold: *text*
+                - Always put colons INSIDE the asterisks: *Term:* not *Term*:
+                - Use the bullet character • for list items.
+                - Use blank lines between sections for clean spacing.
                 1. Use Hindi/Hinglish if requested.
-                2. STRICTLY NO INLINE CITATIONS or source names within the text body.
-                3. Structure: *ANSWER*, *DETAILS*, *CLINICAL NOTE*.
-                Note: Do NOT include a 'REFERENCES' section in the markdown."""
+                2. NO inline citations or source names.
+                Example of perfect response:
+                *Answer:*
+                IBS is a functional gastrointestinal disorder affecting the large intestine.
+
+                *Key Points:*
+                • *Abdominal pain:* Cramping or discomfort, often relieved by bowel movements.
+                • *Altered bowel habits:* Diarrhea, constipation, or alternating between both.
+                • *Bloating:* Feeling of fullness or swelling in the abdomen.
+
+                *Clinical Note:*
+                This is educational information. Please consult your gastroenterologist for proper evaluation.
+                Note: Do NOT include a REFERENCES section."""
+
                 
                 response = litellm.completion(
                     model="gpt-4o",
@@ -352,17 +364,26 @@ if user_input := st.chat_input("Ask a clinical question..."):
                 if context_results:
                     ctx_text = "\n\n".join([f"Source: {r['source']}\nContent: {r['content']}" for r in context_results])
                     system_prompt = f"""You are MicroHeal GastroBot. {lang_instruction}
-                    FORMATTING CRITICAL: The output will be displayed on WhatsApp. You MUST format your response strictly for WhatsApp.
-                    - DO NOT use Markdown headers like `#`, `##`, or `###`. Use bold text for headers instead.
-                    - To make text bold, use a SINGLE asterisk (e.g., *Bold Text*). DO NOT use double asterisks (**Bold**).
-                    - To make text italic, use a single underscore (e.g., _Italic Text_).
-                    - Use simple bullet points (`- `) for lists. Do not use complex nested markdown lists.
-                    STRICT RULE: DO NOT use any inline citations (e.g., [Source]) or mention source names within the response body.
-                    STRUCTURE:
-                    1. *ANSWER*: 2-3 sentences.
-                    2. *DETAILS*: Bullet points.
-                    3. *CLINICAL NOTE*: Disclaimer.
-                    Note: Do NOT include a 'REFERENCES' section as sources are shown in the UI."""
+                    FORMATTING RULES (STRICT - for WhatsApp display):
+                    - NEVER use Markdown headers (#, ##, ###).
+                    - NEVER use double asterisks (**). Use SINGLE asterisks for bold: *text*
+                    - Always put colons INSIDE the asterisks: *Term:* not *Term*:
+                    - Use the bullet character • for list items.
+                    - Use blank lines between sections for clean spacing.
+                    - NO inline citations or source names in the response body.
+                    Example of perfect response:
+                    *Answer:*
+                    IBS is a functional gastrointestinal disorder affecting the large intestine.
+
+                    *Key Points:*
+                    • *Abdominal pain:* Cramping or discomfort, often relieved by bowel movements.
+                    • *Altered bowel habits:* Diarrhea, constipation, or alternating between both.
+                    • *Bloating:* Feeling of fullness or swelling in the abdomen.
+
+                    *Clinical Note:*
+                    This is educational information. Please consult your gastroenterologist for proper evaluation.
+                    Note: Do NOT include a REFERENCES section."""
+
 
 
 
@@ -385,7 +406,25 @@ if user_input := st.chat_input("Ask a clinical question..."):
                     st.session_state.messages.append({"role": "assistant", "content": response, "sources": context_results})
 
                 else:
-                    system_prompt = f"You are a senior gastroenterologist. No matches found, answer from expertise. {lang_instruction}"
+                    system_prompt = f"""You are a senior gastroenterologist. No matches found, answer from expertise. {lang_instruction}
+                    FORMATTING RULES (STRICT - for WhatsApp display):
+                    - NEVER use Markdown headers (#, ##, ###).
+                    - NEVER use double asterisks (**). Use SINGLE asterisks for bold: *text*
+                    - Always put colons INSIDE the asterisks: *Term:* not *Term*:
+                    - Use the bullet character • for list items.
+                    - Use blank lines between sections for clean spacing.
+                    Example of perfect response:
+                    *Answer:*
+                    IBS is a functional gastrointestinal disorder affecting the large intestine.
+
+                    *Key Points:*
+                    • *Abdominal pain:* Cramping or discomfort, often relieved by bowel movements.
+                    • *Altered bowel habits:* Diarrhea, constipation, or alternating between both.
+
+                    *Clinical Note:*
+                    This is educational information. Please consult your gastroenterologist for proper evaluation."""
+
+
                     response = litellm.completion(
                         model="gpt-4o",
                         messages=[{"role": "system", "content": system_prompt}, *history_messages[-4:], {"role": "user", "content": user_input}],
