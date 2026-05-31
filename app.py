@@ -324,9 +324,14 @@ if user_input := st.chat_input("Ask a clinical question..."):
 
             if is_followup and history_messages:
                 system_prompt = """You are MicroHeal GastroBot. 
+                FORMATTING CRITICAL: The output will be displayed on WhatsApp. You MUST format your response strictly for WhatsApp.
+                - DO NOT use Markdown headers like `#`, `##`, or `###`. Use bold text for headers instead.
+                - To make text bold, use a SINGLE asterisk (e.g., *Bold Text*). DO NOT use double asterisks (**Bold**).
+                - To make text italic, use a single underscore (e.g., _Italic Text_).
+                - Use simple bullet points (`- `) for lists. Do not use complex nested markdown lists.
                 1. Use Hindi/Hinglish if requested.
                 2. STRICTLY NO INLINE CITATIONS or source names within the text body.
-                3. Structure: ANSWER, DETAILS, CLINICAL NOTE.
+                3. Structure: *ANSWER*, *DETAILS*, *CLINICAL NOTE*.
                 Note: Do NOT include a 'REFERENCES' section in the markdown."""
                 
                 response = litellm.completion(
@@ -347,12 +352,19 @@ if user_input := st.chat_input("Ask a clinical question..."):
                 if context_results:
                     ctx_text = "\n\n".join([f"Source: {r['source']}\nContent: {r['content']}" for r in context_results])
                     system_prompt = f"""You are MicroHeal GastroBot. {lang_instruction}
+                    FORMATTING CRITICAL: The output will be displayed on WhatsApp. You MUST format your response strictly for WhatsApp.
+                    - DO NOT use Markdown headers like `#`, `##`, or `###`. Use bold text for headers instead.
+                    - To make text bold, use a SINGLE asterisk (e.g., *Bold Text*). DO NOT use double asterisks (**Bold**).
+                    - To make text italic, use a single underscore (e.g., _Italic Text_).
+                    - Use simple bullet points (`- `) for lists. Do not use complex nested markdown lists.
                     STRICT RULE: DO NOT use any inline citations (e.g., [Source]) or mention source names within the response body.
                     STRUCTURE:
-                    1. **ANSWER**: 2-3 sentences.
-                    2. **DETAILS**: Bullet points.
-                    3. **CLINICAL NOTE**: Disclaimer.
+                    1. *ANSWER*: 2-3 sentences.
+                    2. *DETAILS*: Bullet points.
+                    3. *CLINICAL NOTE*: Disclaimer.
                     Note: Do NOT include a 'REFERENCES' section as sources are shown in the UI."""
+
+
 
                     response = litellm.completion(
                         model="gpt-4o",
