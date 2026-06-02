@@ -15,7 +15,7 @@ Usage:
     print(result["answer"])
     print(result["sources"])
 
-    cardio = ClinicalEngine("cardio")
+    cardio = ClinicalEngine("cardio")ho
     result = cardio.query("Atrial fibrillation management")
 """
 
@@ -41,26 +41,32 @@ DOMAIN_CONFIG = {
     "gastro": {
         "label": "Gastroenterology",
         "index_dir": BASE_DIR / "GastroRAG" / "index",
-        "other_label": "Cardiology, Nephrology, or Neurology",
-        "other_key": "cardio, nephro, or neuro",
+        "other_label": "Cardiology, Nephrology, Neurology, or Gynecology",
+        "other_key": "cardio, nephro, neuro, or gyneco",
     },
     "cardio": {
         "label": "Cardiology",
         "index_dir": BASE_DIR / "CardioRAG" / "index",
-        "other_label": "Gastroenterology, Nephrology, or Neurology",
-        "other_key": "gastro, nephro, or neuro",
+        "other_label": "Gastroenterology, Nephrology, Neurology, or Gynecology",
+        "other_key": "gastro, nephro, neuro, or gyneco",
     },
     "nephro": {
         "label": "Nephrology",
         "index_dir": BASE_DIR / "NephroRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, or Neurology",
-        "other_key": "gastro, cardio, or neuro",
+        "other_label": "Gastroenterology, Cardiology, Neurology, or Gynecology",
+        "other_key": "gastro, cardio, neuro, or gyneco",
     },
     "neuro": {
         "label": "Neurology",
         "index_dir": BASE_DIR / "NeuroRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, or Nephrology",
-        "other_key": "gastro, cardio, or nephro",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, or Gynecology",
+        "other_key": "gastro, cardio, nephro, or gyneco",
+    },
+    "gyneco": {
+        "label": "Gynecology",
+        "index_dir": BASE_DIR / "GynecoRAG" / "index",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, or Neurology",
+        "other_key": "gastro, cardio, nephro, or neuro",
     }
 }
 
@@ -388,10 +394,10 @@ class ClinicalEngine:
     """
 
     def __init__(self, domain: str):
-        """Initialize with 'gastro', 'cardio', or 'nephro'."""
+        """Initialize with 'gastro', 'cardio', 'nephro', 'neuro', or 'gyneco'."""
         domain = domain.lower().strip()
         if domain not in DOMAIN_CONFIG:
-            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro', 'cardio', 'nephro', or 'neuro'.")
+            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro', 'cardio', 'nephro', 'neuro', or 'gyneco'.")
 
         self.config = DOMAIN_CONFIG[domain]
         self.domain = domain
@@ -593,6 +599,9 @@ if __name__ == "__main__":
 
     neuro = ClinicalEngine("neuro")
     print(f"[NEURO] Loaded {neuro.get_source_count()} sources")
+
+    gyneco = ClinicalEngine("gyneco")
+    print(f"[GYNECO] Loaded {gyneco.get_source_count()} sources")
 
     print(f"\n[CONFIG] max_tokens = {_get_max_tokens()}")
 

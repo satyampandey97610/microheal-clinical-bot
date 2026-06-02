@@ -1,21 +1,22 @@
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/3004/3004458.png" width="80" alt="MicroHeal Logo">
   <h1>MicroHeal Clinical Bot</h1>
-  <p><b>Unified Gastroenterology, Cardiology, Nephrology & Neurology RAG Assistant</b></p>
-  <p><i>A quad-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
+  <p><b>Unified Gastroenterology, Cardiology, Nephrology, Neurology & Gynecology RAG Assistant</b></p>
+  <p><i>A penta-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
 </div>
 
 ---
 
 ## 🎯 System Overview
 
-**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **53 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
+**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **65 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
 
-Users can switch between four isolated specialist engines:
+Users can switch between five isolated specialist engines:
 - 🩺 **Gastroenterology Expert** — 14 GI sources including casebooks, GLP-1 research, and clinical datasets.
 - ❤️ **Cardiology Expert** — 14 cardiovascular sources including ACC/AHA guidelines, ESC protocols, and heart failure studies.
 - 💧 **Nephrology Expert** — 13 kidney health sources including KDIGO guidelines, clinical handbooks, and textbook references.
 - 🧠 **Neurology Expert** — 12 neuroscience sources including Harrison’s Neurology chapters, WHO neurological disorders, AHA stroke guidelines, and clinical case studies.
+- 🩷 **Gynecology Expert** — 12 obstetrics and gynecology sources including WHO guidelines, clinical manuals, and journals.
 
 ---
 
@@ -52,6 +53,10 @@ MicroHeal Clinical Bot
 │   └── data/               ← Source PDFs
 ├── NeuroRAG/
 │   ├── neuro_agent.py      ← Neuro wrapper with query_neuro()
+│   ├── index/              ← 12 indexed JSON knowledge files
+│   └── data/               ← Source PDFs
+├── GynecoRAG/
+│   ├── gyneco_agent.py     ← Gyneco wrapper with query_gyneco()
 │   ├── index/              ← 12 indexed JSON knowledge files
 │   └── data/               ← Source PDFs
 ├── PageIndex/              ← PDF indexing pipeline
@@ -93,6 +98,7 @@ gastro = ClinicalEngine("gastro")
 cardio = ClinicalEngine("cardio")
 nephro = ClinicalEngine("nephro")
 neuro = ClinicalEngine("neuro")
+gyneco = ClinicalEngine("gyneco")
 
 # Query it
 result = gastro.query("What causes GERD?")
@@ -100,8 +106,8 @@ print(result["answer"])     # The clinical response
 print(result["sources"])    # Real sources (empty if none used)
 print(result["out_of_domain"])  # True if wrong specialty
 
-# Neurology example
-result = neuro.query("What is intracerebral hemorrhage management?")
+# Gynecology example
+result = gyneco.query("What are the guidelines for pre-eclampsia?")
 print(result["answer"])
 
 # With conversation history
@@ -114,7 +120,7 @@ result = gastro.query("How is it treated?", history=history)
 
 ---
 
-## 📚 Knowledge Base (53 Indexed Sources)
+## 📚 Knowledge Base (65 Indexed Sources)
 
 ### Gastroenterology (14 Sources)
 | # | Source | Type |
@@ -184,6 +190,22 @@ result = gastro.query("How is it treated?", history=history)
 | 10 | AHA/ASA Spontaneous Intracerebral Hemorrhage Guideline (2022) | Guideline |
 | 11 | European Neurology — ENE-27-1805 | Journal |
 | 12 | Teaching NeuroImages: Venous System & DVA | Journal |
+
+### Gynecology (12 Sources)
+| # | Source | Type |
+|---|--------|------|
+| 1 | WHO Guidelines on Maternal and Newborn Care | Guideline |
+| 2 | Obstetrics & Gynecology Clinical Manual | Manual |
+| 3 | WHO Safe Abortion Technical & Policy Guidelines | Guideline |
+| 4 | WHO Medical Eligibility Criteria for Contraceptive Use | Guideline |
+| 5 | WHO Recommendations for Prevention of Postpartum Haemorrhage | Guideline |
+| 6 | Obstetrics and Gynecology Structure Reference | Reference |
+| 7 | Journal of Clinical Gynecology and Obstetrics | Journal |
+| 8 | AIDS Journal: Gynecology Cohort Study | Journal |
+| 9 | Journal of Clinical and Reproductive Medicine | Journal |
+| 10 | Saudi Journal of Pathology — Gynecological Pathology | Journal |
+| 11 | Essential Interventions in Reproductive Health | Guideline |
+| 12 | Vanuatu Maternal & Newborn Care Operational Guidance | Manual |
 
 ---
 

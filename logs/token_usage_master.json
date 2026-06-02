@@ -1346,13 +1346,453 @@
         "total_tokens": 1935959,
         "api_calls": 278
       }
+    },
+    {
+      "session_start": "2026-05-30T10:02:30.839172",
+      "session_end": "2026-05-30T10:09:15.611055",
+      "domain": "GynecoRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "sjp-14-89": {
+          "prompt_tokens": 17987,
+          "completion_tokens": 1951,
+          "total_tokens": 19938,
+          "api_calls": 23,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:02:54.425410"
+        },
+        "BLT.23.290172": {
+          "prompt_tokens": 53183,
+          "completion_tokens": 2274,
+          "total_tokens": 55457,
+          "api_calls": 25,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:03:35.478493"
+        },
+        "jcarm-24-758": {
+          "prompt_tokens": 99376,
+          "completion_tokens": 5291,
+          "total_tokens": 104667,
+          "api_calls": 54,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:04:19.979897"
+        },
+        "aids-37-1843": {
+          "prompt_tokens": 74761,
+          "completion_tokens": 3510,
+          "total_tokens": 78271,
+          "api_calls": 36,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:06:10.790725"
+        },
+        "pone.0231939": {
+          "prompt_tokens": 433578,
+          "completion_tokens": 8118,
+          "total_tokens": 441696,
+          "api_calls": 91,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:08:08.746432"
+        },
+        "9789241548335_eng": {
+          "prompt_tokens": 125257,
+          "completion_tokens": 9909,
+          "total_tokens": 135166,
+          "api_calls": 86,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:09:15.611055"
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 804142,
+        "completion_tokens": 31053,
+        "total_tokens": 835195,
+        "api_calls": 315
+      }
+    },
+    {
+      "session_start": "2026-05-30T10:10:01.800904",
+      "session_end": "2026-05-30T10:24:50.202263",
+      "domain": "GynecoRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "sjp-14-89": {
+          "prompt_tokens": 18003,
+          "completion_tokens": 1990,
+          "total_tokens": 19993,
+          "api_calls": 23,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:10:24.271649"
+        },
+        "BLT.23.290172": {
+          "prompt_tokens": 90550,
+          "completion_tokens": 2892,
+          "total_tokens": 93442,
+          "api_calls": 35,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:11:03.819912"
+        },
+        "jcarm-24-758": {
+          "prompt_tokens": 78904,
+          "completion_tokens": 4964,
+          "total_tokens": 83868,
+          "api_calls": 48,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:11:40.237396"
+        },
+        "aids-37-1843": {
+          "prompt_tokens": 120872,
+          "completion_tokens": 6768,
+          "total_tokens": 127640,
+          "api_calls": 64,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:12:25.905082"
+        },
+        "pone.0231939": {
+          "prompt_tokens": 493249,
+          "completion_tokens": 10103,
+          "total_tokens": 503352,
+          "api_calls": 115,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:14:04.752361"
+        },
+        "9789241548335_eng": {
+          "prompt_tokens": 777985,
+          "completion_tokens": 15715,
+          "total_tokens": 793700,
+          "api_calls": 172,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:16:16.886860"
+        },
+        "IJGO-152-3": {
+          "prompt_tokens": 19469,
+          "completion_tokens": 2780,
+          "total_tokens": 22249,
+          "api_calls": 10,
+          "status": "FAILED: list indices must be integers or slices, not str",
+          "timestamp": "2026-05-30T10:17:12.116196"
+        },
+        "vut-mn-21-01-operationalguidance-2017-eng-obstetric-gynaecology-newborn-care-hw-manual": {
+          "prompt_tokens": 811355,
+          "completion_tokens": 40556,
+          "total_tokens": 851911,
+          "api_calls": 372,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:20:44.813965"
+        },
+        "9789241550505-eng": {
+          "prompt_tokens": 243671,
+          "completion_tokens": 17219,
+          "total_tokens": 260890,
+          "api_calls": 166,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:22:41.695332"
+        },
+        "9789241549912-eng": {
+          "prompt_tokens": 312718,
+          "completion_tokens": 17346,
+          "total_tokens": 330064,
+          "api_calls": 147,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:24:50.202263"
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 2966776,
+        "completion_tokens": 120333,
+        "total_tokens": 3087109,
+        "api_calls": 1152
+      }
+    },
+    {
+      "session_start": "2026-05-30T10:28:15.255630",
+      "session_end": "2026-05-30T10:37:59.901152",
+      "domain": "GynecoRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "sjp-14-89": {
+          "prompt_tokens": 17625,
+          "completion_tokens": 1893,
+          "total_tokens": 19518,
+          "api_calls": 23,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:28:37.158584"
+        },
+        "BLT.23.290172": {
+          "prompt_tokens": 73414,
+          "completion_tokens": 2934,
+          "total_tokens": 76348,
+          "api_calls": 31,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:29:04.700850"
+        },
+        "jcarm-24-758": {
+          "prompt_tokens": 78899,
+          "completion_tokens": 5002,
+          "total_tokens": 83901,
+          "api_calls": 48,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:29:52.545541"
+        },
+        "aids-37-1843": {
+          "prompt_tokens": 117234,
+          "completion_tokens": 6395,
+          "total_tokens": 123629,
+          "api_calls": 64,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:30:42.755219"
+        },
+        "pone.0231939": {
+          "prompt_tokens": 771057,
+          "completion_tokens": 13408,
+          "total_tokens": 784465,
+          "api_calls": 160,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:33:49.662806"
+        },
+        "9789241548335_eng": {
+          "prompt_tokens": 1165731,
+          "completion_tokens": 27723,
+          "total_tokens": 1193454,
+          "api_calls": 340,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:37:03.571704"
+        },
+        "IJGO-152-3": {
+          "prompt_tokens": 27406,
+          "completion_tokens": 2899,
+          "total_tokens": 30305,
+          "api_calls": 12,
+          "status": "FAILED: list indices must be integers or slices, not str",
+          "timestamp": "2026-05-30T10:37:59.901152"
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 2251366,
+        "completion_tokens": 60254,
+        "total_tokens": 2311620,
+        "api_calls": 678
+      }
+    },
+    {
+      "session_start": "2026-05-30T10:41:22.042100",
+      "session_end": "2026-05-30T11:14:28.273291",
+      "domain": "GynecoRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "sjp-14-89": {
+          "prompt_tokens": 17987,
+          "completion_tokens": 1928,
+          "total_tokens": 19915,
+          "api_calls": 23,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:41:46.118134"
+        },
+        "BLT.23.290172": {
+          "prompt_tokens": 80825,
+          "completion_tokens": 3022,
+          "total_tokens": 83847,
+          "api_calls": 33,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:42:19.392315"
+        },
+        "jcarm-24-758": {
+          "prompt_tokens": 79771,
+          "completion_tokens": 4970,
+          "total_tokens": 84741,
+          "api_calls": 48,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:43:03.674773"
+        },
+        "aids-37-1843": {
+          "prompt_tokens": 352624,
+          "completion_tokens": 6947,
+          "total_tokens": 359571,
+          "api_calls": 86,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:44:53.212325"
+        },
+        "9789241548335_eng": {
+          "prompt_tokens": 1088824,
+          "completion_tokens": 27728,
+          "total_tokens": 1116552,
+          "api_calls": 340,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:48:38.051380"
+        },
+        "IJGO-152-3": {
+          "prompt_tokens": 27406,
+          "completion_tokens": 2901,
+          "total_tokens": 30307,
+          "api_calls": 12,
+          "status": "FAILED: list indices must be integers or slices, not str",
+          "timestamp": "2026-05-30T10:49:30.402240"
+        },
+        "vut-mn-21-01-operationalguidance-2017-eng-obstetric-gynaecology-newborn-care-hw-manual": {
+          "prompt_tokens": 1537938,
+          "completion_tokens": 59337,
+          "total_tokens": 1597275,
+          "api_calls": 644,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:55:31.939419"
+        },
+        "9789241550505-eng": {
+          "prompt_tokens": 243913,
+          "completion_tokens": 17498,
+          "total_tokens": 261411,
+          "api_calls": 166,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:57:36.082932"
+        },
+        "9789241549912-eng": {
+          "prompt_tokens": 312415,
+          "completion_tokens": 17061,
+          "total_tokens": 329476,
+          "api_calls": 147,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T10:59:50.101269"
+        },
+        "127_2023_09_21!03_10_13_PM": {
+          "prompt_tokens": 2343720,
+          "completion_tokens": 130803,
+          "total_tokens": 2474523,
+          "api_calls": 1529,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T11:14:28.273291"
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 6085423,
+        "completion_tokens": 272195,
+        "total_tokens": 6357618,
+        "api_calls": 3028
+      }
+    },
+    {
+      "session_start": "2026-05-30T11:52:28.411921",
+      "session_end": "2026-05-30T12:08:06.439614",
+      "domain": "GynecoRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "MS-OBGY": {
+          "prompt_tokens": 345999,
+          "completion_tokens": 29933,
+          "total_tokens": 375932,
+          "api_calls": 313,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T12:01:50.317082"
+        },
+        "Obs-Gyne-Mannual-Guidelines": {
+          "prompt_tokens": 487383,
+          "completion_tokens": 67532,
+          "total_tokens": 554915,
+          "api_calls": 624,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T12:08:06.439614"
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 833382,
+        "completion_tokens": 97465,
+        "total_tokens": 930847,
+        "api_calls": 937
+      }
+    },
+    {
+      "session_start": "2026-05-30T13:45:18.180345",
+      "session_end": "2026-05-30T13:46:17.406515",
+      "domain": "GynecoRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "IJGO-152-3": {
+          "prompt_tokens": 27406,
+          "completion_tokens": 2916,
+          "total_tokens": 30322,
+          "api_calls": 12,
+          "status": "FAILED: list indices must be integers or slices, not str",
+          "timestamp": "2026-05-30T13:46:17.406515"
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 27406,
+        "completion_tokens": 2916,
+        "total_tokens": 30322,
+        "api_calls": 12
+      }
+    },
+    {
+      "session_start": "2026-05-30T16:27:14.008388",
+      "session_end": "2026-05-30T16:30:18.568006",
+      "domain": "GynecoRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "358_20190306183538": {
+          "prompt_tokens": 8398,
+          "completion_tokens": 742,
+          "total_tokens": 9140,
+          "api_calls": 13,
+          "status": "FAILED: 'str' object has no attribute 'get'",
+          "timestamp": "2026-05-30T16:28:03.494036"
+        },
+        "Handbook_of_Obstetrics_Guideline": {
+          "prompt_tokens": 17533,
+          "completion_tokens": 3993,
+          "total_tokens": 21526,
+          "api_calls": 25,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T16:29:12.208177"
+        },
+        "IJGO-152-3": {
+          "prompt_tokens": 52389,
+          "completion_tokens": 3348,
+          "total_tokens": 55737,
+          "api_calls": 18,
+          "status": "FAILED: Failed to complete toc transformation after maximum retries",
+          "timestamp": "2026-05-30T16:30:18.568006"
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 78320,
+        "completion_tokens": 8083,
+        "total_tokens": 86403,
+        "api_calls": 56
+      }
+    },
+    {
+      "session_start": "2026-05-30T16:31:47.193182",
+      "session_end": "2026-05-30T20:05:39.389622",
+      "domain": "GynecoRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "358_20190306183538": {
+          "prompt_tokens": 6707126,
+          "completion_tokens": 487055,
+          "total_tokens": 7194181,
+          "api_calls": 4448,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T20:04:25.146447"
+        },
+        "Handbook_of_Obstetrics_Guideline": {
+          "prompt_tokens": 17533,
+          "completion_tokens": 3969,
+          "total_tokens": 21502,
+          "api_calls": 25,
+          "status": "SUCCESS",
+          "timestamp": "2026-05-30T20:05:39.389622"
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 6724659,
+        "completion_tokens": 491024,
+        "total_tokens": 7215683,
+        "api_calls": 4473
+      }
     }
   ],
   "grand_total": {
-    "prompt_tokens": 9735017,
-    "completion_tokens": 780401,
-    "total_tokens": 10515418,
-    "api_calls": 2740,
-    "last_updated": "2026-05-23T20:32:17.120540"
+    "prompt_tokens": 29506491,
+    "completion_tokens": 1863724,
+    "total_tokens": 31370215,
+    "api_calls": 13391,
+    "last_updated": "2026-05-30T20:05:39.389622"
   }
 }

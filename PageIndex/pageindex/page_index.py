@@ -275,6 +275,35 @@ def toc_index_extractor(toc, content, model=None):
 
 def toc_transformer(toc_content, model=None):
     print('start toc_transformer')
+    
+    # --- SEPARATE CHANNEL FOR 358 TEXTBOOK ONLY ---
+    # To protect the permanent pipeline, we only run the regex bypass if we detect the exact 358 TOC structure
+    if "A Clinical Approach to Gynaecology" in toc_content and "Malformations and Maldevelopments" in toc_content:
+        import re
+        print('>>> ROUTING TO PYTHON BYPASS FOR 358 TEXTBOOK <<<')
+        lines = toc_content.split('\n')
+        json_out = []
+        for line in lines:
+            line = line.strip()
+            if not line: continue
+            match = re.search(r'^([\d\.]+)\s+(.*?)(?:[:\.]\s*)+\s*([\d\s]+)$', line)
+            if match:
+                struct = match.group(1).strip()
+                if struct.endswith('.'): struct = struct[:-1]
+                title = match.group(2).strip()
+                try:
+                    page = int(match.group(3).replace(' ', ''))
+                    json_out.append({"structure": struct, "title": title, "page": page})
+                except: pass
+            else:
+                match_no_page = re.search(r'^([\d\.]+)\s+(.*)$', line)
+                if match_no_page:
+                    struct = match_no_page.group(1).strip()
+                    if struct.endswith('.'): struct = struct[:-1]
+                    json_out.append({"structure": struct, "title": match_no_page.group(2).strip(), "page": None})
+        return json_out
+    # ----------------------------------------------
+
     init_prompt = """
     You are given a table of contents, You job is to transform the whole table of content into a JSON format included table_of_contents.
 
@@ -635,6 +664,22 @@ def process_toc_no_page_numbers(toc_content, toc_page_list, page_list,  start_in
 def process_toc_with_page_numbers(toc_content, toc_page_list, page_list, toc_check_page_num=None, model=None, logger=None):
     toc_with_page_number = toc_transformer(toc_content, model)
     logger.info(f'toc_with_page_number: {toc_with_page_number}')
+
+    # GUARDIAN FILTER: Aggressively drop deep subheadings to save massive token costs
+    original_len = len(toc_with_page_number)
+    filtered_toc = []
+    for item in toc_with_page_number:
+        struct = item.get("structure")
+        if not struct or str(struct).strip() == "":
+            filtered_toc.append(item)
+            continue
+        parts = str(struct).split('.')
+        if len(parts) <= 2:
+            filtered_toc.append(item)
+        else:
+            logger.info(f"GUARDIAN FILTER: Dropping deep heading: {struct} - {item.get('title')}")
+    toc_with_page_number = filtered_toc
+    logger.info(f"GUARDIAN FILTER: Reduced TOC from {original_len} down to {len(toc_with_page_number)} headings.")
 
     toc_no_page_number = remove_page_number(copy.deepcopy(toc_with_page_number))
     
