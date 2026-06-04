@@ -39,6 +39,7 @@ Users can switch between five isolated specialist engines:
 MicroHeal Clinical Bot
 ├── clinical_engine.py      ← The core brain (import from anywhere)
 ├── app.py                  ← Streamlit UI (thin skin over the engine)
+├── api.py                  ← FastAPI Server (for programmatic requests)
 ├── GastroRAG/
 │   ├── gastro_agent.py     ← Gastro wrapper with query_gastro()
 │   ├── index/              ← 14 indexed JSON knowledge files
@@ -84,12 +85,18 @@ pip install -r requirements.txt
 echo "OPENAI_API_KEY=sk-your-key-here" > .env
 ```
 
-### 3. Run the Streamlit App
+### 3. Run the Streamlit App (Web UI)
 ```bash
 streamlit run app.py
 ```
 
-### 4. Use in Your Own Code (WhatsApp Bot, API, etc.)
+### 4. Run the API Server (For external requests)
+```bash
+uvicorn api:app --reload
+```
+You can now send programmatic requests to `http://localhost:8000/query` or view the interactive API docs at `http://localhost:8000/docs`.
+
+### 5. Use in Your Own Code (WhatsApp Bot, API, etc.)
 ```python
 from clinical_engine import ClinicalEngine
 
