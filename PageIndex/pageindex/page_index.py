@@ -536,7 +536,7 @@ def remove_first_physical_index_section(text):
     return text
 
 ### add verify completeness
-def generate_toc_continue(toc_content, part, model=None):
+def generate_toc_continue(part, toc_content, model=None):
     print('start generate_toc_continue')
     prompt = """
     You are an expert in extracting hierarchical tree structure.
@@ -563,7 +563,12 @@ def generate_toc_continue(toc_content, part, model=None):
 
     Directly return the additional part of the final JSON structure. Do not output anything else."""
 
-    prompt = prompt + '\nGiven text\n:' + part + '\nPrevious tree structure\n:' + json.dumps(toc_content, indent=2)
+    if isinstance(toc_content, list) and len(toc_content) > 20:
+        pruned_toc = toc_content[-20:]
+    else:
+        pruned_toc = toc_content
+
+    prompt = prompt + '\nGiven text\n:' + str(part) + '\nPrevious tree structure\n:' + json.dumps(pruned_toc, indent=2)
     response, finish_reason = llm_completion(model=model, prompt=prompt, return_finish_reason=True)
     if finish_reason == 'finished':
         return extract_json(response)
@@ -600,10 +605,9 @@ def generate_toc_init(part, model=None):
     prompt = prompt + '\nGiven text\n:' + part
     response, finish_reason = llm_completion(model=model, prompt=prompt, return_finish_reason=True)
 
-    if finish_reason == 'finished':
-         return extract_json(response)
-    else:
-        raise Exception(f'finish reason: {finish_reason}')
+    if finish_reason != 'finished':
+        print(f"Warning: finish reason {finish_reason}, attempting to parse truncated JSON.")
+    return extract_json(response)
 
 def process_no_toc(page_list, start_index=1, model=None, logger=None):
     page_contents=[]
@@ -627,7 +631,7 @@ def process_no_toc(page_list, start_index=1, model=None, logger=None):
                 f.write(f"Generating TOC: Part {idx} of {len(group_texts)}...\n")
         except:
             pass
-        toc_with_page_number_additional = generate_toc_continue(toc_with_page_number, group_text, model)    
+        toc_with_page_number_additional = generate_toc_continue(group_text, toc_with_page_number, model)    
         toc_with_page_number.extend(toc_with_page_number_additional)
     logger.info(f'generate_toc: {toc_with_page_number}')
 
@@ -1072,6 +1076,12 @@ async def process_large_node_recursively(node, page_list, opt=None, logger=None)
             node['end_index'] = valid_node_toc_items[0]['start_index'] if valid_node_toc_items else node['end_index']
         
     if 'nodes' in node and node['nodes']:
+        for child_node in node['nodes']:
+            if child_node.get('start_index') == node.get('start_index') and child_node.get('end_index') == node.get('end_index'):
+                if logger:
+                    logger.info(f"Breaking recursive freeze for {node['title']}")
+                child_node['nodes'] = []
+
         tasks = [
             process_large_node_recursively(child_node, page_list, opt, logger=logger)
             for child_node in node['nodes']

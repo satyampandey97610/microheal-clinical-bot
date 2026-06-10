@@ -1,22 +1,23 @@
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/3004/3004458.png" width="80" alt="MicroHeal Logo">
   <h1>MicroHeal Clinical Bot</h1>
-  <p><b>Unified Gastroenterology, Cardiology, Nephrology, Neurology & Gynecology RAG Assistant</b></p>
-  <p><i>A penta-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
+  <p><b>Unified Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology & Orthopedics RAG Assistant</b></p>
+  <p><i>A hexa-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
 </div>
 
 ---
 
 ## 🎯 System Overview
 
-**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **65 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
+**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **73 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
 
-Users can switch between five isolated specialist engines:
+Users can switch between six isolated specialist engines:
 - 🩺 **Gastroenterology Expert** — 14 GI sources including casebooks, GLP-1 research, and clinical datasets.
 - ❤️ **Cardiology Expert** — 14 cardiovascular sources including ACC/AHA guidelines, ESC protocols, and heart failure studies.
 - 💧 **Nephrology Expert** — 13 kidney health sources including KDIGO guidelines, clinical handbooks, and textbook references.
 - 🧠 **Neurology Expert** — 12 neuroscience sources including Harrison’s Neurology chapters, WHO neurological disorders, AHA stroke guidelines, and clinical case studies.
 - 🩷 **Gynecology Expert** — 12 obstetrics and gynecology sources including WHO guidelines, clinical manuals, and journals.
+- 🦴 **Orthopedics Expert** — 8 orthopedic sources including textbooks, clinical examinations, and CPGs.
 
 ---
 
@@ -59,6 +60,10 @@ MicroHeal Clinical Bot
 ├── GynecoRAG/
 │   ├── gyneco_agent.py     ← Gyneco wrapper with query_gyneco()
 │   ├── index/              ← 12 indexed JSON knowledge files
+│   └── data/               ← Source PDFs
+├── OrthopedicsRAG/
+│   ├── orthopedic_agent.py ← Orthopedic wrapper with query_ortho()
+│   ├── index/              ← 8 indexed JSON knowledge files
 │   └── data/               ← Source PDFs
 ├── PageIndex/              ← PDF indexing pipeline
 ├── docs/                   ← Deployment guide
@@ -106,6 +111,7 @@ cardio = ClinicalEngine("cardio")
 nephro = ClinicalEngine("nephro")
 neuro = ClinicalEngine("neuro")
 gyneco = ClinicalEngine("gyneco")
+ortho = ClinicalEngine("ortho")
 
 # Query it
 result = gastro.query("What causes GERD?")
@@ -127,7 +133,7 @@ result = gastro.query("How is it treated?", history=history)
 
 ---
 
-## 📚 Knowledge Base (65 Indexed Sources)
+## 📚 Knowledge Base (73 Indexed Sources)
 
 ### Gastroenterology (14 Sources)
 | # | Source | Type |
@@ -213,6 +219,18 @@ result = gastro.query("How is it treated?", history=history)
 | 10 | Saudi Journal of Pathology — Gynecological Pathology | Journal |
 | 11 | Essential Interventions in Reproductive Health | Guideline |
 | 12 | Vanuatu Maternal & Newborn Care Operational Guidance | Manual |
+
+### Orthopedics (8 Sources)
+| # | Source | Type |
+|---|--------|------|
+| 1 | Textbook of Orthopedics 4E (John Ebnezar) | Textbook |
+| 2 | Clinical Examination in Orthopedics | Textbook |
+| 3 | Miller's Review of Orthopedics | Textbook |
+| 4 | Orthopedic Principles - A Resident's Guide | Textbook |
+| 5 | Chapman's Orthopaedic Surgery | Textbook |
+| 6 | CTS CPG | Guideline |
+| 7 | OAH CPG | Guideline |
+| 8 | OAK3 CPG | Guideline |
 
 ---
 

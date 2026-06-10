@@ -189,6 +189,8 @@ def get_json_content(response):
          
 
 def extract_json(content):
+    if content is None:
+        return []
     try:
         # First, try to extract JSON enclosed within ```json and ```
         start_idx = content.find("```json")

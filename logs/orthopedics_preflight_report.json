@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-06-08 11:50:48",
+  "total_pdfs": 8,
+  "total_pages": 5352,
+  "total_blank_pages": 18,
+  "total_low_text_pages": 8,
+  "estimated_tokens": 5466176,
+  "estimated_cost_usd": 2.9414591999999997,
+  "all_ok": true,
+  "per_pdf": [
+    {
+      "name": "364028925-Textbook-of-Orthopedics-4E-John-Ebnezar-2010-PDF-UnitedVRG.pdf",
+      "size_mb": 44.37,
+      "pages": 915,
+      "blank_pages": 11,
+      "low_text_pages": 2,
+      "avg_chars_per_page": 2060,
+      "min_chars_page": 0,
+      "max_chars_page": 4787,
+      "estimated_tokens": 471200,
+      "pypdf2_ok": true,
+      "pymupdf_ok": true,
+      "issues": [
+        "11 blank pages",
+        "2 low-text pages"
+      ]
+    },
+    {
+      "name": "chapmans-orthopaedic-surgery-third-edition.pdf",
+      "size_mb": 63.21,
+      "pages": 2466,
+      "blank_pages": 1,
+      "low_text_pages": 0,
+      "avg_chars_per_page": 5990,
+      "min_chars_page": 0,
+      "max_chars_page": 12836,
+      "estimated_tokens": 3693085,
+      "pypdf2_ok": true,
+      "pymupdf_ok": true,
+      "issues": [
+        "1 blank pages"
+      ]
+    },
+    {
+      "name": "Clinical Examination in Orthopedics.pdf",
+      "size_mb": 2.78,
+      "pages": 155,
+      "blank_pages": 4,
+      "low_text_pages": 2,
+      "avg_chars_per_page": 1899,
+      "min_chars_page": 0,
+      "max_chars_page": 4492,
+      "estimated_tokens": 73573,
+      "pypdf2_ok": true,
+      "pymupdf_ok": true,
+      "issues": [
+        "4 blank pages",
+        "2 low-text pages"
+      ]
+    },
+    {
+      "name": "cts-cpg.pdf",
+      "size_mb": 0.91,
+      "pages": 72,
+      "blank_pages": 0,
+      "low_text_pages": 0,
+      "avg_chars_per_page": 2867,
+      "min_chars_page": 296,
+      "max_chars_page": 5496,
+      "estimated_tokens": 51606,
+      "pypdf2_ok": true,
+      "pymupdf_ok": true,
+      "issues": []
+    },
+    {
+      "name": "Millers_Review_Orthopedics.pdf",
+      "size_mb": 54.13,
+      "pages": 887,
+      "blank_pages": 1,
+      "low_text_pages": 4,
+      "avg_chars_per_page": 3550,
+      "min_chars_page": 0,
+      "max_chars_page": 8271,
+      "estimated_tokens": 787185,
+      "pypdf2_ok": true,
+      "pymupdf_ok": true,
+      "issues": [
+        "1 blank pages",
+        "4 low-text pages"
+      ]
+    },
+    {
+      "name": "oah-cpg.pdf",
+      "size_mb": 0.91,
+      "pages": 80,
+      "blank_pages": 0,
+      "low_text_pages": 0,
+      "avg_chars_per_page": 2560,
+      "min_chars_page": 298,
+      "max_chars_page": 5724,
+      "estimated_tokens": 51195,
+      "pypdf2_ok": true,
+      "pymupdf_ok": true,
+      "issues": []
+    },
+    {
+      "name": "oak3cpg.pdf",
+      "size_mb": 1.32,
+      "pages": 126,
+      "blank_pages": 0,
+      "low_text_pages": 0,
+      "avg_chars_per_page": 3053,
+      "min_chars_page": 409,
+      "max_chars_page": 4547,
+      "estimated_tokens": 96170,
+      "pypdf2_ok": true,
+      "pymupdf_ok": true,
+      "issues": []
+    },
+    {
+      "name": "Orthopedic Principles - A Resident_s Guide.pdf",
+      "size_mb": 4.18,
+      "pages": 651,
+      "blank_pages": 1,
+      "low_text_pages": 0,
+      "avg_chars_per_page": 1488,
+      "min_chars_page": 0,
+      "max_chars_page": 2522,
+      "estimated_tokens": 242162,
+      "pypdf2_ok": true,
+      "pymupdf_ok": true,
+      "issues": [
+        "1 blank pages"
+      ]
+    }
+  ]
+}

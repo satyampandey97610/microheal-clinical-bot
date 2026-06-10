@@ -1,0 +1,497 @@
+{
+  "doc_name": "cts-cpg.pdf",
+  "structure": [
+    {
+      "title": "Preface",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 2,
+      "summary": "The partial document outlines the \"Management of Carpal Tunnel Syndrome Evidence-Based Clinical Practice Guideline\" published by the American Academy of Orthopaedic Surgeons (AAOS) on May 18, 2024. It emphasizes that the guideline was developed by a volunteer group of physicians based on a systematic review of scientific and clinical information regarding treatment and diagnosis. The document clarifies that it is not a fixed protocol, as individual patient care should be tailored based on a clinician's judgment and specific circumstances. It includes a disclosure requirement for authors regarding potential conflicts of interest and notes that the guideline was funded solely by the AAOS without external commercial support. Additionally, it mentions that some referenced drugs or medical devices may not have FDA clearance for all uses, placing the responsibility on physicians to verify their status. The document is copyrighted, prohibiting reproduction without permission from the AAOS."
+    },
+    {
+      "title": "View background material via the CPG eAppendix",
+      "node_id": "0001",
+      "start_index": 2,
+      "end_index": 2,
+      "summary": "The partial document outlines the development and guidelines of a clinical practice guideline (CPG) created by a volunteer group of physicians and clinicians. It emphasizes that the CPG is based on a systematic review of scientific and clinical information, and it is not intended to be a rigid protocol, as treatment may vary based on individual patient circumstances. The document includes a disclaimer regarding the necessity for clinicians to use their independent medical judgment. It also details disclosure requirements for authors and contributors to ensure transparency about potential conflicts of interest. The funding source for the guideline is exclusively from the American Academy of Orthopaedic Surgeons, with no external commercial funding. Additionally, it notes that some referenced drugs or medical devices may not have FDA clearance, placing the responsibility on physicians to verify their status. Lastly, it includes copyright information, stating that reproduction of the guideline requires written permission from the AAOS."
+    },
+    {
+      "title": "View data summaries via the CPG eAppendix",
+      "node_id": "0002",
+      "start_index": 2,
+      "end_index": 6,
+      "summary": "The partial document outlines the development and guidelines of a clinical practice guideline (CPG) by the American Academy of Orthopaedic Surgeons (AAOS) regarding the diagnosis and treatment of carpal tunnel syndrome (CTS). Key points include:\n\n1. **Guideline Development**: The CPG was created by a volunteer group of physicians based on a systematic review of scientific and clinical information, emphasizing that it is not a fixed protocol and should be adapted to individual patient needs.\n\n2. **Disclosure and Funding**: All contributors disclosed potential conflicts of interest, and the guideline was funded solely by the AAOS without external commercial support.\n\n3. **FDA Clearance**: The document notes that some referenced drugs or devices may not have FDA clearance, placing the responsibility on physicians to verify their status.\n\n4. **Copyright Information**: The document is protected by copyright, and reproduction requires written permission from the AAOS.\n\n5. **Summary of Recommendations**: The document includes a summary of recommendations based on the quality of evidence, with specific findings on diagnostic methods (CTS-6, ultrasonography, NCV/EMG, MRI) and treatment options (corticosteroid injections, platelet-rich plasma injections, surgical techniques).\n\n6. **Evidence Quality**: The recommendations are categorized by the strength of evidence, with strong recommendations for certain diagnostic methods and moderate recommendations against others.\n\n7. **Postoperative Care**: The document discusses postoperative therapy, pain management, and other considerations following surgical interventions.\n\nOverall, the document serves as a comprehensive guideline for clinicians in diagnosing and treating carpal tunnel syndrome, emphasizing evidence-based practices and individualized patient care."
+    },
+    {
+      "title": "SUMMARY OF RECOMMENDATIONS",
+      "node_id": "0003",
+      "start_index": 6,
+      "end_index": 6,
+      "summary": "The partial document outlines recommendations for diagnosing and treating carpal tunnel syndrome (CTS) based on the quality of evidence from various studies. It emphasizes the use of CTS-6 as a strong diagnostic tool, suggesting it is preferable to routine ultrasonography or nerve conduction velocity/electromyography (NCV/EMG) tests, supported by high-quality evidence. Conversely, it advises against the use of MRI and Upper Limb Neurodynamic Testing for diagnosis, citing moderate evidence. Additionally, it states that corticosteroid injections do not lead to long-term improvement in CTS, also backed by strong evidence. The document categorizes recommendations based on the strength and quality of the evidence, following an Evidence to Decision Framework."
+    },
+    {
+      "title": "DIAGNOSIS: CTS -6, ULTRASONOGRAPHY, NCV/EMG",
+      "node_id": "0004",
+      "start_index": 6,
+      "end_index": 6,
+      "summary": "The partial document outlines recommendations for diagnosing and treating carpal tunnel syndrome (CTS) based on the quality of evidence from various studies. It emphasizes the use of CTS-6 as a strong diagnostic tool, suggesting it is preferable to routine ultrasonography or NCV/EMG, supported by high-quality evidence. In contrast, it advises against the use of MRI and Upper Limb Neurodynamic Testing for diagnosis, citing moderate evidence. Additionally, it states that corticosteroid injections do not lead to long-term improvement in CTS, also backed by strong evidence. The document categorizes recommendations based on the strength and quality of the evidence, following an Evidence to Decision Framework."
+    },
+    {
+      "title": "DIAGNOSIS: MRI, UPPER LIMB NEURODYNAMIC TESTING",
+      "node_id": "0005",
+      "start_index": 6,
+      "end_index": 6,
+      "summary": "The partial document outlines recommendations for diagnosing and treating carpal tunnel syndrome (CTS) based on the quality of evidence from various studies. It emphasizes the use of CTS-6 as a strong diagnostic tool, suggesting it is preferable to routine ultrasonography or nerve conduction velocity/electromyography (NCV/EMG) tests, supported by high-quality evidence. Conversely, it advises against the use of MRI and Upper Limb Neurodynamic Testing for diagnosis, citing moderate evidence. Additionally, it states that corticosteroid injections do not lead to long-term improvement in CTS, also backed by strong evidence. The document categorizes recommendations based on the strength and quality of the evidence, following an Evidence to Decision Framework."
+    },
+    {
+      "title": "CORTICOSTEROID INJECTION",
+      "node_id": "0006",
+      "start_index": 6,
+      "end_index": 7,
+      "summary": "The partial document outlines recommendations for the diagnosis and treatment of carpal tunnel syndrome (CTS) based on evidence from high and moderate quality studies. Key points include:\n\n1. **Diagnosis**: \n   - CTS-6 is strongly recommended for diagnosing carpal tunnel syndrome over routine ultrasonography or NCV/EMG, supported by high-quality evidence.\n   - MRI and Upper Limb Neurodynamic Testing are moderately recommended against for diagnosing CTS, based on moderate quality evidence.\n\n2. **Treatment Recommendations**:\n   - Corticosteroid injections are strongly advised against for long-term improvement in CTS, with high-quality evidence supporting this.\n   - Platelet-rich plasma (PRP) injections, whether leukocyte-rich or poor, are also strongly recommended against for non-operative treatment of CTS, based on high-quality evidence.\n\n3. **Surgical Techniques**:\n   - There is no significant difference in patient-reported outcomes between mini-open and endoscopic carpal tunnel release, with strong evidence supporting this conclusion.\n   - Local anesthesia alone is strongly recommended for carpal tunnel release, backed by high-quality evidence.\n\nOverall, the document emphasizes strong recommendations against certain diagnostic and treatment methods for carpal tunnel syndrome while supporting specific approaches based on robust evidence."
+    },
+    {
+      "title": "PLATELET -RICH PLASMA (PRP) INJECTION",
+      "node_id": "0007",
+      "start_index": 7,
+      "end_index": 7,
+      "summary": "The partial document discusses the effectiveness of various interventions for carpal tunnel syndrome, focusing on three main areas: Platelet-Rich Plasma (PRP) Injection, Surgical Release Techniques, and Modes of Anesthesia. It presents strong evidence indicating that PRP injections do not offer long-term benefits in non-operative treatment. For surgical techniques, it highlights that there is no significant difference in patient-reported outcomes between mini-open and endoscopic carpal tunnel release methods. Additionally, it confirms that local anesthesia alone is sufficient for carpal tunnel release procedures. All findings are supported by high-quality studies, leading to strong recommendations without any reasons to downgrade the evidence."
+    },
+    {
+      "title": "SURGICAL RELEASE TECHNIQUE",
+      "node_id": "0008",
+      "start_index": 7,
+      "end_index": 7,
+      "summary": "The partial document discusses the effectiveness of various interventions for carpal tunnel syndrome, focusing on three main areas: Platelet-Rich Plasma (PRP) Injection, Surgical Release Techniques, and Modes of Anesthesia. It presents strong evidence indicating that PRP injections do not offer long-term benefits in non-operative treatment. For surgical techniques, it highlights that there is no significant difference in patient-reported outcomes between mini-open and endoscopic carpal tunnel release methods. Additionally, it confirms that local anesthesia alone is sufficient for carpal tunnel release procedures. All findings are supported by high-quality studies, leading to strong recommendations without any reasons to downgrade the evidence."
+    },
+    {
+      "title": "MODES OF ANESTHESIA",
+      "node_id": "0009",
+      "start_index": 7,
+      "end_index": 8,
+      "summary": "The partial document discusses various interventions and recommendations related to the treatment of carpal tunnel syndrome. It highlights the following main points:\n\n1. **Platelet-Rich Plasma (PRP) Injection**: Strong evidence indicates that PRP injections do not offer long-term benefits for non-operative treatment of carpal tunnel syndrome, with a high quality of evidence and a strong recommendation against its use.\n\n2. **Surgical Release Technique**: There is strong evidence showing no significant difference in patient-reported outcomes between mini-open and endoscopic carpal tunnel release techniques, supported by high-quality studies and a strong recommendation.\n\n3. **Modes of Anesthesia**: Strong evidence supports the use of local anesthesia alone for carpal tunnel release, with high-quality evidence and a strong recommendation.\n\n4. **Postoperative Therapy**: Moderate evidence suggests that supervised postoperative therapy should not be routinely prescribed after carpal tunnel release, with a moderate strength of recommendation based on moderate-quality studies.\n\n5. **Postoperative Immobilization**: Moderate evidence indicates that immobilization using slings or orthoses should not be employed after carpal tunnel release, also supported by moderate-quality studies and a moderate recommendation.\n\n6. **Postoperative Pain Management**: Strong evidence recommends the use of NSAIDs and/or acetaminophen for managing postoperative pain after carpal tunnel release, with high-quality evidence and a strong recommendation."
+    },
+    {
+      "title": "POSTOPERATIVE THERAPY",
+      "node_id": "0010",
+      "start_index": 8,
+      "end_index": 8,
+      "summary": "The partial document discusses postoperative care following carpal tunnel release, focusing on three main areas: therapy, immobilization, and pain management. It presents moderate evidence indicating that supervised postoperative therapy and immobilization using slings or orthoses should not be routinely prescribed. Both recommendations are supported by moderate quality studies. In contrast, it strongly recommends the use of NSAIDs and/or Acetaminophen for managing postoperative pain, backed by high-quality evidence. The document emphasizes the quality and strength of recommendations based on the consistency of findings from relevant studies."
+    },
+    {
+      "title": "POSTOPERATIVE IMMOBILIZATION",
+      "node_id": "0011",
+      "start_index": 8,
+      "end_index": 8,
+      "summary": "The partial document discusses postoperative care following carpal tunnel release, focusing on three main areas: therapy, immobilization, and pain management. It presents moderate evidence indicating that supervised postoperative therapy and immobilization using slings or orthoses should not be routinely prescribed. Both recommendations are supported by moderate quality studies. In contrast, it strongly recommends the use of NSAIDs and/or Acetaminophen for managing postoperative pain, backed by high-quality evidence. The document emphasizes the quality and strength of recommendations based on the consistency of findings from relevant studies."
+    },
+    {
+      "title": "POSTOPERATIVE PAIN: NSAID, ACETAMINOPHEN",
+      "node_id": "0012",
+      "start_index": 8,
+      "end_index": 9,
+      "summary": "The partial document discusses postoperative care and treatment options following carpal tunnel release surgery. It highlights the following main points:\n\n1. **Postoperative Therapy**: Moderate evidence indicates that supervised therapy should not be routinely prescribed after surgery.\n2. **Postoperative Immobilization**: Moderate evidence suggests that immobilization using slings or orthoses is not recommended post-surgery.\n3. **Postoperative Pain Management**: Strong evidence supports the use of NSAIDs and/or Acetaminophen for managing postoperative pain.\n4. **Summary of Options**: Options are defined based on the quality of evidence available, with low quality or conflicting evidence leading to limited or consensus options.\n5. **Risk Factors**: The workgroup opines that there is no reliable evidence linking high keyboard use to carpal tunnel syndrome, categorizing this as very low quality evidence.\n6. **Therapeutic Ultrasound**: Evidence suggests that therapeutic ultrasound does not lead to long-term improvement in carpal tunnel syndrome, with the option being downgraded.\n7. **Non-Operative Treatments**: Various non-operative treatments, including acupressure and nutritional supplementation, do not show superiority over placebo or control, leading to a limited strength option.\n\nOverall, the document emphasizes the importance of evidence-based recommendations for postoperative care and the limitations of certain treatments for carpal tunnel syndrome."
+    },
+    {
+      "title": "SUMMARY OF OPTIONS",
+      "node_id": "0013",
+      "start_index": 9,
+      "end_index": 9,
+      "summary": "The partial document summarizes options regarding the evidence and recommendations related to carpal tunnel syndrome. It outlines that options are formed when there is low or conflicting evidence on a topic. Specifically, it states that there is no association between high keyboard use and carpal tunnel syndrome, based on very low-quality evidence and a consensus strength option. It also discusses therapeutic ultrasound, indicating that it does not provide long-term improvement for the condition, supported by high-quality evidence but downgraded in strength. Additionally, it reviews various non-operative treatments, such as acupressure and heat therapy, which do not show superiority over placebo or control, also backed by high-quality evidence but downgraded. Overall, the document emphasizes the reliance on clinical opinion in the absence of strong evidence and the downgrading of options based on the Evidence to Decision Framework."
+    },
+    {
+      "title": "RISK FACTORS: KEYBOARDING, CLERICAL WORK",
+      "node_id": "0014",
+      "start_index": 9,
+      "end_index": 9,
+      "summary": "The partial document summarizes options regarding the evidence and recommendations related to carpal tunnel syndrome. It discusses the formation of options based on the quality of evidence, highlighting cases of low or conflicting evidence. Specifically, it states that there is no association between high keyboard use and carpal tunnel syndrome, with a consensus strength recommendation based on very low-quality evidence. It also addresses therapeutic ultrasound, indicating that it does not lead to long-term improvement, supported by high-quality evidence but downgraded in strength. Additionally, it reviews various non-operative treatments, such as acupressure and heat therapy, which do not show superiority over placebo or control, also backed by high-quality evidence but downgraded. Overall, the document emphasizes the reliance on clinical opinion in the absence of robust evidence and the application of the Evidence to Decision Framework in evaluating treatment options."
+    },
+    {
+      "title": "THERAPEUTIC ULTRASOUND",
+      "node_id": "0015",
+      "start_index": 9,
+      "end_index": 9,
+      "summary": "The partial document summarizes options regarding the evidence and recommendations related to carpal tunnel syndrome. It discusses the formation of options based on the quality of evidence, highlighting cases of low or conflicting evidence. Specifically, it states that there is no association between high keyboard use and carpal tunnel syndrome, with a consensus strength recommendation based on very low-quality evidence. It also addresses therapeutic ultrasound, indicating that it does not lead to long-term improvement, supported by high-quality evidence but downgraded in strength. Additionally, it reviews various non-operative treatments, such as acupressure and heat therapy, which do not show superiority over placebo or control, also backed by high-quality evidence but downgraded. Overall, the document emphasizes the reliance on clinical opinion in the absence of robust evidence and the application of the Evidence to Decision Framework in evaluating treatment options."
+    },
+    {
+      "title": "NON -OPERATIVE TREATMENTS VS. PLACEBO/CONTROL",
+      "node_id": "0016",
+      "start_index": 9,
+      "end_index": 10,
+      "summary": "The partial document summarizes various treatment options and their associated evidence quality regarding carpal tunnel syndrome. It discusses the formation of options based on the quality of evidence, highlighting instances of low or conflicting evidence. Key points include:\n\n1. **Keyboarding and Carpal Tunnel Syndrome**: The workgroup concludes there is no association between high keyboard use and carpal tunnel syndrome, based on very low-quality evidence and a consensus strength option.\n\n2. **Therapeutic Ultrasound**: Evidence indicates that therapeutic ultrasound does not lead to long-term improvement in carpal tunnel syndrome, with high-quality evidence but a limited strength option due to downgrading.\n\n3. **Non-Operative Treatments vs. Placebo/Control**: Several non-operative treatments (e.g., acupressure, insulin injection, heat therapy) do not show superiority over placebo, supported by high-quality evidence but limited strength due to downgrading.\n\n4. **Long-Term Non-Operative Treatments**: Various non-operative treatments (e.g., oral corticosteroids, massage therapy) do not improve long-term patient outcomes, with high-quality evidence and limited strength.\n\n5. **Comparison of Non-Operative Treatments**: No significant differences in patient outcomes were found among different non-operative treatment techniques, again supported by high-quality evidence but limited strength.\n\n6. **Site of Service**: There is limited evidence suggesting that carpal tunnel release can be safely performed in an office setting, with low-quality evidence and limited strength.\n\nOverall, the document emphasizes the need for cautious interpretation of treatment options due to the varying quality of evidence and the downgrading of many recommendations."
+    },
+    {
+      "title": "NON -OPERATIVE TREATMENTS: LONG -TERM",
+      "node_id": "0017",
+      "start_index": 10,
+      "end_index": 10,
+      "summary": "The partial document discusses the effectiveness of various non-operative treatments for carpal tunnel syndrome, indicating that treatments such as oral corticosteroids, hyaluronic acid injections, and several others do not improve long-term patient-reported outcomes. The quality of evidence for these findings is rated as high, but the strength of the recommendation is limited due to downgrading based on the Evidence to Decision (EtD) framework. Additionally, it notes that there is no significant difference in patient outcomes among different non-operative treatment techniques, again with high-quality evidence but limited strength of recommendation. Lastly, the document mentions that carpal tunnel release may be safely performed in an office setting, although the evidence supporting this is of low quality and also has limited strength."
+    },
+    {
+      "title": "COMPARISON OF NON -OPERATIVE TREATMENTS",
+      "node_id": "0018",
+      "start_index": 10,
+      "end_index": 10,
+      "summary": "The partial document discusses the effectiveness of various non-operative treatments for carpal tunnel syndrome, indicating that treatments such as oral corticosteroids, hyaluronic acid injections, and several others do not improve long-term patient-reported outcomes. The quality of evidence for these findings is rated as high, but the strength of the recommendation is limited due to downgrading based on the Evidence to Decision (EtD) framework. Additionally, it notes that there is no significant difference in patient outcomes among different non-operative treatment techniques. Lastly, it mentions that carpal tunnel release may be safely performed in an office setting, although the evidence supporting this is of low quality and the strength of the recommendation remains limited."
+    },
+    {
+      "title": "SITE OF SERVICE",
+      "node_id": "0019",
+      "start_index": 10,
+      "end_index": 11,
+      "summary": "The partial document discusses various non-operative and surgical treatments for carpal tunnel syndrome, highlighting the effectiveness and quality of evidence for each. It indicates that several non-operative treatments, including oral corticosteroids, hyaluronic acid injections, and various therapies (e.g., massage, laser, and exercise), do not improve long-term patient-reported outcomes, with a high quality of evidence but limited strength of recommendation. The document also notes that there is no significant difference in outcomes among different non-operative techniques. \n\nRegarding surgical interventions, it suggests that carpal tunnel release may be safely performed in an office setting, although the evidence is of low quality. The workgroup expresses a consensus opinion on the use of limited draping during the procedure due to a lack of reliable evidence. Additionally, it mentions that anticoagulation medication can likely be continued during surgery, but the evidence is again of low quality. Lastly, it states that prophylactic antibiotics are not recommended for preventing surgical site infections after carpal tunnel release, supported by limited evidence. Overall, the document emphasizes the need for careful consideration of treatment options based on the quality of evidence and the strength of recommendations."
+    },
+    {
+      "title": "SURGICAL DRAPING",
+      "node_id": "0020",
+      "start_index": 11,
+      "end_index": 11,
+      "summary": "The partial document discusses guidelines related to surgical practices for carpal tunnel release. It covers three main points: \n\n1. **Surgical Draping**: The workgroup suggests that limited draping is an acceptable option for carpal tunnel release, based on consensus due to the lack of reliable evidence.\n\n2. **Anticoagulation**: There is limited evidence indicating that anticoagulation medication may be safely continued during carpal tunnel release, with the quality of evidence rated as low and the strength of the recommendation also limited.\n\n3. **Prophylactic Perioperative Antibiotics**: The document states that limited evidence suggests that prophylactic antibiotics are not necessary for preventing surgical site infections after carpal tunnel release, again with low-quality evidence and limited strength of recommendation. \n\nOverall, the document emphasizes the reliance on clinical opinion in the absence of strong evidence for these practices."
+    },
+    {
+      "title": "ANTICOAGULATION",
+      "node_id": "0021",
+      "start_index": 11,
+      "end_index": 11,
+      "summary": "The partial document discusses guidelines related to surgical practices for carpal tunnel release. It covers three main points: \n\n1. **Surgical Draping**: The workgroup suggests that limited draping is an acceptable option for the procedure, based on consensus opinion due to a lack of reliable evidence.\n\n2. **Anticoagulation**: There is limited evidence indicating that anticoagulation medication can be safely continued during carpal tunnel release, with the quality of evidence rated as low.\n\n3. **Prophylactic Perioperative Antibiotics**: The document states that limited evidence suggests that prophylactic antibiotics are not necessary for preventing surgical site infections after carpal tunnel release, also rated as low quality evidence. \n\nOverall, the recommendations are based on consensus and limited evidence, with concerns addressed in the EtD framework impacting the strength of the options."
+    },
+    {
+      "title": "PROPHYLACTIC PERIOPERATIVE ANTIBIOTICS",
+      "node_id": "0022",
+      "start_index": 11,
+      "end_index": 12,
+      "summary": "The partial document discusses various clinical recommendations related to carpal tunnel release surgery, highlighting the quality and strength of evidence for each recommendation. Key points include:\n\n1. **Surgical Draping**: Limited draping is considered an option based on consensus, with no reliable evidence supporting this practice.\n2. **Anticoagulation**: There is low-quality evidence suggesting that anticoagulation medication may be safely continued during the procedure, with a limited strength of recommendation.\n3. **Prophylactic Perioperative Antibiotics**: Limited evidence indicates that prophylactic antibiotics are not necessary to prevent surgical site infections, also rated as low quality.\n4. **Preoperative Testing**: The workgroup recommends against routine preoperative testing due to very low-quality evidence, relying on clinical opinion.\n5. **Adjunctive Testing**: In cases with multiple risk factors for amyloidosis, pathological analysis of tenosynovium may be performed, based on consensus without reliable evidence.\n6. **Postoperative Pain Management**: Tramadol may be preferred over other opioids for managing postoperative pain, although this recommendation is based on very low-quality evidence.\n\nOverall, the document emphasizes the reliance on clinical opinion in the absence of strong evidence for these practices."
+    },
+    {
+      "title": "PREOPERATIVE TESTING",
+      "node_id": "0023",
+      "start_index": 12,
+      "end_index": 12,
+      "summary": "The partial document discusses guidelines related to preoperative and adjunctive testing, as well as postoperative pain management for carpal tunnel syndrome. It emphasizes that routine preoperative testing is not indicated due to very low evidence quality, with recommendations based on clinical opinion. Additionally, it suggests that pathological analysis of tenosynovium may be performed when multiple risk factors for amyloidosis are present, also based on consensus without reliable evidence. For postoperative pain management, the document recommends considering Tramadol over other opioids, again relying on clinical opinion due to very low evidence quality. Overall, the workgroup's recommendations are grounded in consensus rather than strong supporting evidence."
+    },
+    {
+      "title": "ADJUNCTIVE TESTING",
+      "node_id": "0024",
+      "start_index": 12,
+      "end_index": 12,
+      "summary": "The partial document discusses guidelines related to preoperative and postoperative management in the context of carpal tunnel syndrome. It emphasizes that routine preoperative testing, such as labs, chest X-rays, and EKGs, is not recommended due to a lack of sufficient evidence, with the workgroup relying on clinical opinion. Additionally, it suggests that pathological analysis of tenosynovium may be considered when multiple risk factors for amyloidosis are present, again based on consensus rather than strong evidence. For postoperative pain management, the document indicates that Tramadol may be preferred over other opioids, also reflecting a consensus opinion in the absence of reliable evidence. Overall, the document highlights the reliance on clinical judgment in the absence of robust supporting data."
+    },
+    {
+      "title": "POSTOPERATIVE PAIN: TRAMADOL",
+      "node_id": "0025",
+      "start_index": 12,
+      "end_index": 13,
+      "summary": "The partial document discusses guidelines related to preoperative and postoperative management in the context of carpal tunnel syndrome. It emphasizes that routine preoperative testing, such as labs, chest X-rays, and EKGs, is not recommended due to a lack of sufficient evidence, with the workgroup relying on clinical opinion. Additionally, it suggests that pathological analysis of tenosynovium may be considered when multiple risk factors for amyloidosis are present, again based on consensus rather than strong evidence. For postoperative pain management, the document indicates that Tramadol may be preferred over other opioids, also reflecting a consensus opinion in the absence of reliable evidence. The document includes a roster of voting and non-voting members involved in the guideline development, highlighting their affiliations with various medical organizations."
+    },
+    {
+      "title": "DEVELOPMENT GROUP ROSTER",
+      "node_id": "0026",
+      "start_index": 13,
+      "end_index": 13,
+      "summary": "The partial document outlines the roster of a development group associated with the American Academy of Orthopaedic Surgeons (AAOS). It lists the voting members, including co-chairs and representatives from various medical organizations related to orthopaedics, rehabilitation, radiology, hand surgery, and occupational medicine. Additionally, it identifies non-voting members, including an oversight chair, and highlights additional contributor members from the American Academy of Neurology. The document also details the AAOS staff involved in clinical quality and value, including their roles and qualifications. Overall, it emphasizes the collaborative effort of various professionals in the field to contribute to clinical quality and value initiatives within orthopaedic care."
+    },
+    {
+      "title": "VOTING MEMBERS",
+      "node_id": "0027",
+      "start_index": 13,
+      "end_index": 13,
+      "summary": "The partial document outlines the roster of a development group associated with the American Academy of Orthopaedic Surgeons (AAOS). It lists the voting members, including co-chairs and representatives from various medical organizations, such as the American Academy of Physical Medicine and Rehabilitation and the American College of Radiology. Additionally, it identifies non-voting members, including an oversight chair, and highlights additional contributor members from the American Academy of Neurology. The document also details the AAOS staff involved in clinical quality and value, including their roles and qualifications. Overall, it emphasizes the collaborative nature of the group, comprising experts from multiple disciplines within the field of orthopaedics and related areas."
+    },
+    {
+      "title": "NON -VOTING MEMBERS",
+      "node_id": "0028",
+      "start_index": 13,
+      "end_index": 13,
+      "summary": "The partial document outlines the roster of a development group associated with the American Academy of Orthopaedic Surgeons (AAOS). It lists the voting members, including co-chairs and representatives from various medical organizations, such as the American Academy of Physical Medicine and Rehabilitation and the American College of Radiology. Additionally, it identifies non-voting members, including an oversight chair, and highlights additional contributor members from the American Academy of Neurology. The document also details the AAOS staff involved in clinical quality and value, including their roles and qualifications. Overall, it emphasizes the collaborative nature of the group, comprising experts from multiple disciplines within the field of orthopaedics and related areas."
+    },
+    {
+      "title": "ADDITIONAL CONTRIBUTOR MEMBERS",
+      "node_id": "0029",
+      "start_index": 13,
+      "end_index": 13,
+      "summary": "The partial document outlines the roster of a development group associated with the American Academy of Orthopaedic Surgeons (AAOS). It lists the voting members, including co-chairs and representatives from various medical organizations, such as the American Academy of Physical Medicine and Rehabilitation and the American College of Radiology. Additionally, it identifies non-voting members, including an oversight chair, and highlights additional contributor members from the American Academy of Neurology. The document also details the AAOS staff involved in clinical quality and value, including their roles and qualifications. Overall, it emphasizes the collaborative nature of the group, comprising experts from multiple disciplines within the field of orthopaedics and related areas."
+    },
+    {
+      "title": "AAOS STAFF",
+      "node_id": "0030",
+      "start_index": 13,
+      "end_index": 14,
+      "summary": "The partial document outlines the roster of a development group involved in creating clinical practice guidelines for the diagnosis and treatment of carpal tunnel syndrome (CTS). It lists voting and non-voting members, including co-chairs and representatives from various medical organizations. The document introduces the clinical practice guideline, emphasizing its basis on a systematic review of literature from March 2022 to August 2023, aimed at integrating current evidence into clinical practice while identifying gaps for future research. The guideline is intended for use by orthopaedic surgeons and other healthcare providers, serving as an educational resource to improve treatment decisions. It highlights the adoption of the GRADE Evidence-to-Decision Framework by the AAOS to enhance the recommendation process and encourages shared decision-making between providers and patients. The document clarifies that it is not a benefits determination document and does not address resource allocation or ethical considerations."
+    },
+    {
+      "title": "INTRODUCTION",
+      "node_id": "0031",
+      "start_index": 14,
+      "end_index": 16,
+      "summary": "The partial document outlines a clinical practice guideline for the diagnosis and treatment of carpal tunnel syndrome (CTS), based on a systematic review of literature from March 2022 to August 2023. It emphasizes the importance of evidence-based medicine (EBM) in clinical decision-making and aims to assist healthcare providers, particularly orthopaedic surgeons, in improving patient care. The guideline identifies the etiology, incidence, prevalence, and burden of CTS, highlighting its significant impact on patients' daily lives and productivity. It discusses the benefits of standardized treatment approaches while acknowledging the need for shared decision-making between clinicians and patients. The document also notes updates from previous guidelines, focusing on long-term treatment effects and the incorporation of the GRADE Evidence-to-Decision Framework. Additionally, it details the methodology for the systematic review, including literature searches and quality assessment of evidence."
+    },
+    {
+      "title": "METHODS",
+      "node_id": "0032",
+      "start_index": 16,
+      "end_index": 16,
+      "summary": "The partial document outlines the development and methodology of a clinical practice guideline by the American Academy of Orthopaedic Surgeons (AAOS) for the management of carpal tunnel syndrome (CTS). Key points include a shift in focus from short-term effects of CTS treatments, as seen in the 2016 guideline, to an emphasis on the long-term, disease-modifying benefits of various treatment options in the 2024 guideline. The document details the systematic review process aimed at minimizing bias and enhancing transparency, involving clinical experts and methodologists free from conflicts of interest. It describes the literature search methodology, including the use of electronic databases and PICO questions to guide the search. Additionally, it explains how the quality of evidence for recommendations is assessed based on the quality and quantity of included studies. Appendices provide further details on inclusion criteria, search strategies, and study attrition."
+    },
+    {
+      "title": "LITERATURE SEARCHES",
+      "node_id": "0033",
+      "start_index": 16,
+      "end_index": 16,
+      "summary": "The partial document outlines the development and methodology of a clinical practice guideline by the American Academy of Orthopaedic Surgeons (AAOS) for the management of carpal tunnel syndrome (CTS). Key points include a shift in focus from short-term effects of CTS treatments, as seen in the 2016 guideline, to an emphasis on the long-term, disease-modifying benefits of various treatment options in the 2024 guideline. The document details the systematic review process aimed at minimizing bias and enhancing transparency, involving clinical experts and methodologists free from conflicts of interest. It describes the literature search methodology, including the use of electronic databases and PICO questions to guide the search. Additionally, it explains how the quality of evidence for recommendations is assessed based on the quality and quantity of the literature reviewed."
+    },
+    {
+      "title": "DEFINING THE QUALITY OF EVIDENCE",
+      "node_id": "0034",
+      "start_index": 16,
+      "end_index": 18,
+      "summary": "The partial document outlines the development and methodology of a clinical practice guideline (CPG) for the management of carpal tunnel syndrome (CTS) by the American Academy of Orthopaedic Surgeons (AAOS). Key points include a shift in focus from short-term to long-term effects of CTS treatment options, with a detailed description of the inclusion criteria for the guideline. The document emphasizes the systematic review process aimed at minimizing bias and enhancing transparency, involving clinical experts and methodologists. It details the literature search strategy, including the use of multiple electronic databases and the evaluation of evidence quality. The document also defines the strength of recommendations based on the quality and quantity of evidence, outlining how recommendations are voted on and approved by the guideline development group. Additionally, it provides a framework for understanding the quality of evidence and the strength of recommendations, including descriptions of strong, moderate, limited, and consensus recommendations."
+    },
+    {
+      "title": "UNDERSTANDING THE QUALITY OF EVIDENCE AND STRENGTH OF RECOMMENDATION OR OPTION Statement",
+      "node_id": "0035",
+      "start_index": 18,
+      "end_index": 18,
+      "summary": "The partial document outlines the framework for understanding the quality of evidence and the strength of recommendations or options in clinical practice guidelines (CPGs). It includes two tables: the first table categorizes the strength and quality of evidence into four levels—Strong, Moderate, Limited, and Consensus—based on the number and quality of studies supporting a recommendation. The second table interprets the strength of recommendations in terms of patient counseling, the use of decision aids, and the potential impact of future research. It emphasizes that stronger recommendations require less patient counseling and are less likely to change with new evidence, while consensus recommendations are deemed most important and have an unknown impact on future research."
+    },
+    {
+      "title": "Table I. Strength and Quality Descriptions",
+      "node_id": "0036",
+      "start_index": 18,
+      "end_index": 18,
+      "summary": "The partial document outlines the framework for understanding the quality of evidence and the strength of recommendations or options in clinical practice guidelines (CPG). It includes two tables: the first table categorizes the strength and quality of evidence into four levels—Strong, Moderate, Limited, and Consensus—based on the number and quality of studies supporting a recommendation. The second table interprets the strength of recommendations in terms of patient counseling, the use of decision aids, and the potential impact of future research. It emphasizes that stronger recommendations require less patient counseling and are less likely to change with new evidence, while consensus recommendations are deemed most important and have an unknown impact on future research."
+    },
+    {
+      "title": "Table II. Interpreting the Strength of a Recommendation or Option",
+      "node_id": "0037",
+      "start_index": 18,
+      "end_index": 19,
+      "summary": "The partial document outlines the process for evaluating the quality of evidence and the strength of recommendations in clinical practice guidelines (CPGs). It includes a table that categorizes the strength of recommendations based on the quality of evidence, ranging from \"Strong\" to \"Consensus,\" with descriptions of the evidence required for each category. The document also details the review process for the CPG draft, which involves a three-week period for external experts to provide input, including conflict of interest disclosures. It emphasizes the importance of incorporating feedback from specialty societies and outlines the approval process by various AAOS committees. Additionally, it mentions plans for future revisions of the guidelines based on new evidence and changing practices, with a commitment to update or withdraw the guidelines within five years."
+    },
+    {
+      "title": "REVIEW PERIOD",
+      "node_id": "0038",
+      "start_index": 19,
+      "end_index": 19,
+      "summary": "The partial document outlines the review process for a clinical practice guideline (CPG) developed by the American Academy of Orthopaedic Surgeons (AAOS). Key points include:\n\n1. **Review Period**: A 3-week period for external content experts to provide input on the CPG draft, requiring conflict of interest disclosures from all reviewers.\n2. **Reviewer Selection**: Specialty societies are invited to nominate reviewers, and others can volunteer. The guideline work group chairs review the draft before dissemination.\n3. **Coordination of Comments**: Specialty societies' evidence-based practice committees consolidate feedback, ensuring that all comments are submitted on a single form with COI disclosures.\n4. **Stakeholder Input**: The review stage allows external stakeholders to suggest evidence-based modifications, with confidentiality maintained for working drafts.\n5. **Broad Review**: The CPG is sent to various AAOS committees and councils for additional comments, allowing over 200 commentators to provide input.\n6. **Response to Comments**: Initial responses to comments are drafted by the guideline work group and reviewed by the group members, with proposed changes based on evidence.\n7. **Transparency**: After final approval, all individual responses and comments are posted on the AAOS website, with options for anonymity for reviewers.\n8. **Approval Process**: The CPG must be approved by several AAOS committees through a majority vote.\n9. **Revision Plans**: The guideline will be updated or withdrawn within five years to reflect new evidence and changes in practice."
+    },
+    {
+      "title": "THE AAOS CPG APPROVAL PROCESS",
+      "node_id": "0039",
+      "start_index": 19,
+      "end_index": 19,
+      "summary": "The partial document outlines the review process for a clinical practice guideline (CPG) developed by the American Academy of Orthopaedic Surgeons (AAOS). It details a 3-week review period where external content experts provide written feedback, ensuring that all reviewers disclose any conflicts of interest. Specialty societies are invited to nominate reviewers, and the review process is open to additional volunteers. The document emphasizes the importance of confidentiality during the drafting phase and the involvement of various AAOS committees in reviewing the guideline before final approval. It highlights the AAOS's commitment to addressing feedback from external stakeholders and the process for responding to comments. The approval process requires majority votes from key AAOS committees, and the guideline is subject to revision based on new evidence and practices, with a planned update or withdrawal every five years."
+    },
+    {
+      "title": "REVISION PLANS",
+      "node_id": "0040",
+      "start_index": 19,
+      "end_index": 20,
+      "summary": "The partial document outlines the review and approval process for clinical practice guidelines (CPGs) developed by the American Academy of Orthopaedic Surgeons (AAOS). Key points include:\n\n1. **Review Period**: A 3-week period for external content experts to provide input on the CPG draft, requiring conflict of interest disclosures from reviewers.\n\n2. **Reviewer Selection**: Specialty societies are invited to nominate reviewers, and others can volunteer. The guideline work group chairs review the draft before dissemination.\n\n3. **Comment Consolidation**: Specialty societies coordinate the collection of comments, which are submitted on a structured form, ensuring that all feedback is managed and conflicts of interest are disclosed.\n\n4. **Stakeholder Input**: Over 200 commentators, including members of various AAOS councils and boards, can provide feedback, which is addressed by the guideline work group.\n\n5. **Response to Comments**: Initial responses to comments are drafted and reviewed, with proposed changes based on evidence meeting inclusion criteria.\n\n6. **Approval Process**: The final draft must be approved by several AAOS committees and councils through a majority vote.\n\n7. **Revision Plans**: The guideline will be updated or withdrawn within five years to reflect new evidence and practices.\n\n8. **Dissemination Plans**: Guidelines are published through press releases, journal articles, and distributed at meetings, with final recommendations available online and through various educational platforms."
+    },
+    {
+      "title": "CPG DISSEMINATION PLANS",
+      "node_id": "0041",
+      "start_index": 20,
+      "end_index": 21,
+      "summary": "The partial document outlines the dissemination plans for clinical practice guidelines related to a specific review topic. It emphasizes the importance of providing comprehensive documentation of the best available evidence for various procedures. The guidelines are announced through press releases, articles in relevant journals, and are distributed at the AAOS Annual Meeting. Additionally, the final recommendations will be available on the OrthoGuidelines website. Various methods of dissemination are mentioned, including webinars, the AAOS Learning Management System, media briefings, and distribution at Continuing Medical Education courses. The document also includes a study attrition flowchart detailing the review process of articles, indicating the number of articles excluded and included based on specific criteria."
+    },
+    {
+      "title": "Study Attrition Flowchart",
+      "node_id": "0042",
+      "start_index": 21,
+      "end_index": 22,
+      "summary": "The partial document outlines the process of selecting articles for a study on the diagnosis of carpal tunnel syndrome (CTS) and presents recommendations based on the evidence gathered. It details the attrition flowchart of article selection, indicating that 5,871 abstracts were reviewed, leading to the inclusion of 270 articles after rigorous full-text review and quality analysis. The document emphasizes the strong recommendation for using the CTS-6 diagnostic tool over traditional methods like ultrasonography and NCV/EMG, supported by high-quality studies. It discusses the rationale behind this recommendation, highlighting consistent findings across multiple studies that validate the effectiveness of CTS-6. Additionally, it notes the lack of evidence regarding the benefits and harms of the diagnostic modalities and mentions the importance of shared decision-making between patients and clinicians regarding testing options."
+    },
+    {
+      "title": "RECOMMENDATIONS",
+      "node_id": "0043",
+      "start_index": 22,
+      "end_index": 22,
+      "summary": "The partial document discusses recommendations for diagnosing carpal tunnel syndrome (CTS) based on evidence from high and moderate quality studies. It emphasizes the use of the CTS-6 diagnostic tool as a strong recommendation over traditional methods like ultrasonography and NCV/EMG, supported by consistent findings from multiple studies. The document highlights the quality of evidence and rationale behind the recommendations, noting the effectiveness of CTS-6 in diagnosing CTS without demonstrating superiority over other diagnostic tools. Additionally, it mentions the lack of specific research on the benefits and harms of the diagnostic modalities, while acknowledging patient preferences for collaborative decision-making in testing."
+    },
+    {
+      "title": "DIAGNOSIS: CTS -6, ULTRASONOGRAPHY, NCV/EMG",
+      "node_id": "0044",
+      "start_index": 22,
+      "end_index": 24,
+      "summary": "The partial document discusses recommendations for diagnosing carpal tunnel syndrome (CTS) based on evidence from various studies. It emphasizes the use of the CTS-6 diagnostic tool, which is supported by strong evidence from multiple high-quality studies, suggesting it can effectively diagnose CTS compared to ultrasonography and NCV/EMG. The document highlights the rationale behind this recommendation, noting the consistent findings across studies and the lack of evidence favoring one diagnostic tool over another. It also addresses the potential harms and costs associated with NCV/EMG and ultrasonography, as well as the absence of evidence linking diagnostic tools to clinical outcomes. Additionally, the document advises against using MRI and Upper Limb Neurodynamic Testing for diagnosing CTS due to moderate evidence indicating their low specificity and moderate sensitivity. It concludes with recommendations for future research on cost-effectiveness and patient outcomes related to diagnostic tools for CTS."
+    },
+    {
+      "title": "DIAGNOSIS: MRI, UPPER LIMB NEURODYNAMIC TESTING",
+      "node_id": "0045",
+      "start_index": 24,
+      "end_index": 26,
+      "summary": "The partial document discusses the diagnostic efficacy of MRI and Upper Limb Neurodynamic Testing for carpal tunnel syndrome, concluding that moderate evidence suggests these methods should not be used for diagnosis due to low specificity and moderate sensitivity. It emphasizes the importance of alternative diagnostic tools and highlights the cost-effectiveness and feasibility of avoiding these tests. Additionally, the document addresses corticosteroid injections (CSI), indicating strong evidence that they do not provide long-term improvement for carpal tunnel syndrome, despite potential short-term symptom relief. It discusses the implications of these findings for clinical practice, including the acceptability and future research directions regarding the cost-effectiveness of CSI."
+    },
+    {
+      "title": "CORTICOSTEROID INJECTION",
+      "node_id": "0046",
+      "start_index": 26,
+      "end_index": 27,
+      "summary": "The partial document discusses the effectiveness of corticosteroid injection (CSI) and platelet-rich plasma (PRP) injection in the treatment of carpal tunnel syndrome. It presents strong evidence indicating that neither CSI nor PRP provides long-term benefits for patients. The document highlights that while CSI may offer short-term symptom relief, high-quality studies show no significant long-term improvement. Similarly, PRP injection has shown mixed short-term results, but overall lacks evidence of long-term efficacy. The document emphasizes the importance of these findings for clinical practice, noting the high utilization of these interventions. It also addresses the cost-effectiveness and feasibility of implementing these recommendations, suggesting that minimizing the use of these treatments for long-term benefits is practical. Future research is encouraged to further investigate the short-term benefits and cost-effectiveness of these interventions."
+    },
+    {
+      "title": "PLATELET -RICH PLASMA (PRP) INJECTION",
+      "node_id": "0047",
+      "start_index": 27,
+      "end_index": 28,
+      "summary": "The partial document discusses two main topics related to the treatment of carpal tunnel syndrome: the use of Platelet-Rich Plasma (PRP) injections and surgical release techniques. \n\n1. **Platelet-Rich Plasma (PRP) Injection**: The document presents strong evidence indicating that PRP injections do not provide long-term benefits for non-operative treatment of carpal tunnel syndrome, with high-quality studies showing no significant differences in symptom severity or functional status compared to saline control. While some short-term studies report mixed results, the overall recommendation against PRP is supported by its unclear benefits, high costs, and low risks associated with the procedure. The document emphasizes the need for more high-level research with long-term follow-up to evaluate PRP's effectiveness.\n\n2. **Surgical Release Techniques**: The document also addresses the comparison between mini-open and endoscopic carpal tunnel release techniques, concluding that there is no significant difference in patient-reported outcomes between the two methods. Both techniques are deemed acceptable and feasible, but the document notes that endoscopic release may involve higher costs and potential complications. Future research is suggested to develop tools for better patient understanding of the benefits, risks, and costs associated with each surgical option to facilitate shared decision-making."
+    },
+    {
+      "title": "SURGICAL RELEASE TECHNIQUE",
+      "node_id": "0048",
+      "start_index": 28,
+      "end_index": 30,
+      "summary": "The partial document discusses various aspects of carpal tunnel release techniques, anesthesia options, and postoperative therapy. \n\n1. **Surgical Release Technique**: It presents strong evidence indicating no significant difference in patient-reported outcomes between mini-open and endoscopic carpal tunnel release techniques. Both methods are deemed acceptable, but endoscopic release may involve higher costs and potential complications. The document emphasizes the need for future research to develop tools that help patients understand the benefits, risks, and costs associated with each surgical option.\n\n2. **Modes of Anesthesia**: The document highlights that local anesthesia alone is a viable option for carpal tunnel release, supported by high-quality studies showing benefits such as reduced operative time and lower pain levels compared to intravenous regional anesthesia. It discusses the acceptability and feasibility of local anesthesia, while also suggesting that future research should focus on patient preferences and the financial advantages of this anesthetic approach.\n\n3. **Postoperative Therapy**: It concludes with a recommendation against routine postoperative supervised therapy after carpal tunnel release, based on moderate evidence showing no functional benefits. The document notes that while therapy may not be necessary for most patients, there could be specific cases where it might be beneficial, warranting further research to identify those patients and evaluate the cost-effectiveness of therapy in this context."
+    },
+    {
+      "title": "POSTOPERATIVE THERAPY",
+      "node_id": "0049",
+      "start_index": 30,
+      "end_index": 31,
+      "summary": "The partial document discusses postoperative therapy and immobilization following carpal tunnel release. It presents moderate evidence suggesting that supervised postoperative therapy should not be routinely prescribed, as studies indicate no significant functional or outcome benefits from such therapy. While one high-quality study noted short-term benefits, the overall consensus is that therapy may incur unnecessary costs without clear advantages for most patients. Future research is needed to identify specific patient populations that might benefit from therapy.\n\nAdditionally, the document advises against the use of immobilization through slings or orthoses after carpal tunnel release, supported by moderate evidence showing no functional benefits from splinting. Various studies compared different forms of postoperative care, revealing that early mobilization and unrestricted movement lead to better outcomes in terms of strength and return to daily activities. The document emphasizes the need for further research on the benefits of early mobilization and its impact on recovery."
+    },
+    {
+      "title": "POSTOPERATIVE IMMOBILIZATION",
+      "node_id": "0050",
+      "start_index": 31,
+      "end_index": 32,
+      "summary": "The partial document discusses two main topics related to postoperative care following carpal tunnel release surgery: immobilization and pain management. \n\n1. **Postoperative Immobilization**: The document presents moderate evidence against the use of immobilization methods such as slings or orthoses after carpal tunnel release. It cites multiple studies indicating no functional or outcome benefits from splinting compared to no splinting. Key findings include that early mobilization leads to better grip strength and quicker return to daily activities, while splinting does not significantly improve outcomes. The recommendation is supported by a combination of high and moderate-quality studies, and there are no associated harms with this approach.\n\n2. **Postoperative Pain Management**: The document strongly recommends the use of NSAIDs and/or acetaminophen for managing postoperative pain after carpal tunnel release, based on high-quality evidence. Studies show that these medications are effective in reducing pain compared to placebo and opioids, with fewer adverse events reported. The use of non-opioid medications is emphasized to avoid the risks associated with opioid use, making NSAIDs and acetaminophen acceptable and feasible options for pain management in the postoperative setting."
+    },
+    {
+      "title": "POSTOPERATIVE PAIN: NSAID, ACETAMINOPHEN",
+      "node_id": "0051",
+      "start_index": 32,
+      "end_index": 33,
+      "summary": "The partial document discusses postoperative pain management following carpal tunnel release, emphasizing the use of NSAIDs and acetaminophen as effective non-opioid options. It presents strong evidence from high-quality studies indicating that these medications can significantly reduce pain compared to opioids, with fewer adverse events reported. The document also highlights the acceptability and feasibility of using over-the-counter medications for pain management. Additionally, it addresses the lack of reliable evidence linking high keyboard use to carpal tunnel syndrome, stating that the workgroup's recommendation is based on clinical opinion due to insufficient data. The potential implications of this lack of recognition for worker’s compensation cases are also noted."
+    },
+    {
+      "title": "OPTIONS",
+      "node_id": "0052",
+      "start_index": 33,
+      "end_index": 33,
+      "summary": "The partial document discusses the lack of strong evidence regarding the association between high keyboard use and carpal tunnel syndrome. It highlights that current recommendations for patient interventions are based on low-quality evidence or consensus opinion, with the workgroup concluding that there is no significant link between keyboard use and the condition. The document notes that no high- or moderate-quality studies support this association, and only one low-quality study suggested a potential link. It emphasizes the implications of this recommendation for worker’s compensation cases and the evaluation of causation by physicians, indicating that the absence of recognition of keyboard use as a risk factor could lead to potential harms."
+    },
+    {
+      "title": "RISK FACTORS: KEYBOARDING, CLERICAL WORK",
+      "node_id": "0053",
+      "start_index": 33,
+      "end_index": 34,
+      "summary": "The partial document discusses the evidence and recommendations regarding patient interventions for carpal tunnel syndrome (CTS), focusing on two main areas: the association between high keyboard use and CTS, and the effectiveness of therapeutic ultrasound as a treatment. \n\n1. **Keyboard Use and CTS**: The document states that there is very low-quality evidence regarding the association between high keyboard use and carpal tunnel syndrome. The workgroup concludes that there is no significant association based on their clinical opinion, as no high- or moderate-quality studies support this claim. A single low-quality study suggested a possible link, but overall, the lack of reliable evidence leads to a consensus that keyboard use should not be considered a strong risk factor for CTS.\n\n2. **Therapeutic Ultrasound**: The document indicates that evidence suggests therapeutic ultrasound does not provide long-term improvement for CTS. Although the quality of evidence is rated as high, the recommendation is downgraded due to inconsistencies in study methodologies and outcomes. Most studies showed no significant difference between therapeutic ultrasound and placebo treatments. The document highlights that while ultrasound does not pose direct biological risks, it is not cost-effective and adds unnecessary time and expense to treatment without proven benefits. \n\nThe document calls for more long-term studies to further investigate the effectiveness of therapeutic ultrasound for CTS. Overall, the guidance is expected to be accepted by medical professionals and patients due to the lack of supporting evidence for both interventions discussed."
+    },
+    {
+      "title": "THERAPEUTIC ULTRASOUND",
+      "node_id": "0054",
+      "start_index": 34,
+      "end_index": 35,
+      "summary": "The partial document discusses the effectiveness of therapeutic ultrasound and various non-operative treatments for carpal tunnel syndrome (CTS). It concludes that therapeutic ultrasound does not provide long-term improvement for CTS, with high-quality evidence indicating limited strength for this option due to inconsistencies in study methodologies and outcomes. The document highlights that therapeutic ultrasound does not show significant differences from placebo and adds unnecessary costs and time to treatment without established benefits. \n\nAdditionally, it reviews several non-operative treatments, including acupressure, insulin injection, heat therapy, magnet therapy, nutritional supplementation, oral diuretics, oral NSAIDs, oral anticonvulsants, and phonophoresis, all of which also fail to demonstrate superiority over control or placebo. The evidence for these treatments is similarly downgraded due to heterogeneity and lack of significant short-term benefits. The document emphasizes that these treatments contribute to low-value care and are not cost-effective, recommending against their use for CTS. Future research is suggested to further investigate the lack of effectiveness of these therapies, although the need for long-term studies is questioned given the absence of short-term benefits."
+    },
+    {
+      "title": "NON -OPERATIVE TREATMENTS VS. PLACEBO/CONTROL",
+      "node_id": "0055",
+      "start_index": 35,
+      "end_index": 36,
+      "summary": "The partial document discusses the effectiveness of various non-operative treatments for carpal tunnel syndrome (CTS) compared to placebo or control groups. It highlights that several treatments, including acupressure, insulin injection, heat therapy, magnet therapy, nutritional supplementation, oral diuretics, oral NSAIDs, oral anticonvulsants, and phonophoresis, do not show significant superiority over control, leading to a limited strength of recommendation. The rationale for downgrading the strength of these options is based on the heterogeneity of treatment modalities, study quality, and follow-up periods. The document also notes that these treatments contribute to unnecessary costs and potential adverse effects without providing meaningful symptom improvement. Additionally, it addresses long-term non-operative treatments, indicating that options like oral corticosteroids, hyaluronic acid injections, hydro dissection, kinesiotaping, laser therapy, and others similarly fail to improve long-term patient-reported outcomes. The document emphasizes the need for further research but suggests that long-term studies may not be necessary given the lack of short-term benefits observed."
+    },
+    {
+      "title": "NON -OPERATIVE TREATMENTS: LONG -TERM",
+      "node_id": "0056",
+      "start_index": 36,
+      "end_index": 38,
+      "summary": "The partial document discusses the effectiveness of various non-operative treatments for carpal tunnel syndrome (CTS). It presents evidence indicating that many common non-operative interventions, such as oral corticosteroids, hyaluronic acid injections, laser therapy, and exercise, do not significantly improve long-term patient-reported outcomes. The quality of evidence for these treatments is rated as high, but their strength as options is limited and downgraded due to heterogeneity in study designs and outcomes. The document highlights specific studies that evaluated different treatments, noting mixed results and a lack of significant differences between treatment modalities. It emphasizes that these interventions are not cost-effective and may not be accepted by patients and healthcare providers due to insufficient supporting evidence. The document calls for future research to compare non-operative treatments with surgical options and to establish more consistent intervention protocols."
+    },
+    {
+      "title": "COMPARISON OF NON -OPERATIVE TREATMENTS",
+      "node_id": "0057",
+      "start_index": 38,
+      "end_index": 39,
+      "summary": "The partial document discusses the comparison of non-operative treatments for carpal tunnel syndrome (CTS) and the feasibility of performing carpal tunnel release (CTR) in an office setting. It highlights that evidence indicates no significant difference in patient-reported outcomes among various non-operative treatments, leading to a limited recommendation for any specific treatment due to the lack of long-term success and cost-effectiveness. The document emphasizes the need for more robust studies, as current evidence is mixed and of low quality. Additionally, it presents findings from low-quality studies suggesting that CTR can be safely performed in an office setting, with benefits including improved patient experience and satisfaction, as well as potential cost savings. Overall, the document underscores the importance of patient selection for office-based procedures and the need for further research to confirm these findings."
+    },
+    {
+      "title": "SITE OF SERVICE",
+      "node_id": "0058",
+      "start_index": 39,
+      "end_index": 41,
+      "summary": "The partial document discusses the site of service for carpal tunnel release (CTR) procedures, highlighting that limited evidence suggests these surgeries can be safely performed in an office setting. It notes the low quality of evidence from several studies indicating no increased risk of complications and improved patient satisfaction when CTR is conducted in an office compared to an operating room. The document emphasizes the benefits of office-based procedures, including potential time and cost savings, and the positive patient experience associated with wide awake local anesthesia (WALANT). It also mentions the comparable safety profiles between office and operating room settings and calls for future research, including randomized controlled trials and cost-effectiveness analyses.\n\nAdditionally, the document addresses surgical draping for CTR, stating that limited draping is a viable option based on consensus due to the lack of reliable evidence. It argues that field sterility is adequate for CTR, citing low infection rates and cost savings associated with minimal draping. The document concludes with a call for further research on draping practices in hand surgery to strengthen the evidence base."
+    },
+    {
+      "title": "SURGICAL DRAPING",
+      "node_id": "0059",
+      "start_index": 41,
+      "end_index": 42,
+      "summary": "The partial document discusses two main topics related to carpal tunnel release surgery: surgical draping and anticoagulation management. \n\n1. **Surgical Draping**: The workgroup suggests that limited draping is a viable option for carpal tunnel release due to the lack of reliable evidence supporting full operative draping. They note that while there are no randomized trials on draping options, case series indicate low infection rates with field sterility. The rationale emphasizes cost-effectiveness and efficiency, as minimal draping is less expensive and well-accepted in various health systems. Future research is encouraged to strengthen the evidence base.\n\n2. **Anticoagulation**: The document presents limited evidence indicating that anticoagulation medications may be safely continued during carpal tunnel release. Two low-quality studies suggest no significant difference in bleeding complications for patients on acetylsalicylic acid compared to those not on it. The benefits of continuing anticoagulation include avoiding unnecessary consultations, while potential harms involve bleeding risks, which remain unproven in the literature. The document calls for further research to enhance the quality of evidence regarding anticoagulation practices in this context."
+    },
+    {
+      "title": "ANTICOAGULATION",
+      "node_id": "0060",
+      "start_index": 42,
+      "end_index": 43,
+      "summary": "The partial document discusses two main topics related to surgical practices for carpal tunnel release: the continuation of anticoagulation medication and the use of prophylactic perioperative antibiotics. \n\n1. **Anticoagulation**: Limited evidence suggests that anticoagulation medication, such as acetylsalicylic acid and Warfarin, may be safely continued during carpal tunnel release without significantly increasing the risk of bleeding complications. The quality of evidence is low, based on studies that show no difference in bleeding outcomes between patients on anticoagulation and those not on it. The document highlights the potential benefits of avoiding unnecessary consultations with cardiologists and the general acceptability of continuing anticoagulation, while also noting the need for further research to improve evidence quality.\n\n2. **Prophylactic Perioperative Antibiotics**: The document indicates that there is limited evidence against the use of prophylactic antibiotics for preventing surgical site infections in carpal tunnel release. Multiple low-quality studies have shown that these antibiotics do not reduce infection rates, even in high-risk patients like those with diabetes. The potential harms of antibiotic use, such as allergic reactions and antibiotic resistance, are emphasized, alongside the costs associated with their administration. The recommendation to limit antibiotic use is generally accepted, although not uniformly practiced, and future research is suggested to strengthen the recommendations based on specific conditions."
+    },
+    {
+      "title": "PROPHYLACTIC PERIOPERATIVE ANTIBIOTICS",
+      "node_id": "0061",
+      "start_index": 43,
+      "end_index": 44,
+      "summary": "The partial document discusses the use of perioperative prophylactic antibiotics and preoperative testing in the context of carpal tunnel release surgery. It presents limited evidence suggesting that prophylactic antibiotics are not necessary for preventing surgical site infections, with studies indicating no reduction in infection rates even among diabetic patients. The document highlights the potential harms of antibiotic use, such as allergic reactions and the development of drug-resistant organisms, without proven benefits. It also addresses the costs associated with administering antibiotics and managing adverse effects. Regarding preoperative testing, the document states that routine testing (e.g., labs, CXR, EKG) is not indicated for healthy patients undergoing carpal tunnel surgery, as it may lead to unnecessary costs and delays in care. The recommendation is based on a lack of specific evidence for carpal tunnel patients and the consensus of the workgroup, suggesting that testing may be considered on a case-by-case basis for non-healthy patients."
+    },
+    {
+      "title": "PREOPERATIVE TESTING",
+      "node_id": "0062",
+      "start_index": 44,
+      "end_index": 45,
+      "summary": "The partial document discusses guidelines regarding preoperative testing and adjunctive testing for carpal tunnel syndrome. It states that routine preoperative testing (such as labs, chest X-rays, and EKGs) is not recommended for healthy patients due to a lack of sufficient evidence and potential negative consequences, including increased costs and delays in care. The workgroup emphasizes that any testing should be considered on a case-by-case basis for non-healthy patients. Additionally, the document addresses the option of performing pathological analysis of tenosynovium when multiple risk factors for amyloidosis are present, highlighting the rarity of amyloidosis but acknowledging its potential link to carpal tunnel syndrome. The recommendation for this analysis is based on clinical opinion, patient preference, and risk factors, with a note on the possible benefits and harms associated with the procedure. The document also calls for future research on the cost-effectiveness of such analyses and the implications of positive results."
+    },
+    {
+      "title": "ADJUNCTIVE TESTING",
+      "node_id": "0063",
+      "start_index": 45,
+      "end_index": 46,
+      "summary": "The partial document discusses two main topics related to medical guidelines: adjunctive testing for amyloidosis and the use of Tramadol for postoperative pain management. \n\n1. **Adjunctive Testing for Amyloidosis**: The workgroup recommends pathological analysis of tenosynovium in patients with multiple risk factors for amyloidosis, despite the lack of high-quality evidence. The rationale includes the potential detection of amyloid deposits in patients with carpal tunnel syndrome, which may lead to disease-modifying treatment. The document highlights the benefits and harms of such analysis, including the possibility of detecting amyloidosis versus the risks of unnecessary downstream care from positive biopsies. It also notes the cost implications and emphasizes the importance of patient preference and risk factors in decision-making. Future research is suggested to evaluate the cost-effectiveness of this analysis.\n\n2. **Postoperative Pain Management with Tramadol**: The workgroup suggests considering Tramadol over other opioids for managing postoperative pain, based on a low-quality study indicating that Tramadol may result in fewer side effects and lower pill consumption compared to traditional opioids. The document outlines the benefits of using Tramadol, such as avoiding opioid-related adverse effects, while acknowledging the need for more high-quality research comparing Tramadol and opioids in this context. The acceptability of Tramadol as a treatment option is noted, along with the importance of its role in postoperative pain control."
+    },
+    {
+      "title": "POSTOPERATIVE PAIN: TRAMADOL",
+      "node_id": "0064",
+      "start_index": 46,
+      "end_index": 47,
+      "summary": "The partial document discusses the use of Tramadol for postoperative pain management, suggesting it may be preferred over other opioids due to a lack of reliable evidence supporting the latter. The quality of evidence is rated as very low, and the recommendation is based on the consensus of the workgroup rather than strong clinical data. A cited study indicates that patients taking Tramadol experienced fewer medication-related side effects and lower pill consumption compared to those on opioids. The document highlights the benefits of using Tramadol, such as avoiding opioid-related adverse effects like overdose and addiction, and notes that it is an accepted treatment for postoperative pain. It also points out the need for future high-quality research comparing Tramadol and opioids in this context. Additionally, the document includes references and literature related to carpal tunnel syndrome and its treatment."
+    },
+    {
+      "title": "APPENDICES",
+      "node_id": "0065",
+      "start_index": 47,
+      "end_index": 47,
+      "summary": "The partial document contains appendices that list references related to carpal tunnel syndrome (CTS). It includes two main sections: \"Introduction References\" and \"Rationale References,\" each providing citations for studies and articles that discuss the prevalence, economic impact, incidence, and treatment of CTS. The document also features a section titled \"Included Literature,\" which presents additional studies focusing on various diagnostic and treatment methods for CTS, such as sonography, tendon and nerve gliding exercises, endoscopic release, and comparisons of different therapeutic approaches. Overall, the document serves as a comprehensive resource for understanding the clinical and economic aspects of carpal tunnel syndrome."
+    },
+    {
+      "title": "Appendix I: References",
+      "node_id": "0066",
+      "start_index": 47,
+      "end_index": 47,
+      "summary": "The partial document contains appendices that list references related to carpal tunnel syndrome (CTS). It includes two main sections: \"Introduction References\" and \"Rationale References,\" each providing citations for studies and articles that discuss the prevalence, economic impact, incidence, and treatment of CTS. The document also features a section titled \"Included Literature,\" which presents additional studies focusing on various diagnostic and treatment methods for CTS, such as sonography, tendon and nerve gliding exercises, endoscopic release, and comparisons of different therapeutic approaches. Overall, the document serves as a comprehensive resource for understanding the clinical and economic aspects of carpal tunnel syndrome.",
+      "nodes": [
+        {
+          "title": "APPENDICES",
+          "node_id": "0067",
+          "start_index": 47,
+          "end_index": 47,
+          "summary": "The partial document contains a list of references and included literature related to carpal tunnel syndrome (CTS). It is divided into sections for \"Introduction References\" and \"Rationale References,\" highlighting various studies that address the prevalence, economic impact, incidence, and treatment options for CTS. The references include research articles from medical journals discussing topics such as the effectiveness of surgical interventions, the role of preoperative antibiotics, and the association of CTS with systemic conditions like amyloidosis. Additionally, the document lists studies on diagnostic techniques, treatment methods, and comparisons of different surgical approaches for CTS. Overall, it serves as a comprehensive bibliography for understanding the clinical and economic aspects of carpal tunnel syndrome."
+        }
+      ]
+    },
+    {
+      "title": "Appendix II: PICO Questions Used to Define Literature Search",
+      "node_id": "0068",
+      "start_index": 63,
+      "end_index": 65,
+      "summary": "The partial document outlines a series of PICO (Population, Intervention, Comparison, Outcome) questions aimed at guiding a literature search related to Carpal Tunnel Syndrome (CTS). Key points include:\n\n1. Diagnostic methods for CTS in symptomatic patients.\n2. The impact of occupations, particularly those involving keyboard use, on the development of CTS.\n3. The effectiveness of non-operative treatments for CTS compared to control groups.\n4. Evaluation of surgical release techniques and their outcomes.\n5. Differences in surgical outcomes based on anesthesia methods and service sites.\n6. The influence of surgical draping on infection rates.\n7. The effects of anticoagulation continuation on post-operative outcomes.\n8. The role of prophylactic antibiotics in preventing complications post-surgery.\n9. Recommendations for post-surgical therapy and its duration.\n10. The impact of post-operative immobilization versus early mobilization on recovery.\n11. The relevance of preoperative testing on surgical outcomes.\n12. Consideration of amyloid testing in surgical candidates.\n13. Postoperative pain management strategies and their effectiveness.\n\nAdditionally, the document specifies inclusion criteria for studies to be reviewed, emphasizing the need for peer-reviewed articles, minimum patient group sizes, and specific follow-up durations. It also outlines the search strategy used to gather relevant literature from databases like MEDLINE."
+    },
+    {
+      "title": "Appendix III: Literature Search Strategy",
+      "node_id": "0069",
+      "start_index": 65,
+      "end_index": 72,
+      "summary": "The partial document outlines a comprehensive literature search strategy for studies related to Carpal Tunnel Syndrome (CTS) across multiple databases, including MEDLINE, Embase, and the Cochrane Central Register of Controlled Trials. It details the search parameters, including specific keywords and phrases related to CTS, treatment modalities such as extracorporeal shockwave therapy and stem cell transplantation, and various pain management strategies. The document also includes a section on guideline development group disclosures, highlighting potential conflicts of interest among the members involved in creating the clinical practice guidelines. Overall, the document serves as a methodological framework for gathering relevant literature and ensuring transparency in the guideline development process."
+    }
+  ]
+}

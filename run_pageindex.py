@@ -71,5 +71,33 @@ def main():
             json.dump(result, f, indent=2, ensure_ascii=False)
         print(f"Tree structure saved to: {output_file}")
 
+    # ==========================================
+    # FINAL COST & TOKEN REPORT
+    # ==========================================
+    from pageindex.utils import GLOBAL_USAGE
+    
+    prompt_tokens = GLOBAL_USAGE["prompt_tokens"]
+    completion_tokens = GLOBAL_USAGE["completion_tokens"]
+    total_tokens = GLOBAL_USAGE["total_tokens"]
+    api_calls = GLOBAL_USAGE["api_calls"]
+    
+    # Cost calculation for gpt-4o-mini
+    # $0.150 per 1M input tokens
+    # $0.600 per 1M output tokens
+    cost_prompt = (prompt_tokens / 1_000_000) * 0.150
+    cost_completion = (completion_tokens / 1_000_000) * 0.600
+    total_cost = cost_prompt + cost_completion
+    
+    print("\n" + "="*50)
+    print("📈 FINAL TOKEN & COST REPORT")
+    print("="*50)
+    print(f"Total API Calls:     {api_calls}")
+    print(f"Prompt Tokens:       {prompt_tokens:,} (${cost_prompt:.6f})")
+    print(f"Completion Tokens:   {completion_tokens:,} (${cost_completion:.6f})")
+    print(f"Total Tokens:        {total_tokens:,}")
+    print(f"Total Exact Cost:    ${total_cost:.6f} USD")
+    print("="*50)
+    print("NOTE: Every single API call was permanently logged to logs/token_usage_raw.jsonl")
+
 if __name__ == "__main__":
     main()

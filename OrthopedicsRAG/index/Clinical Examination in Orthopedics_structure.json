@@ -1,0 +1,879 @@
+{
+  "doc_name": "Clinical Examination in Orthopedics.pdf",
+  "structure": [
+    {
+      "title": "Preface",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 16,
+      "summary": "The partial document is a section from the book \"Clinical Examination in Orthopedics\" by K Mohan Iyer. It emphasizes the significance of clinical examination in orthopedics, detailing the systematic approach to diagnosing bone and joint conditions through hands-on assessment. The foreword highlights the author's extensive experience in orthopedic education across multiple universities and the importance of mastering examination techniques for medical students. The contents outline various chapters focused on the examination of specific body parts, including the shoulder, elbow, wrist, hip, knee, foot, cervical spine, lumbar spine, temporomandibular joint, and gait analysis. Each chapter includes sections on inspection, palpation, range of motion, neurologic examination, and special tests, providing a comprehensive guide for orthopedic examination practices. The document also discusses the importance of patient history in diagnosing bone diseases, including factors such as age, onset, pain characteristics, duration, and the presence of sinuses or similar swellings."
+    },
+    {
+      "title": "Examination of Diseases of Bone",
+      "node_id": "0001",
+      "start_index": 16,
+      "end_index": 17,
+      "summary": "The partial document discusses the clinical examination of orthopedic conditions, particularly focusing on bony lesions and swellings. Key points covered include:\n\n1. **Age-related Observations**: Different bone conditions manifest at various ages, with solitary cysts common in children, while benign tumors are seen in adolescents and malignant tumors in young adults and older individuals.\n\n2. **Onset and Progression**: The document highlights the importance of trauma history in acute conditions like osteomyelitis and osteosarcoma, and describes the typical onset patterns for various bone tumors and infections.\n\n3. **Pain Characteristics**: It emphasizes the association of pain with inflammation and the need to assess the nature of pain in diagnosing conditions like osteosarcoma.\n\n4. **Duration of Symptoms**: The duration of conditions varies, with acute osteomyelitis being short-lived and chronic osteomyelitis persisting for months or years.\n\n5. **Sinuses and Extrusion**: The presence of sinuses in chronic osteomyelitis and the significance of bone chip extrusion in diagnosing pyogenic osteomyelitis are noted.\n\n6. **Similar Swellings**: The document mentions that similar swellings elsewhere in the body can indicate specific conditions like diaphyseal aclasis.\n\n7. **Past and Family History**: The relevance of past medical history and family history in diagnosing certain bone diseases is discussed.\n\n8. **General Survey**: A general survey is suggested to assess overall health, including signs of anemia and toxic features in acute conditions.\n\n9. **Local Examination**: Detailed examination of swelling, skin condition, pressure effects, neighboring joints, muscular wasting, and limb length discrepancies is outlined.\n\n10. **Palpation Techniques**: The document describes palpation methods to assess local temperature, tenderness, and the nature of swellings, emphasizing that swellings are typically fixed to the underlying bone.",
+      "nodes": [
+        {
+          "title": "General Survey",
+          "node_id": "0002",
+          "start_index": 17,
+          "end_index": 19,
+          "summary": "The partial document covers the examination process for diseases of the bone, focusing on various aspects of patient history, general surveys, and specific examination techniques. Key points include:\n\n1. **Patient History**: Importance of past and family history in diagnosing conditions like acute osteomyelitis and genetic bone diseases.\n2. **General Survey**: Assessment of symptoms such as anemia, malnutrition, and fever, and their relation to bone diseases.\n3. **Local Examination**: Detailed evaluation of swelling, skin condition, pressure effects, neighboring joints, muscular wasting, and limb length discrepancies.\n4. **Palpation**: Techniques to assess local temperature, tenderness, swelling characteristics, bony irregularities, and the presence of ulcers or fractures.\n5. **Percussion and Auscultation**: Methods to detect tenderness and murmurs in specific conditions.\n6. **Measurements**: Importance of measuring bone length and limb circumference in cases of muscular wasting.\n7. **Examination of Neighboring Joints and Lymph Nodes**: Routine checks for associated conditions.\n8. **General Examination**: Specific history and examination for conditions like tuberculous and syphilitic osteomyelitis, and secondary carcinomas.\n9. **Special Investigations**: Comprehensive blood tests, urine analysis, X-ray examinations, arteriography, radioactive scanning, and the necessity of biopsy for suspicious lesions.\n\nOverall, the document outlines a systematic approach to diagnosing bone diseases through clinical examination and special investigations."
+        },
+        {
+          "title": "General Examination",
+          "node_id": "0003",
+          "start_index": 19,
+          "end_index": 19,
+          "summary": "The partial document outlines the examination and investigation protocols for diseases of the bone, specifically focusing on osteomyelitis and related conditions. It emphasizes the importance of thorough case histories, including symptoms and potential infectious contacts, as well as the need to identify other infective foci. The document details special investigations, including comprehensive blood tests, urine analysis, and X-ray examinations to identify specific bony lesions and conditions such as osteosarcoma and osteoclastoma. It also mentions the use of arteriography and radioactive scanning for detecting lesions and stresses the necessity of biopsy for suspicious cases, recommending open biopsy as the preferred method."
+        },
+        {
+          "title": "Special Investigations",
+          "node_id": "0004",
+          "start_index": 19,
+          "end_index": 20,
+          "summary": "The partial document covers the examination and investigation of diseases affecting the bones, specifically focusing on osteomyelitis and other bony lesions. It outlines the general examination process, including the importance of case history in identifying conditions like tuberculous and syphilitic osteomyelitis, as well as the need to check for other infective foci and secondary carcinomas. Special investigations are detailed, emphasizing the necessity of blood tests, urine analysis, X-ray examinations, arteriography, radioactive scanning, biopsies, and bacteriological and histopathological examinations to accurately diagnose bone diseases. Additionally, the document classifies bony swellings into traumatic and inflammatory categories, providing examples of each."
+        },
+        {
+          "title": "Classification of Bony Swellings",
+          "node_id": "0005",
+          "start_index": 20,
+          "end_index": 24,
+          "summary": "The partial document covers the classification of bony swellings and the diagnostic examinations used to assess them. It outlines seven main categories of bony swellings: \n\n1. **Traumatic** - Includes conditions like excess callus formation, malunited fractures, and myositis ossificans.\n2. **Inflammatory** - Covers various types of osteomyelitis and abscesses.\n3. **Developmental disorders** - Lists conditions such as achondroplasia and osteogenesis imperfecta.\n4. **Nutritional, metabolic, and endocrine disorders** - Discusses issues like rickets and osteoporosis.\n5. **Malformation syndromes** - Includes syndromes like nail-patella syndrome and Marfan’s syndrome.\n6. **Cysts** - Describes solitary cysts and other cystic conditions associated with bone diseases.\n7. **Tumors** - Differentiates between benign tumors, locally malignant tumors, and malignant tumors, including primary and secondary types.\n\nAdditionally, the document emphasizes the importance of bacteriological and histopathological examinations in diagnosing these conditions, particularly when pus is present or tumor material is obtained through biopsy."
+        }
+      ]
+    },
+    {
+      "title": "Examination of the Shoulder",
+      "node_id": "0006",
+      "start_index": 24,
+      "end_index": 24,
+      "summary": "The partial document discusses the anatomy and clinical examination of the shoulder girdle, which comprises three joints (sternoclavicular, acromioclavicular, and glenohumeral) and one articulation (scapulothoracic). It emphasizes the importance of inspecting the shoulder for asymmetry, particularly when the arms are in specific positions, such as in cases of Erb’s palsy. The document highlights the significance of the deltoid region and the deltopectoral groove, noting its relevance for venous access and surgical incisions. Additionally, it addresses the anatomical positioning of the scapula and potential deformities, such as Sprengel’s deformity and scoliosis, which can affect shoulder alignment. Overall, the document provides insights into the clinical examination techniques and anatomical considerations relevant to the shoulder.",
+      "nodes": [
+        {
+          "title": "Inspection",
+          "node_id": "0007",
+          "start_index": 24,
+          "end_index": 25,
+          "summary": "The partial document discusses the anatomy and clinical examination of the shoulder girdle, which consists of three joints (sternoclavicular, acromioclavicular, and glenohumeral) and one articulation (scapulothoracic). It emphasizes the importance of inspection and palpation in assessing shoulder conditions. Key points include the observation of shoulder asymmetry, particularly in cases like Erb’s palsy, and the inspection of the deltoid region and deltopectoral groove. The document also describes the anatomical landmarks of the shoulder, including the scapula's position and potential deformities such as Sprengel’s deformity and scoliosis. The palpation technique is outlined, starting from the suprasternal notch and moving laterally to assess the sternoclavicular joint, clavicle, acromioclavicular joint, and acromion process, highlighting the significance of these landmarks in diagnosing shoulder injuries and conditions."
+        },
+        {
+          "title": "Palpation",
+          "node_id": "0008",
+          "start_index": 25,
+          "end_index": 27,
+          "summary": "The partial document covers the examination of the shoulder, focusing on palpation techniques and the assessment of range of movements. Key points include:\n\n1. **Palpation of Bony Landmarks**: The document describes a systematic approach to palpating various bony landmarks of the shoulder, starting from the suprasternal notch and moving laterally to the sternoclavicular joint, clavicle, acromioclavicular joint, acromion process, greater tuberosity of the humerus, and the bicipital groove.\n\n2. **Soft Tissue Palpation**: It outlines four main regions for soft tissue palpation: the rotator cuff (composed of supraspinatus, infraspinatus, teres minor, and subscapularis), the subacromial and subdeltoid bursa, the axilla (including its anatomical boundaries and clinical significance), and the muscles around the shoulder girdle (including the sternocleidomastoid, pectoralis major, biceps, deltoid, trapezius, rhomboids, latissimus dorsi, and serratus anterior).\n\n3. **Range of Movements**: The document details the various movements of the shoulder girdle, including abduction, adduction, flexion, extension, internal rotation, and lateral rotation, and describes methods for testing these movements both actively and passively.\n\n4. **Apley’s Scratch Test**: A specific test is mentioned to evaluate the range of shoulder movements through a series of tasks that assess different motions.\n\n5. **Differentiation of Blockages**: It explains how to differentiate between extra-articular and intra-articular blockages based on the nature of the blockage felt during movement.\n\n6. **Glenohumeral and Scapulothoracic Motion**: The document emphasizes the importance of understanding the ratio of movement between the glenohumeral joint and the scapulothoracic joint during abduction and adduction.\n\nOverall, the document serves as a guide for clinicians to perform a thorough examination of the shoulder, focusing on both anatomical landmarks and functional movements."
+        },
+        {
+          "title": "Range of Movements",
+          "node_id": "0009",
+          "start_index": 27,
+          "end_index": 28,
+          "summary": "The partial document covers the examination of the shoulder, focusing on the anatomy and function of key muscles, the range of shoulder movements, and the methods for assessing these movements. It describes the roles of the rhomboids, latissimus dorsi, and serratus anterior in shoulder mechanics, including their anatomical origins and insertions. The document outlines various shoulder movements such as abduction, adduction, flexion, extension, internal rotation, and external rotation, detailing how these movements are tested both actively and passively. Specific tests, like Apley’s scratch test, are mentioned to evaluate the range of motion. The document also discusses the importance of differentiating between extra-articular and intra-articular blockages during movement assessment. Additionally, it includes a neurologic examination section that identifies primary and secondary flexors and extensors of the shoulder, along with a muscle grading chart to assess strength and function."
+        },
+        {
+          "title": "Neurologic Examination",
+          "node_id": "0010",
+          "start_index": 28,
+          "end_index": 30,
+          "summary": "The partial document covers the neurologic examination of the shoulder, detailing various movements and their assessment. It discusses the limitations of shoulder movement in conditions like frozen shoulder, bursitis, and bicipital tendinitis. The document outlines the normal ranges for flexion, extension, internal rotation, and external rotation, along with techniques for testing these movements. It categorizes shoulder muscles into primary and secondary flexors, extensors, abductors, adductors, internal rotators, external rotators, and scapular movers, specifying the associated nerves and their respective nerve roots. Muscle grading is also provided to assess strength during these movements. Additionally, the document addresses reflex and sensation testing in the shoulder region, highlighting the importance of dermatomes and potential nerve damage. Special tests, such as the Yergason test and Drop arm test, are described to evaluate the stability of the biceps tendon and the integrity of the rotator cuff, respectively."
+        },
+        {
+          "title": "Reflex Testing",
+          "node_id": "0011",
+          "start_index": 30,
+          "end_index": 30,
+          "summary": "The partial document covers various special tests and assessments related to shoulder function, specifically focusing on scapular movements and nerve testing. Key points include:\n\n1. **Scapular Retraction**: Identifies primary retractors (rhomboid major and minor) and secondary retractors (trapezius), with a testing method involving shoulder retraction against resistance.\n\n2. **Scapular Protraction**: Highlights the serratus anterior as the primary protractor, tested by having the patient reach forward, with observations of winging indicating weakness.\n\n3. **Reflex Testing**: Emphasizes the importance of testing the biceps and triceps muscles that cross the shoulder joint.\n\n4. **Sensation Testing**: Details the dermatomes associated with different nerve roots (C5, T1, T2, T3, T4) and discusses abnormal sensations such as hyperesthesia, hypoesthesia, and anesthesia, particularly noting the axillary nerve's vulnerability in shoulder dislocations.\n\n5. **Special Tests**: Describes specific tests for shoulder examination, including the Yergason test for biceps stability and the Drop Arm test for assessing rotator cuff integrity."
+        },
+        {
+          "title": "Sensation Testing",
+          "node_id": "0012",
+          "start_index": 30,
+          "end_index": 30,
+          "summary": "The partial document covers various special tests and assessments related to the shoulder girdle, focusing on scapular movements and nerve root innervations. It details the primary and secondary retractors of the scapula, specifically the rhomboid major, rhomboid minor, and trapezius, along with methods to test scapular retraction. It also discusses the primary protractor, the serratus anterior, and how to assess scapular protraction, including the observation of winging during specific movements. Additionally, the document outlines reflex and sensation testing for muscles crossing the shoulder joint, detailing the dermatomes associated with different nerve roots (C5, T1, T2, T3, T4) and the implications of abnormal sensations. Finally, it describes special tests such as the Yergason test for biceps stability and the Drop Arm test for assessing the integrity of the rotator cuff."
+        },
+        {
+          "title": "Special Tests",
+          "node_id": "0013",
+          "start_index": 30,
+          "end_index": 31,
+          "summary": "The partial document covers various aspects of shoulder examination, focusing on special tests, muscle function, sensation testing, and specific shoulder conditions. Key points include:\n\n1. **Scapular Retraction and Protraction**: It details the primary and secondary retractors (rhomboids and trapezius) and the primary protractor (serratus anterior), including how to test their function through resistance exercises and observing winging during specific movements.\n\n2. **Reflex and Sensation Testing**: It outlines the testing of biceps and triceps muscles, as well as sensation testing across different dermatomes (C5 to T4), highlighting the implications of abnormal sensations and the potential for axillary nerve damage in shoulder dislocations.\n\n3. **Special Tests for Shoulder Integrity**: The document describes specific tests such as the Yergason test for biceps stability, the Drop Arm test for rotator cuff integrity, and the Apprehension test for shoulder dislocation anxiety.\n\n4. **Examination of Related Areas**: It notes that shoulder pain can be referred from other conditions, such as diaphragm irritation or cervical disc issues, and discusses the importance of recognizing these connections.\n\n5. **Specific Shoulder Conditions**: The document mentions various conditions affecting the shoulder, including scapular disorders (e.g., Sprengel’s shoulder, winged scapula), tuberculosis of the shoulder, and musculotendinous cuff lesions, along with their symptoms and treatment options."
+        },
+        {
+          "title": "Examination of Related Areas",
+          "node_id": "0014",
+          "start_index": 31,
+          "end_index": 34,
+          "summary": "The partial document covers the examination of the shoulder, focusing on various tests and conditions related to shoulder integrity and pain. Key points include:\n\n1. **Apprehension Test**: A method to assess anxiety and potential dislocation of the shoulder through specific arm movements.\n2. **Referred Pain**: Discussion of how shoulder pain can be linked to other conditions, such as diaphragm irritation or cervical disc issues.\n3. **Specific Shoulder Conditions**:\n   - **Scapular Disorders**: Includes Sprengel’s shoulder, winged scapula, and grating scapula, each with distinct symptoms and treatment approaches.\n   - **Tuberculosis of the Shoulder**: Mimics frozen shoulder, with treatment focused on rest and splinting.\n   - **Musculotendinous Cuff Lesions**: Covers acute and chronic tendinitis, frozen shoulder, supraspinatus tears, and biceps tendon issues, detailing symptoms, diagnostic methods, and treatment options.\n   - **Brachial Neuralgia**: Classification of pain in the upper limb based on anatomical regions, highlighting the importance of differentiating between shoulder-related and distal conditions.\n\nOverall, the document provides a comprehensive overview of shoulder examination techniques, common pathologies, and their management."
+        }
+      ]
+    },
+    {
+      "title": "Examination of the Elbow",
+      "node_id": "0015",
+      "start_index": 34,
+      "end_index": 34,
+      "summary": "The partial document discusses the anatomy and clinical examination of the elbow joint, which consists of three main articulations: the humeroulnar joint, the humeroradial joint, and the radioulnar joint. It emphasizes the importance of inspecting the elbow for the carrying angle, swelling, and scars. The carrying angle, which is normally 5° in males and 10° to 15° in females, allows the elbow to fit into the waist depression. The document explains conditions such as cubitus valgus, characterized by an increased carrying angle leading to ulnar nerve palsy, and cubitus varus, or \"gunstock\" deformity, resulting from malunited fractures. It also addresses the nature of swellings around the elbow, distinguishing between localized conditions like olecranon bursitis and diffuse swelling due to trauma, as well as the presence of scars from repeated needle pricks.",
+      "nodes": [
+        {
+          "title": "Inspection",
+          "node_id": "0016",
+          "start_index": 34,
+          "end_index": 35,
+          "summary": "The partial document discusses the clinical examination of the elbow joint, highlighting its anatomical structure, inspection techniques, and palpation methods. It identifies the three main articulations of the elbow: the humeroulnar, humeroradial, and radioulnar joints. The document explains the significance of the carrying angle, noting normal values and conditions such as cubitus valgus and cubitus varus, which can result from injuries. It describes the nature of swellings around the elbow, differentiating between localized and diffuse swellings, and mentions the implications of scars from repeated needle pricks. \n\nIn the palpation section, the document outlines the process of bony and soft tissue palpation, detailing the landmarks to be assessed, including the medial and lateral epicondyles, olecranon, and ulnar nerve. It emphasizes the importance of the ulnar nerve and its potential injuries, as well as the wrist flexor-pronator muscle group, providing insights into their testing and palpation techniques. Overall, the document serves as a guide for conducting a thorough examination of the elbow joint in clinical practice."
+        },
+        {
+          "title": "Palpation",
+          "node_id": "0017",
+          "start_index": 35,
+          "end_index": 36,
+          "summary": "The partial document covers the examination of the elbow, focusing on palpation techniques and the assessment of range of motion. It details the process of bony and soft tissue palpation, identifying key anatomical landmarks such as the medial and lateral epicondyles, olecranon, and the ulnar nerve. The document describes the palpation of various muscle groups, including the wrist flexor-pronator muscles and the triceps, as well as the implications of injuries like bursitis and tendon ruptures. It also discusses the anatomy of the cubital fossa and the structures contained within it, such as the biceps tendon, brachial artery, and median nerve. Finally, the document outlines the active range of motion of the elbow, noting typical flexion and extension limits."
+        },
+        {
+          "title": "Range of Motion",
+          "node_id": "0018",
+          "start_index": 36,
+          "end_index": 37,
+          "summary": "The partial document covers the anatomy and examination of the elbow, focusing on the range of motion and neurological assessment. It describes the medial collateral ligament, the triceps muscle, and the olecranon bursa, highlighting conditions like bursitis. The document details the lateral aspect of the elbow, including muscles involved in \"tennis elbow,\" and the structure of the cubital fossa, which contains important tendons, arteries, and nerves. It outlines active and passive range of motion tests for flexion, extension, supination, and pronation, along with their normal ranges. Additionally, it provides a neurologic examination framework, detailing muscle testing for flexors, extensors, supinators, and pronators, specifying the associated nerves and their spinal levels."
+        },
+        {
+          "title": "Neurologic Examination",
+          "node_id": "0019",
+          "start_index": 37,
+          "end_index": 38,
+          "summary": "The partial document covers the examination of the elbow, focusing on the assessment of supination and pronation, passive range of motion, and neurologic examination. It details muscle testing for flexion, extension, supination, and pronation, identifying primary and secondary muscles involved along with their corresponding nerves. The document also outlines reflex testing for the biceps, brachioradialis, and triceps, explaining how to elicit these reflexes and interpret the results in relation to upper and lower motor neuron lesions. Sensation testing is described for different nerve roots (C5, C6, C8, T1) and their respective areas of innervation. Additionally, special tests for ligamentous stability and specific conditions like neuromas and tennis elbow are mentioned, including the Tinel sign and the tennis elbow test, which assess for pain and nerve involvement."
+        },
+        {
+          "title": "Special Tests",
+          "node_id": "0020",
+          "start_index": 38,
+          "end_index": 39,
+          "summary": "The partial document covers various aspects of elbow examination, focusing on special tests for assessing deep tendon reflexes and sensation, as well as evaluating elbow deformities. Key points include:\n\n1. **Reflex Testing**: It describes three deep tendon reflexes associated with the elbow joint: \n   - Biceps reflex (C5) tested by tapping the biceps tendon.\n   - Brachioradialis reflex (C6) tested by tapping the tendon at the radial styloid.\n   - Triceps reflex (C7) tested by tapping the triceps tendon at the olecranon fossa.\n\n2. **Sensation Testing**: It outlines the sensory innervation of the arm and forearm by specific cervical nerves (C5, C6, C8, T1), detailing the areas they supply.\n\n3. **Special Tests for Ligamentous Stability**: It mentions tests for elbow stability, including the Tinel sign for detecting neuromas and the tennis elbow test for assessing pain over the lateral epicondyle.\n\n4. **Examination of Related Areas**: It notes that cervical spine and wrist conditions can refer pain to the elbow.\n\n5. **Elbow Deformities**: It discusses common elbow deformities such as:\n   - Cubitus varus (gunstock deformity) and its treatment options.\n   - Cubitus valgus and its potential need for ulnar nerve transposition.\n   - Dislocated head of the radius, including congenital causes and treatment through excision if it restricts elbow flexion."
+        },
+        {
+          "title": "Examination of Related Areas",
+          "node_id": "0021",
+          "start_index": 39,
+          "end_index": 42,
+          "summary": "The partial document covers the examination of the elbow, focusing on various conditions and deformities associated with it. Key points include:\n\n1. **Elbow Deformities**: \n   - **Cubitus Varus (Gunstock Deformity)**: Commonly resulting from malunited supracondylar fractures, treatable by wedge osteotomy.\n   - **Cubitus Valgus**: Often seen with malunited lateral condyle fractures; treatment may involve ulnar nerve transposition for delayed palsy.\n   - **Dislocated Head of the Radius**: Can be congenital or due to injury; excision of the radial head may be necessary if it restricts movement.\n\n2. **Stiffness of the Elbow**: \n   - Can occur in one or both elbows, with potential causes including rheumatoid arthritis and congenital conditions. Treatment may involve arthroplasty for severe cases.\n   - **Posttraumatic Stiffness**: Severe stiffness post-injury, sometimes requiring removal of myositis ossificans.\n   - **Tuberculosis**: Characterized by swelling and wasting; treatment focuses on general health and immobilization.\n   - **Osteoarthritis**: May arise from previous injuries; treatment is generally conservative unless loose bodies cause locking.\n\n3. **Flailness of the Elbow**: \n   - Causes include gunshot wounds, Charcot’s disease, and poliomyelitis.\n\n4. **Other Disorders**: \n   - **Tennis Elbow**: Caused by trauma to the extensor origin; treated with various methods including injections and surgery.\n   - **Sports Elbow**: Similar to tennis elbow but affects flexors; treatment is analogous.\n   - **Loose Bodies**: Result from injury or degeneration; removal may be necessary if symptomatic.\n   - **Nerve Lesions**: Ulnar nerve palsy is common; anterior transposition is a typical treatment.\n   - **Bursae**: Olecranon bursa can be affected by various conditions; excision may be required for chronic issues.\n\nThe document also briefly touches on the inspection of the hand and its anatomical features, emphasizing the importance of assessing hand function and any congenital anomalies."
+        }
+      ]
+    },
+    {
+      "title": "Examination of the Wrist and Fingers",
+      "node_id": "0022",
+      "start_index": 42,
+      "end_index": 42,
+      "summary": "The partial document discusses the clinical examination of the hand and wrist, focusing on the inspection of hand posture, finger movement, and anatomical features. Key points include:\n\n1. **Hand Attitude**: The normal position of the hand is noted, with slight flexion at the metacarpophalangeal and interphalangeal joints. Damage to flexor tendons can result in finger extension.\n\n2. **Finger Count**: The importance of counting fingers is highlighted, as congenital anomalies may lead to an increased number of fingers.\n\n3. **Movement Characteristics**: Normal hand movements are described as smooth and synchronous, while jerky movements may occur, sometimes compensated by elbow and shoulder movements.\n\n4. **Skin Creases**: The document identifies four main skin creases on the palmar surface, which are significant for surgical considerations and anatomical landmarks:\n   - Distal palmar crease\n   - Proximal palmar crease\n   - Proximal interphalangeal crease\n   - Thenar crease\n\n5. **Muscle Development**: The document notes that muscle development and crease depth differ between the dominant and nondominant hands.\n\n6. **Palm Structure**: The palm consists of three arches (proximal, distal, and longitudinal) supported by intrinsic muscles, which maintain its shape.\n\n7. **MCP Joint Features**: The metacarpophalangeal joint is described in terms of its neurovascular bundles and flexor tendon pathways, with a mention of normal webbing between fingers and conditions like congenital syndactyly that can affect hand function.",
+      "nodes": [
+        {
+          "title": "Inspection",
+          "node_id": "0023",
+          "start_index": 42,
+          "end_index": 43,
+          "summary": "The partial document discusses the clinical examination of the hand and wrist, focusing on inspection and palpation techniques. Key points include:\n\n1. **Hand Inspection**: The document describes the normal attitude of the hand, noting the significance of finger extension in cases of tendon damage and the importance of counting fingers due to congenital anomalies. It highlights the smoothness of normal hand movements and the presence of skin creases on the palmar surface, which indicate anatomical landmarks and the condition of the flexor tendons.\n\n2. **Skin Creases**: Four main skin creases are identified: the distal palmar crease, proximal palmar crease, proximal interphalangeal crease, and thenar crease, with descriptions of their locations and clinical relevance.\n\n3. **Palmar Surface Anatomy**: The document explains the structure of the palm, including the three arches formed by the intrinsic muscles and the implications of muscle atrophy on palm shape. It also notes the neurovascular bundles and the webbing between fingers, which can affect hand function in conditions like congenital syndactyly.\n\n4. **Dorsal Surface Examination**: The examination of the dorsal surface is performed with the hand in a fist, focusing on the color and condition of the fingernails, which can indicate various health issues.\n\n5. **Palpation Techniques**: The palpation process is divided into bony and soft tissue elements, with specific reference points such as the radial and ulnar styloids. The document details the anatomy of the wrist, including the carpal bones, and emphasizes the importance of identifying specific bones like the scaphoid and trapezium during examination.\n\n6. **Clinical Relevance**: The text discusses the commonality of scaphoid fractures and the challenges in diagnosing them through initial X-rays, suggesting the use of MRI in uncertain cases, particularly in medicolegal contexts. \n\nOverall, the document serves as a guide for clinicians in performing thorough examinations of the wrist and hand, highlighting anatomical landmarks and clinical implications."
+        },
+        {
+          "title": "Palpation",
+          "node_id": "0024",
+          "start_index": 43,
+          "end_index": 43,
+          "summary": "The partial document covers the examination of the wrist and hand, focusing on the assessment of the dorsal surface, including the appearance of fingernails and their potential indications of health issues such as anemia or respiratory conditions. It details the palpation process, which is divided into bony and soft tissue elements. Key anatomical landmarks for bony palpation are identified, including the radial and ulnar styloids, the carpal bones arranged in proximal and distal rows, and specific bones such as the scaphoid, trapezium, and capitate. The document highlights the significance of the anatomical snuff box and the common occurrence of scaphoid fractures, emphasizing the importance of follow-up imaging for accurate diagnosis. Additionally, it describes the location and characteristics of other carpal bones and their relevance in wrist articulation."
+        },
+        {
+          "title": "Bony Palpation",
+          "node_id": "0025",
+          "start_index": 43,
+          "end_index": 46,
+          "summary": "The partial document covers the examination of the wrist and hand, focusing on both visual inspection and palpation techniques. Key points include:\n\n1. **Visual Examination**: The dorsal surface of the hand is assessed with a clenched fist, noting the color and condition of the fingernails, which can indicate various health issues such as anemia or fungal infections.\n\n2. **Palpation Techniques**: The palpation process is divided into two stages: bony elements and soft tissue elements. \n\n3. **Bony Palpation**: \n   - Identification of key bony landmarks, including the radial and ulnar styloids, carpal bones (proximal and distal rows), and specific bones like the scaphoid, trapezium, and capitate.\n   - The scaphoid is highlighted for its common fractures and diagnostic challenges, often requiring follow-up imaging.\n   - Other bones such as the lunate, triquetrum, pisiform, and the hook of the hamate are also discussed, including their anatomical significance and clinical relevance.\n\n4. **Metacarpals and Phalanges**: The document describes the structure and palpation of metacarpals and phalanges, noting common injuries like boxer’s fractures.\n\n5. **Soft Tissue Palpation**: The document outlines the six tunnels for extensor tendons and two palmar tunnels for flexor tendons, nerves, and arteries. Specific zones of the wrist are described, including their associated tendons and common pathologies, such as de Quervain’s disease and rheumatoid arthritis.\n\n6. **Clinical Tests**: The Finkelstein’s test is mentioned as a diagnostic tool for de Quervain’s disease, emphasizing the importance of understanding wrist anatomy in clinical practice. \n\nOverall, the document serves as a guide for the thorough examination of the wrist and hand, detailing anatomical landmarks, common injuries, and relevant clinical tests."
+        },
+        {
+          "title": "Soft Tissue Palpation",
+          "node_id": "0026",
+          "start_index": 46,
+          "end_index": 49,
+          "summary": "The partial document covers the anatomy and clinical significance of various zones and tunnels in the wrist and hand, focusing on palpation techniques and common pathologies associated with these areas. It details the specific tendons, nerves, and arteries present in each wrist zone, such as the radial and ulnar styloid processes, and discusses conditions like de Quervain’s disease, rheumatoid arthritis, and carpal tunnel syndrome. The document also describes the muscles of the thenar and hypothenar eminences, the palmar aponeurosis, and the implications of conditions like Dupuytren’s contracture and trigger finger. Additionally, it outlines the range of motion for the wrist and fingers, including flexion, extension, and deviations, emphasizing the importance of these movements in clinical assessments. Overall, the document serves as a comprehensive guide for understanding wrist and hand anatomy, palpation techniques, and associated pathologies."
+        },
+        {
+          "title": "Range of Motion",
+          "node_id": "0027",
+          "start_index": 49,
+          "end_index": 51,
+          "summary": "The partial document covers the examination of the wrist and hand, focusing on various deformities and conditions affecting the fingers, such as swan neck deformity, boutonniere deformity, Heberden’s nodes, and mallet finger. It discusses the anatomy and function of the tufts of the fingers, including the implications of infections like paronychia and their potential to spread. The document outlines the range of motion for both the wrist and fingers, detailing specific movements such as flexion, extension, deviation, and opposition, along with normal ranges for each. It emphasizes the importance of both active and passive range of motion assessments, providing guidelines for testing these movements. Additionally, it includes a section on neurologic examination and muscle testing for the wrist and fingers, highlighting the key movements to assess muscle function."
+        },
+        {
+          "title": "Neurologic Examination",
+          "node_id": "0028",
+          "start_index": 51,
+          "end_index": 51,
+          "summary": "The partial document covers the examination of the wrist and hand, focusing on the range of motion and testing methods for the fingers and thumb. Key points include:\n\n1. **Metacarpophalangeal Joint Movements**: Normal flexion is 90° and extension is 40°. The importance of maintaining slight flexion when casting to facilitate recovery is emphasized.\n\n2. **Interphalangeal Joint Testing**: Passive movements should isolate each joint, with normal flexion at the proximal interphalangeal joint being 100° and at the distal interphalangeal joint being 90°. Both joints are stable in flexion and extension.\n\n3. **Finger Abduction and Adduction**: These movements are tested at the metacarpophalangeal joints with the joints in full extension.\n\n4. **Thumb Movements**: Flexion and extension are tested at both the metacarpophalangeal and interphalangeal joints, with normal ranges specified (50° flexion and 0° extension at the metacarpophalangeal joint; 90° flexion and 20° extension at the interphalangeal joint).\n\n5. **Carpometacarpal Joint Functions**: Palmar abduction (70°) and dorsal adduction (nil) are assessed by isolating the joint.\n\n6. **Opposition Movement**: This is primarily assessed at the carpometacarpal joint of the thumb, testing the ability to touch the tips of other fingers.\n\n7. **Neurologic Examination and Muscle Testing**: Includes assessments of wrist and finger movements, such as flexion, extension, abduction, adduction, and specific tests for thumb functionality and pinch mechanism."
+        },
+        {
+          "title": "Muscle Testing",
+          "node_id": "0029",
+          "start_index": 51,
+          "end_index": 54,
+          "summary": "The partial document covers the examination of the wrist and hand, focusing on the assessment of joint movements, muscle testing, and sensation testing. Key points include:\n\n1. **Joint Movements**: \n   - Metacarpophalangeal joint flexion and extension ranges, and the importance of positioning during casting.\n   - Testing passive movements at interphalangeal joints, emphasizing stabilization of phalanges.\n   - Abduction and adduction of fingers at the metacarpophalangeal joints, with specific testing techniques.\n   - Thumb movements including flexion, extension, palmar abduction, and dorsal adduction, with normal ranges provided.\n\n2. **Neurologic Examination**:\n   - Muscle testing for wrist flexion, extension, supination, and pronation, along with specific muscle innervations.\n   - Detailed testing methods for finger flexors and extensors, including the roles of various muscles and nerves.\n   - Assessment of thumb movements, including opposition and pinch mechanism, highlighting the muscles involved.\n\n3. **Sensation Testing**:\n   - Testing major peripheral nerves (radial, median, and ulnar) at specific locations on the hand to assess sensory function.\n\nOverall, the document provides a comprehensive guide for clinicians on how to perform a thorough examination of the wrist and hand, including joint mobility, muscle strength, and sensory integrity."
+        },
+        {
+          "title": "Sensation Testing",
+          "node_id": "0030",
+          "start_index": 54,
+          "end_index": 55,
+          "summary": "The partial document covers various aspects of a neurologic examination focused on the hand and wrist. It details specific tests for thumb movements, including abduction, adduction, and opposition, along with the relevant muscles and nerves involved. The document also discusses the pinch mechanism between the thumb and index finger, emphasizing the role of long flexors and extensors. Sensation testing is outlined, identifying the major peripheral nerves (radial, median, and ulnar) and their corresponding sensory areas in the hand. Additionally, special tests are described to assess the function of long flexors, intrinsic muscles, and joint tightness, including the Bunnel-Littler test, retinacular test, and Allen's test for vascular supply. Overall, the document provides a comprehensive guide for evaluating hand function and sensation in a clinical setting."
+        },
+        {
+          "title": "Special Tests",
+          "node_id": "0031",
+          "start_index": 55,
+          "end_index": 56,
+          "summary": "The partial document covers the examination of the wrist and hand, focusing on the neurological supply of sensation to different fingers, which is categorized by the C6, C7, and C8 nerve roots. It details various special tests used to assess the function of the hand's flexor muscles, including the flexor digitorum superficialis and profundus tests, the Bunnel-Littler test for intrinsic muscle tightness, the retinacular test for retinacular ligament tightness, and Allen's test for assessing blood supply from the radial and ulnar arteries. Additionally, the document discusses conditions that may cause referred pain to the hand and outlines specific wrist deformities such as radial club hand and Madelung’s deformity, as well as stiffness due to tuberculosis, Kienbock’s disease, and osteoarthritis. It also mentions swellings around the wrist, particularly ganglions, and their treatment options."
+        },
+        {
+          "title": "Examination of Related Areas",
+          "node_id": "0032",
+          "start_index": 56,
+          "end_index": 62,
+          "summary": "The partial document covers various aspects of the examination of the wrist and hand, focusing on specific conditions, deformities, and injuries. Key points include:\n\n1. **Allen's Test**: A method to assess the patency of digital arteries by observing color changes in the fingers after applying pressure.\n\n2. **Related Conditions**: Discussion of referred pain to the hand from upper extremity issues, including cervical disc ruptures and brachial plexus syndromes.\n\n3. **Wrist Deformities**: \n   - Radial club hand and Madelung’s deformity, with treatment options.\n   - Posttraumatic and postinflammatory deformities.\n\n4. **Wrist Stiffness**: Conditions like tuberculosis, Kienbock’s disease, and osteoarthritis, along with their treatments.\n\n5. **Swellings Around the Wrist**: \n   - Ganglions and their treatment.\n   - Compound palmar ganglion and stenosing tenovaginitis (de Quervain’s disease).\n\n6. **Tendon Deformities**: \n   - Mallet finger, boutonniere deformity, and swan neck deformity, including treatment methods.\n   - Tuberculous dactylitis and rheumatoid arthritis effects.\n\n7. **Other Deformities**: Dupuytren’s contracture and its surgical options.\n\n8. **Tunnel Syndromes**: \n   - Carpal tunnel syndrome, its causes, symptoms, and treatments.\n   - Stenosing tenovaginitis of the flexor tendons.\n\n9. **Acute Infections**: \n   - Paronychia, whitlow, and suppurative tenosynovitis, with treatment strategies.\n\n10. **Open Injuries**: \n    - Primary treatment protocols and potential secondary operations for hand injuries.\n\nThe document emphasizes the importance of thorough examination and appropriate treatment for various wrist and hand conditions."
+        }
+      ]
+    },
+    {
+      "title": "Examination of the Hip and the Pelvis",
+      "node_id": "0033",
+      "start_index": 62,
+      "end_index": 62,
+      "summary": "The partial document discusses the clinical examination of the pelvic girdle, which consists of the hip joints, sacroiliac joints, and symphysis pubis. It outlines the inspection process, emphasizing the importance of observing the patient for abrasions, discolorations, birthmarks, sinuses, scars, and swellings as they enter the examination room. The document highlights the assessment of the patient's gait and stance to check for symmetry in the anterior superior iliac spines, which can indicate pelvic tilt due to limb length discrepancies. It also notes the evaluation of lumbar lordosis from the side view and the significance of symmetrical gluteal folds from the posterior view, particularly in infants where asymmetry may suggest conditions like congenital dislocation of the hip or muscular dystrophy. Additionally, the document mentions the palpation of bony structures both anteriorly and posteriorly as part of the examination process.",
+      "nodes": [
+        {
+          "title": "Inspection",
+          "node_id": "0034",
+          "start_index": 62,
+          "end_index": 62,
+          "summary": "The partial document discusses the clinical examination of the pelvic girdle, which consists of the hip joints, sacroiliac joints, and symphysis pubis. It outlines the inspection process, emphasizing the importance of observing the patient for abrasions, discolorations, birthmarks, sinuses, scars, and swellings as they enter the examination room. The document highlights the assessment of the patient's gait and stance to check for symmetry in the anterior superior iliac spines, which can indicate pelvic tilt due to limb length discrepancies. It also notes the significance of observing lumbar lordosis from the side and the potential absence of this curve in cases of muscle spasm related to disc pathology. Additionally, the inspection from the posterior aspect focuses on the symmetry of the gluteal folds and the presence of dimples over the posterior superior iliac spines, which can indicate conditions like congenital dislocation of the hip or muscular dystrophy in infants. The document also mentions the process of bony palpation, both anteriorly and posteriorly, as part of the examination."
+        },
+        {
+          "title": "Palpation",
+          "node_id": "0035",
+          "start_index": 62,
+          "end_index": 63,
+          "summary": "The partial document discusses the clinical examination of the pelvic girdle, focusing on the hip and pelvis. It outlines the anatomy of the pelvic girdle, which consists of the hip joints, sacroiliac joints, and symphysis pubis. The document details the inspection process, emphasizing the importance of observing the patient's gait, stance, and any physical abnormalities such as abrasions, discolourations, and asymmetrical features that may indicate underlying conditions. It also describes the palpation techniques for assessing bony landmarks in both the anterior and posterior aspects of the hip and pelvis, including the anterior superior iliac spines, iliac crest, greater trochanter, and ischial tuberosity. Additionally, it covers soft tissue palpation in the femoral triangle, highlighting the significance of identifying structures such as the femoral artery, nerve, and vein, as well as the sartorius muscle. Overall, the document serves as a guide for conducting a thorough orthopedic examination of the hip and pelvis."
+        },
+        {
+          "title": "Anterior Aspect",
+          "node_id": "0036",
+          "start_index": 63,
+          "end_index": 63,
+          "summary": "The partial document covers the examination of the hip and pelvis, detailing both the anterior and posterior aspects. Key points include the palpation of various bony landmarks such as the anterior superior iliac spines, iliac crest, iliac tubercle, greater trochanter, and pubic tubercles on the anterior side, and the posterior superior iliac spines, greater trochanter, ischial tuberosity, and sacroiliac joint on the posterior side. It emphasizes the importance of palpation techniques, particularly in identifying abnormalities like congenital dislocation or fractures. Additionally, it describes the femoral triangle, its boundaries, and the significance of the femoral artery, nerve, and vein, as well as the sartorius muscle's role in the examination. The document highlights the clinical relevance of these anatomical landmarks in diagnosing conditions such as inguinal hernias."
+        },
+        {
+          "title": "Posterior Aspect",
+          "node_id": "0037",
+          "start_index": 63,
+          "end_index": 63,
+          "summary": "The partial document covers the examination of the hip and pelvis, detailing both the anterior and posterior aspects. Key points include the palpation of various bony landmarks such as the anterior superior iliac spines, iliac crest, iliac tubercle, greater trochanter, and pubic tubercles on the anterior side, and the posterior superior iliac spines, greater trochanter, ischial tuberosity, and sacroiliac joint on the posterior side. It emphasizes the importance of palpating these structures to assess for abnormalities, such as congenital dislocation or fractures. Additionally, the document describes soft tissue palpation in the femoral triangle, highlighting the significance of the femoral artery, nerve, and vein, as well as the sartorius muscle, which forms the lateral border of the triangle. The examination techniques and anatomical relationships are crucial for identifying potential issues like inguinal hernias."
+        },
+        {
+          "title": "Zone I: Femoral Triangle",
+          "node_id": "0038",
+          "start_index": 63,
+          "end_index": 64,
+          "summary": "The partial document provides a detailed examination of the hip and pelvis, focusing on both the anterior and posterior aspects. Key points include:\n\n1. **Anterior Aspect**: \n   - Palpation of bony landmarks such as the anterior superior iliac spines, iliac crest, iliac tubercle, greater trochanter, and pubic tubercles.\n   - The significance of these landmarks in assessing conditions like congenital hip dislocation or fractures.\n\n2. **Posterior Aspect**: \n   - Examination techniques with the patient lying on their side, including palpation of the posterior superior iliac spines, greater trochanter, ischial tuberosity, and the sacroiliac joint.\n\n3. **Soft Tissue Palpation**: \n   - Divided into five zones:\n     - **Zone I (Femoral Triangle)**: Identification of the femoral artery, nerve, and vein, as well as the sartorius and adductor longus muscles.\n     - **Zone II**: Focus on the greater trochanter and gluteus medius muscle, including assessment for tenderness and bursal swelling.\n     - **Zone III (Sciatic Nerve)**: Location and potential issues related to the sciatic nerve and ischial bursitis.\n     - **Zone IV (Iliac Crest)**: Palpation for cluneal nerves and potential neuromas.\n     - **Zone V (Hip and Pelvic Muscles)**: Arrangement of hip and pelvic muscles into quadrants based on their functional groups (flexors, abductors, adductors, extensors).\n\nOverall, the document emphasizes the importance of anatomical landmarks and soft tissue structures in the clinical examination of the hip and pelvis."
+        },
+        {
+          "title": "Zone II",
+          "node_id": "0039",
+          "start_index": 64,
+          "end_index": 64,
+          "summary": "The partial document covers the palpation techniques for various anatomical structures in the hip and pelvic region. It begins with the adductor longus muscle, noting its palpation as a distinct ridge and its relevance in spastic children for preventing hip dislocation. The femoral triangle is discussed for lymph node palpation, particularly in cases of infection. Zone II focuses on the greater trochanter and gluteus medius muscle, highlighting tenderness and the presence of a bursa. Zone III addresses the sciatic nerve's location and potential tenderness due to various conditions. Zone IV discusses the iliac crest and the cluneal nerves, emphasizing the importance of palpating for neuromas. Finally, Zone V categorizes the hip and pelvic muscles into four quadrants based on their functions: flexors, abductors, adductors, and extensors."
+        },
+        {
+          "title": "Zone III: Sciatic Nerve",
+          "node_id": "0040",
+          "start_index": 64,
+          "end_index": 64,
+          "summary": "The partial document covers the palpation techniques for various anatomical structures in the hip and pelvic region. It discusses the adductor longus muscle, noting its palpation as a distinct ridge and its relevance in spastic children for preventing hip dislocation. The document also addresses the femoral triangle, highlighting the palpation of lymph nodes that may indicate infection. It describes Zone II, focusing on the greater trochanter and gluteus medius muscle, including the identification of tenderness and the presence of a bursa. Zone III discusses the sciatic nerve's location and potential causes of tenderness, such as herniated discs or trauma. Zone IV covers the iliac crest and the cluneal nerves, emphasizing the importance of checking for neuromas. Finally, Zone V categorizes the hip and pelvic muscles into four quadrants based on their functions: flexors, abductors, adductors, and extensors."
+        },
+        {
+          "title": "Zone IV: Iliac Crest",
+          "node_id": "0041",
+          "start_index": 64,
+          "end_index": 64,
+          "summary": "The partial document covers the palpation techniques for various anatomical structures in the hip and pelvic region. It begins with the adductor longus muscle, noting its palpation as a distinct ridge and its relevance in spastic children for preventing hip dislocation. The document then discusses the femoral triangle, highlighting the palpation of lymph nodes that may indicate infection. \n\nNext, it describes Zone II, focusing on the greater trochanter and gluteus medius muscle, including the identification of tenderness and the presence of a bursa. Zone III addresses the sciatic nerve's location and potential issues such as herniated discs or piriformis spasms. Zone IV pertains to the iliac crest and the cluneal nerves, emphasizing the need to check for neuromas. Finally, Zone V categorizes the hip and pelvic muscles into four quadrants based on their functional groups: flexors, abductors, adductors, and extensors."
+        },
+        {
+          "title": "Zone V: Hip and Pelvic Muscles",
+          "node_id": "0042",
+          "start_index": 64,
+          "end_index": 65,
+          "summary": "The partial document covers the palpation techniques and examination of the hip and pelvis, detailing specific muscle groups and anatomical landmarks. Key points include:\n\n1. **Adductor Longus Muscle**: Palpation technique and its relevance in spastic children to prevent hip dislocation.\n2. **Femoral Triangle**: Location and significance of lymph nodes, particularly in relation to infections.\n3. **Zone II - Greater Trochanter and Gluteus Medius**: Palpation for tenderness and identification of bursa; description of the gluteus medius muscle and its function.\n4. **Zone III - Sciatic Nerve**: Location and potential issues related to tenderness, including herniated discs and bursitis.\n5. **Zone IV - Iliac Crest**: Importance of cluneal nerves and palpation for neuromas.\n6. **Zone V - Hip and Pelvic Muscles**: Overview of muscle groupings (flexors, adductors, abductors, extensors) and their palpation techniques, including specific muscles like iliopsoas, sartorius, and gluteus maximus.\n7. **Range of Motion**: Active range of movements for hip functions, including abduction, adduction, flexion, and rotation, with normal ranges specified for each movement. \n\nOverall, the document provides a comprehensive guide for assessing the hip and pelvic region through palpation and range of motion testing."
+        },
+        {
+          "title": "Range of Motion",
+          "node_id": "0043",
+          "start_index": 65,
+          "end_index": 66,
+          "summary": "The partial document covers the examination of the hip and pelvis, focusing on various muscle groupings and their functions. It details the flexor grouping, including the iliopsoas, sartorius, and rectus femoris muscles, along with potential injuries. The adductor grouping is described, highlighting the five muscles involved, with the adductor longus being the most superficial. The abductor grouping is discussed, emphasizing the gluteus medius and minimus, and the consequences of weakness in the gluteus medius. The extensor grouping includes the gluteus maximus and hamstrings, with common issues like hamstring spasms noted. \n\nThe document also outlines the active and passive range of motion tests for the hip, detailing specific movements such as abduction, adduction, flexion, extension, and rotation, along with the normal ranges for each. Additionally, it includes a neurologic examination section that focuses on muscle testing for the hip flexors, specifically the iliopsoas and rectus femoris, and their innervation."
+        },
+        {
+          "title": "Neurologic Examination",
+          "node_id": "0044",
+          "start_index": 66,
+          "end_index": 66,
+          "summary": "The partial document covers the neurologic examination with a focus on assessing passive range of movements in the hip joint. It details specific tests for flexion (Thomas' test), extension, abduction, adduction, and internal/external rotation of the hip. Each test is described with instructions on how to perform it and the expected normal ranges of motion. Additionally, it highlights the significance of these movements in diagnosing conditions such as fixed flexion contracture, slipped upper femoral epiphysis in children, and osteoarthritis in adults. The document also includes muscle testing for hip flexors, specifying the primary and secondary flexors and the method for testing their strength."
+        },
+        {
+          "title": "Muscle Testing",
+          "node_id": "0045",
+          "start_index": 66,
+          "end_index": 67,
+          "summary": "The partial document covers the neurologic examination of the hip and pelvis, focusing on passive range of movements and muscle testing. It details specific tests for assessing hip joint flexion, extension, abduction, adduction, and internal/external rotation, including the Thomas test for flexion contracture. The document also outlines muscle testing for hip flexors, extensors, abductors, and adductors, specifying primary and secondary muscles involved along with their innervations. Additionally, it includes a section on sensation testing, describing the dermatomes associated with the anterior abdominal wall and the hip region. A muscle grading chart is provided to classify muscle strength from normal to zero contractility."
+        },
+        {
+          "title": "Sensation Testing",
+          "node_id": "0046",
+          "start_index": 67,
+          "end_index": 68,
+          "summary": "The partial document covers the examination of the hip and pelvis, focusing on muscle testing and sensation assessment. It details the primary and secondary muscles involved in hip extension (gluteus maximus and hamstrings), abduction (gluteus medius and minimus), and adduction (adductor longus and others), along with specific testing methods for each muscle group. Sensation testing is described in relation to dermatomes of the abdominal wall and lower limbs, identifying the nerve roots associated with different areas. The document also includes a muscle grading chart that categorizes muscle strength from normal to zero. Additionally, it outlines special tests such as Trendelenburg’s test for gluteus medius insufficiency, limb length discrepancy assessments, and Ober’s test for iliotibial band contraction. Finally, it describes the Ortolani click test for detecting congenital dislocation of the hip."
+        },
+        {
+          "title": "Special Tests",
+          "node_id": "0047",
+          "start_index": 68,
+          "end_index": 69,
+          "summary": "The partial document covers various aspects of the examination and assessment of the hip and pelvis, focusing on the anatomy and function of specific nerves and muscles, as well as special tests used to diagnose conditions related to limb length discrepancies and hip dislocations. Key points include:\n\n1. **Nerve Supply and Sensation**: It describes the sensory innervation provided by the cluneal nerves and other related nerves to specific areas of the body, including the buttocks and thighs.\n\n2. **Special Tests**: \n   - **Trendelenburg’s Test**: Evaluates the function of the gluteus medius muscle by observing the iliac crest's level during single-leg weight-bearing.\n   - **Limb Length Discrepancy**: Differentiates between true and apparent discrepancies through specific measurement techniques.\n   - **Ober’s Test**: Assesses for iliotibial band contraction.\n   - **Tests for Congenital Dislocation of the Hip**: Includes Ortolani click, telescoping, and adduction contracture tests.\n\n3. **Examination of Related Areas**: Emphasizes the importance of rectal examination in assessing pelvic conditions, including the evaluation of anal reflexes and the internal sphincter.\n\n4. **Conditions to Consider**: Discusses congenital dislocation of the hip, subluxation, pathological dislocation, and the irritable hip, outlining diagnostic methods and treatment options for each condition. \n\nOverall, the document provides a comprehensive overview of the clinical assessment techniques and considerations for hip and pelvic disorders."
+        },
+        {
+          "title": "Examination of Related Areas",
+          "node_id": "0048",
+          "start_index": 69,
+          "end_index": 78,
+          "summary": "The partial document covers the examination of the hip and pelvis, detailing specific tests and conditions related to hip joint issues. Key points include:\n\n1. **Telescoping and Adduction Contracture Tests**: Methods to assess hip stability and movement limitations.\n2. **Rectal Examination**: Importance of a rectal exam in evaluating hip and pelvis conditions, including checking for anal reflexes and palpating the rectal wall.\n3. **Congenital Dislocation of the Hip**: Early diagnosis and treatment options, including splints and surgical interventions if conservative measures fail.\n4. **Subluxation and Pathological Dislocation**: Conditions related to hip displacement, their diagnosis through radiographs, and treatment strategies.\n5. **Irritable Hip**: Management of nonspecific synovitis and differential diagnosis considerations.\n6. **Tuberculosis of the Hip**: Rapid destruction of the hip joint and treatment approaches, including antituberculous drugs and potential surgical options.\n7. **Perthes’ Disease**: Avascular necrosis of the femoral head in children, its progression, and treatment methods.\n8. **Slipped Upper Femoral Epiphysis**: Diagnosis and treatment options for this condition, often seen in adolescents.\n9. **Coxa Vara and Osteoarthritis**: Conditions affecting hip alignment and joint health, with treatment options ranging from conservative to surgical.\n10. **Fracture Neck of Femur**: Common in the elderly, emphasizing the need for early diagnosis and treatment.\n11. **Avascular Necrosis**: A condition characterized by pain and limited movement, often associated with other health issues.\n\nThe document also includes references to radiographic images that illustrate various conditions discussed."
+        }
+      ]
+    },
+    {
+      "title": "Examination of the Knee",
+      "node_id": "0049",
+      "start_index": 78,
+      "end_index": 78,
+      "summary": "The partial document discusses the clinical examination of the knee joint, highlighting its anatomical significance as the largest modified hinge joint in the body. It emphasizes the importance of inspecting the patient's gait and the alignment of the knees, noting conditions such as genu valgum (knock knees) and genu varum (bow legs). The document also addresses the observation of knee extension and potential hyperlaxity leading to genu recurvatum, particularly in females. It advises examining the quadriceps muscles for atrophy post-surgery and identifying signs of intra-articular hemorrhage and synovitis through swelling. Additionally, it describes various localized swellings around the knee, including prepatellar and infrapatellar bursitis, as well as Baker’s cysts and pes anserinus bursitis.",
+      "nodes": [
+        {
+          "title": "Inspection",
+          "node_id": "0050",
+          "start_index": 78,
+          "end_index": 79,
+          "summary": "The partial document focuses on the clinical examination of the knee joint, highlighting its anatomical features and the methods for assessing its condition. Key points covered include:\n\n1. **Knee Anatomy**: The knee is described as the largest modified hinge joint, allowing significant flexion movement. It discusses normal anatomical variations such as genu valgum (knock knees), genu varum (bow legs), and genu recurvatum (hyperextension).\n\n2. **Inspection Techniques**: The document emphasizes the importance of inspecting the patient's gait and the knee's alignment while standing. It notes the significance of observing for swelling, atrophy of the quadriceps, and localized swellings such as bursitis or Baker's cyst.\n\n3. **Palpation Methods**: It details the palpation of bony components of the knee, recommending slight flexion for better access. Specific areas to palpate include the medial and lateral aspects of the knee, identifying key structures like the medial tibial plateau, tibial tubercle, and femoral condyles.\n\n4. **Pathological Findings**: The text mentions potential findings during palpation, such as osteophytes in osteoarthritis and bony defects in osteochondritis dissecans.\n\n5. **Trochlear Groove and Patella**: The document briefly touches on the trochlear groove's role in patellar tracking and its palpation along the joint lines.\n\nOverall, the document serves as a guide for clinicians on how to effectively examine the knee joint through inspection and palpation techniques."
+        },
+        {
+          "title": "Palpation",
+          "node_id": "0051",
+          "start_index": 79,
+          "end_index": 79,
+          "summary": "The partial document provides a detailed examination guide for palpating the knee joint, emphasizing the importance of positioning the knee in slight flexion for effective assessment. It outlines specific bony landmarks and structures to palpate on both the medial and lateral aspects of the knee. Key points include:\n\n- **Medial Aspect**: \n  - Palpation techniques for the medial tibial plateau, tibial tubercle, medial femoral condyle, and adductor tubercle.\n  - Identification of potential abnormalities such as osteochondritis dissecans and osteophytes in osteoarthritis.\n\n- **Lateral Aspect**: \n  - Palpation of the lateral tibial plateau, lateral tubercle, lateral femoral condyle, lateral femoral epicondyle, and the head of the fibula.\n  - Noted differences in the amount of surface area available for palpation between the medial and lateral femoral condyles.\n\n- **Trochlear Groove and Patella**: \n  - Description of the trochlear groove's role in patellar tracking and its palpation along the joint lines.\n\nOverall, the document serves as a practical guide for clinicians to effectively assess the knee joint through palpation."
+        },
+        {
+          "title": "Medial Aspect",
+          "node_id": "0052",
+          "start_index": 79,
+          "end_index": 79,
+          "summary": "The partial document provides a detailed examination guide for palpating the knee joint, emphasizing the importance of positioning the knee in slight flexion for effective assessment. It outlines specific bony landmarks and structures to palpate on both the medial and lateral aspects of the knee. Key points include:\n\n- **Medial Aspect**: \n  - Palpation techniques for the medial tibial plateau, tibial tubercle, medial femoral condyle, and adductor tubercle.\n  - Identification of potential abnormalities such as osteochondritis dissecans and osteophytes in osteoarthritis.\n\n- **Lateral Aspect**: \n  - Palpation of the lateral tibial plateau, lateral tubercle, lateral femoral condyle, lateral femoral epicondyle, and the head of the fibula.\n  - Noting the limited palpation area of the lateral femoral condyle due to patellar coverage.\n\n- **Trochlear Groove and Patella**: \n  - Description of the trochlear groove's role in patellar tracking and its palpation along the joint lines.\n\nOverall, the document serves as a practical guide for clinicians to effectively assess the knee joint's anatomy and identify any pathological conditions."
+        },
+        {
+          "title": "Lateral Aspect",
+          "node_id": "0053",
+          "start_index": 79,
+          "end_index": 80,
+          "summary": "The partial document provides a detailed examination guide for the knee, focusing on palpation techniques for various anatomical structures. It emphasizes the importance of positioning the knee in slight flexion for effective palpation of bony components, muscles, tendons, and ligaments. Key points covered include:\n\n1. **Medial Aspect Palpation**: Identification of the medial tibial plateau, tibial tubercle, medial femoral condyle, and adductor tubercle, along with potential abnormalities such as osteochondritis dissecans and osteophytes in osteoarthritis.\n\n2. **Lateral Aspect Palpation**: Description of the lateral tibial plateau, lateral tubercle, lateral femoral condyle, lateral femoral epicondyle, and the head of the fibula, noting the limited palpation area due to the patella.\n\n3. **Trochlear Groove and Patella**: Explanation of the trochlear groove's role in patellar tracking and the mobility of the patella in different knee positions.\n\n4. **Soft Tissue Palpation**: Division into four zones (anterior, medial, lateral, and posterior) with specific focus on the anterior aspect, including the quadriceps muscle, infrapatellar tendon, and common bursae associated with knee conditions like Osgood-Schlatter’s syndrome and bursitis.\n\n5. **Medial Aspect Soft Tissue**: Discussion of the medial meniscus and medial collateral ligament, highlighting their anatomical significance and common injuries.\n\nOverall, the document serves as a comprehensive guide for clinicians to perform a thorough knee examination through palpation."
+        },
+        {
+          "title": "Soft Tissue Palpation",
+          "node_id": "0054",
+          "start_index": 80,
+          "end_index": 82,
+          "summary": "The partial document covers the palpation and examination of the knee joint, detailing the anatomy and assessment of various structures in four zones: anterior, medial, lateral, and posterior. \n\n1. **Anterior Aspect**: It discusses the quadriceps muscle, its components, and its tendon insertion into the patella and tibial tubercle. It highlights the infrapatellar tendon, its potential tenderness in children (Osgood–Schlatter’s syndrome), and common issues like bursitis in the infrapatellar region and the pes anserinus bursa.\n\n2. **Medial Aspect**: The document describes the medial meniscus, its mobility, and susceptibility to tears, as well as the medial collateral ligament and its role in knee stability. It also mentions the tendons of the sartorius, gracilis, and semitendinosus, collectively known as the pes anserinus, and their associated bursa.\n\n3. **Lateral Aspect**: It outlines the lateral meniscus, its attachment to the popliteus muscle, and the lateral collateral ligament. The palpation of the biceps femoris tendon and iliotibial tract is also discussed, along with the common peroneal nerve.\n\n4. **Posterior Aspect**: The document describes the popliteal fossa, its borders, and the neurovascular structures within it, including the posterior tibial nerve, popliteal vein, and artery. It also mentions the popliteal cyst (Baker’s cyst) and the gastrocnemius muscle.\n\n5. **Tests for Joint Stability**: The document explains how to test the stability of the collateral and cruciate ligaments through specific maneuvers, detailing the significance of these tests in diagnosing ligament tears and joint instability.\n\nOverall, the document serves as a comprehensive guide for the palpation and examination of the knee, focusing on anatomical structures, common pathologies, and clinical assessment techniques."
+        },
+        {
+          "title": "Tests for Joint Stability",
+          "node_id": "0055",
+          "start_index": 82,
+          "end_index": 83,
+          "summary": "The partial document covers the anatomy and testing of joint stability in the knee, focusing on the popliteal fossa and its neurovascular structures, including the posterior tibial nerve, popliteal vein, and popliteal artery. It discusses the importance of collateral and cruciate ligaments in maintaining knee stability, detailing specific tests for assessing their integrity. The document explains how to perform these tests, including the valgus and varus stress tests for collateral ligaments and the anterior and posterior drawer tests for cruciate ligaments. It highlights the significance of the medial collateral ligament in joint stability and notes the rarity of isolated posterior cruciate ligament tears. Additionally, it describes the range of motion in the knee joint, including flexion, extension, and rotation, and the muscles involved in these movements."
+        },
+        {
+          "title": "Range of Motion",
+          "node_id": "0056",
+          "start_index": 83,
+          "end_index": 84,
+          "summary": "The partial document covers the examination of the knee, focusing on ligament tears, range of motion, and neurologic examination. It discusses the potential for tears in the anterior and posterior cruciate ligaments, noting that isolated posterior cruciate tears are rare and that anterior cruciate tears are more common. The document outlines the basic movements of the knee joint, including flexion, extension, and rotation, detailing the muscles involved in these movements. It describes how to assess active and passive range of motion, including specific tests for flexion, extension, and rotations. Additionally, it includes a neurologic examination section that details muscle testing for knee extension and flexion, specifying the relevant nerves and muscle groups involved."
+        },
+        {
+          "title": "Neurologic Examination",
+          "node_id": "0057",
+          "start_index": 84,
+          "end_index": 84,
+          "summary": "The partial document covers the neurologic examination focusing on the active and passive range of movement of the knee joint. It details the procedures for assessing flexion and extension, including specific tests for knee extension and the concept of \"extensor lag\" associated with quadriceps weakness. The document explains the anatomical mechanics of the knee joint, including the screw home movement and the role of the meniscus. It also outlines the internal and external rotation capabilities of the knee. Additionally, the document includes muscle testing for knee extension and flexion, specifying the primary muscles involved, their innervation, and the methods for testing these muscle groups against resistance."
+        },
+        {
+          "title": "Muscle Testing",
+          "node_id": "0058",
+          "start_index": 84,
+          "end_index": 85,
+          "summary": "The partial document covers the neurologic examination of the knee, focusing on both active and passive range of movement, muscle testing, sensation testing, reflex testing, and special tests for knee injuries. \n\n1. **Active Range of Movement**: It details how to assess flexion and extension of the knee, including the concept of \"extensor lag\" and the anatomical mechanics involved in knee extension. It also describes internal and external rotations of the foot.\n\n2. **Passive Range of Movement**: The document specifies the expected degrees of flexion and extension, as well as internal and external rotations when the knees are held straight.\n\n3. **Muscle Testing**: It outlines the primary muscles involved in knee extension and flexion, including the quadriceps and hamstring muscles, along with their corresponding nerve roots. Testing methods for these muscles are described.\n\n4. **Sensation Testing**: The sensory dermatomes related to the knee are explained, detailing the areas supplied by specific nerves (L2, L3, L4, S2) and their clinical significance.\n\n5. **Reflex Testing**: The patellar reflex is highlighted as a key reflex to assess, with instructions on how to perform the test.\n\n6. **Special Tests**: Two specific tests for assessing meniscal injuries are described: McMurray’s test and Apley’s compression test, including the procedures and expected outcomes for each test. \n\nOverall, the document serves as a comprehensive guide for conducting a neurologic examination of the knee, emphasizing the importance of movement, muscle strength, sensation, reflexes, and special tests in diagnosing knee conditions."
+        },
+        {
+          "title": "Sensation Testing",
+          "node_id": "0059",
+          "start_index": 85,
+          "end_index": 85,
+          "summary": "The partial document covers the examination of the knee, focusing on various testing methods. It discusses the assessment of the semitendinosus and semimembranosus muscles through internal rotation of the leg, along with tests for flexion and extension. Sensation testing is detailed, outlining the sensory dermatomes associated with the knee, specifically L4, L3, L2, and S2, and their corresponding nerve supplies. Reflex testing is highlighted, particularly the patellar reflex, which is associated with the L4 nerve root. Special tests for knee injuries are also described, including McMurray’s test for a torn meniscus and Apley’s compression test, both of which involve specific movements and positions to elicit signs of meniscal damage."
+        },
+        {
+          "title": "Reflex Testing",
+          "node_id": "0060",
+          "start_index": 85,
+          "end_index": 85,
+          "summary": "The partial document covers the examination of the knee, focusing on several key areas: \n\n1. **Muscle Testing**: It discusses testing the semitendinosus and semimembranosus muscles for internal and external rotation, as well as flexion and extension of the leg.\n\n2. **Sensation Testing**: The document outlines the sensory dermatomes associated with the knee, detailing the contributions from spinal nerves L2, L3, L4, and S2, and their respective areas of skin innervation.\n\n3. **Reflex Testing**: It emphasizes the patellar reflex, primarily associated with the L4 nerve, and describes the procedure for testing it, including patient positioning and technique.\n\n4. **Special Tests for Meniscus Injury**: Two specific tests are highlighted:\n   - **McMurray’s Test**: Used to detect a torn meniscus, involving flexion, rotation, and extension of the knee while applying a valgus strain.\n   - **Apley’s Compression Test**: Conducted with the patient lying prone, this test involves flexing the knee and rotating it while applying compression to identify pain indicative of a meniscus tear."
+        },
+        {
+          "title": "Special Tests",
+          "node_id": "0061",
+          "start_index": 85,
+          "end_index": 86,
+          "summary": "The partial document covers the examination of the knee, focusing on various testing methods for assessing knee function and diagnosing potential injuries. Key points include:\n\n1. **Muscle Testing**: Examination of the semitendinosus and semimembranosus muscles through internal rotation, along with tests for flexion, extension, internal, and external rotation.\n\n2. **Sensation Testing**: Description of sensory dermatomes related to the knee, detailing the contributions from L2, L3, L4, and S2 nerves, and their clinical significance, particularly in relation to surgical procedures.\n\n3. **Reflex Testing**: Focus on the patellar reflex, considered an L4 reflex, with instructions on how to properly elicit and assess it.\n\n4. **Special Tests for Meniscal and Ligamentous Injuries**: \n   - **McMurray’s Test**: For detecting torn meniscus.\n   - **Apley’s Compression Test**: To localize pain indicating meniscal tears.\n   - **Distraction Test**: Differentiates between meniscal tears and ligamentous injuries.\n   - **Reduction Click**: For unlocking a knee with a torn meniscus.\n   - **Bounce Home Test**: To assess full extension in cases of meniscal tears or foreign bodies.\n   - **Patella Femoral Grinding Test**: Evaluates the integrity of the patella and femur surfaces.\n   - **Apprehension Test**: Assesses for patellar dislocation or subluxation.\n   - **Tinnel’s Sign**: Tests for nerve pain related to the infrapatellar branch of the saphenous nerve.\n\n5. **Tests for Knee Joint Effusion**: Methods to assess both major and minor knee joint effusions through palpation and observation techniques.\n\n6. **Examination of Related Areas**: Emphasizes the importance of examining adjacent joints and considering referred pain during the knee examination. \n\nOverall, the document provides a comprehensive guide to the clinical examination of the knee, highlighting various tests and their implications for diagnosing knee conditions."
+        },
+        {
+          "title": "Examination of Related Areas",
+          "node_id": "0062",
+          "start_index": 86,
+          "end_index": 96,
+          "summary": "The partial document covers various examination techniques and tests related to knee joint injuries and conditions. Key points include:\n\n1. **Distraction Test**: Differentiates between meniscal tears and ligamentous pathology by applying traction and rotation to the leg, assessing pain response.\n2. **Reduction Click**: A technique to unlock a locked knee due to a torn meniscus by rotating the knee until it extends fully with an audible click.\n3. **Bounce Home Test**: Evaluates full knee extension in cases of meniscal tears or foreign bodies by flexing and then passively extending the knee.\n4. **Patella Femoral Grinding Test**: Assesses the integrity of the patella and femur surfaces by pushing the patella while the quadriceps are contracted, noting any pain.\n5. **Apprehension Test**: Elicits apprehension in patients when the patella is maneuvered laterally, indicating potential dislocation or subluxation.\n6. **Tinnel’s Sign**: Tests for nerve pain by tapping over the cut end of a nerve, particularly around the knee.\n7. **Knee Joint Effusion Tests**: Methods to assess major and minor effusions in the knee joint through patellar manipulation.\n8. **Deformities of the Knee**: Discusses conditions like genu valgum (knock knee), genu varum (bow legs), and genu recurvatum (hyperextension), including their causes and treatment options.\n9. **Swellings of the Knee**: Covers traumatic and non-traumatic synovitis, hemarthrosis, and tuberculosis of the knee joint, along with their diagnostic and treatment approaches.\n10. **Ligament and Meniscal Injuries**: Describes examination methods for ligament injuries, meniscal tears, and their respective treatments, including surgical options.\n11. **Extensor Mechanism Lesions**: Discusses strains, avulsions, and conditions like Osgood-Schlatter’s disease, including treatment strategies.\n12. **Other Disorders**: Addresses bursitis, loose bodies, osteochondritis dissecans, osteoarthritis, Charcot’s disease, and synovial osteochondromatosis, detailing their presentations and management.\n\nOverall, the document provides a comprehensive overview of knee examination techniques, common injuries, and associated conditions, along with diagnostic and treatment recommendations."
+        }
+      ]
+    },
+    {
+      "title": "Examination of the Foot and Ankle",
+      "node_id": "0063",
+      "start_index": 96,
+      "end_index": 96,
+      "summary": "The partial document discusses the clinical examination of the foot and ankle, emphasizing the importance of inspection from the moment the patient enters the examination room. Key points include the observation of deformed shoes indicating specific foot conditions, such as drop foot and toe-in. The document outlines the normal anatomical features of the foot, including the medial longitudinal arch, and describes various deformities like pes cavus, pes planus, and forefoot adductus. It highlights the significance of color changes in the foot during weight-bearing and non-weight-bearing positions, which can indicate arterial insufficiency. Additionally, the document notes the examination of skin thickness in weight-bearing areas and the assessment of swelling, which may suggest trauma or lymphatic obstruction.",
+      "nodes": [
+        {
+          "title": "Inspection",
+          "node_id": "0064",
+          "start_index": 96,
+          "end_index": 97,
+          "summary": "The partial document covers the clinical examination of the foot and ankle, focusing on inspection and palpation techniques. Key points include:\n\n1. **Inspection**: The examination begins as the patient enters the room, with attention to shoe wear patterns indicating foot deformities (e.g., drop foot, toe-in). The normal foot's resting position and arch characteristics are described, along with conditions like pes cavus and pes planus. Changes in foot color during weight-bearing and non-weight-bearing positions are noted, particularly in diagnosing arterial insufficiency. The document also discusses skin thickness in weight-bearing areas and the significance of swelling in the foot and ankle.\n\n2. **Palpation**: The examination of bony landmarks includes the medial and lateral aspects of the foot. Key structures such as the first metatarsal, navicular bone, talus, and malleoli are palpated, with attention to conditions like gout and accessory navicular bone. The document details the anatomy of the foot, including the sinus tarsi area and the dome of the talus, emphasizing the importance of these structures in diagnosing foot and ankle conditions."
+        },
+        {
+          "title": "Palpation: Bony Points",
+          "node_id": "0065",
+          "start_index": 97,
+          "end_index": 97,
+          "summary": "The partial document covers the examination of the foot and ankle, focusing on the palpation of bony points in both the medial and lateral aspects. It details the key structures that can be palpated, such as the first metatarsal, navicular bone, talus, medial and lateral malleoli, and the fifth metatarsal. The document also discusses conditions that may affect these areas, including gout, bunions, aseptic necrosis of the navicular, and pes planus. Additionally, it describes the sinus tarsi area and the palpation of the dome of the talus, noting the differences in palpation between the medial and lateral sides. Overall, the document provides a comprehensive overview of the anatomical landmarks and clinical considerations relevant to the foot and ankle examination."
+        },
+        {
+          "title": "Sinus Tarsi Area",
+          "node_id": "0066",
+          "start_index": 97,
+          "end_index": 98,
+          "summary": "The partial document covers the examination of the foot and ankle, focusing on the palpation of bony points and soft tissues. It details the anatomical landmarks on both the medial and lateral aspects of the foot, including the first metatarsal, navicular bone, talus, and malleoli. It discusses conditions such as gout, bunions, and accessory navicular bone, as well as the significance of various bony prominences like the sustentaculum tali and peroneal tubercle. The document also describes the sinus tarsi area, the hindfoot, and the plantar surface, highlighting the challenges in palpating the plantar surface due to fascial bands. Additionally, it addresses common deformities such as hallux valgus and metatarsus primus varus, along with associated conditions like sesamoiditis and Sever’s epiphysitis. Overall, the document provides a comprehensive overview of the anatomical features and clinical considerations relevant to foot and ankle examination."
+        },
+        {
+          "title": "Area of the Hindfoot",
+          "node_id": "0067",
+          "start_index": 98,
+          "end_index": 98,
+          "summary": "The partial document discusses the anatomy and palpation of various bony points in the hindfoot and plantar surface of the foot. It highlights the location and significance of the tibiofibular joint and the dome of the talus, as well as the medial tubercle of the calcaneus, which serves as an attachment point for muscles and can be a site of tenderness. The document also addresses the challenges of examining the plantar surface due to fascial bands and details the palpation process along the medial longitudinal arch, including the flexor hallucis brevis tendon and the transverse arch. It notes common issues such as sesamoiditis, tenderness in the second metatarsal head due to fractures, and callosities over the fifth metatarsal head. Additionally, it describes soft tissue palpation in Zone I, focusing on hallux valgus and bunion deformities, including their causes, symptoms, and potential complications like gout."
+        },
+        {
+          "title": "Plantar Surface",
+          "node_id": "0068",
+          "start_index": 98,
+          "end_index": 98,
+          "summary": "The partial document discusses the anatomy and palpation of various bony points in the hindfoot and plantar surface of the foot. It highlights the location and significance of the tibiofibular joint and the dome of the talus, as well as the medial tubercle of the calcaneus, which serves as an attachment point for muscles and can be a site of tenderness. The document also addresses the challenges of examining the plantar surface due to fascial bands and details the palpation of structures such as the flexor hallucis brevis tendon and the transverse arch of the foot. It notes common conditions like Sever’s epiphysitis in children, sesamoiditis, and fractures of the second metatarsal head. Additionally, it covers soft tissue palpation in Zone I, focusing on hallux valgus and bunions, which involve deformities of the big toe and associated pain and inflammation. The document emphasizes the clinical relevance of these anatomical features and conditions in foot assessment."
+        },
+        {
+          "title": "Zone I: Head of First Metatarsal Bone",
+          "node_id": "0069",
+          "start_index": 98,
+          "end_index": 99,
+          "summary": "The partial document covers the anatomy and palpation techniques of the foot and ankle, focusing on key bony landmarks and soft tissue structures. It begins with the tibiofibular joint and the hindfoot area, highlighting the dome of the talus and the medial tubercle of the calcaneus, which is significant for muscle attachments and weight-bearing. The document discusses the challenges of examining the plantar surface of the foot due to fascial bands and details the palpation of various structures, including the flexor hallucis brevis tendon and the transverse arch. \n\nIt outlines three specific zones for soft tissue palpation: \n1. **Zone I** focuses on the first metatarsal bone, discussing conditions like hallux valgus and bunions, which involve deformities and inflammation.\n2. **Zone II** addresses the navicular tubercle and talar head, explaining the support provided by the tibialis posterior tendon and spring ligament, particularly in conditions like pes planus.\n3. **Zone III** examines the medial malleolus and surrounding structures, including the deltoid ligament, tendons, and neurovascular components, emphasizing their clinical significance and potential for injury or compression.\n\nOverall, the document provides a detailed overview of the anatomical features and clinical considerations relevant to foot and ankle examination."
+        },
+        {
+          "title": "Zone II: Navicular Tubercle and Talar Head",
+          "node_id": "0070",
+          "start_index": 99,
+          "end_index": 99,
+          "summary": "The partial document discusses the anatomy and clinical significance of the foot and ankle, focusing on two specific zones: the navicular tubercle and talar head (Zone II) and the medial malleolus (Zone III). In Zone II, it describes the articulation of the talar head with the sustentaculum tali and navicular, highlighting the role of the tibialis posterior tendon and spring ligament in supporting the talar head, particularly in conditions like pes planus, which leads to a loss of the longitudinal arch. In Zone III, the document details the deltoid ligament and the arrangement of tendons, arteries, and nerves around the medial malleolus, emphasizing the prominence of the tibialis posterior tendon during foot movements and its role in deformities due to muscle weakness. It also notes the clinical importance of the posterior tibial artery and tibial nerve as they supply blood and innervation to the foot, respectively, and discusses the potential for neurovascular issues in the tarsal tunnel."
+        },
+        {
+          "title": "Zone III: Medial Malleolus",
+          "node_id": "0071",
+          "start_index": 99,
+          "end_index": 100,
+          "summary": "The partial document covers the examination of the foot and ankle, focusing on specific anatomical zones. \n\nIn Zone II, it discusses the navicular tubercle and talar head, highlighting the role of the tibialis posterior tendon and spring ligament in supporting the talar head, particularly in conditions like pes planus, which leads to medial and plantar displacement of the talar head and loss of the longitudinal arch.\n\nZone III addresses the medial malleolus, detailing the deltoid ligament and the arrangement of tendons and vessels, including the tibialis posterior tendon, flexor digitorum longus tendon, posterior tibial artery, and tibial nerve. It emphasizes the clinical significance of these structures, particularly in conditions like spasticity and the potential for neurovascular problems in the tarsal tunnel.\n\nZone IV focuses on the dorsum of the foot, identifying key structures such as the tibialis anterior tendon, extensor hallucis longus tendon, dorsalis pedis artery, and extensor digitorum longus tendon. It discusses the implications of weakness in these tendons, particularly in relation to foot drop and anterior compartment syndrome.\n\nFinally, Zone V examines the lateral malleolus, describing the lateral collateral ligament and its components, which are involved in ankle sprains and instability. It also mentions the peroneus longus and brevis tendons, their role as evertors, and the potential issues related to their retinaculum."
+        },
+        {
+          "title": "Zone IV: Dorsum of the Foot Between the Malleoli",
+          "node_id": "0072",
+          "start_index": 100,
+          "end_index": 100,
+          "summary": "The partial document discusses the anatomy and palpation of key structures in the dorsum of the foot and the lateral malleolus. It highlights important tendons, including the tibialis anterior, extensor hallucis longus, and extensor digitorum longus, detailing their locations, functions, and clinical significance, such as the testing for foot drop and their roles in tendon transfers. The document also addresses the dorsalis pedis artery and its relevance in vascular disease. Additionally, it covers the lateral collateral ligament of the ankle, describing its components and their involvement in ankle injuries, particularly inversion sprains. The peroneus longus and brevis tendons are mentioned as primary evertors of the ankle, with a note on their anatomical positioning and potential issues related to retinaculum deficiency."
+        },
+        {
+          "title": "Zone V: Lateral Malleolus",
+          "node_id": "0073",
+          "start_index": 100,
+          "end_index": 101,
+          "summary": "The partial document covers various anatomical structures and clinical considerations related to the foot and ankle, organized into specific zones. \n\n- **Zone IV (Dorsum of the Foot Between the Malleoli)**: It discusses key tendons such as the tibialis anterior, extensor hallucis longus, and extensor digitorum longus, highlighting their functions, palpation techniques, and clinical implications like foot drop and anterior compartment syndrome. The dorsalis pedis artery's location and significance in vascular health are also mentioned.\n\n- **Zone V (Lateral Malleolus)**: This section describes the lateral collateral ligament's components, including the anterior talofibular, calcaneofibular, and posterior talofibular ligaments, and their roles in ankle stability and injury mechanisms.\n\n- **Zone VI (Sinus Tarsi)**: It notes the sinus tarsi's involvement in conditions like ankle sprains and rheumatoid arthritis, with palpation of the extensor digitorum brevis tendon during toe extension.\n\n- **Zone VII (Head of the Fifth Metatarsal)**: The presence of a bursa over the fifth metatarsal is mentioned, which can become inflamed, leading to a condition known as \"tailor’s bunion.\"\n\n- **Zone VIII (Calcaneus)**: The document details the tendoachilles, its potential for rupture, and the testing method for assessing its integrity. It also discusses the retrocalcaneal and calcaneal bursae, including their susceptibility to inflammation.\n\n- **Zone IX (Plantar Surface of the Foot)**: It highlights the medial tubercle of the calcaneus and the examination for calcaneal spurs, which can cause tenderness.\n\nOverall, the document provides a comprehensive overview of the anatomy, function, and clinical relevance of various structures in the foot and ankle."
+        },
+        {
+          "title": "Zone VI: Sinus Tarsi",
+          "node_id": "0074",
+          "start_index": 101,
+          "end_index": 101,
+          "summary": "The partial document discusses the examination of the foot and ankle, focusing on various anatomical zones and associated conditions. Key points include:\n\n1. **Snapping Tendons**: The peroneus brevis tendon can snap, potentially leading to bone fractures.\n2. **Sinus Tarsi**: This area is often affected by ankle sprains and conditions like rheumatoid arthritis, with the extensor digitorum brevis tendon being palpable during toe extension.\n3. **Head of the Fifth Metatarsal**: Inflammation of the bursa over the fifth metatarsal can cause a \"tailor’s bunion.\"\n4. **Calcaneus**: The tendoachilles, formed by the gastrocnemius and soleus muscles, is the strongest tendon and can rupture, leading to significant pain and loss of plantarflexion. The retrocalcaneal bursa can become inflamed due to friction from poorly fitting shoes.\n5. **Plantar Surface of the Foot**: The medial tubercle of the calcaneus is a key bony prominence from which most foot muscles originate, and it should be examined for tenderness or the presence of a calcaneal spur."
+        },
+        {
+          "title": "Zone VII: Head of the Fifth Metatarsal",
+          "node_id": "0075",
+          "start_index": 101,
+          "end_index": 101,
+          "summary": "The partial document covers the examination of the foot and ankle, focusing on various anatomical zones and associated conditions. Key points include:\n\n1. **Snapping Tendons**: Discussion of the peroneus brevis tendon and its potential for snapping, which may involve bone fragments or fractures.\n2. **Sinus Tarsi**: The impact of conditions like ankle sprains and rheumatoid arthritis on the sinus tarsi, with an emphasis on the extensor digitorum brevis tendon.\n3. **Head of the Fifth Metatarsal**: Description of a bursa over the fifth metatarsal that can become inflamed, leading to a condition known as \"tailor’s bunion.\"\n4. **Calcaneus**: Examination of the tendoachilles, its susceptibility to rupture, and the implications for plantarflexion. The document also discusses the retrocalcaneal bursa and calcaneal bursa, including their locations and potential for inflammation.\n5. **Plantar Surface of the Foot**: Identification of the medial tubercle of the calcaneus and the examination for calcaneal spurs, which can be tender upon palpation."
+        },
+        {
+          "title": "Zone VIII: Calcaneus",
+          "node_id": "0076",
+          "start_index": 101,
+          "end_index": 101,
+          "summary": "The partial document discusses the examination of the foot and ankle, focusing on various anatomical zones and associated conditions. Key points include:\n\n1. **Snapping Tendons**: The peroneus brevis tendon can snap, potentially leading to bone fractures.\n2. **Sinus Tarsi**: This area is often affected by ankle sprains and conditions like rheumatoid arthritis, with the extensor digitorum brevis tendon being palpable during toe extension.\n3. **Head of the Fifth Metatarsal**: Inflammation of the bursa over the fifth metatarsal can cause a \"tailor’s bunion.\"\n4. **Calcaneus**: The tendoachilles, formed by the gastrocnemius and soleus muscles, is the strongest tendon and can rupture, leading to significant pain and loss of plantarflexion. The retrocalcaneal bursa can become inflamed due to friction from poorly fitting shoes.\n5. **Plantar Surface of the Foot**: The medial tubercle of the calcaneus is a key bony prominence from which most foot muscles originate, and it should be examined for tenderness or the presence of a calcaneal spur."
+        },
+        {
+          "title": "Zone IX: Plantar Surface of the Foot",
+          "node_id": "0077",
+          "start_index": 101,
+          "end_index": 102,
+          "summary": "The partial document covers the examination of the foot and ankle, detailing various anatomical zones and associated conditions. Key points include:\n\n1. **Tendon Issues**: Discussion of snapping tendons, particularly the peroneus brevis tendon, and its potential for injury or fracture.\n2. **Sinus Tarsi**: Commonly affected in conditions like ankle sprains and rheumatoid arthritis, with the extensor digitorum brevis tendon being notable during toe extension.\n3. **Fifth Metatarsal**: Presence of a bursa that can become inflamed, leading to a condition known as \"tailor’s bunion.\"\n4. **Calcaneus**: The tendoachilles, the strongest tendon, can rupture, leading to significant pain and loss of plantarflexion. Bursitis may occur due to friction from ill-fitting shoes.\n5. **Plantar Surface**: Examination of the medial tubercle of the calcaneus and the potential for calcaneal spurs and plantar fasciitis.\n6. **Toe Conditions**: Description of claw toes, hammer toes, corns, and ingrown toenails, including their causes and symptoms.\n7. **Ankle Stability Tests**: Emphasis on the importance of medial and lateral structures for ankle stability, with specific tests like the drawer’s sign to assess anterior and posterior stability of the ankle joint. \n\nOverall, the document provides a comprehensive overview of foot and ankle anatomy, common pathologies, and methods for assessing stability and injuries."
+        },
+        {
+          "title": "Zone X: Toes",
+          "node_id": "0078",
+          "start_index": 102,
+          "end_index": 102,
+          "summary": "The partial document covers various aspects of foot and ankle conditions, focusing on the anatomy and common pathological issues. It begins with a description of the plantar aponeurosis (plantar fascia) and its role in foot stability, noting the potential for nodularity and tenderness in conditions like plantar fasciitis and Morton’s neuroma. The document then discusses specific toe conditions, including claw toes, hammer toes, corns, and ingrown toenails, detailing their characteristics and causes. Finally, it addresses tests for ankle stability, emphasizing the importance of the medial and lateral structures, particularly in response to inversion stress. The document describes the drawer's sign test for assessing both anterior and posterior stability of the ankle joint."
+        },
+        {
+          "title": "Tests for Ankle Stability",
+          "node_id": "0079",
+          "start_index": 102,
+          "end_index": 104,
+          "summary": "The partial document covers various aspects of foot and ankle examination, focusing on tests for ankle stability and common pathological conditions affecting the toes. Key points include:\n\n1. **Plantar Aponeurosis**: Description of the plantar fascia, its origin, and its role in foot stability, along with conditions like plantar fasciitis and Morton’s neuroma.\n\n2. **Toe Conditions**: Discussion of common toe deformities such as claw toes, hammer toes, corns, and ingrown toenails, including their causes and symptoms.\n\n3. **Ankle Stability Tests**: Explanation of the importance of medial and lateral structures for ankle stability, with emphasis on inversion stress. The document details the anterior and posterior drawer tests to assess stability, including the significance of the anterior talofibular and calcaneofibular ligaments.\n\n4. **Range of Motion**: Overview of normal movements at the ankle and foot, including active and passive range of motion tests for dorsiﬂ exion, plantarﬂ exion, inversion, and eversion.\n\n5. **Clinical Examination**: Instructions for performing both active and passive range of motion tests, and the implications of restricted movement due to swelling or joint conditions. \n\nOverall, the document serves as a guide for assessing foot and ankle conditions, emphasizing the importance of stability and range of motion in diagnosis."
+        },
+        {
+          "title": "Range of Motion",
+          "node_id": "0080",
+          "start_index": 104,
+          "end_index": 105,
+          "summary": "The partial document covers the assessment of passive and active range of movements in the foot and ankle, focusing on the evaluation of ankle stability and the testing of various ligaments. It details the normal range of motion for the ankle, subtalar, midtarsal, and toe joints, including specific degrees of movement for each. The document outlines clinical tests for ankle stability, including stress X-rays, and describes how to perform both active and passive range of motion tests. It also discusses the implications of restricted movement due to swelling or joint conditions. Additionally, the document includes a neurologic examination section with muscle testing for key muscles involved in foot and ankle movement, specifying the nerves and levels associated with each muscle."
+        },
+        {
+          "title": "Neurologic Examination",
+          "node_id": "0081",
+          "start_index": 105,
+          "end_index": 105,
+          "summary": "The partial document covers the examination of the foot and ankle, detailing specific movements and their normal ranges, including forefoot adduction and abduction, as well as the function of the first metatarsophalangeal joint during ambulation. It discusses the impact of conditions like hallux rigidus and toe deformities such as claw toes and hammer toes on joint movement. Additionally, it includes a neurologic examination section focused on muscle testing for dorsiflexors, specifically the tibialis anterior, extensor hallucis longus, and extensor digitorum longus, outlining the methods for testing these muscles and their associated nerve innervations."
+        },
+        {
+          "title": "Muscle Testing",
+          "node_id": "0082",
+          "start_index": 105,
+          "end_index": 106,
+          "summary": "The partial document covers the examination of the foot and ankle, detailing various tests for assessing movement and function. Key points include:\n\n1. **Foot and Ankle Movements**: It describes how to test inversion, eversion, forefoot adduction, and abduction at the midtarsal joints, along with the significance of these movements in relation to supination and pronation.\n\n2. **First Metatarsophalangeal Joint**: The document highlights the importance of flexion and extension at this joint for ambulation, noting conditions like hallux rigidus that can restrict movement.\n\n3. **Lesser Toes**: It discusses the impact of claw toes and hammer toes on joint movement, detailing how these conditions can restrict extension and flexion in various toe joints.\n\n4. **Neurologic Examination**: The document outlines muscle testing for dorsiflexors and plantar flexors, specifying the muscles involved, their innervation, and methods for testing their strength and function.\n\n5. **Sensation Testing**: It describes the dermatomes associated with L4, L5, and S1, indicating the areas of skin they supply.\n\n6. **Reflex Tests**: The Achilles tendon reflex is emphasized, including methods for testing it and considerations for patients with limitations.\n\nOverall, the document serves as a guide for clinicians to perform a comprehensive examination of the foot and ankle, assessing both muscular and neurological function."
+        },
+        {
+          "title": "Sensation Testing",
+          "node_id": "0083",
+          "start_index": 106,
+          "end_index": 107,
+          "summary": "The partial document covers a detailed neurologic examination focusing on the assessment of the plantar flexors, sensation testing, reflex tests, special tests for foot conditions, and examination of related areas. Key points include:\n\n1. **Plantar Flexors Assessment**: It describes the muscles involved (Peroneus Longus, Gastrocnemius, Soleus, Flexor Hallucis Longus, Flexor Digitorum Longus, Tibialis Posterior) and methods to test their function through patient movements and resistance tests.\n\n2. **Sensation Testing**: It outlines the dermatomes for L4, L5, and S1, detailing the areas of skin they supply on the leg and foot.\n\n3. **Reflex Tests**: The document emphasizes the Achilles tendon reflex, explaining how to test it and the significance of the S1 nerve root.\n\n4. **Special Tests for Foot Conditions**: It includes tests for rigid and supple flat feet, tibial torsion, forefoot adduction, ankle dorsiflexion, and Homan’s sign for deep vein thrombosis.\n\n5. **Examination of Related Areas**: It notes that pain in the ankle and foot may originate from other lower limb joint pathologies and highlights specific conditions like talipes equinovarus (club foot), including its symptoms, causes, and treatment options."
+        },
+        {
+          "title": "Special Tests",
+          "node_id": "0084",
+          "start_index": 107,
+          "end_index": 107,
+          "summary": "The partial document discusses various special tests used to examine the foot and ankle, focusing on conditions such as rigid and supple flat feet, tibial torsion, forefoot adduction, ankle dorsiflexion, and Homan’s sign for deep vein thrombosis. It outlines how to differentiate between rigid and supple flat feet based on the presence of the medial longitudinal arch in different positions. The tibial torsion test is described in relation to in-toeing gait in children, while the forefoot adduction correction test helps determine the need for treatment based on the ability to manually correct the forefoot position. The ankle dorsiflexion test assesses limitations caused by the gastrocnemius muscle, and Homan’s sign indicates potential deep vein thrombosis. Additionally, the document highlights that pain in the ankle and foot may originate from other lower limb joint pathologies and mentions specific conditions like talipes equinovarus (club foot), including its symptoms, causes, and treatment options."
+        },
+        {
+          "title": "Examination of Related Areas",
+          "node_id": "0085",
+          "start_index": 107,
+          "end_index": 112,
+          "summary": "The partial document covers the examination of the foot and ankle, focusing on special tests and related conditions. Key points include:\n\n1. **Special Tests for Foot Conditions**:\n   - **Rigid vs. Supple Flat Feet**: Differentiation based on the presence of the medial longitudinal arch in standing and sitting positions.\n   - **Tibial Torsion Test**: Assessment of in-toeing gait in children and the relationship between malleolar alignment and tibial rotation.\n   - **Forefoot Adduction Correction Test**: Evaluation of the need for treatment based on the ability to manually correct forefoot position.\n   - **Ankle Dorsiflexion Test**: Identification of limitations in ankle movement related to the gastrocnemius muscle.\n   - **Homan’s Sign**: A test for deep vein thrombosis indicated by calf pain during ankle dorsiflexion.\n\n2. **Examination of Related Areas**: \n   - Recognition of referred pain from other lower limb pathologies.\n\n3. **Specific Conditions**:\n   - **Talipes Equinovarus (Club Foot)**: Description of the deformity, its genetic and environmental factors, and treatment options.\n   - **Heel Conditions**: Discussion of ruptured tendoachilles and Sever’s disease, including symptoms and treatment approaches.\n   - **Arch Deformities**: Overview of flat foot conditions, spasmodic flat foot, painful tarsus, and pes cavus, along with their symptoms and treatments.\n   - **Hallux Disorders**: Examination of hallux valgus, hallux rigidus, and other hallux-related issues, including treatment options.\n   - **Metatarsal and Toe Disorders**: Description of metatarsalgia and various toe disorders, including hammer toes and their management.\n\nOverall, the document provides a comprehensive guide to the examination and diagnosis of foot and ankle conditions, along with treatment strategies."
+        }
+      ]
+    },
+    {
+      "title": "Examination of the Cervical Spine",
+      "node_id": "0086",
+      "start_index": 112,
+      "end_index": 112,
+      "summary": "The partial document discusses the examination of the cervical spine, highlighting its three main functions: providing support for the head, allowing head movement, and housing the spinal cord and vertebral artery. It details the methods of examination, including inspection, palpation, neurologic assessment, and special tests. Key anatomical landmarks are described during the anterior inspection and palpation, including the hyoid bone, thyroid cartilage, first cricoid ring, and carotid tubercle. Each landmark is associated with specific vertebral levels and clinical significance, such as the hyoid bone's palpation during swallowing and the carotid tubercle's relevance for surgical approaches and nerve injections.",
+      "nodes": [
+        {
+          "title": "Inspection and Palpation",
+          "node_id": "0087",
+          "start_index": 112,
+          "end_index": 114,
+          "summary": "The partial document covers the clinical examination of the cervical spine, detailing the methods of inspection, palpation, and special tests. It outlines the three main functions of the cervical spine: providing support for the head, allowing head movement, and housing the spinal cord and vertebral artery. \n\nKey points include:\n\n1. **Inspection and Palpation**: The anterior examination highlights important anatomical landmarks such as the hyoid bone, thyroid cartilage, cricoid ring, and carotid tubercle, along with soft tissue structures like the sternocleidomastoid muscle, lymph nodes, thyroid gland, carotid pulse, parotid gland, and supraclavicular fossa. The posterior examination focuses on structures like the occiput, inion, superior nuchal line, mastoid process, spinous processes of cervical vertebrae, and facet joints.\n\n2. **Range of Movements**: The document describes the range of movements in the cervical spine, including flexion, extension, lateral rotation, and lateral bending. It notes that significant movement occurs at specific vertebral levels, particularly C1 and C2 for rotation and flexion-extension.\n\n3. **Movement Testing**: Specific tests for assessing flexion, extension, rotation, and lateral bending are described, with normal ranges of motion provided for each movement.\n\nOverall, the document serves as a guide for clinicians to effectively examine the cervical spine and assess its function and any potential abnormalities."
+        },
+        {
+          "title": "Range of Movements",
+          "node_id": "0088",
+          "start_index": 114,
+          "end_index": 115,
+          "summary": "The partial document covers the anatomy and function of the cervical spine, focusing on the soft tissues in the posterior aspect, including the trapezius muscle, lymph nodes, greater occipital nerves, and the superior nuchal ligament. It discusses the range of movements in the cervical spine, detailing flexion, extension, lateral rotation, and lateral bending, along with the specific contributions of the atlas and axis vertebrae to these movements. The document also outlines the normal ranges for these movements and the impact of conditions like Klippel-Feil syndrome on mobility. Additionally, it describes the neurologic examination process, including muscle testing for intrinsic muscles involved in flexion, extension, lateral rotation, and lateral bending, specifying the primary and secondary muscles involved in each movement."
+        },
+        {
+          "title": "Neurologic Examination",
+          "node_id": "0089",
+          "start_index": 115,
+          "end_index": 115,
+          "summary": "The partial document focuses on the examination of the cervical spine, emphasizing the importance of assessing passive range of movements while considering the patient's stability, particularly in cases of trauma. It outlines a two-stage neurologic examination: first, evaluating the intrinsic muscles of the cervical spine, and second, assessing the upper extremity by neurologic levels. The document details muscle testing for cervical spine movements, including flexion, extension, lateral rotation, and lateral bending. For each movement, it identifies primary and secondary muscles involved, provides instructions for conducting the tests, and highlights the need for stabilization to ensure accurate assessment and prevent compensatory movements."
+        },
+        {
+          "title": "Muscle Testing of the Intrinsic Muscles",
+          "node_id": "0090",
+          "start_index": 115,
+          "end_index": 116,
+          "summary": "The partial document covers the examination of the cervical spine, focusing on the assessment of muscle strength and neurologic function. It outlines the importance of testing passive range of movements while considering conditions like enlarged cervical lymph nodes and unstable cervical spines. The neurologic examination is divided into two stages: assessing the intrinsic muscles of the cervical spine and evaluating the upper extremity by neurologic levels. \n\nMuscle testing is detailed for flexion, extension, lateral rotation, and lateral bending of the neck, specifying primary and secondary muscles involved in each movement. The document also describes the anatomy of the brachial plexus, including the formation of its trunks and cords from cervical and thoracic nerve roots, and lists the individual branches from these cords. Finally, it provides sensory distribution information for specific cervical nerves, detailing the areas of the arm and hand they innervate."
+        },
+        {
+          "title": "Examination by Neurologic Levels",
+          "node_id": "0091",
+          "start_index": 116,
+          "end_index": 119,
+          "summary": "The partial document covers the examination of sensory distribution and neurologic levels related to the brachial plexus and cervical spine. It begins with an overview of the brachial plexus anatomy, detailing the formation of nerve trunks and cords from the cervical and thoracic nerve roots (C5 to T1) and their corresponding branches. The document outlines sensory distributions for each nerve root, including C5 through T1, and describes muscle testing, reflex testing, and sensation testing for each neurologic level. Specific muscles and their innervations are identified, along with the corresponding reflexes and sensory areas. Additionally, it mentions special tests for cervical spine examination, such as the compression test and Valsalva test. Tables summarizing the neurology of the upper extremity and major peripheral nerves are also included, providing a concise reference for motor and sensory testing."
+        },
+        {
+          "title": "Special Tests",
+          "node_id": "0092",
+          "start_index": 119,
+          "end_index": 124,
+          "summary": "The partial document covers the examination of the cervical spine, focusing on muscle and sensation testing, as well as special tests used to assess cervical spine conditions. Key points include:\n\n1. **Muscle Testing**: Emphasizes the importance of testing finger abductors innervated by the ulnar nerve, specifically the dorsal interossei and abductor digiti quinti.\n\n2. **Sensation Testing**: Discusses testing sensation on the medial aspect of the arm, particularly through the medial brachial cutaneous nerve and T1.\n\n3. **Special Tests**: Outlines five critical special tests for cervical spine examination:\n   - Compression test\n   - Distraction test\n   - Valsalva test\n   - Swallowing test\n   - Adson test\n\n4. **Conditions Affecting the Cervical Spine**: Describes several conditions, including:\n   - Infantile torticollis\n   - Prolapsed cervical disc\n   - Cervical spondylosis\n   - Tuberculosis of the cervical spine\n   - Cervical rib syndrome\n\n5. **Treatment Approaches**: Discusses conservative treatment options such as rest, traction, and heat, as well as surgical interventions in rare cases.\n\nThe document provides a comprehensive overview of the clinical examination techniques and considerations for diagnosing cervical spine issues."
+        }
+      ]
+    },
+    {
+      "title": "Examination of the Lumbar Spine",
+      "node_id": "0093",
+      "start_index": 124,
+      "end_index": 124,
+      "summary": "The partial document covers the examination of the lumbar spine, focusing on the palpation techniques used to assess various anatomical structures. Key points include:\n\n1. **Palpation Technique**: The document describes how to palpate the lumbar spine from behind, starting at the iliac crests and moving upward to identify bony prominences and interspaces, including the spinous processes of lumbar vertebrae and the coccyx.\n\n2. **Identification of Conditions**: It mentions specific conditions such as spondylolisthesis, indicated by a palpable step at the lumbosacral junction, and coccydynia, which can be assessed through rectal examination.\n\n3. **Soft Tissue Structures**: The examination includes palpating soft tissue structures in five areas:\n   - **Midline Raphe**: Involves palpating ligaments and paraspinal muscles, noting tenderness or defects.\n   - **Iliac Crests**: Palpation along the crests where gluteal muscles originate.\n   - **Posterior Superior Iliac Spines**: Points of attachment for ligaments that stabilize the sacroiliac joint, with potential tenderness indicating low back pain.\n   - **Sciatic Area**: Palpation of the sciatic nerve as it divides into branches.\n   - **Anterior Abdominal Wall and Inguinal Area**: Examination for potential pathologies, including abscesses in the psoas muscle.\n\nOverall, the document provides a detailed guide on how to perform a thorough examination of the lumbar spine and associated structures, highlighting the importance of palpation in diagnosing conditions related to the lumbar region.",
+      "nodes": [
+        {
+          "title": "Inspection",
+          "node_id": "0094",
+          "start_index": 124,
+          "end_index": 124,
+          "summary": "The partial document covers the examination of the lumbar spine, focusing on the palpation techniques used to assess various anatomical structures. Key points include:\n\n1. **Palpation Technique**: The document describes how to palpate the lumbar spine from behind, starting at the iliac crests and moving upward to identify bony prominences and interspaces, including the spinous processes of lumbar vertebrae and the coccyx.\n\n2. **Identification of Conditions**: It mentions specific conditions such as spondylolisthesis, indicated by a palpable step at the lumbosacral junction, and coccydynia, which can be assessed through rectal examination.\n\n3. **Soft Tissue Structures**: The examination includes palpating soft tissue structures in five areas:\n   - **Midline Raphe**: Involves palpating ligaments and paraspinal muscles, noting tenderness or defects.\n   - **Iliac Crests**: Palpation along the crests where gluteal muscles originate.\n   - **Posterior Superior Iliac Spines**: Points of attachment for ligaments that stabilize the sacroiliac joint, with potential tenderness indicating low back pain.\n   - **Sciatic Area**: Palpation of the sciatic nerve as it divides into branches.\n   - **Anterior Abdominal Wall and Inguinal Area**: Examination for potential pathologies, including abscesses in the psoas muscle.\n\nOverall, the document provides a detailed guide on how to perform a thorough examination of the lumbar spine and associated structures, highlighting the importance of palpation in diagnosing conditions related to the lumbar region."
+        },
+        {
+          "title": "Palpation",
+          "node_id": "0095",
+          "start_index": 124,
+          "end_index": 125,
+          "summary": "The partial document covers the examination of the lumbar spine, focusing on palpation techniques and neurologic assessments. Key points include:\n\n1. **Palpation Techniques**: The document describes how to palpate the lumbar spine from behind, identifying bony prominences, interspaces, and the coccyx. It emphasizes the importance of feeling for tenderness and abnormalities, such as spondylolisthesis and coccydynia.\n\n2. **Soft Tissue Structures**: It outlines five areas of soft tissue palpation, including the midline raphe, iliac crests, posterior superior iliac spines, sciatic area, and anterior abdominal wall. Each area is associated with specific anatomical features and potential sources of pain.\n\n3. **Range of Movements**: The document details the movements of the lumbar spine—flexion, extension, lateral bending, and rotation—along with methods to assess each movement.\n\n4. **Neurologic Examination**: It describes the testing of neurologic levels T12, L1, L2, L3, and L4, focusing on muscle testing, reflexes, and sensation. Specific muscles and their innervations are highlighted, along with methods for assessing strength and sensation in the corresponding dermatomes.\n\nOverall, the document provides a comprehensive guide for examining the lumbar spine, including both physical and neurologic assessments."
+        },
+        {
+          "title": "Range of Movements",
+          "node_id": "0096",
+          "start_index": 125,
+          "end_index": 126,
+          "summary": "The partial document covers the neurologic examination of the lumbar spine, detailing the range of movements and specific tests for various neurologic levels. It outlines the movements of the lumbar spine, including flexion, extension, lateral bending, and rotation, along with methods to assess each movement. The document then describes the neurologic levels T12, L1, L2, L3, L4, L5, and S1, focusing on muscle testing, reflex testing, and sensation testing for each level. Key muscles and their innervations are identified, along with the specific tests used to evaluate strength and sensory function in the corresponding dermatomes."
+        },
+        {
+          "title": "Neurologic Examination",
+          "node_id": "0097",
+          "start_index": 126,
+          "end_index": 126,
+          "summary": "The partial document covers the examination of the lumbar spine, focusing on neurologic levels L4, L5, and S1. For each level, it details muscle testing, reflex testing, and sensation testing. \n\nAt the L4 level, muscle testing involves the tibialis anterior, reflex testing assesses the plantar reflex, and sensation testing examines the medial side of the leg. \n\nAt the L5 level, muscle testing includes the extensor hallucis longus, gluteus medius, and extensor digitorum longus and brevis. Reflex testing is uncertain for the tibialis posterior, while sensation testing focuses on the lateral aspect of the leg and dorsum of the foot.\n\nAt the S1 level, muscle testing involves the peroneus longus and brevis, gastrocnemius and soleus, and gluteus maximus. The document outlines the specific methods for testing each muscle and reflex, as well as the corresponding dermatomes for sensation assessment."
+        },
+        {
+          "title": "Neurologic Levels T12, L1, L2, and L3",
+          "node_id": "0098",
+          "start_index": 126,
+          "end_index": 126,
+          "summary": "The partial document covers the examination of the lumbar spine, focusing on neurologic levels L4, L5, and S1. For each level, it details muscle testing, reflex testing, and sensation testing. \n\nAt the L4 level, muscle testing involves the tibialis anterior, reflex testing assesses the plantar reflex, and sensation testing examines the medial side of the leg, with specific dermatome boundaries noted. \n\nAt the L5 level, muscle testing includes the extensor hallucis longus, gluteus medius, and extensor digitorum longus and brevis, while reflex testing is uncertain for the tibialis posterior reflex. Sensation testing focuses on the lateral aspect of the leg and dorsum of the foot.\n\nAt the S1 level, muscle testing involves the peroneus longus and brevis, gastrocnemius and soleus, and gluteus maximus, with specific testing methods described. Overall, the document provides a structured approach to neurologic examination of the lumbar spine, emphasizing muscle strength, reflexes, and sensory function."
+        },
+        {
+          "title": "Neurologic Levels L2, L3, and L4",
+          "node_id": "0099",
+          "start_index": 126,
+          "end_index": 126,
+          "summary": "The partial document covers the examination of the lumbar spine, focusing on neurologic levels L4, L5, and S1. For each level, it details muscle testing, reflex testing, and sensation testing. \n\nAt the L4 level, muscle testing involves the tibialis anterior, reflex testing assesses the plantar reflex, and sensation testing examines the medial side of the leg. \n\nAt the L5 level, muscle testing includes the extensor hallucis longus, gluteus medius, and extensor digitorum longus and brevis. Reflex testing is uncertain for the tibialis posterior, while sensation testing focuses on the lateral aspect of the leg and dorsum of the foot.\n\nAt the S1 level, muscle testing involves the peroneus longus and brevis, gastrocnemius and soleus, and gluteus maximus. The document outlines the specific methods for testing each muscle and reflex, as well as the corresponding dermatomes for sensation assessment."
+        },
+        {
+          "title": "Neurologic Level L4",
+          "node_id": "0100",
+          "start_index": 126,
+          "end_index": 126,
+          "summary": "The partial document covers the examination of the lumbar spine, focusing on neurologic levels L4, L5, and S1. For each level, it details muscle testing, reflex testing, and sensation testing. \n\nAt the L4 level, muscle testing involves the tibialis anterior, reflex testing assesses the plantar reflex, and sensation testing examines the medial side of the leg. \n\nAt the L5 level, muscle testing includes the extensor hallucis longus, gluteus medius, and extensor digitorum longus and brevis. Reflex testing is uncertain for the tibialis posterior, while sensation testing focuses on the lateral aspect of the leg and dorsum of the foot.\n\nAt the S1 level, muscle testing involves the peroneus longus and brevis, gastrocnemius and soleus, and gluteus maximus. The document outlines the specific methods for testing each muscle and reflex, as well as the corresponding dermatomes for sensation assessment."
+        },
+        {
+          "title": "Neurologic Level L5",
+          "node_id": "0101",
+          "start_index": 126,
+          "end_index": 126,
+          "summary": "The partial document covers the examination of the lumbar spine, focusing on neurologic levels L4, L5, and S1. For each level, it details muscle testing, reflex testing, and sensation testing. \n\nAt the L4 level, muscle testing involves the tibialis anterior, reflex testing assesses the plantar reflex, and sensation testing examines the medial side of the leg. \n\nAt the L5 level, muscle testing includes the extensor hallucis longus, gluteus medius, and extensor digitorum longus and brevis, while reflex testing is related to the tibialis posterior reflex, and sensation testing focuses on the lateral aspect of the leg and dorsum of the foot.\n\nAt the S1 level, muscle testing involves the peroneus longus and brevis, gastrocnemius and soleus, and gluteus maximus, with specific methods for each. The document provides a comprehensive overview of the neurological assessments relevant to these lumbar spine levels."
+        },
+        {
+          "title": "Neurologic Level S1",
+          "node_id": "0102",
+          "start_index": 126,
+          "end_index": 127,
+          "summary": "The partial document provides a detailed examination of the lumbar spine, focusing on neurologic levels L4, L5, S1, S2, S3, and S4. It covers three main aspects for each level: muscle testing, reflex testing, and sensation testing. \n\n1. **Neurologic Level L4**: \n   - Muscle testing involves the tibialis anterior, assessed through dorsiflexion and inversion.\n   - Reflex testing focuses on the plantar reflex, primarily supplied by L4.\n   - Sensation testing examines the medial side of the leg, with specific dermatome boundaries.\n\n2. **Neurologic Level L5**: \n   - Muscle testing includes the extensor hallucis longus, gluteus medius, and extensor digitorum longus/brevis.\n   - Reflex testing is uncertain for the tibialis posterior reflex.\n   - Sensation testing covers the lateral aspect of the leg and dorsum of the foot.\n\n3. **Neurologic Level S1**: \n   - Muscle testing assesses the peroneus longus/brevis, gastrocnemius/soleus, and gluteus maximus.\n   - Reflex testing includes the tendoachillis reflex.\n   - Sensation testing focuses on the lateral malleolus and plantar surface of the foot.\n\n4. **Neurologic Levels S2, S3, and S4**: \n   - These levels are associated with bladder function and intrinsic foot muscles, with no deep reflexes present.\n   - Perianal sensation is tested to assess these levels.\n\n5. **Superficial Reflexes**: \n   - The document describes three main superficial reflexes: abdominal, cremasteric, and anal reflexes, detailing their testing methods and significance in localizing lesions.\n\nA table summarizes the neurologic aspects of the lower extremity, including disc roots, reflexes, muscles, and sensation areas."
+        },
+        {
+          "title": "Neurologic Level S2, S3, and S4",
+          "node_id": "0103",
+          "start_index": 127,
+          "end_index": 127,
+          "summary": "The partial document covers the assessment of superficial and deep tendon reflexes, focusing on specific reflex tests and their neurological implications. It details the testing of the tendoachillis reflex in a prone position and sensation testing of the S1 dermatome on the foot. The document also discusses the S2, S3, and S4 nerves, highlighting their role in bladder function and foot muscle control, as well as the absence of deep reflexes from these nerves. It describes three main superficial reflexes: the abdominal reflex, the cremasteric reflex, and the anal reflex, explaining their testing methods and significance in localizing neurological lesions. Additionally, a table is provided that outlines the relationship between spinal disc levels, nerve roots, reflexes, associated muscles, and sensory areas in the lower extremity."
+        },
+        {
+          "title": "Superficial Reflexes",
+          "node_id": "0104",
+          "start_index": 127,
+          "end_index": 128,
+          "summary": "The partial document covers various aspects of reflex testing and neurological assessments related to the lower extremities. It begins with the testing of the tendoachillis reflex, describing the procedure and positioning of the patient. Sensation testing for the S1 dermatome is also discussed, along with the roles of the S2, S3, and S4 nerves in bladder function and foot muscle control, highlighting the absence of deep reflexes from these nerves. \n\nThe document outlines three main superficial reflexes associated with upper motor neuron function, including the superficial abdominal reflex, cremasteric reflex, and anal reflex, detailing the methods for eliciting these responses and their significance in localizing lesions. \n\nPathologic reflexes, such as the Babinski and Oppenheim tests, are introduced as indicators of upper motor neuron lesions, with explanations of how to perform these tests and interpret their results. \n\nAdditionally, the document lists special tests designed to assess spinal cord and nerve conditions, including the straight leg raising test, well leg straight leg raising test, and Hoover test, explaining their purposes and the expected outcomes. Overall, the document serves as a guide for conducting neurological examinations and understanding reflex responses in the lower extremities."
+        },
+        {
+          "title": "Pathologic Reflexes",
+          "node_id": "0105",
+          "start_index": 128,
+          "end_index": 129,
+          "summary": "The partial document discusses the examination of the lumbar spine, focusing on pathologic reflexes and special tests used to assess spinal and nerve conditions. It highlights two key pathologic reflex tests: the Babinski test, which indicates upper motor neuron lesions, and the Oppenheim test. The document outlines four sets of special tests: those that stretch the spinal cord or sciatic nerve, tests to increase intrathecal pressure, tests to assess the sacroiliac joint, and neurologic segmental innervation tests. Specific tests mentioned include the straight leg raising test, well leg straight leg raising test, Hoover test, Kernig test, Milgram test, Naffziger’s test, Valsalva maneuver, pelvic rock test, Gaenslen’s test, Patrick or Fabere test, and Beevor’s sign. Each test is described in terms of its procedure and the implications of the results, particularly in relation to pain and potential pathologies."
+        },
+        {
+          "title": "Special Tests",
+          "node_id": "0106",
+          "start_index": 129,
+          "end_index": 129,
+          "summary": "The partial document covers various special tests used in clinical assessments to evaluate neurological and musculoskeletal conditions. It begins with the Kernig test, which assesses meningeal irritation and spinal cord involvement by flexing the patient's head. It then discusses three tests to increase intrathecal pressure: the Milgram test, Naffziger’s test, and the Valsalva maneuver, each indicating potential intrathecal pathology through pain responses. The document also details three tests for assessing sacroiliac joint issues: the pelvic rock test, Gaenslen’s test, and the Patrick or Fabere test, all aimed at identifying sacroiliac joint pathology through pain elicited during specific movements. Lastly, it introduces Beevor’s sign, a neurologic segmental innervation test that evaluates the function of the rectus abdominis muscle and its innervation from T5 to T12, noting the movement of the umbilicus during a quarter sit-up."
+        },
+        {
+          "title": "Tests to Stretch the Spinal Cord or Sciatic Nerve",
+          "node_id": "0107",
+          "start_index": 129,
+          "end_index": 129,
+          "summary": "The partial document covers various special tests used in clinical assessments to evaluate neurological and musculoskeletal conditions. It begins with the Kernig test, which assesses meningeal irritation and spinal cord involvement by flexing the patient's head. It then details three tests to increase intrathecal pressure: the Milgram test, Naffziger’s test, and the Valsalva maneuver, each indicating potential intrathecal pathology through pain responses. The document also describes three tests for assessing sacroiliac joint issues: the pelvic rock test, Gaenslen’s test, and the Patrick or Fabere test, which help identify sacroiliac joint pathology based on pain elicited during specific movements. Lastly, it introduces Beevor’s sign, a neurologic segmental innervation test that evaluates the function of the rectus abdominis muscle and its innervation from T5 to T12, noting the movement of the umbilicus during a quarter sit-up."
+        },
+        {
+          "title": "Tests to Increase Intrathecal Pressure",
+          "node_id": "0108",
+          "start_index": 129,
+          "end_index": 129,
+          "summary": "The partial document covers various special tests used in clinical assessments to evaluate neurological and musculoskeletal conditions. It begins with the Kernig test, which assesses meningeal irritation and spinal cord involvement by flexing the patient's head. It then discusses three tests to increase intrathecal pressure: the Milgram test, Naffziger’s test, and the Valsalva maneuver, each indicating potential intrathecal pathology through pain responses. The document also details three tests for assessing sacroiliac joint issues: the pelvic rock test, Gaenslen’s test, and the Patrick or Fabere test, all aimed at identifying sacroiliac pathology through pain elicited during specific movements. Lastly, it introduces Beevor’s sign, a neurologic segmental innervation test that evaluates the function of the rectus abdominis muscle and its innervation."
+        },
+        {
+          "title": "Tests to Rock the Sacroiliac Joint",
+          "node_id": "0109",
+          "start_index": 129,
+          "end_index": 129,
+          "summary": "The partial document covers various special tests used in clinical assessments to evaluate neurological and musculoskeletal conditions. It begins with the Kernig test, which assesses meningeal irritation and spinal cord involvement by flexing the patient's head. It then discusses three tests to increase intrathecal pressure: the Milgram test, Naffziger’s test, and the Valsalva maneuver, each indicating potential intrathecal pathology through pain responses. The document also details three tests for assessing sacroiliac joint issues: the pelvic rock test, Gaenslen’s test, and the Patrick or Fabere test, all aimed at identifying sacroiliac joint pathology through pain elicited during specific movements. Lastly, it introduces Beevor’s sign, a neurologic segmental innervation test that evaluates the function of the rectus abdominis muscle and its innervation from T5 to T12, noting the movement of the umbilicus during a quarter sit-up."
+        },
+        {
+          "title": "Neurologic Segmental Innervation Test",
+          "node_id": "0110",
+          "start_index": 129,
+          "end_index": 131,
+          "summary": "The partial document covers various special tests and examinations related to spinal and neurological conditions. Key points include:\n\n1. **Kernig Test**: Assesses meningeal irritation by flexing the patient's head to reproduce pain in the cervical region, lower back, or legs.\n\n2. **Tests for Increased Intrathecal Pressure**: \n   - **Milgram Test**: Evaluates intrathecal pressure by having the patient hold their legs off the table.\n   - **Naffziger’s Test**: Involves compressing the jugular veins and asking the patient to cough to check for pain.\n   - **Valsalva Maneuver**: The patient bears down to see if pain increases, indicating intrathecal pressure.\n\n3. **Sacroiliac Joint Tests**: \n   - **Pelvic Rock Test**: Compression of the pelvis to identify sacroiliac pathology.\n   - **Gaenslen’s Test**: Involves dropping one leg while the other is flexed to assess for pain.\n   - **Patrick or Fabere Test**: Stabilizes the pelvis while applying pressure to the bent knee to stress the sacroiliac joint.\n\n4. **Neurologic Segmental Innervation Test**: \n   - **Beevor’s Sign**: Observes the movement of the umbilicus during a quarter sit-up to identify potential neurological issues.\n\n5. **Examination of Related Areas**: Emphasizes the importance of rectal and pelvic examinations in male and female patients, respectively.\n\n6. **Conditions of the Thoracolumbar Spine**:\n   - **Tuberculosis of the Spine**: Discusses its commonality, effects on vertebrae, treatment options, and complications.\n   - **Scoliosis**: Differentiates between mobile and fixed scoliosis, their subtypes, and treatment approaches.\n   - **Kyphosis**: Classifies types of kyphosis, including mobile, fixed, and angular, along with their causes and treatment options."
+        },
+        {
+          "title": "Examination of Related Areas",
+          "node_id": "0111",
+          "start_index": 131,
+          "end_index": 138,
+          "summary": "The partial document covers various orthopedic conditions and their treatments, focusing on spinal deformities and the temporomandibular joint (TMJ). Key points include:\n\n1. **Scoliosis**: Discusses conservative treatments like braces (distraction plaster jacket, Milwaukee brace, Boston brace) and indicates that surgical intervention is necessary for severe curves (over 70°) or in specific patient populations (younger patients, those with neurofibromatosis).\n\n2. **Kyphosis**: Classifies kyphosis into mobile, fixed, and angular types, detailing conditions associated with each type, such as Scheuermann’s disease and ankylosing spondylitis.\n\n3. **Lumbar Disc Prolapse**: Describes the anatomy of the intervertebral disc, the process of disc prolapse, symptoms, and diagnostic methods (radiographs, myelography). Treatment options include conservative management and potential surgical intervention if conservative methods fail.\n\n4. **Lumbar Spondylosis**: Addresses disc degeneration leading to chronic back pain, with treatment primarily involving conservative measures.\n\n5. **Spinal Stenosis**: Explains the condition of a congenitally small spinal canal and its treatment through decompressive laminectomy.\n\n6. **Spondylolisthesis**: Describes the forward displacement of vertebrae, types of spondylolisthesis, and treatment options ranging from conservative management to surgical fusion.\n\n7. **Temporomandibular Joint Examination**: Outlines the examination process for the TMJ, including inspection, palpation, range of motion, and neurologic examination, emphasizing the importance of assessing joint movement and muscle function.\n\nOverall, the document provides a comprehensive overview of spinal and TMJ conditions, their classifications, diagnostic approaches, and treatment strategies."
+        }
+      ]
+    },
+    {
+      "title": "Examination of the Temporomandibular Joint",
+      "node_id": "0112",
+      "start_index": 138,
+      "end_index": 138,
+      "summary": "The partial document covers the examination of the temporomandibular joint (TMJ) through palpation, range of motion assessment, and neurologic examination. It describes the palpation technique, where the examiner feels the movement of the mandibular condyle while the patient opens and closes their mouth, noting any abnormalities such as crepitus or clicking that may indicate meniscus tears or dislocations. The document also discusses the assessment of the external pterygoid muscle for spasm and tenderness. \n\nIn terms of range of motion, it outlines the expected ability of the patient to open their mouth wide enough to fit three fingers and to glide the mandible forward. Limitations in these movements may indicate underlying issues such as muscle spasms or joint anomalies. The neurologic examination includes muscle testing, focusing on the external pterygoid muscle as the primary opener of the mouth, and assessing the ability to open against resistance.",
+      "nodes": [
+        {
+          "title": "Inspection",
+          "node_id": "0113",
+          "start_index": 138,
+          "end_index": 138,
+          "summary": "The partial document covers the examination of the temporomandibular joint (TMJ) through palpation, range of motion assessment, and neurologic examination. It describes the palpation technique, where the examiner feels the movement of the mandibular condyle while the patient opens and closes their mouth, noting any abnormal sounds like crepitus or clicking that may indicate meniscus tears. It also discusses the potential for anterior dislocation of the TMJ and associated soft tissue damage. The document highlights the importance of assessing the external pterygoid muscle for spasm and tenderness. \n\nIn terms of range of motion, it specifies that the patient should be able to open their mouth wide enough to fit three fingers between their incisor teeth and glide the mandible forward. Limitations in these movements may indicate underlying issues such as muscle spasms or arthritis. The neurologic examination includes muscle testing, focusing on the external pterygoid muscle as the primary opener of the mouth, with the ability to open against resistance being a normal finding."
+        },
+        {
+          "title": "Palpation",
+          "node_id": "0114",
+          "start_index": 138,
+          "end_index": 138,
+          "summary": "The partial document covers the examination of the temporomandibular joint (TMJ) through palpation, range of motion assessment, and neurologic examination. Key points include:\n\n1. **Palpation Technique**: The examiner places a finger in the external auditory canal to feel the movement of the mandibular condyle during mouth opening and closing. Smooth, symmetrical movement is normal, while crepitus or clicking may indicate meniscus tears. Anterior dislocation of the TMJ can occur with wide mouth opening, potentially causing soft tissue damage and muscle spasms.\n\n2. **External Pterygoid Muscle Assessment**: The muscle is palpated for spasm and tenderness, indicating dysfunction when the patient opens and closes their mouth.\n\n3. **Range of Motion**: Normal mouth opening should allow for three fingers between the incisor teeth, and the mandible should glide forward. Limitations in movement may suggest underlying issues such as muscle spasm or joint anomalies.\n\n4. **Neurologic Examination and Muscle Testing**: The primary muscle for mouth opening is the external pterygoid, tested against resistance to assess strength and function. Secondary muscles include hyoid muscles and gravity. Normal function allows for mouth opening against maximum resistance."
+        },
+        {
+          "title": "Range of Motion",
+          "node_id": "0115",
+          "start_index": 138,
+          "end_index": 138,
+          "summary": "The partial document covers the examination of the temporomandibular joint (TMJ) through palpation, range of motion assessment, and neurologic examination. It describes the palpation technique, where the examiner feels the movement of the mandibular condyle while the patient opens and closes their mouth, noting any abnormalities such as crepitus or clicking that may indicate meniscus tears or dislocations. The document also discusses the assessment of the external pterygoid muscle for spasm and tenderness. \n\nIn terms of range of motion, it outlines the expected ability of the patient to open their mouth wide enough to fit three fingers and to glide the mandible forward. Limitations in these movements may indicate underlying issues such as muscle spasms or joint anomalies. The neurologic examination includes muscle testing, focusing on the external pterygoid muscle as the primary opener of the mouth, and assessing the ability to open against resistance."
+        },
+        {
+          "title": "Neurologic Examination",
+          "node_id": "0116",
+          "start_index": 138,
+          "end_index": 138,
+          "summary": "The partial document covers the examination of the temporomandibular joint (TMJ) through palpation, range of motion assessment, and neurologic examination. It describes the palpation technique, where the examiner feels the movement of the mandibular condyle while the patient opens and closes their mouth, noting any abnormalities such as crepitus or clicking that may indicate meniscus tears or dislocations. The document also discusses the assessment of the external pterygoid muscle for spasm and tenderness. \n\nIn terms of range of motion, it outlines the expected ability of the patient to open their mouth wide enough to fit three fingers and to glide the mandible forward. Limitations in these movements may indicate underlying issues such as muscle spasms or joint anomalies. The neurologic examination includes muscle testing, focusing on the external pterygoid muscle as the primary opener of the mouth, and assessing the ability to open against resistance."
+        },
+        {
+          "title": "Muscle Testing",
+          "node_id": "0117",
+          "start_index": 138,
+          "end_index": 139,
+          "summary": "The partial document covers the examination of the temporomandibular joint (TMJ) through various methods, including palpation, range of motion assessment, muscle testing, reflex testing, and special tests. \n\n1. **Palpation**: The examination involves placing a finger in the external auditory canal to feel the movement of the mandibular condyle during mouth opening and closing. It notes the importance of smooth, symmetrical movement and identifies potential issues such as crepitus or clicking, which may indicate meniscus tears or dislocations. It also discusses the palpation of the external pterygoid muscle for spasm and tenderness.\n\n2. **Range of Motion**: The document describes how to assess the patient's ability to open their mouth wide enough to fit three fingers and to glide the mandible forward. Limitations in these movements may indicate underlying conditions such as muscle spasms or arthritis.\n\n3. **Neurologic Examination**: Muscle testing is performed to evaluate the function of the primary and secondary muscles involved in opening and closing the mouth, with specific tests for resistance against these movements.\n\n4. **Reflex Testing**: The jaw reflex is tested using a reflex hammer, with observations on how it may be affected by pathology along the trigeminal nerve.\n\n5. **Special Tests**: The Chvostek test is mentioned as a method to assess the seventh cranial nerve by tapping the parotid gland, with a facial twitch indicating low blood calcium levels.\n\nOverall, the document provides a detailed approach to assessing the TMJ, highlighting the significance of various physical examination techniques and their implications for diagnosing potential disorders."
+        },
+        {
+          "title": "Reflex Testing: Jaw Reflex",
+          "node_id": "0118",
+          "start_index": 139,
+          "end_index": 139,
+          "summary": "The partial document discusses special tests for the temporomandibular joint (TMJ) and related muscle functions. It outlines the primary and secondary muscles responsible for closing the mouth, specifically the masseters, temporalis, and internal pterygoid muscles, and describes a method to test their function. The document also covers reflex testing of the jaw, detailing how to assess the jaw reflex using a reflex hammer and the implications of diminished or exaggerated responses related to trigeminal nerve pathology or upper motor lesions. Additionally, it mentions the Chvostek test, which evaluates the seventh cranial nerve by tapping the parotid gland and observing for facial contractions, indicating low blood calcium levels."
+        },
+        {
+          "title": "Special Test for the Temporomandibular Joint",
+          "node_id": "0119",
+          "start_index": 139,
+          "end_index": 142,
+          "summary": "The partial document covers the examination of the temporomandibular joint (TMJ) and human gait. It begins with a discussion of the primary and secondary muscles involved in closing the mouth, specifically the masseters, temporalis, and internal pterygoid muscles, along with methods to test their function. Reflex testing of the jaw reflex is described, highlighting its connection to the trigeminal nerve and potential pathologies. The Chvostek test is introduced as a method to assess the facial nerve and calcium levels.\n\nThe document then transitions to a detailed analysis of human gait, defining it as the rhythmic movement of the lower extremities for forward motion, contrasting it with animal gait. It describes the biphasic nature of human gait, consisting of a stance phase and a swing phase, and outlines the specific movements of the hip, knee, and ankle during these phases. The importance of pelvic stability and the role of various muscles in maintaining balance during gait are emphasized.\n\nAdditionally, the document discusses normal gait characteristics, including step length, stride length, and cadence, and introduces abnormal gaits such as antalgic gait, high stepping gait, and stamping gait, explaining their visual characteristics and underlying causes. Overall, the document provides a comprehensive overview of TMJ testing and the biomechanics of human gait."
+        }
+      ]
+    },
+    {
+      "title": "Examination of Gait",
+      "node_id": "0120",
+      "start_index": 142,
+      "end_index": 152,
+      "summary": "The partial document focuses on the examination of gait, detailing the normal movements of the lower limb during the swing phase, including hip flexion, knee extension, and ankle dorsiflexion. It explains how deviations from these movements can lead to abnormal gaits, such as limping or lurching. Key concepts discussed include step length, stride length, cadence, and the distinction between walking and running phases. Various types of abnormal gaits are described, including antalgic, high stepping, stamping, broad-based, hemiplegic, scissors, ataxic, Trendelenburg's, short limb, gluteus maximus, in-toeing, shuffling, stiff knee, flexed knee, hand-to-knee, calcaneus, and flat foot gaits. The document also addresses how certain conditions, such as muscle paralysis or joint afflictions, can affect gait patterns. Additionally, it touches on variations of normal gait that may appear abnormal, such as athlete's gait and mourner's gait, and discusses the use of crutches and different gait patterns associated with them. Overall, the document emphasizes the importance of gait analysis in diagnosing and assessing disabilities."
+    },
+    {
+      "title": "Index",
+      "node_id": "0121",
+      "start_index": 152,
+      "end_index": 155,
+      "summary": "The partial document appears to be an index or reference guide related to various orthopedic and musculoskeletal conditions and examinations. It covers a wide range of topics, including:\n\n1. **Gait Analysis**: Different types of gait patterns such as two, three, and four-point gaits, as well as specific tests like Trendelenburg’s test and Homan’s sign.\n\n2. **Foot and Ankle Disorders**: Conditions like hallux rigidus and valgus, metatarsalgia, and painful heel disorders, along with muscle testing for foot and ankle.\n\n3. **Hip and Pelvis Conditions**: Avascular necrosis, congenital dislocation, coxa vara, and various hip fractures, including treatment options like prosthesis. It also discusses special tests for hip examination.\n\n4. **Knee Disorders**: Various knee conditions including osteoarthritis, meniscal injuries, and ligament injuries, along with joint stability tests and range of motion assessments.\n\n5. **Lumbar Spine Issues**: Conditions such as ankylosing spondylitis, lumbar disc prolapse, and scoliosis, including diagnostic imaging techniques and neurologic examinations.\n\n6. **Shoulder Conditions**: Disorders affecting the shoulder joint, including frozen shoulder and musculotendinous cuff lesions, along with various tests for shoulder function.\n\n7. **Neurologic and Sensation Testing**: Methods for assessing muscle strength, reflexes, and sensation across different body parts, including the upper and lower extremities.\n\n8. **Palpation Techniques**: Guidelines for palpating various anatomical structures in the hip, knee, and wrist, as well as soft tissue assessments.\n\n9. **Special Tests and Conditions**: Various tests for diagnosing specific conditions, including the Valsalva test, Ober’s test, and assessments for tunnel syndromes.\n\nOverall, the document serves as a comprehensive reference for healthcare professionals dealing with musculoskeletal assessments and conditions."
+    }
+  ]
+}

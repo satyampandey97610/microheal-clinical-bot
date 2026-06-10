@@ -41,32 +41,38 @@ DOMAIN_CONFIG = {
     "gastro": {
         "label": "Gastroenterology",
         "index_dir": BASE_DIR / "GastroRAG" / "index",
-        "other_label": "Cardiology, Nephrology, Neurology, or Gynecology",
-        "other_key": "cardio, nephro, neuro, or gyneco",
+        "other_label": "Cardiology, Nephrology, Neurology, Gynecology, or Orthopedics",
+        "other_key": "cardio, nephro, neuro, gyneco, or ortho",
     },
     "cardio": {
         "label": "Cardiology",
         "index_dir": BASE_DIR / "CardioRAG" / "index",
-        "other_label": "Gastroenterology, Nephrology, Neurology, or Gynecology",
-        "other_key": "gastro, nephro, neuro, or gyneco",
+        "other_label": "Gastroenterology, Nephrology, Neurology, Gynecology, or Orthopedics",
+        "other_key": "gastro, nephro, neuro, gyneco, or ortho",
     },
     "nephro": {
         "label": "Nephrology",
         "index_dir": BASE_DIR / "NephroRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Neurology, or Gynecology",
-        "other_key": "gastro, cardio, neuro, or gyneco",
+        "other_label": "Gastroenterology, Cardiology, Neurology, Gynecology, or Orthopedics",
+        "other_key": "gastro, cardio, neuro, gyneco, or ortho",
     },
     "neuro": {
         "label": "Neurology",
         "index_dir": BASE_DIR / "NeuroRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Nephrology, or Gynecology",
-        "other_key": "gastro, cardio, nephro, or gyneco",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Gynecology, or Orthopedics",
+        "other_key": "gastro, cardio, nephro, gyneco, or ortho",
     },
     "gyneco": {
         "label": "Gynecology",
         "index_dir": BASE_DIR / "GynecoRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Nephrology, or Neurology",
-        "other_key": "gastro, cardio, nephro, or neuro",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, or Orthopedics",
+        "other_key": "gastro, cardio, nephro, neuro, or ortho",
+    },
+    "ortho": {
+        "label": "Orthopedics",
+        "index_dir": BASE_DIR / "OrthopedicsRAG" / "index",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, or Gynecology",
+        "other_key": "gastro, cardio, nephro, neuro, or gyneco",
     }
 }
 
@@ -397,7 +403,7 @@ class ClinicalEngine:
         """Initialize with 'gastro', 'cardio', 'nephro', 'neuro', or 'gyneco'."""
         domain = domain.lower().strip()
         if domain not in DOMAIN_CONFIG:
-            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro', 'cardio', 'nephro', 'neuro', or 'gyneco'.")
+            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro', 'cardio', 'nephro', 'neuro', 'gyneco', or 'ortho'.")
 
         self.config = DOMAIN_CONFIG[domain]
         self.domain = domain
@@ -602,6 +608,9 @@ if __name__ == "__main__":
 
     gyneco = ClinicalEngine("gyneco")
     print(f"[GYNECO] Loaded {gyneco.get_source_count()} sources")
+
+    ortho = ClinicalEngine("ortho")
+    print(f"[ORTHO] Loaded {ortho.get_source_count()} sources")
 
     print(f"\n[CONFIG] max_tokens = {_get_max_tokens()}")
 
