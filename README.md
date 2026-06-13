@@ -1,8 +1,8 @@
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/3004/3004458.png" width="80" alt="MicroHeal Logo">
   <h1>MicroHeal Clinical Bot</h1>
-  <p><b>Unified Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology & Orthopedics RAG Assistant</b></p>
-  <p><i>A hexa-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
+  <p><b>Unified Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, Oncology & Orthopedics RAG Assistant</b></p>
+  <p><i>A septa-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
 </div>
 
 ---
@@ -11,12 +11,13 @@
 
 **MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **73 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
 
-Users can switch between six isolated specialist engines:
+Users can switch between seven isolated specialist engines:
 - 🩺 **Gastroenterology Expert** — 14 GI sources including casebooks, GLP-1 research, and clinical datasets.
 - ❤️ **Cardiology Expert** — 14 cardiovascular sources including ACC/AHA guidelines, ESC protocols, and heart failure studies.
 - 💧 **Nephrology Expert** — 13 kidney health sources including KDIGO guidelines, clinical handbooks, and textbook references.
 - 🧠 **Neurology Expert** — 12 neuroscience sources including Harrison’s Neurology chapters, WHO neurological disorders, AHA stroke guidelines, and clinical case studies.
 - 🩷 **Gynecology Expert** — 12 obstetrics and gynecology sources including WHO guidelines, clinical manuals, and journals.
+- 🎗️ **Oncology Expert** — 10 oncology sources including textbooks, manuals, and clinical guidelines.
 - 🦴 **Orthopedics Expert** — 8 orthopedic sources including textbooks, clinical examinations, and CPGs.
 
 ---
@@ -60,6 +61,10 @@ MicroHeal Clinical Bot
 ├── GynecoRAG/
 │   ├── gyneco_agent.py     ← Gyneco wrapper with query_gyneco()
 │   ├── index/              ← 12 indexed JSON knowledge files
+│   └── data/               ← Source PDFs
+├── OncoRAG/
+│   ├── onco_agent.py       ← Oncology wrapper with query_onco()
+│   ├── index/              ← 10 indexed JSON knowledge files
 │   └── data/               ← Source PDFs
 ├── OrthopedicsRAG/
 │   ├── orthopedic_agent.py ← Orthopedic wrapper with query_ortho()
@@ -111,6 +116,7 @@ cardio = ClinicalEngine("cardio")
 nephro = ClinicalEngine("nephro")
 neuro = ClinicalEngine("neuro")
 gyneco = ClinicalEngine("gyneco")
+onco = ClinicalEngine("onco")
 ortho = ClinicalEngine("ortho")
 
 # Query it
@@ -219,6 +225,20 @@ result = gastro.query("How is it treated?", history=history)
 | 10 | Saudi Journal of Pathology — Gynecological Pathology | Journal |
 | 11 | Essential Interventions in Reproductive Health | Guideline |
 | 12 | Vanuatu Maternal & Newborn Care Operational Guidance | Manual |
+
+### Oncology (10 Sources)
+| # | Source | Type |
+|---|--------|------|
+| 1 | Dtsch Arztebl Int-120 (445) | Journal |
+| 2 | AIDS Journal (37-1871) | Journal |
+| 3 | Disease Models & Mechanisms (16-050175) | Research |
+| 4 | TBAD017 Clinical Oncology | Journal |
+| 5 | WHO Essential Medicines List (EML) 2023 | Reference |
+| 6 | Padova Lectures in Oncology | Lectures |
+| 7 | Prostate Book 2nd Edition | Textbook |
+| 8 | Textbook of Medical Oncology 4th Ed (Cavalli) | Textbook |
+| 9 | Oxford Handbook of Oncology 4th Ed | Handbook |
+| 10 | The MD Anderson Manual of Medical Oncology 3e | Manual |
 
 ### Orthopedics (8 Sources)
 | # | Source | Type |

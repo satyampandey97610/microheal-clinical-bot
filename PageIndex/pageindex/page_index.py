@@ -328,7 +328,13 @@ def toc_transformer(toc_content, model=None):
     if_complete = check_if_toc_transformation_is_complete(toc_content, last_complete, model)
     if if_complete == "yes" and finish_reason == "finished":
         last_complete = extract_json(last_complete)
-        cleaned_response=convert_page_to_int(last_complete['table_of_contents'])
+        if isinstance(last_complete, dict):
+            toc_list = last_complete.get('table_of_contents', list(last_complete.values())[0] if last_complete else [])
+        elif isinstance(last_complete, list):
+            toc_list = last_complete
+        else:
+            toc_list = []
+        cleaned_response = convert_page_to_int(toc_list)
         return cleaned_response
     
     last_complete = get_json_content(last_complete)
@@ -363,8 +369,13 @@ def toc_transformer(toc_content, model=None):
         
 
     last_complete = extract_json(last_complete)
-
-    cleaned_response=convert_page_to_int(last_complete['table_of_contents'])
+    if isinstance(last_complete, dict):
+        toc_list = last_complete.get('table_of_contents', list(last_complete.values())[0] if last_complete else [])
+    elif isinstance(last_complete, list):
+        toc_list = last_complete
+    else:
+        toc_list = []
+    cleaned_response = convert_page_to_int(toc_list)
     return cleaned_response
     
 

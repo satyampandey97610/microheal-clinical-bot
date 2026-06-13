@@ -204,26 +204,60 @@ def extract_json(content):
 
         # Clean up common issues that might cause parsing errors
         json_content = json_content.replace('None', 'null')  # Replace Python None with JSON null
+        
+        # Try raw_decode using the robust largest-parsed-substring strategy
+        try:
+            decoder = json.JSONDecoder()
+            indices = [i for i, char in enumerate(json_content) if char in ('{', '[')]
+            best_obj = None
+            max_parsed_len = -1
+            
+            for start_char in indices:
+                try:
+                    obj, idx = decoder.raw_decode(json_content[start_char:])
+                    if idx > max_parsed_len:
+                        max_parsed_len = idx
+                        best_obj = obj
+                except Exception:
+                    pass
+                    
+            if best_obj is not None:
+                return best_obj
+        except Exception:
+            pass
+
+        # If that fails, do standard cleanup
         json_content = json_content.replace('\n', ' ').replace('\r', ' ')  # Remove newlines
         json_content = ' '.join(json_content.split())  # Normalize whitespace
         
         # Heal AI stitched JSON hallucinations (e.g. }{ or ][ )
         json_content = json_content.replace('}{', '},{').replace('][', '],[')
 
-        # Attempt to parse and return the JSON object
-        return json.loads(json_content)
-    except json.JSONDecodeError as e:
-        logging.error(f"Failed to extract JSON: {e}")
-        logging.error(f"Raw content was: {content}")
-        # Try to clean up the content further if initial parsing fails
         try:
-            # Remove any trailing commas before closing brackets/braces
-            json_content = json_content.replace(',]', ']').replace(',}', '}')
-            # Attempt to wrap stitched arrays if they were missing commas
             return json.loads(json_content)
-        except:
-            logging.error("Failed to parse JSON even after cleanup")
-            return []
+        except json.JSONDecodeError as e:
+            # Fallback raw_decode after cleanup
+            try:
+                decoder = json.JSONDecoder()
+                start_char = json_content.find('{')
+                if start_char == -1:
+                    start_char = json_content.find('[')
+                if start_char != -1:
+                    obj, idx = decoder.raw_decode(json_content[start_char:])
+                    return obj
+            except Exception:
+                pass
+                
+            logging.error(f"Failed to extract JSON: {e}")
+            logging.error(f"Raw content was: {content}")
+            # Try to clean up the content further if initial parsing fails
+            try:
+                # Remove any trailing commas before closing brackets/braces
+                json_content = json_content.replace(',]', ']').replace(',}', '}')
+                return json.loads(json_content)
+            except:
+                logging.error("Failed to parse JSON even after cleanup")
+                return []
     except Exception as e:
         logging.error(f"Unexpected error while extracting JSON: {e}")
         logging.error(f"Raw content was: {content}")
@@ -542,7 +576,20 @@ def post_processing(structure, end_physical_index):
         else:
             item['end_index'] = end_physical_index
     tree = list_to_tree(structure)
+    
+    def adjust_ranges(nodes):
+        for node in nodes:
+            if 'nodes' in node and node['nodes']:
+                adjust_ranges(node['nodes'])
+                child_starts = [c['start_index'] for c in node['nodes'] if c.get('start_index') is not None]
+                child_ends = [c['end_index'] for c in node['nodes'] if c.get('end_index') is not None]
+                if child_starts:
+                    node['start_index'] = min(node['start_index'], min(child_starts))
+                if child_ends:
+                    node['end_index'] = max(node['end_index'], max(child_ends))
+
     if len(tree)!=0:
+        adjust_ranges(tree)
         return tree
     else:
         ### remove appear_start 

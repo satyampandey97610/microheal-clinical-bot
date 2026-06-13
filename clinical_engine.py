@@ -41,38 +41,44 @@ DOMAIN_CONFIG = {
     "gastro": {
         "label": "Gastroenterology",
         "index_dir": BASE_DIR / "GastroRAG" / "index",
-        "other_label": "Cardiology, Nephrology, Neurology, Gynecology, or Orthopedics",
-        "other_key": "cardio, nephro, neuro, gyneco, or ortho",
+        "other_label": "Cardiology, Nephrology, Neurology, Gynecology, Oncology, or Orthopedics",
+        "other_key": "cardio, nephro, neuro, gyneco, onco, or ortho",
     },
     "cardio": {
         "label": "Cardiology",
         "index_dir": BASE_DIR / "CardioRAG" / "index",
-        "other_label": "Gastroenterology, Nephrology, Neurology, Gynecology, or Orthopedics",
-        "other_key": "gastro, nephro, neuro, gyneco, or ortho",
+        "other_label": "Gastroenterology, Nephrology, Neurology, Gynecology, Oncology, or Orthopedics",
+        "other_key": "gastro, nephro, neuro, gyneco, onco, or ortho",
     },
     "nephro": {
         "label": "Nephrology",
         "index_dir": BASE_DIR / "NephroRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Neurology, Gynecology, or Orthopedics",
-        "other_key": "gastro, cardio, neuro, gyneco, or ortho",
+        "other_label": "Gastroenterology, Cardiology, Neurology, Gynecology, Oncology, or Orthopedics",
+        "other_key": "gastro, cardio, neuro, gyneco, onco, or ortho",
     },
     "neuro": {
         "label": "Neurology",
         "index_dir": BASE_DIR / "NeuroRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Nephrology, Gynecology, or Orthopedics",
-        "other_key": "gastro, cardio, nephro, gyneco, or ortho",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Gynecology, Oncology, or Orthopedics",
+        "other_key": "gastro, cardio, nephro, gyneco, onco, or ortho",
     },
     "gyneco": {
         "label": "Gynecology",
         "index_dir": BASE_DIR / "GynecoRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, or Orthopedics",
-        "other_key": "gastro, cardio, nephro, neuro, or ortho",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Oncology, or Orthopedics",
+        "other_key": "gastro, cardio, nephro, neuro, onco, or ortho",
+    },
+    "onco": {
+        "label": "Oncology",
+        "index_dir": BASE_DIR / "OncoRAG" / "index",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, or Orthopedics",
+        "other_key": "gastro, cardio, nephro, neuro, gyneco, or ortho",
     },
     "ortho": {
         "label": "Orthopedics",
         "index_dir": BASE_DIR / "OrthopedicsRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, or Gynecology",
-        "other_key": "gastro, cardio, nephro, neuro, or gyneco",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, or Oncology",
+        "other_key": "gastro, cardio, nephro, neuro, gyneco, or onco",
     }
 }
 
@@ -608,6 +614,9 @@ if __name__ == "__main__":
 
     gyneco = ClinicalEngine("gyneco")
     print(f"[GYNECO] Loaded {gyneco.get_source_count()} sources")
+
+    onco = ClinicalEngine("onco")
+    print(f"[ONCO] Loaded {onco.get_source_count()} sources")
 
     ortho = ClinicalEngine("ortho")
     print(f"[ORTHO] Loaded {ortho.get_source_count()} sources")

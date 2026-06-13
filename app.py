@@ -38,6 +38,7 @@ st.markdown("""
     .badge-neuro { background-color: #ede9fe; color: #5b21b6; }
     .badge-gyneco { background-color: #fce7f3; color: #9d174d; }
     .badge-ortho { background-color: #ffedd5; color: #9a3412; }
+    .badge-onco { background-color: #fae8ff; color: #701a75; }
     [data-testid="stChatMessage"] { border-radius: 12px !important; border: 1px solid #e2e8f0 !important; background: #ffffff !important; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 15px;}
     [data-testid="stChatMessage"]:nth-child(even) { background: #f8fafc !important; }
     .micro-ref { font-size: 0.85rem !important; color: #475569 !important; margin-bottom: 6px; padding: 6px; background: #f1f5f9; border-radius: 6px; border-left: 3px solid #3b82f6; }
@@ -64,7 +65,7 @@ col1, col2 = st.columns([1, 4])
 with col1:
     selected_domain = st.selectbox(
         "Model Selector",
-        ["Gastroenterology", "Cardiology", "Nephrology", "Neurology", "Gynecology", "Orthopedics"],
+        ["Gastroenterology", "Cardiology", "Nephrology", "Neurology", "Gynecology", "Oncology", "Orthopedics"],
         label_visibility="collapsed"
     )
 
@@ -75,6 +76,7 @@ domain_map = {
     "Nephrology": "nephro",
     "Neurology": "neuro",
     "Gynecology": "gyneco",
+    "Oncology": "onco",
     "Orthopedics": "ortho"
 }
 domain_key = domain_map[selected_domain]
@@ -117,6 +119,10 @@ elif selected_domain == "Gynecology":
     theme_color = "#ec4899"
     icon = "🩷"
     badge_class = "badge-gyneco"
+elif selected_domain == "Oncology":
+    theme_color = "#d946ef"
+    icon = "🎗️"
+    badge_class = "badge-onco"
 elif selected_domain == "Orthopedics":
     theme_color = "#ea580c"
     icon = "🦴"
