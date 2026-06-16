@@ -36,6 +36,69 @@ GLOBAL_USAGE = {
     "api_calls": 0
 }
 
+# Cost cap configuration
+COST_WARN_USD = 0.80       # Print warning at this level
+COST_ALERT_USD = 0.90      # Print LOUD alert at this level
+COST_HARD_CAP_USD = 1.10   # Hard stop ONLY at this level (gives $0.10 buffer above $1)
+PRICE_INPUT_PER_M = 0.150
+PRICE_OUTPUT_PER_M = 0.600
+
+_cost_warned = False
+_cost_alerted = False
+
+def _get_current_cost():
+    """Calculate current session cost in USD."""
+    return (GLOBAL_USAGE["prompt_tokens"] / 1_000_000) * PRICE_INPUT_PER_M \
+         + (GLOBAL_USAGE["completion_tokens"] / 1_000_000) * PRICE_OUTPUT_PER_M
+
+def _check_cost_cap():
+    """Check cost and warn/alert/stop as needed. Writes status to live_progress.txt."""
+    global _cost_warned, _cost_alerted
+    cost = _get_current_cost()
+    calls = GLOBAL_USAGE["api_calls"]
+    
+    # Write cost to live_progress.txt for real-time monitoring
+    try:
+        with open("live_progress.txt", "a") as f:
+            if calls % 25 == 0 and calls > 0:  # Log every 25 calls
+                f.write(f"[COST UPDATE] ${cost:.4f} spent | {calls} API calls | prompt={GLOBAL_USAGE['prompt_tokens']:,} completion={GLOBAL_USAGE['completion_tokens']:,}\n")
+    except Exception:
+        pass
+    
+    if cost >= COST_HARD_CAP_USD:
+        # Write final status before stopping
+        try:
+            with open("live_progress.txt", "a") as f:
+                f.write(f"\n*** HARD COST CAP REACHED: ${cost:.4f} — STOPPING ***\n")
+        except Exception:
+            pass
+        raise RuntimeError(
+            f"HARD COST CAP REACHED: ${cost:.4f} >= ${COST_HARD_CAP_USD:.2f}. "
+            f"Stopping to protect your budget. "
+            f"Tokens used: prompt={GLOBAL_USAGE['prompt_tokens']:,}, completion={GLOBAL_USAGE['completion_tokens']:,}"
+        )
+    
+    if cost >= COST_ALERT_USD and not _cost_alerted:
+        _cost_alerted = True
+        print(f"\n{'='*60}")
+        print(f"  ⚠️  COST ALERT: ${cost:.4f} spent — approaching $1.00 limit!")
+        print(f"  API calls: {calls} | Tokens: {GLOBAL_USAGE['total_tokens']:,}")
+        print(f"{'='*60}\n")
+        try:
+            with open("live_progress.txt", "a") as f:
+                f.write(f"\n⚠️ COST ALERT: ${cost:.4f} — approaching $1.00!\n")
+        except Exception:
+            pass
+    
+    elif cost >= COST_WARN_USD and not _cost_warned:
+        _cost_warned = True
+        print(f"\n  💰 COST WARNING: ${cost:.4f} spent so far ({calls} API calls)\n")
+        try:
+            with open("live_progress.txt", "a") as f:
+                f.write(f"\n💰 COST WARNING: ${cost:.4f} spent\n")
+        except Exception:
+            pass
+
 SESSION_START = None
 CURRENT_PDF_STEM = "unknown"
 
@@ -59,8 +122,11 @@ def _core_token_callback(kwargs, completion_response, start_time, end_time):
         GLOBAL_USAGE["total_tokens"]      += tt
         GLOBAL_USAGE["api_calls"]         += 1
         
-        # Immediate console feedback for the user
-        print(f"   [TOKEN CAPTURE] +{pt} prompt, +{ct} completion (Total: {GLOBAL_USAGE['total_tokens']})")
+        # Print cost summary every 50 calls (reduces console noise)
+        calls = GLOBAL_USAGE["api_calls"]
+        cost = _get_current_cost()
+        if calls % 50 == 0:
+            print(f"   [PROGRESS] Call #{calls} | Cost: ${cost:.4f} | Tokens: {GLOBAL_USAGE['total_tokens']:,}")
         
         # Write to raw append-only log file in real-time
         try:
@@ -98,7 +164,7 @@ def get_llm_semaphore():
     import asyncio
     loop = asyncio.get_running_loop()
     if loop not in llm_semaphores:
-        llm_semaphores[loop] = asyncio.Semaphore(5)
+        llm_semaphores[loop] = asyncio.Semaphore(2)
     return llm_semaphores[loop] 
 
 def count_tokens(text, model=None):
@@ -108,6 +174,7 @@ def count_tokens(text, model=None):
 
 
 def llm_completion(model, prompt, chat_history=None, return_finish_reason=False):
+    _check_cost_cap()
     if model:
         model = model.removeprefix("litellm/")
     max_retries = 15
@@ -145,6 +212,7 @@ def llm_completion(model, prompt, chat_history=None, return_finish_reason=False)
 
 
 async def llm_acompletion(model, prompt):
+    _check_cost_cap()
     if model:
         model = model.removeprefix("litellm/")
     max_retries = 15

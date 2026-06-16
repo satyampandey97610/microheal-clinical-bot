@@ -121,8 +121,10 @@ def toc_detector_single_page(content, model=None):
 
     response = llm_completion(model=model, prompt=prompt)
     # print('response', response)
-    json_content = extract_json(response)    
-    return json_content.get('toc_detected', 'no')
+    json_content = extract_json(response)
+    if isinstance(json_content, dict):
+        return json_content.get('toc_detected', 'no')
+    return 'no'
 
 
 def check_if_toc_extraction_is_complete(content, toc, model=None):
@@ -620,14 +622,14 @@ def generate_toc_init(part, model=None):
         print(f"Warning: finish reason {finish_reason}, attempting to parse truncated JSON.")
     return extract_json(response)
 
-def process_no_toc(page_list, start_index=1, model=None, logger=None):
+def process_no_toc(page_list, start_index=1, model=None, logger=None, max_token_num=20000):
     page_contents=[]
     token_lengths=[]
     for page_index in range(start_index, start_index+len(page_list)):
         page_text = f"<physical_index_{page_index}>\n{page_list[page_index-start_index][0]}\n<physical_index_{page_index}>\n\n"
         page_contents.append(page_text)
         token_lengths.append(count_tokens(page_text, model))
-    group_texts = page_list_to_group_text(page_contents, token_lengths)
+    group_texts = page_list_to_group_text(page_contents, token_lengths, max_tokens=max_token_num)
     logger.info(f'len(group_texts): {len(group_texts)}')
 
     try:
@@ -643,7 +645,8 @@ def process_no_toc(page_list, start_index=1, model=None, logger=None):
         except:
             pass
         toc_with_page_number_additional = generate_toc_continue(group_text, toc_with_page_number, model)    
-        toc_with_page_number.extend(toc_with_page_number_additional)
+        if toc_with_page_number_additional:
+            toc_with_page_number.extend(toc_with_page_number_additional)
     logger.info(f'generate_toc: {toc_with_page_number}')
 
     toc_with_page_number = convert_physical_index_to_int(toc_with_page_number)
@@ -651,7 +654,7 @@ def process_no_toc(page_list, start_index=1, model=None, logger=None):
 
     return toc_with_page_number
 
-def process_toc_no_page_numbers(toc_content, toc_page_list, page_list,  start_index=1, model=None, logger=None):
+def process_toc_no_page_numbers(toc_content, toc_page_list, page_list,  start_index=1, model=None, logger=None, max_token_num=20000):
     page_contents=[]
     token_lengths=[]
     toc_content = toc_transformer(toc_content, model)
@@ -661,7 +664,7 @@ def process_toc_no_page_numbers(toc_content, toc_page_list, page_list,  start_in
         page_contents.append(page_text)
         token_lengths.append(count_tokens(page_text, model))
     
-    group_texts = page_list_to_group_text(page_contents, token_lengths)
+    group_texts = page_list_to_group_text(page_contents, token_lengths, max_tokens=max_token_num)
     logger.info(f'len(group_texts): {len(group_texts)}')
 
     toc_with_page_number=copy.deepcopy(toc_content)
@@ -755,11 +758,11 @@ def process_none_page_numbers(toc_items, page_list, start_index=1, model=None):
                     continue
 
             item_copy = copy.deepcopy(item)
-            del item_copy['page']
+            item_copy.pop('page', None)
             result = add_page_number_to_toc(page_contents, item_copy, model)
             if isinstance(result[0]['physical_index'], str) and result[0]['physical_index'].startswith('<physical_index'):
                 item['physical_index'] = int(result[0]['physical_index'].split('_')[-1].rstrip('>').strip())
-                del item['page']
+                item.pop('page', None)
     
     return toc_items
 
@@ -1036,9 +1039,9 @@ async def meta_processor(page_list, mode=None, toc_content=None, toc_page_list=N
     if mode == 'process_toc_with_page_numbers':
         toc_with_page_number = process_toc_with_page_numbers(toc_content, toc_page_list, page_list, toc_check_page_num=opt.toc_check_page_num, model=opt.model, logger=logger)
     elif mode == 'process_toc_no_page_numbers':
-        toc_with_page_number = process_toc_no_page_numbers(toc_content, toc_page_list, page_list, model=opt.model, logger=logger)
+        toc_with_page_number = process_toc_no_page_numbers(toc_content, toc_page_list, page_list, model=opt.model, logger=logger, max_token_num=opt.max_token_num_each_node)
     else:
-        toc_with_page_number = process_no_toc(page_list, start_index=start_index, model=opt.model, logger=logger)
+        toc_with_page_number = process_no_toc(page_list, start_index=start_index, model=opt.model, logger=logger, max_token_num=opt.max_token_num_each_node)
             
     toc_with_page_number = [item for item in toc_with_page_number if item.get('physical_index') is not None] 
     
@@ -1087,17 +1090,16 @@ async def process_large_node_recursively(node, page_list, opt=None, logger=None)
             node['end_index'] = valid_node_toc_items[0]['start_index'] if valid_node_toc_items else node['end_index']
         
     if 'nodes' in node and node['nodes']:
+        tasks = []
         for child_node in node['nodes']:
             if child_node.get('start_index') == node.get('start_index') and child_node.get('end_index') == node.get('end_index'):
                 if logger:
                     logger.info(f"Breaking recursive freeze for {node['title']}")
                 child_node['nodes'] = []
-
-        tasks = [
-            process_large_node_recursively(child_node, page_list, opt, logger=logger)
-            for child_node in node['nodes']
-        ]
-        await asyncio.gather(*tasks)
+            else:
+                tasks.append(process_large_node_recursively(child_node, page_list, opt, logger=logger))
+        if tasks:
+            await asyncio.gather(*tasks)
     
     return node
 

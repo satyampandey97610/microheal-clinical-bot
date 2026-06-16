@@ -41,44 +41,50 @@ DOMAIN_CONFIG = {
     "gastro": {
         "label": "Gastroenterology",
         "index_dir": BASE_DIR / "GastroRAG" / "index",
-        "other_label": "Cardiology, Nephrology, Neurology, Gynecology, Oncology, or Orthopedics",
-        "other_key": "cardio, nephro, neuro, gyneco, onco, or ortho",
+        "other_label": "Cardiology, Nephrology, Neurology, Gynecology, Oncology, Orthopedics, or Geriatrics",
+        "other_key": "cardio, nephro, neuro, gyneco, onco, ortho, or geriatric",
     },
     "cardio": {
         "label": "Cardiology",
         "index_dir": BASE_DIR / "CardioRAG" / "index",
-        "other_label": "Gastroenterology, Nephrology, Neurology, Gynecology, Oncology, or Orthopedics",
-        "other_key": "gastro, nephro, neuro, gyneco, onco, or ortho",
+        "other_label": "Gastroenterology, Nephrology, Neurology, Gynecology, Oncology, Orthopedics, or Geriatrics",
+        "other_key": "gastro, nephro, neuro, gyneco, onco, ortho, or geriatric",
     },
     "nephro": {
         "label": "Nephrology",
         "index_dir": BASE_DIR / "NephroRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Neurology, Gynecology, Oncology, or Orthopedics",
-        "other_key": "gastro, cardio, neuro, gyneco, onco, or ortho",
+        "other_label": "Gastroenterology, Cardiology, Neurology, Gynecology, Oncology, Orthopedics, or Geriatrics",
+        "other_key": "gastro, cardio, neuro, gyneco, onco, ortho, or geriatric",
     },
     "neuro": {
         "label": "Neurology",
         "index_dir": BASE_DIR / "NeuroRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Nephrology, Gynecology, Oncology, or Orthopedics",
-        "other_key": "gastro, cardio, nephro, gyneco, onco, or ortho",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Gynecology, Oncology, Orthopedics, or Geriatrics",
+        "other_key": "gastro, cardio, nephro, gyneco, onco, ortho, or geriatric",
     },
     "gyneco": {
         "label": "Gynecology",
         "index_dir": BASE_DIR / "GynecoRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Oncology, or Orthopedics",
-        "other_key": "gastro, cardio, nephro, neuro, onco, or ortho",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Oncology, Orthopedics, or Geriatrics",
+        "other_key": "gastro, cardio, nephro, neuro, onco, ortho, or geriatric",
     },
     "onco": {
         "label": "Oncology",
         "index_dir": BASE_DIR / "OncoRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, or Orthopedics",
-        "other_key": "gastro, cardio, nephro, neuro, gyneco, or ortho",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, Orthopedics, or Geriatrics",
+        "other_key": "gastro, cardio, nephro, neuro, gyneco, ortho, or geriatric",
     },
     "ortho": {
         "label": "Orthopedics",
         "index_dir": BASE_DIR / "OrthopedicsRAG" / "index",
-        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, or Oncology",
-        "other_key": "gastro, cardio, nephro, neuro, gyneco, or onco",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, Oncology, or Geriatrics",
+        "other_key": "gastro, cardio, nephro, neuro, gyneco, onco, or geriatric",
+    },
+    "geriatric": {
+        "label": "Geriatrics",
+        "index_dir": BASE_DIR / "GeriatricRAG" / "index",
+        "other_label": "Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, Oncology, or Orthopedics",
+        "other_key": "gastro, cardio, nephro, neuro, gyneco, onco, or ortho",
     }
 }
 
@@ -406,10 +412,10 @@ class ClinicalEngine:
     """
 
     def __init__(self, domain: str):
-        """Initialize with 'gastro', 'cardio', 'nephro', 'neuro', or 'gyneco'."""
+        """Initialize with 'gastro', 'cardio', 'nephro', 'neuro', 'gyneco', 'onco', 'ortho', or 'geriatric'."""
         domain = domain.lower().strip()
         if domain not in DOMAIN_CONFIG:
-            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro', 'cardio', 'nephro', 'neuro', 'gyneco', or 'ortho'.")
+            raise ValueError(f"Invalid domain '{domain}'. Use 'gastro', 'cardio', 'nephro', 'neuro', 'gyneco', 'onco', 'ortho', or 'geriatric'.")
 
         self.config = DOMAIN_CONFIG[domain]
         self.domain = domain
@@ -620,6 +626,9 @@ if __name__ == "__main__":
 
     ortho = ClinicalEngine("ortho")
     print(f"[ORTHO] Loaded {ortho.get_source_count()} sources")
+
+    geriatric = ClinicalEngine("geriatric")
+    print(f"[GERIATRIC] Loaded {geriatric.get_source_count()} sources")
 
     print(f"\n[CONFIG] max_tokens = {_get_max_tokens()}")
 

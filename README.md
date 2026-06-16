@@ -1,17 +1,17 @@
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/3004/3004458.png" width="80" alt="MicroHeal Logo">
   <h1>MicroHeal Clinical Bot</h1>
-  <p><b>Unified Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, Oncology & Orthopedics RAG Assistant</b></p>
-  <p><i>A septa-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
+  <p><b>Unified Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, Oncology, Orthopedics & Geriatrics RAG Assistant</b></p>
+  <p><i>An octa-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
 </div>
 
 ---
 
 ## 🎯 System Overview
 
-**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **73 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
+**MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **80 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
 
-Users can switch between seven isolated specialist engines:
+Users can switch between eight isolated specialist engines:
 - 🩺 **Gastroenterology Expert** — 14 GI sources including casebooks, GLP-1 research, and clinical datasets.
 - ❤️ **Cardiology Expert** — 14 cardiovascular sources including ACC/AHA guidelines, ESC protocols, and heart failure studies.
 - 💧 **Nephrology Expert** — 13 kidney health sources including KDIGO guidelines, clinical handbooks, and textbook references.
@@ -19,6 +19,7 @@ Users can switch between seven isolated specialist engines:
 - 🩷 **Gynecology Expert** — 12 obstetrics and gynecology sources including WHO guidelines, clinical manuals, and journals.
 - 🎗️ **Oncology Expert** — 10 oncology sources including textbooks, manuals, and clinical guidelines.
 - 🦴 **Orthopedics Expert** — 8 orthopedic sources including textbooks, clinical examinations, and CPGs.
+- 🧓 **Geriatrics Expert** — 7 geriatric sources including WHO ageing guidelines, reference books, and clinical pocketbooks.
 
 ---
 
@@ -70,6 +71,10 @@ MicroHeal Clinical Bot
 │   ├── orthopedic_agent.py ← Orthopedic wrapper with query_ortho()
 │   ├── index/              ← 8 indexed JSON knowledge files
 │   └── data/               ← Source PDFs
+├── GeriatricRAG/
+│   ├── geriatric_agent.py  ← Geriatrics wrapper with query_geriatric()
+│   ├── index/              ← 7 indexed JSON knowledge files
+│   └── data/               ← Source PDFs
 ├── PageIndex/              ← PDF indexing pipeline
 ├── docs/                   ← Deployment guide
 ├── logs/                   ← Processing logs
@@ -118,6 +123,7 @@ neuro = ClinicalEngine("neuro")
 gyneco = ClinicalEngine("gyneco")
 onco = ClinicalEngine("onco")
 ortho = ClinicalEngine("ortho")
+geriatric = ClinicalEngine("geriatric")
 
 # Query it
 result = gastro.query("What causes GERD?")
@@ -125,8 +131,8 @@ print(result["answer"])     # The clinical response
 print(result["sources"])    # Real sources (empty if none used)
 print(result["out_of_domain"])  # True if wrong specialty
 
-# Gynecology example
-result = gyneco.query("What are the guidelines for pre-eclampsia?")
+# Geriatrics example
+result = geriatric.query("What are the guidelines for integrated care for older people?")
 print(result["answer"])
 
 # With conversation history
@@ -251,6 +257,17 @@ result = gastro.query("How is it treated?", history=history)
 | 6 | CTS CPG | Guideline |
 | 7 | OAH CPG | Guideline |
 | 8 | OAK3 CPG | Guideline |
+
+### Geriatrics (7 Sources)
+| # | Source | Type |
+|---|--------|------|
+| 1 | Geriatrics/Aging Research Article (41599_2023_Article_1629) | Journal |
+| 2 | WHO Integrated Care for Older People (ICOPE) Implementation Framework | Guideline |
+| 3 | WHO Global Report on Ageing and Health | Guideline |
+| 4 | WHO Guidelines on Integrated Care for Older People | Guideline |
+| 5 | Bookshelf Geriatric Care Reference (NBK379406) | Reference |
+| 6 | Geriatric Medicine Reference (L-G-0000001100-0002331378) | Reference |
+| 7 | NGIG Geriatrics Pocketbook 2025 | Reference |
 
 ---
 

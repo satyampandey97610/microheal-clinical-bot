@@ -1,5 +1,5 @@
-# MicroHeal Clinical Bot - Septa-specialty Architecture
-# Supports 7 Medical Specialties: Gastro, Cardio, Nephro, Neuro, Gyneco, Onco, Ortho
+# MicroHeal Clinical Bot - Octa-specialty Architecture
+# Supports 8 Medical Specialties: Gastro, Cardio, Nephro, Neuro, Gyneco, Onco, Ortho, Geriatric
 # Use the official lightweight Python image
 FROM python:3.10-slim
 
