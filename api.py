@@ -53,7 +53,7 @@ def health_check():
 def query_bot(request: QueryRequest):
     """
     Query the MicroHeal Clinical Bot.
-    - **domain**: 'gastro', 'cardio', 'nephro', 'neuro', 'gyneco', 'onco', or 'ortho'
+    - **domain**: 'gastro', 'cardio', 'nephro', 'neuro', 'gyneco', 'onco', 'ortho', or 'geriatric'
     - **query**: The clinical question.
     - **history**: (Optional) List of previous messages in the conversation.
     """
