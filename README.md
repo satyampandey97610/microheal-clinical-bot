@@ -1,14 +1,26 @@
+<<<<<<< HEAD
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/3004/3004458.png" width="80" alt="MicroHeal Logo">
   <h1>MicroHeal Clinical Bot</h1>
   <p><b>Unified Gastroenterology, Cardiology, Nephrology, Neurology, Gynecology, Oncology, Orthopedics & Geriatrics RAG Assistant</b></p>
   <p><i>An octa-specialty, clinically-accurate AI powered by Retrieval-Augmented Generation (RAG).</i></p>
 </div>
+=======
+# 🩺 GastroRAG: Elite Gastroenterology Clinical Intelligence
+
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/frontend-streamlit-FF4B4B.svg)](https://streamlit.io/)
+[![Engine: PageIndex](https://img.shields.io/badge/engine-PageIndex-000000.svg)](https://github.com/VectifyAI/PageIndex)
+[![Model: GPT--4o](https://img.shields.io/badge/llm-GPT--4o-412991.svg)](https://openai.com/)
+
+**GastroRAG** is a production-grade clinical decision support system (CDSS) designed for professional gastroenterologists. Unlike traditional vector-based RAG, it utilizes the **PageIndex** engine to perform reasoning-based retrieval across a high-density clinical knowledge base, ensuring unprecedented accuracy and traceability.
+>>>>>>> 848bcc72937d70826d927480a4dc9666f03d2386
 
 ---
 
-## 🎯 System Overview
+## 🛠️ Technology Stack
 
+<<<<<<< HEAD
 **MicroHeal Clinical Bot** is a production-ready AI application that acts as a specialized clinical assistant. It fuses a local indexed knowledge base of **80 medical textbooks, journals, and guidelines** with state-of-the-art LLM reasoning.
 
 Users can switch between eight isolated specialist engines:
@@ -20,24 +32,32 @@ Users can switch between eight isolated specialist engines:
 - 🎗️ **Oncology Expert** — 10 oncology sources including textbooks, manuals, and clinical guidelines.
 - 🦴 **Orthopedics Expert** — 8 orthopedic sources including textbooks, clinical examinations, and CPGs.
 - 🧓 **Geriatrics Expert** — 7 geriatric sources including WHO ageing guidelines, reference books, and clinical pocketbooks.
+=======
+*   **Core Engine**: `PageIndex` — Hierarchical, vectorless reasoning RAG.
+*   **Orchestration**: `GPT-4o` — High-reasoning LLM for intent analysis and clinical synthesis.
+*   **Frontend**: `Streamlit` — Sleek, responsive clinical interface.
+*   **Data Integrity**: `LiteLLM` & `PyPDF2` — Standardized API management and local document parsing.
+>>>>>>> 848bcc72937d70826d927480a4dc9666f03d2386
 
 ---
 
-## ✨ Key Features
+## 🏥 Clinical Knowledge Repository (14 Sources)
 
-| Feature | Description |
-|---------|-------------|
-| **LLM-Powered Domain Isolation** | Uses GPT intelligence to classify queries — no hardcoded keyword lists. Each specialist only answers its own domain. |
-| **Real Evidence Only** | Citations are shown ONLY when the answer is derived from the indexed knowledge base. No fake references ever. |
-| **Dynamic Registry** | Zero hardcoded paths. Automatically scans and loads all available index files on startup. |
-| **Platform-Independent Engine** | The core brain (`clinical_engine.py`) has no UI dependency. Import it from WhatsApp bots, APIs, workflows, or any system. |
-| **Conversational Intelligence** | Handles greetings, casual chat, and clinical questions naturally — no rigid format for simple conversations. |
-| **Hindi/Hinglish Support** | Detects Hinglish queries and responds in Hindi automatically. |
+The system is pre-indexed with over **2,500 pages** of elite medical literature, providing a "Deep Context" environment for clinical queries.
+
+| Category | Key Sources | Context Highlights |
+| :--- | :--- | :--- |
+| **Academic** | *First Principles of GI*, *Yamada's Handbook* | Comprehensive pathophysiology and clinical guidelines. |
+| **Research** | *EMJ Journal*, *GLP-1 Peer-Reviewed Studies* | Latest clinical trials and therapeutic breakthroughs (2021-2024). |
+| **Clinical** | *Casebook in Gastroenterology* | Protocol-driven case studies and diagnostic logic. |
+| **Data** | *GI Disease Dataset*, *CRAN Clinical Sets* | 30,000+ patient record insights and symptomatic mapping. |
+| **Nutritional** | *GLP-1 Diet Guides*, *Protein Balance Plans* | Specialized nutritional strategies for GLP-1 therapy. |
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Project Blueprint
 
+<<<<<<< HEAD
 ```
 MicroHeal Clinical Bot
 ├── clinical_engine.py      ← The core brain (import from anywhere)
@@ -81,30 +101,74 @@ MicroHeal Clinical Bot
 ├── Dockerfile
 ├── requirements.txt
 └── .env
+=======
+A clean, modular structure designed for production stability and easy maintenance.
+
+```text
+gastroRAG/
+├── PageIndex/
+│   ├── app.py                  # 🚀 Main Application (Streamlit UI)
+│   ├── gastro_agent_tool.py    # 🧠 Core RAG Engine & Document Registry
+│   ├── pageindex/              # 🌲 PageIndex Framework (Vectorless Core)
+│   ├── pdfs/                   # 📚 Local Knowledge Vault (14 PDFs)
+│   ├── results/                # 🌳 Pre-computed Semantic Trees (JSON)
+│   ├── tools/                  # 🛠️ Maintenance & Indexing Utilities
+│   │   ├── batch_index_all.py  # Automated multi-PDF indexer
+│   │   └── run_pageindex.py    # Single document processing tool
+│   ├── logs/                   # 📊 Token usage and system telemetry
+│   ├── config.yaml             # ⚙️ Engine parameters & AI settings
+│   ├── Dockerfile              # 🐳 Production Container Manifest
+│   ├── .dockerignore           # 🛡️ Build Optimization & Security
+│   ├── requirements.txt        # Production dependencies
+│   └── .env                    # Secure API credentials (Local)
+├── docs/                       # 📖 Technical Documentation & Integration Guides
+└── README.md                   # 🩺 Project Landing Page
+>>>>>>> 848bcc72937d70826d927480a4dc9666f03d2386
 ```
 
 ---
 
-## 🚀 Quick Start
+## ⚙️ How It Works: The Clinical Pipeline
 
-### 1. Clone & Install
+GastroRAG follows a rigorous 5-step process to ensure clinical safety and relevance:
+
+1.  **Intent Classification**: Analyzes if a query is medical, administrative, or out-of-scope.
+2.  **Terminology Expansion**: Expands medical shorthand (e.g., "GERD") into comprehensive search terms.
+3.  **Hierarchical Tree Search**: PageIndex navigates the document "Table of Contents" to find the exact relevant page ranges.
+4.  **Evidence Synthesis**: GPT-4o processes the raw retrieved text to form a coherent, professional response.
+5.  **Structured Output**: Delivers an **Answer**, followed by **Technical Details**, and a **Clinical Note**.
+6.  **Interactive Evidence**: Citations are consolidated into a dedicated **"View Sources & Citations"** UI expander to keep the primary response clean and professional.
+
+---
+
+## 🚀 Deployment & Usage
+
+### 1. Environment Setup
 ```bash
-git clone https://github.com/satyampandey97610/microheal-clinical-bot.git
-cd microheal-clinical-bot
+# Clone the repository
+git clone https://github.com/MicroHeal-Wellness/gastroRAG.git
+cd gastroRAG/PageIndex
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-### 2. Set API Key
-```bash
-# Create .env file
-echo "OPENAI_API_KEY=sk-your-key-here" > .env
+### 2. Configure Credentials
+Create a `.env` file in the `PageIndex/` directory:
+```env
+OPENAI_API_KEY=sk-xxxx-your-clinical-key
 ```
 
+<<<<<<< HEAD
 ### 3. Run the Streamlit App (Web UI)
+=======
+### 3. Launch the Assistant
+>>>>>>> 848bcc72937d70826d927480a4dc9666f03d2386
 ```bash
 streamlit run app.py
 ```
 
+<<<<<<< HEAD
 ### 4. Run the API Server (For external requests)
 ```bash
 uvicorn api:app --reload
@@ -272,14 +336,39 @@ result = gastro.query("How is it treated?", history=history)
 ---
 
 ## 🐳 Docker Deployment
+=======
+### 4. Docker Deployment (Optional)
+One container runs a **single server on port 8501** (`server.py` via uvicorn):
+- Streamlit UI internally on 8502 (proxied through 8501)
+- Retrieval API routes served directly on 8501
+
+| Path | Service |
+|------|---------|
+| `http://localhost:8501/` | Streamlit UI |
+| `POST http://localhost:8501/v1/retrieve` | Retrieval API |
+| `GET http://localhost:8501/health` | API health check |
+| `http://localhost:8501/docs` | FastAPI Swagger |
+>>>>>>> 848bcc72937d70826d927480a4dc9666f03d2386
 
 ```bash
-docker build -t microheal-clinical-bot .
-docker run -p 8501:8501 --env-file .env microheal-clinical-bot
+# Build and run (docker compose)
+docker compose up --build
+
+# Or run the image directly
+docker build -t gastrorag:latest .
+docker run -p 8501:8501 --env-file .env gastrorag:latest
 ```
+
+For **agentic-chatbot**, set `GASTRO_RAG_API_URL=http://localhost:8501` (same host/port as Streamlit).
 
 ---
 
-## 📄 License
+## 🔒 Security & Compliance
 
-This project is intended for educational and research purposes only. Always consult a qualified healthcare professional for medical advice.
+*   **Data Privacy**: All knowledge retrieval is performed locally against the indexed PDF vault.
+*   **No PII**: The system does not store or process Protected Health Information (PHI).
+*   **Traceability**: Every response is anchored to a specific clinical source, section, and page range.
+
+---
+
+**GastroRAG** | Built with precision by **MicroHeal Wellness** | Powered by **PageIndex**

@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  gastrorag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: microheal-gastrorag
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+      - GASTRO_RAG_RESULTS_DIR=/app/results
+    env_file:
+      - .env
+    volumes:
+      - ./results:/app/results
+      - ./logs:/app/logs
+      - ./pageindex:/app/pageindex
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 45s
+    networks:
+      - gastrobot-network
+
+networks:
+  gastrobot-network:
+    driver: bridge
