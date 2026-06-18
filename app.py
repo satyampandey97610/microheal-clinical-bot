@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 from dotenv import load_dotenv
 import litellm
+from clinical_engine import ClinicalEngine
 
 # Load environment variables
 load_dotenv(dotenv_path=Path(__file__).parent / ".env")
@@ -242,7 +243,6 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
     .stApp { background-color: #ffffff !important; }
     html, body { font-family: 'Inter', sans-serif; color: #1e293b; }
-<<<<<<< HEAD
     .stTitle { font-weight: 800 !important; font-size: 2.8rem !important; margin-bottom: 0px !important; }
     .specialty-badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 20px; }
     .badge-gastro { background-color: #dbeafe; color: #1e3a8a; }
@@ -256,22 +256,12 @@ st.markdown("""
     [data-testid="stChatMessage"] { border-radius: 12px !important; border: 1px solid #e2e8f0 !important; background: #ffffff !important; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 15px;}
     [data-testid="stChatMessage"]:nth-child(even) { background: #f8fafc !important; }
     .micro-ref { font-size: 0.85rem !important; color: #475569 !important; margin-bottom: 6px; padding: 6px; background: #f1f5f9; border-radius: 6px; border-left: 3px solid #3b82f6; }
-=======
-    .stTitle { font-weight: 800 !important; color: #0f172a !important; font-size: 2.5rem !important; }
-    [data-testid="stChatMessage"] { border-radius: 10px !important; border: 1px solid #e2e8f0 !important; background: #f8fafc !important; }
-    [data-testid="stChatMessage"]:nth-child(even) { background: white !important; }
-    .micro-ref { font-size: 0.8rem !important; color: #475569 !important; margin-bottom: 4px; }
-    .micro-llm { font-size: 0.8rem !important; color: #64748b !important; font-style: italic; margin-top: 12px; border-top: 1px solid #f1f5f9; padding-top: 8px; }
-    [data-testid="stChatInput"] textarea { color: #1e293b !important; }
-    @media (prefers-color-scheme: dark) { [data-testid="stChatInput"] textarea { color: #ffffff !important; } }
->>>>>>> 848bcc72937d70826d927480a4dc9666f03d2386
 </style>
 """, unsafe_allow_html=True)
 
 st.title("🩺 MicroHeal GastroBot")
 st.markdown("##### AI-Powered Gastroenterology Expert — Evidence-Based Clinical Insights")
 
-<<<<<<< HEAD
 with st.sidebar:
     st.image("https://cdn-icons-png.flaticon.com/512/3004/3004458.png", width=60)
 
@@ -367,12 +357,6 @@ st.markdown(f'<div class="specialty-badge {badge_class}">{icon} {selected_domain
 #  Chat History
 # ──────────────────────────────────────────────────────────────────
 
-=======
-if "messages" not in st.session_state:
-    st.session_state.messages = []
-
-# Display chat history
->>>>>>> 848bcc72937d70826d927480a4dc9666f03d2386
 for msg in st.session_state.messages:
     avatar = "🩺" if msg["role"] == "assistant" else "👤"
     with st.chat_message(msg["role"], avatar=avatar):
