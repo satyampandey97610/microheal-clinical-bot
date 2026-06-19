@@ -1,33 +1,40 @@
 version: '3.8'
 
+# HOW TO USE
+# ────────────────────────────────────────────────────────────────────────────
+#
+# 1. Create a .env file in this directory:
+#      OPENAI_API_KEY=sk-your-key-here
+#
+# 2. Start the stack:
+#      docker compose up -d
+#
+# 3. Open the app:
+#      http://localhost:8501/        → Streamlit UI
+#      http://localhost:8501/query   → FastAPI backend
+#      http://localhost:8501/health  → Health check
+#
+# Other commands:
+#      docker compose logs -f
+#      docker compose down
+
 services:
-  gastrorag:
+  clinical-bot:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: microheal-gastrorag
+    container_name: microheal_clinical_bot
     ports:
       - "8501:8501"
-    environment:
-      - PYTHONDONTWRITEBYTECODE=1
-      - PYTHONUNBUFFERED=1
-      - GASTRO_RAG_RESULTS_DIR=/app/results
     env_file:
       - .env
-    volumes:
-      - ./results:/app/results
-      - ./logs:/app/logs
-      - ./pageindex:/app/pageindex
+    environment:
+      - PORT=8501
+      - STREAMLIT_INTERNAL_PORT=8502
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8501/health"]
-      interval: 30s
+      interval: 15s
       timeout: 5s
-      retries: 3
-      start_period: 45s
-    networks:
-      - gastrobot-network
-
-networks:
-  gastrobot-network:
-    driver: bridge
+      retries: 5
+      start_period: 60s

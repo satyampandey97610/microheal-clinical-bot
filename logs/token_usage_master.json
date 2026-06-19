@@ -1,1082 +1,372 @@
 {
   "all_sessions": [
     {
-      "session_start": "2026-05-13T09:00:00",
-      "session_end": "2026-05-13T12:00:00",
+      "session_start": "2026-06-15T11:12:06.006935",
+      "session_end": "2026-06-15T11:13:23.467265",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
       "pdfs": {
-        "Morning_Batch_Indexing": {
-          "prompt_tokens": 2725200,
-          "completion_tokens": 312133,
-          "total_tokens": 3037333,
-          "api_calls": 450
+        "41599_2023_Article_1629": {
+          "prompt_tokens": 108060,
+          "completion_tokens": 4189,
+          "total_tokens": 112249,
+          "api_calls": 43,
+          "status": "SUCCESS",
+          "timestamp": "2026-06-15T11:13:23.467265",
+          "estimated_cost_usd": 0.018722
         }
       },
       "session_totals": {
-        "prompt_tokens": 2725200,
-        "completion_tokens": 312133,
-        "total_tokens": 3037333,
-        "api_calls": 450
+        "prompt_tokens": 108060,
+        "completion_tokens": 4189,
+        "total_tokens": 112249,
+        "api_calls": 43,
+        "estimated_cost_usd": 0.018722
       }
     },
     {
-      "session_start": "2026-05-13T12:36:35.663008",
-      "session_end": "2026-05-13T12:36:35.688087",
-      "pdfs": {},
+      "session_start": "2026-06-15T11:24:37.212208",
+      "session_end": "2026-06-15T11:54:31.078266",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "9789241513487-eng": {
+          "prompt_tokens": 61617,
+          "completion_tokens": 4412,
+          "total_tokens": 66029,
+          "api_calls": 35,
+          "status": "SUCCESS",
+          "timestamp": "2026-06-15T11:26:13.482018",
+          "estimated_cost_usd": 0.01189
+        },
+        "L-G-0000001100-0002331378": {
+          "prompt_tokens": 53922,
+          "completion_tokens": 2959,
+          "total_tokens": 56881,
+          "api_calls": 27,
+          "status": "SUCCESS",
+          "timestamp": "2026-06-15T11:28:00.706207",
+          "estimated_cost_usd": 0.009864
+        },
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T11:28:00.812768",
+          "estimated_cost_usd": 0.0
+        },
+        "NGIG Geriatrics Pocketbook 2025": {
+          "prompt_tokens": 185355,
+          "completion_tokens": 8648,
+          "total_tokens": 194003,
+          "api_calls": 89,
+          "status": "SUCCESS",
+          "timestamp": "2026-06-15T11:30:06.230525",
+          "estimated_cost_usd": 0.032992
+        },
+        "9789240033245-eng": {
+          "prompt_tokens": 367437,
+          "completion_tokens": 21167,
+          "total_tokens": 388604,
+          "api_calls": 166,
+          "status": "SUCCESS",
+          "timestamp": "2026-06-15T11:35:43.654448",
+          "estimated_cost_usd": 0.067816
+        },
+        "9789240694811_eng": {
+          "prompt_tokens": 1589760,
+          "completion_tokens": 80089,
+          "total_tokens": 1669849,
+          "api_calls": 838,
+          "status": "SUCCESS",
+          "timestamp": "2026-06-15T11:47:38.537542",
+          "estimated_cost_usd": 0.286517
+        },
+        "Bookshelf_NBK379406": {
+          "prompt_tokens": 642224,
+          "completion_tokens": 43622,
+          "total_tokens": 685846,
+          "api_calls": 411,
+          "status": "SUCCESS",
+          "timestamp": "2026-06-15T11:54:31.078266",
+          "estimated_cost_usd": 0.122507
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 2900315,
+        "completion_tokens": 160897,
+        "total_tokens": 3061212,
+        "api_calls": 1566,
+        "estimated_cost_usd": 0.531585
+      }
+    },
+    {
+      "session_start": "2026-06-15T17:21:58.070729",
+      "session_end": "2026-06-15T17:22:05.227787",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T17:22:05.227787",
+          "estimated_cost_usd": 0.0
+        }
+      },
       "session_totals": {
         "prompt_tokens": 0,
         "completion_tokens": 0,
         "total_tokens": 0,
-        "api_calls": 0
+        "api_calls": 0,
+        "estimated_cost_usd": 0.0
       }
     },
     {
-      "session_start": "2026-05-13T17:15:59.350603",
-      "session_end": "2026-05-13T17:15:59.379231",
-      "pdfs": {},
+      "session_start": "2026-06-15T17:28:11.014947",
+      "session_end": "2026-06-15T17:28:16.996032",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T17:28:16.996032",
+          "estimated_cost_usd": 0.0
+        }
+      },
       "session_totals": {
         "prompt_tokens": 0,
         "completion_tokens": 0,
         "total_tokens": 0,
-        "api_calls": 0
+        "api_calls": 0,
+        "estimated_cost_usd": 0.0
       }
     },
     {
-      "session_start": "2026-05-13T17:18:26.093365",
-      "session_end": "2026-05-13T17:18:26.317258",
-      "pdfs": {},
+      "session_start": "2026-06-15T18:31:31.847854",
+      "session_end": "2026-06-15T18:31:39.935505",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T18:31:39.935505",
+          "estimated_cost_usd": 0.0
+        }
+      },
       "session_totals": {
         "prompt_tokens": 0,
         "completion_tokens": 0,
         "total_tokens": 0,
-        "api_calls": 0
+        "api_calls": 0,
+        "estimated_cost_usd": 0.0
       }
     },
     {
-      "session_start": "2026-05-14T07:39:02.901229",
-      "session_end": "2026-05-14T07:39:03.403296",
-      "pdfs": {},
+      "session_start": "2026-06-15T19:52:06.089848",
+      "session_end": "2026-06-15T19:52:16.022929",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T19:52:16.022929",
+          "estimated_cost_usd": 0.0
+        }
+      },
       "session_totals": {
         "prompt_tokens": 0,
         "completion_tokens": 0,
         "total_tokens": 0,
-        "api_calls": 0
+        "api_calls": 0,
+        "estimated_cost_usd": 0.0
       }
     },
     {
-      "session_start": "2026-05-14T07:40:13.672427",
-      "session_end": "2026-05-14T07:40:13.836131",
-      "pdfs": {},
+      "session_start": "2026-06-15T20:44:59.042034",
+      "session_end": "2026-06-15T20:45:08.756146",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T20:45:08.756146",
+          "estimated_cost_usd": 0.0
+        }
+      },
       "session_totals": {
         "prompt_tokens": 0,
         "completion_tokens": 0,
         "total_tokens": 0,
-        "api_calls": 0
+        "api_calls": 0,
+        "estimated_cost_usd": 0.0
       }
     },
     {
-      "session_start": "2026-05-14T07:39:02.901229",
-      "session_end": "2026-05-14T07:40:36.459108",
+      "session_start": "2026-06-15T21:53:32.682334",
+      "session_end": "2026-06-15T21:53:39.545647",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
       "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27895,
-          "completion_tokens": 1328,
-          "total_tokens": 29223,
-          "api_calls": 10
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T21:53:39.545647",
+          "estimated_cost_usd": 0.0
         }
       },
-      "session_totals": {
-        "prompt_tokens": 27895,
-        "completion_tokens": 1328,
-        "total_tokens": 29223,
-        "api_calls": 10
-      }
-    },
-    {
-      "session_start": "2026-05-14T07:39:02.901229",
-      "session_end": "2026-05-14T07:41:03.870315",
-      "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27895,
-          "completion_tokens": 1328,
-          "total_tokens": 29223,
-          "api_calls": 10
-        },
-        "glp1_diet": {
-          "prompt_tokens": 4119,
-          "completion_tokens": 420,
-          "total_tokens": 4539,
-          "api_calls": 6
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 32014,
-        "completion_tokens": 1748,
-        "total_tokens": 33762,
-        "api_calls": 16
-      }
-    },
-    {
-      "session_start": "2026-05-14T07:40:13.672427",
-      "session_end": "2026-05-14T07:41:22.835068",
-      "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27867,
-          "completion_tokens": 1346,
-          "total_tokens": 29213,
-          "api_calls": 10
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 27867,
-        "completion_tokens": 1346,
-        "total_tokens": 29213,
-        "api_calls": 10
-      }
-    },
-    {
-      "session_start": "2026-05-14T07:40:13.672427",
-      "session_end": "2026-05-14T07:41:43.798673",
-      "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27867,
-          "completion_tokens": 1346,
-          "total_tokens": 29213,
-          "api_calls": 10
-        },
-        "glp1_diet": {
-          "prompt_tokens": 4082,
-          "completion_tokens": 399,
-          "total_tokens": 4481,
-          "api_calls": 6
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 31949,
-        "completion_tokens": 1745,
-        "total_tokens": 33694,
-        "api_calls": 16
-      }
-    },
-    {
-      "session_start": "2026-05-14T07:39:02.901229",
-      "session_end": "2026-05-14T07:44:29.528503",
-      "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27895,
-          "completion_tokens": 1328,
-          "total_tokens": 29223,
-          "api_calls": 10
-        },
-        "glp1_diet": {
-          "prompt_tokens": 4119,
-          "completion_tokens": 420,
-          "total_tokens": 4539,
-          "api_calls": 6
-        },
-        "glp1_diet_cookbook": {
-          "prompt_tokens": 28951,
-          "completion_tokens": 3952,
-          "total_tokens": 32903,
-          "api_calls": 12
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 60965,
-        "completion_tokens": 5700,
-        "total_tokens": 66665,
-        "api_calls": 28
-      }
-    },
-    {
-      "session_start": "2026-05-14T07:40:13.672427",
-      "session_end": "2026-05-14T07:44:51.078761",
-      "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27867,
-          "completion_tokens": 1346,
-          "total_tokens": 29213,
-          "api_calls": 10
-        },
-        "glp1_diet": {
-          "prompt_tokens": 4082,
-          "completion_tokens": 399,
-          "total_tokens": 4481,
-          "api_calls": 6
-        },
-        "glp1_diet_cookbook": {
-          "prompt_tokens": 28435,
-          "completion_tokens": 3934,
-          "total_tokens": 32369,
-          "api_calls": 12
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 60384,
-        "completion_tokens": 5679,
-        "total_tokens": 66063,
-        "api_calls": 28
-      }
-    },
-    {
-      "session_start": "2026-05-14T07:39:02.901229",
-      "session_end": "2026-05-14T07:48:41.951741",
-      "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27895,
-          "completion_tokens": 1328,
-          "total_tokens": 29223,
-          "api_calls": 10
-        },
-        "glp1_diet": {
-          "prompt_tokens": 4119,
-          "completion_tokens": 420,
-          "total_tokens": 4539,
-          "api_calls": 6
-        },
-        "glp1_diet_cookbook": {
-          "prompt_tokens": 28951,
-          "completion_tokens": 3952,
-          "total_tokens": 32903,
-          "api_calls": 12
-        },
-        "glp1_nutrition_priorities": {
-          "prompt_tokens": 120655,
-          "completion_tokens": 3015,
-          "total_tokens": 123670,
-          "api_calls": 29
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 181620,
-        "completion_tokens": 8715,
-        "total_tokens": 190335,
-        "api_calls": 57
-      }
-    },
-    {
-      "session_start": "2026-05-14T07:40:13.672427",
-      "session_end": "2026-05-14T07:48:42.163720",
-      "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27867,
-          "completion_tokens": 1346,
-          "total_tokens": 29213,
-          "api_calls": 10
-        },
-        "glp1_diet": {
-          "prompt_tokens": 4082,
-          "completion_tokens": 399,
-          "total_tokens": 4481,
-          "api_calls": 6
-        },
-        "glp1_diet_cookbook": {
-          "prompt_tokens": 28435,
-          "completion_tokens": 3934,
-          "total_tokens": 32369,
-          "api_calls": 12
-        },
-        "glp1_nutrition_priorities": {
-          "prompt_tokens": 121804,
-          "completion_tokens": 2901,
-          "total_tokens": 124705,
-          "api_calls": 31
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 182188,
-        "completion_tokens": 8580,
-        "total_tokens": 190768,
-        "api_calls": 59
-      }
-    },
-    {
-      "session_start": "2026-05-14T07:40:13.672427",
-      "session_end": "2026-05-14T07:50:33.270003",
-      "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27867,
-          "completion_tokens": 1346,
-          "total_tokens": 29213,
-          "api_calls": 10
-        },
-        "glp1_diet": {
-          "prompt_tokens": 4082,
-          "completion_tokens": 399,
-          "total_tokens": 4481,
-          "api_calls": 6
-        },
-        "glp1_diet_cookbook": {
-          "prompt_tokens": 28435,
-          "completion_tokens": 3934,
-          "total_tokens": 32369,
-          "api_calls": 12
-        },
-        "glp1_nutrition_priorities": {
-          "prompt_tokens": 121804,
-          "completion_tokens": 2901,
-          "total_tokens": 124705,
-          "api_calls": 31
-        },
-        "glp1_ultimate_guide": {
-          "prompt_tokens": 56648,
-          "completion_tokens": 6282,
-          "total_tokens": 62930,
-          "api_calls": 35
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 238836,
-        "completion_tokens": 14862,
-        "total_tokens": 253698,
-        "api_calls": 94
-      }
-    },
-    {
-      "session_start": "2026-05-14T07:39:02.901229",
-      "session_end": "2026-05-14T07:50:38.120448",
-      "pdfs": {
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27895,
-          "completion_tokens": 1328,
-          "total_tokens": 29223,
-          "api_calls": 10
-        },
-        "glp1_diet": {
-          "prompt_tokens": 4119,
-          "completion_tokens": 420,
-          "total_tokens": 4539,
-          "api_calls": 6
-        },
-        "glp1_diet_cookbook": {
-          "prompt_tokens": 28951,
-          "completion_tokens": 3952,
-          "total_tokens": 32903,
-          "api_calls": 12
-        },
-        "glp1_nutrition_priorities": {
-          "prompt_tokens": 120655,
-          "completion_tokens": 3015,
-          "total_tokens": 123670,
-          "api_calls": 29
-        },
-        "glp1_ultimate_guide": {
-          "prompt_tokens": 54710,
-          "completion_tokens": 6484,
-          "total_tokens": 61194,
-          "api_calls": 35
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 236330,
-        "completion_tokens": 15199,
-        "total_tokens": 251529,
-        "api_calls": 92
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:09:14.137243",
-      "session_end": "2026-05-14T08:09:14.300499",
-      "pdfs": {},
       "session_totals": {
         "prompt_tokens": 0,
         "completion_tokens": 0,
         "total_tokens": 0,
-        "api_calls": 0
+        "api_calls": 0,
+        "estimated_cost_usd": 0.0
       }
     },
     {
-      "session_start": "2026-05-14T08:09:14.137243",
-      "session_end": "2026-05-14T08:09:43.245650",
+      "session_start": "2026-06-15T22:34:09.077047",
+      "session_end": "2026-06-15T22:34:17.944842",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
       "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4158,
-          "completion_tokens": 597,
-          "total_tokens": 4755,
-          "api_calls": 7
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T22:34:17.944842",
+          "estimated_cost_usd": 0.0
         }
       },
-      "session_totals": {
-        "prompt_tokens": 4158,
-        "completion_tokens": 597,
-        "total_tokens": 4755,
-        "api_calls": 7
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:09:14.137243",
-      "session_end": "2026-05-14T08:11:08.032199",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4158,
-          "completion_tokens": 597,
-          "total_tokens": 4755,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 39924,
-          "completion_tokens": 1333,
-          "total_tokens": 41257,
-          "api_calls": 14
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 44082,
-        "completion_tokens": 1930,
-        "total_tokens": 46012,
-        "api_calls": 21
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:09:14.137243",
-      "session_end": "2026-05-14T08:13:30.622606",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4158,
-          "completion_tokens": 597,
-          "total_tokens": 4755,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 39924,
-          "completion_tokens": 1333,
-          "total_tokens": 41257,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 20964,
-          "completion_tokens": 1682,
-          "total_tokens": 22646,
-          "api_calls": 9
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 65046,
-        "completion_tokens": 3612,
-        "total_tokens": 68658,
-        "api_calls": 30
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:09:14.137243",
-      "session_end": "2026-05-14T08:15:02.967222",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4158,
-          "completion_tokens": 597,
-          "total_tokens": 4755,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 39924,
-          "completion_tokens": 1333,
-          "total_tokens": 41257,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 20964,
-          "completion_tokens": 1682,
-          "total_tokens": 22646,
-          "api_calls": 9
-        },
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27799,
-          "completion_tokens": 1312,
-          "total_tokens": 29111,
-          "api_calls": 10
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 92845,
-        "completion_tokens": 4924,
-        "total_tokens": 97769,
-        "api_calls": 40
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:09:14.137243",
-      "session_end": "2026-05-14T08:15:37.636575",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4158,
-          "completion_tokens": 597,
-          "total_tokens": 4755,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 39924,
-          "completion_tokens": 1333,
-          "total_tokens": 41257,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 20964,
-          "completion_tokens": 1682,
-          "total_tokens": 22646,
-          "api_calls": 9
-        },
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27799,
-          "completion_tokens": 1312,
-          "total_tokens": 29111,
-          "api_calls": 10
-        },
-        "kaggle_dataset": {
-          "prompt_tokens": 12309,
-          "completion_tokens": 879,
-          "total_tokens": 13188,
-          "api_calls": 13
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 105154,
-        "completion_tokens": 5803,
-        "total_tokens": 110957,
-        "api_calls": 53
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:09:14.137243",
-      "session_end": "2026-05-14T08:16:30.705407",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4158,
-          "completion_tokens": 597,
-          "total_tokens": 4755,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 39924,
-          "completion_tokens": 1333,
-          "total_tokens": 41257,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 20964,
-          "completion_tokens": 1682,
-          "total_tokens": 22646,
-          "api_calls": 9
-        },
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27799,
-          "completion_tokens": 1312,
-          "total_tokens": 29111,
-          "api_calls": 10
-        },
-        "kaggle_dataset": {
-          "prompt_tokens": 12309,
-          "completion_tokens": 879,
-          "total_tokens": 13188,
-          "api_calls": 13
-        },
-        "glp1_meal_plan": {
-          "prompt_tokens": 8950,
-          "completion_tokens": 1046,
-          "total_tokens": 9996,
-          "api_calls": 11
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 114104,
-        "completion_tokens": 6849,
-        "total_tokens": 120953,
-        "api_calls": 64
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:27:45.019714",
-      "session_end": "2026-05-14T08:27:45.185136",
-      "pdfs": {},
       "session_totals": {
         "prompt_tokens": 0,
         "completion_tokens": 0,
         "total_tokens": 0,
-        "api_calls": 0
+        "api_calls": 0,
+        "estimated_cost_usd": 0.0
       }
     },
     {
-      "session_start": "2026-05-14T08:28:21.694072",
-      "session_end": "2026-05-14T08:28:21.861503",
-      "pdfs": {},
+      "session_start": "2026-06-15T22:49:38.636337",
+      "session_end": "2026-06-15T23:43:39.393475",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T22:49:45.878789",
+          "estimated_cost_usd": 0.0
+        },
+        "Howard_M._Fillit_MD_Kenneth_Rockwood_Kenneth_Wo": {
+          "prompt_tokens": 4688406,
+          "completion_tokens": 170398,
+          "total_tokens": 4858804,
+          "api_calls": 1698,
+          "status": "FAILED: cannot unpack non-iterable NoneType object",
+          "timestamp": "2026-06-15T23:43:39.390087",
+          "estimated_cost_usd": 0.8055
+        }
+      },
+      "session_totals": {
+        "prompt_tokens": 4688406,
+        "completion_tokens": 170398,
+        "total_tokens": 4858804,
+        "api_calls": 1698,
+        "estimated_cost_usd": 0.8055
+      }
+    },
+    {
+      "session_start": "2026-06-15T23:53:13.000212",
+      "session_end": "2026-06-16T00:05:32.247499",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
+      "pdfs": {
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-15T23:53:20.620262",
+          "estimated_cost_usd": 0.0
+        },
+        "Howard_M._Fillit_MD_Kenneth_Rockwood_Kenneth_Wo": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: 'list' object has no attribute 'get'",
+          "timestamp": "2026-06-16T00:05:32.247499",
+          "estimated_cost_usd": 0.0
+        }
+      },
       "session_totals": {
         "prompt_tokens": 0,
         "completion_tokens": 0,
         "total_tokens": 0,
-        "api_calls": 0
+        "api_calls": 0,
+        "estimated_cost_usd": 0.0
       }
     },
     {
-      "session_start": "2026-05-14T08:27:45.019714",
-      "session_end": "2026-05-14T08:28:25.479370",
+      "session_start": "2026-06-16T14:12:19.759684",
+      "session_end": "2026-06-16T14:12:22.094434",
+      "domain": "GeriatricRAG",
+      "model": "gpt-4o-mini",
       "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4172,
-          "completion_tokens": 610,
-          "total_tokens": 4782,
-          "api_calls": 7
+        "978-1-62808-976-9_ch15": {
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "total_tokens": 0,
+          "api_calls": 0,
+          "status": "FAILED: PyCryptodome is required for AES algorithm",
+          "timestamp": "2026-06-16T14:12:22.094434",
+          "estimated_cost_usd": 0.0
         }
       },
-      "session_totals": {
-        "prompt_tokens": 4172,
-        "completion_tokens": 610,
-        "total_tokens": 4782,
-        "api_calls": 7
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:28:21.694072",
-      "session_end": "2026-05-14T08:30:02.444265",
-      "pdfs": {
-        "glp1_clinical_study": {
-          "prompt_tokens": 39976,
-          "completion_tokens": 1324,
-          "total_tokens": 41300,
-          "api_calls": 14
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 39976,
-        "completion_tokens": 1324,
-        "total_tokens": 41300,
-        "api_calls": 14
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:27:45.019714",
-      "session_end": "2026-05-14T08:30:13.469731",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4172,
-          "completion_tokens": 610,
-          "total_tokens": 4782,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 40011,
-          "completion_tokens": 1319,
-          "total_tokens": 41330,
-          "api_calls": 14
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 44183,
-        "completion_tokens": 1929,
-        "total_tokens": 46112,
-        "api_calls": 21
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:28:21.694072",
-      "session_end": "2026-05-14T08:32:47.613151",
-      "pdfs": {
-        "glp1_clinical_study": {
-          "prompt_tokens": 39976,
-          "completion_tokens": 1324,
-          "total_tokens": 41300,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 20852,
-          "completion_tokens": 1540,
-          "total_tokens": 22392,
-          "api_calls": 9
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 60828,
-        "completion_tokens": 2864,
-        "total_tokens": 63692,
-        "api_calls": 23
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:27:45.019714",
-      "session_end": "2026-05-14T08:32:58.923480",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4172,
-          "completion_tokens": 610,
-          "total_tokens": 4782,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 40011,
-          "completion_tokens": 1319,
-          "total_tokens": 41330,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 21048,
-          "completion_tokens": 1696,
-          "total_tokens": 22744,
-          "api_calls": 9
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 65231,
-        "completion_tokens": 3625,
-        "total_tokens": 68856,
-        "api_calls": 30
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:27:45.019714",
-      "session_end": "2026-05-14T08:34:25.215937",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4172,
-          "completion_tokens": 610,
-          "total_tokens": 4782,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 40011,
-          "completion_tokens": 1319,
-          "total_tokens": 41330,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 21048,
-          "completion_tokens": 1696,
-          "total_tokens": 22744,
-          "api_calls": 9
-        },
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27817,
-          "completion_tokens": 1307,
-          "total_tokens": 29124,
-          "api_calls": 10
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 93048,
-        "completion_tokens": 4932,
-        "total_tokens": 97980,
-        "api_calls": 40
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:28:21.694072",
-      "session_end": "2026-05-14T08:34:25.850762",
-      "pdfs": {
-        "glp1_clinical_study": {
-          "prompt_tokens": 39976,
-          "completion_tokens": 1324,
-          "total_tokens": 41300,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 20852,
-          "completion_tokens": 1540,
-          "total_tokens": 22392,
-          "api_calls": 9
-        },
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27936,
-          "completion_tokens": 1330,
-          "total_tokens": 29266,
-          "api_calls": 10
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 88764,
-        "completion_tokens": 4194,
-        "total_tokens": 92958,
-        "api_calls": 33
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:27:45.019714",
-      "session_end": "2026-05-14T08:35:03.879190",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4172,
-          "completion_tokens": 610,
-          "total_tokens": 4782,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 40011,
-          "completion_tokens": 1319,
-          "total_tokens": 41330,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 21048,
-          "completion_tokens": 1696,
-          "total_tokens": 22744,
-          "api_calls": 9
-        },
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27817,
-          "completion_tokens": 1307,
-          "total_tokens": 29124,
-          "api_calls": 10
-        },
-        "kaggle_dataset": {
-          "prompt_tokens": 12288,
-          "completion_tokens": 887,
-          "total_tokens": 13175,
-          "api_calls": 13
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 105336,
-        "completion_tokens": 5819,
-        "total_tokens": 111155,
-        "api_calls": 53
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:28:21.694072",
-      "session_end": "2026-05-14T08:35:05.228612",
-      "pdfs": {
-        "glp1_clinical_study": {
-          "prompt_tokens": 39976,
-          "completion_tokens": 1324,
-          "total_tokens": 41300,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 20852,
-          "completion_tokens": 1540,
-          "total_tokens": 22392,
-          "api_calls": 9
-        },
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27936,
-          "completion_tokens": 1330,
-          "total_tokens": 29266,
-          "api_calls": 10
-        },
-        "kaggle_dataset": {
-          "prompt_tokens": 12302,
-          "completion_tokens": 867,
-          "total_tokens": 13169,
-          "api_calls": 13
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 101066,
-        "completion_tokens": 5061,
-        "total_tokens": 106127,
-        "api_calls": 46
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:27:45.019714",
-      "session_end": "2026-05-14T08:35:49.542628",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4172,
-          "completion_tokens": 610,
-          "total_tokens": 4782,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 40011,
-          "completion_tokens": 1319,
-          "total_tokens": 41330,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 21048,
-          "completion_tokens": 1696,
-          "total_tokens": 22744,
-          "api_calls": 9
-        },
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27817,
-          "completion_tokens": 1307,
-          "total_tokens": 29124,
-          "api_calls": 10
-        },
-        "kaggle_dataset": {
-          "prompt_tokens": 12288,
-          "completion_tokens": 887,
-          "total_tokens": 13175,
-          "api_calls": 13
-        },
-        "glp1_meal_plan": {
-          "prompt_tokens": 9046,
-          "completion_tokens": 1025,
-          "total_tokens": 10071,
-          "api_calls": 11
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 114382,
-        "completion_tokens": 6844,
-        "total_tokens": 121226,
-        "api_calls": 64
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:28:21.694072",
-      "session_end": "2026-05-14T08:35:50.553457",
-      "pdfs": {
-        "glp1_clinical_study": {
-          "prompt_tokens": 39976,
-          "completion_tokens": 1324,
-          "total_tokens": 41300,
-          "api_calls": 14
-        },
-        "emj_journal": {
-          "prompt_tokens": 20852,
-          "completion_tokens": 1540,
-          "total_tokens": 22392,
-          "api_calls": 9
-        },
-        "glp1_frontiers_article": {
-          "prompt_tokens": 27936,
-          "completion_tokens": 1330,
-          "total_tokens": 29266,
-          "api_calls": 10
-        },
-        "kaggle_dataset": {
-          "prompt_tokens": 12302,
-          "completion_tokens": 867,
-          "total_tokens": 13169,
-          "api_calls": 13
-        },
-        "glp1_meal_plan": {
-          "prompt_tokens": 8993,
-          "completion_tokens": 1002,
-          "total_tokens": 9995,
-          "api_calls": 11
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 110059,
-        "completion_tokens": 6063,
-        "total_tokens": 116122,
-        "api_calls": 57
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:39:10.660782",
-      "session_end": "2026-05-14T08:39:10.805785",
-      "pdfs": {},
       "session_totals": {
         "prompt_tokens": 0,
         "completion_tokens": 0,
         "total_tokens": 0,
-        "api_calls": 0
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:39:10.660782",
-      "session_end": "2026-05-14T08:39:38.265806",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4153,
-          "completion_tokens": 572,
-          "total_tokens": 4725,
-          "api_calls": 7
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 4153,
-        "completion_tokens": 572,
-        "total_tokens": 4725,
-        "api_calls": 7
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:39:10.660782",
-      "session_end": "2026-05-14T08:41:00.003894",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4153,
-          "completion_tokens": 572,
-          "total_tokens": 4725,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 39972,
-          "completion_tokens": 1346,
-          "total_tokens": 41318,
-          "api_calls": 14
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 44125,
-        "completion_tokens": 1918,
-        "total_tokens": 46043,
-        "api_calls": 21
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:39:10.660782",
-      "session_end": "2026-05-14T08:41:37.822576",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4153,
-          "completion_tokens": 572,
-          "total_tokens": 4725,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 39972,
-          "completion_tokens": 1346,
-          "total_tokens": 41318,
-          "api_calls": 14
-        },
-        "kaggle_dataset": {
-          "prompt_tokens": 12288,
-          "completion_tokens": 907,
-          "total_tokens": 13195,
-          "api_calls": 13
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 56413,
-        "completion_tokens": 2825,
-        "total_tokens": 59238,
-        "api_calls": 34
-      }
-    },
-    {
-      "session_start": "2026-05-14T08:39:10.660782",
-      "session_end": "2026-05-14T08:42:25.315825",
-      "pdfs": {
-        "cran_datasets": {
-          "prompt_tokens": 4153,
-          "completion_tokens": 572,
-          "total_tokens": 4725,
-          "api_calls": 7
-        },
-        "glp1_clinical_study": {
-          "prompt_tokens": 39972,
-          "completion_tokens": 1346,
-          "total_tokens": 41318,
-          "api_calls": 14
-        },
-        "kaggle_dataset": {
-          "prompt_tokens": 12288,
-          "completion_tokens": 907,
-          "total_tokens": 13195,
-          "api_calls": 13
-        },
-        "glp1_meal_plan": {
-          "prompt_tokens": 9052,
-          "completion_tokens": 1042,
-          "total_tokens": 10094,
-          "api_calls": 11
-        }
-      },
-      "session_totals": {
-        "prompt_tokens": 65465,
-        "completion_tokens": 3867,
-        "total_tokens": 69332,
-        "api_calls": 45
+        "api_calls": 0,
+        "estimated_cost_usd": 0.0
       }
     }
   ],
   "grand_total": {
-    "prompt_tokens": 5227838,
-    "completion_tokens": 453197,
-    "total_tokens": 5681035,
-    "api_calls": 1570,
-    "last_updated": "2026-05-14T08:42:25.316926"
+    "prompt_tokens": 7696781,
+    "completion_tokens": 335484,
+    "total_tokens": 8032265,
+    "api_calls": 3307,
+    "estimated_cost_usd": 1.355807,
+    "last_updated": "2026-06-16T14:12:22.094434"
   }
 }

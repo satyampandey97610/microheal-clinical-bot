@@ -1,0 +1,460 @@
+{
+  "doc_name": "oah-cpg.pdf",
+  "structure": [
+    {
+      "title": "Preface",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 2,
+      "summary": "The partial document outlines the \"Management of Osteoarthritis of the Hip\" Evidence-Based Clinical Practice Guideline published by the American Academy of Orthopaedic Surgeons (AAOS) on December 1, 2023. It emphasizes that the guideline was developed by a volunteer group based on a systematic review of scientific and clinical information regarding treatment and diagnosis. The document clarifies that it is not a fixed protocol, as individual patient care should be tailored based on a clinician's judgment and specific circumstances. It includes a disclosure requirement for authors regarding potential conflicts of interest and notes that the guideline was funded solely by the AAOS without external commercial support. Additionally, it mentions that some referenced drugs or devices may not have FDA clearance, placing the responsibility on physicians to verify their status. The document is protected by copyright, prohibiting reproduction without permission from the AAOS."
+    },
+    {
+      "title": "View background material via the CPG eAppendix",
+      "node_id": "0001",
+      "start_index": 2,
+      "end_index": 2,
+      "summary": "The partial document outlines the development and guidelines of a clinical practice guideline (CPG) created by a volunteer group of physicians based on a systematic review of scientific and clinical information. It emphasizes that the CPG is not a rigid protocol, as treatment and diagnosis should be tailored to individual patient circumstances based on a clinician's judgment. The document includes a disclosure requirement for authors regarding potential conflicts of interest and states that the guideline was funded solely by the American Academy of Orthopaedic Surgeons (AAOS) without external commercial support. It also notes that some referenced drugs or medical devices may not have FDA clearance, placing the responsibility on physicians to verify their status. Additionally, it includes copyright information, prohibiting reproduction or transmission of the guideline without permission from the AAOS. The document was published on December 1, 2023."
+    },
+    {
+      "title": "View data summaries via the CPG eAppendix",
+      "node_id": "0002",
+      "start_index": 2,
+      "end_index": 6,
+      "summary": "The partial document outlines a clinical practice guideline (CPG) developed by a volunteer group of physicians based on a systematic review of scientific and clinical information regarding treatment and diagnosis. It emphasizes that the guideline is not a fixed protocol, allowing for individualized patient care based on clinicians' judgment. The document includes a disclosure requirement for authors regarding potential conflicts of interest and notes that funding was solely provided by the American Academy of Orthopaedic Surgeons (AAOS) without external commercial support. It also mentions the responsibility of physicians to verify the FDA clearance status of referenced drugs or devices. The document contains a summary of recommendations, including the use of tranexamic acid for patients undergoing total hip arthroplasty to reduce blood loss, and discusses postoperative physical therapy options. Additionally, it outlines various treatment options and considerations, such as pharmacological management, the impact of body mass index (BMI) and diabetes on clinical outcomes, and the influence of social determinants of health. The document concludes with sections on methodology, evidence quality, and the guideline development process."
+    },
+    {
+      "title": "SUMMARY OF RECOMMENDATIONS",
+      "node_id": "0003",
+      "start_index": 6,
+      "end_index": 6,
+      "summary": "The partial document outlines recommendations based on evidence for the use of tranexamic acid (TXA) and postoperative physical therapy in patients with symptomatic osteoarthritis of the hip undergoing total hip arthroplasty (THA). It emphasizes that strong recommendations are made when supported by high-quality studies. TXA is strongly recommended to reduce blood loss and transfusion needs, backed by high-quality evidence. In contrast, while high-quality evidence supports the use of either formal physical therapy or unsupervised home exercise post-surgery, the recommendation for physical therapy is rated as moderate due to a downgrade in strength based on the Evidence to Decision Framework.",
+      "nodes": [
+        {
+          "title": "TRANEXAMIC ACID",
+          "node_id": "0004",
+          "start_index": 6,
+          "end_index": 6,
+          "summary": "The partial document outlines recommendations based on evidence for the use of tranexamic acid (TXA) and postoperative physical therapy in patients with symptomatic osteoarthritis of the hip undergoing total hip arthroplasty (THA). It emphasizes that strong recommendations are made when supported by high-quality studies. TXA is strongly recommended to reduce blood loss and transfusion needs, backed by high-quality evidence. In contrast, while high-quality evidence supports the use of either formal physical therapy or unsupervised home exercise post-surgery, the recommendation for physical therapy is considered moderate due to a downgrade in strength based on the Evidence to Decision Framework."
+        },
+        {
+          "title": "POSTOPERATIVE PHYSICAL THERAPY",
+          "node_id": "0005",
+          "start_index": 6,
+          "end_index": 7,
+          "summary": "The partial document outlines recommendations for the management of symptomatic osteoarthritis of the hip, particularly in the context of total hip arthroplasty (THA). It emphasizes the importance of evidence quality in forming these recommendations, categorizing them as strong or moderate based on the number and quality of studies reviewed. Key points include:\n\n1. **Tranexamic Acid (TXA)**: Strongly recommended for patients undergoing THA to reduce blood loss and transfusion needs, supported by high-quality evidence.\n   \n2. **Postoperative Physical Therapy**: Both formal physical therapy and unsupervised home exercise are supported, but the recommendation is downgraded to moderate due to certain considerations in the Evidence to Decision (EtD) framework.\n\n3. **Physical Therapy as Conservative Treatment**: Considered for mild to moderate symptomatic osteoarthritis to improve function and reduce pain, with a moderate recommendation that is also downgraded.\n\n4. **Intraarticular Corticosteroid Injection**: Suggested for short-term improvement in function and pain reduction, with a moderate recommendation that is downgraded.\n\n5. **Intraarticular Hyaluronic Acid**: Strongly advised against, as it does not provide better outcomes than placebo, supported by high-quality evidence.\n\nOverall, the document provides a structured approach to treatment recommendations based on the quality of evidence and the EtD framework."
+        },
+        {
+          "title": "PHYSICAL THERAPY AS CONSERVATIVE TREATMENT",
+          "node_id": "0006",
+          "start_index": 7,
+          "end_index": 7,
+          "summary": "The partial document discusses various conservative treatment options for patients with symptomatic osteoarthritis of the hip. It highlights physical therapy as a beneficial approach for improving function and reducing pain, with a high quality of evidence and a moderate recommendation that has been downgraded. Intraarticular corticosteroid injections are also considered effective for short-term pain relief and functional improvement, similarly rated with high evidence quality and a downgraded moderate recommendation. In contrast, intraarticular hyaluronic acid is strongly recommended against, as it does not provide better outcomes than a placebo, supported by high-quality evidence and no downgrades in recommendation strength."
+        },
+        {
+          "title": "INTRAARTICULAR CORTICOSTEROID INJECTION",
+          "node_id": "0007",
+          "start_index": 7,
+          "end_index": 7,
+          "summary": "The partial document discusses various conservative treatment options for patients with symptomatic osteoarthritis of the hip. It highlights physical therapy as a beneficial approach for improving function and reducing pain, supported by high-quality evidence and a moderate recommendation, which was downgraded. Intraarticular corticosteroid injections are also recommended for short-term pain relief and functional improvement, with similar evidence quality and a downgraded moderate recommendation. Conversely, intraarticular hyaluronic acid is advised against, as it does not provide better outcomes than a placebo, receiving a strong recommendation based on high-quality evidence without any downgrades."
+        },
+        {
+          "title": "INTRAARTICULAR HYALURONIC ACID",
+          "node_id": "0008",
+          "start_index": 7,
+          "end_index": 8,
+          "summary": "The partial document discusses various treatment options for patients with symptomatic osteoarthritis of the hip, focusing on physical therapy, intraarticular corticosteroid injections, hyaluronic acid, NSAIDs, and surgical approaches. It highlights that physical therapy and intraarticular corticosteroids can improve function and reduce pain in the short term, both receiving moderate recommendations based on high-quality evidence. In contrast, intraarticular hyaluronic acid is not recommended as it does not outperform placebo, receiving a strong recommendation against its use. The document also advocates for the use of oral NSAIDs when appropriate, supported by strong evidence. Additionally, it addresses the choice between cemented and cementless femoral fixation in total hip arthroplasty, suggesting cemented stems may lower fracture risk, though the evidence is of low quality. Lastly, it notes that there is no preferred surgical approach for total hip arthroplasty, with moderate recommendations based on high-quality evidence."
+        },
+        {
+          "title": "PHARMACOLOGICAL MANAGEMENT: NSAIDs",
+          "node_id": "0009",
+          "start_index": 8,
+          "end_index": 8,
+          "summary": "The partial document discusses the pharmacological management of symptomatic hip osteoarthritis, emphasizing the use of oral nonsteroidal anti-inflammatories (NSAIDs) to alleviate pain and enhance function, supported by high-quality evidence and a strong recommendation. It also examines the comparison between cemented and cementless femoral fixation in total hip arthroplasty, noting low-quality evidence that suggests cemented stems may reduce the risk of periprosthetic fractures in older adults, leading to a moderate strength of option. Additionally, it addresses the exposure approach in surgical interventions, indicating that while there are specific risks and benefits associated with each surgical method, no single approach is preferred for patients undergoing total hip arthroplasty, supported by high-quality evidence but resulting in a moderate strength of recommendation due to downgrading."
+        },
+        {
+          "title": "CEMENTED VS. CEMENTLESS FEMORAL FIXATION",
+          "node_id": "0010",
+          "start_index": 8,
+          "end_index": 8,
+          "summary": "The partial document discusses the pharmacological management of symptomatic hip osteoarthritis, emphasizing the use of oral nonsteroidal anti-inflammatories (NSAIDs) to alleviate pain and enhance function, supported by high-quality evidence and a strong recommendation. It also examines the comparison between cemented and cementless femoral fixation in total hip arthroplasty, noting low-quality evidence that suggests cemented stems may reduce the risk of periprosthetic fractures, leading to a moderate strength of option. Additionally, it addresses the exposure approach in surgical interventions, indicating that while there are specific risks and benefits associated with each surgical method, no single approach is preferred for patients undergoing total hip arthroplasty, supported by high-quality evidence but resulting in a moderate strength of recommendation due to downgrading."
+        },
+        {
+          "title": "EXPOSURE APPROACH",
+          "node_id": "0011",
+          "start_index": 8,
+          "end_index": 9,
+          "summary": "The partial document discusses the pharmacological management of symptomatic hip osteoarthritis, emphasizing the use of oral nonsteroidal anti-inflammatories (NSAIDs) for pain reduction and functional improvement, supported by high-quality evidence and a strong recommendation. It also compares cemented versus cementless femoral fixation in total hip arthroplasty, noting low-quality evidence suggesting cemented stems may reduce periprosthetic fracture risk, with a moderate strength option. The document highlights that there is no preferred surgical approach for total hip arthroplasty in symptomatic osteoarthritis patients, supported by high-quality evidence but with a downgraded moderate recommendation. Additionally, it addresses the impact of elevated body mass index (BMI) on adverse events and clinical outcomes in patients undergoing total hip arthroplasty, indicating limited evidence that higher BMI may increase risks and affect patient-reported outcomes, with both findings categorized as limited strength options."
+        }
+      ]
+    },
+    {
+      "title": "SUMMARY OF OPTIONS",
+      "node_id": "0012",
+      "start_index": 9,
+      "end_index": 9,
+      "summary": "The partial document summarizes options related to the impact of Body Mass Index (BMI) on adverse events and clinical outcomes in patients undergoing total hip arthroplasty for symptomatic hip osteoarthritis. It highlights that there is limited evidence suggesting that elevated BMI may increase the risk of adverse events during the procedure, with a low quality of evidence and a limited strength of option. Additionally, it notes that patients with elevated BMI may experience lower absolute patient-reported outcome scores, but similar improvements in satisfaction, pain, function, and quality of life post-surgery. The document emphasizes the classification of evidence quality and strength of options based on the Evidence to Decision Framework, indicating that even higher quality evidence can be downgraded due to significant concerns.",
+      "nodes": [
+        {
+          "title": "BMI: ADVERSE EVENTS",
+          "node_id": "0013",
+          "start_index": 9,
+          "end_index": 9,
+          "summary": "The partial document summarizes options related to the impact of Body Mass Index (BMI) on adverse events and clinical outcomes in patients undergoing total hip arthroplasty for symptomatic hip osteoarthritis. It highlights that there is limited evidence suggesting that elevated BMI may increase the risk of adverse events during the procedure, with a low quality of evidence and a limited strength of option. Additionally, it notes that patients with elevated BMI may experience lower absolute patient-reported outcome scores, but similar improvements in satisfaction, pain, function, and quality of life post-surgery. The document emphasizes the classification of evidence quality and strength of options based on the Evidence to Decision Framework, indicating that even higher quality evidence can be downgraded due to significant concerns."
+        },
+        {
+          "title": "BMI: CLINICAL OUTCOMES",
+          "node_id": "0014",
+          "start_index": 9,
+          "end_index": 10,
+          "summary": "The partial document summarizes various options and recommendations regarding the management of patients with symptomatic hip osteoarthritis, particularly focusing on the implications of elevated Body Mass Index (BMI), diabetes, and social determinants of health. It highlights that limited evidence suggests elevated BMI may increase the risk of adverse events and affect clinical outcomes post-total hip arthroplasty, with both areas rated as having low quality evidence and limited strength of option. The document also advises against the use of oral opioids for nonoperative treatment due to insufficient evidence, reflecting a consensus opinion. Additionally, it notes that poorly controlled diabetes may elevate the risk of adverse events after surgery, and that social determinants of health could negatively influence patient outcomes, including length of stay and costs associated with care. Overall, the document emphasizes the need for cautious interpretation of low-quality evidence and the potential for downgrading stronger evidence based on concerns outlined in the Evidence to Decision Framework."
+        },
+        {
+          "title": "PRESCRIPTION OPIOID AS CONSERVATIVE TREATMENT",
+          "node_id": "0015",
+          "start_index": 10,
+          "end_index": 10,
+          "summary": "The partial document discusses guidelines regarding the use of prescription opioids for the nonoperative treatment of symptomatic osteoarthritis of the hip, recommending against their use due to insufficient evidence. It highlights that the recommendation is based on consensus among the workgroup, as there is a lack of reliable evidence. Additionally, it addresses the potential risks associated with total hip arthroplasty in patients with poorly controlled diabetes, indicating a low quality of evidence for increased adverse events. Furthermore, it examines the impact of social determinants of health on outcomes after total hip arthroplasty, noting that factors such as education, income, and insurance type may adversely affect length of stay, costs, and mortality, again supported by limited evidence."
+        },
+        {
+          "title": "DIABETES: ADVERSE EVENTS",
+          "node_id": "0016",
+          "start_index": 10,
+          "end_index": 10,
+          "summary": "The partial document discusses guidelines regarding the use of prescription opioids for the nonoperative treatment of symptomatic osteoarthritis of the hip, recommending against their use due to insufficient evidence. It highlights that the recommendation is based on consensus among the workgroup rather than strong evidence. Additionally, it addresses the risks associated with total hip arthroplasty in patients with poorly controlled diabetes, indicating a low quality of evidence for increased adverse events. Furthermore, it examines the impact of social determinants of health on outcomes after total hip arthroplasty, noting that factors such as education, income, and insurance type may adversely affect length of stay, costs, and mortality, again supported by limited evidence."
+        },
+        {
+          "title": "SOCIAL DETERMINANTS OF HEALTH",
+          "node_id": "0017",
+          "start_index": 10,
+          "end_index": 11,
+          "summary": "The partial document discusses various treatment options and considerations for patients with symptomatic osteoarthritis of the hip. Key points include:\n\n1. **Prescription Opioids**: The workgroup recommends against the use of oral opioids for nonoperative treatment due to insufficient evidence, relying instead on clinical opinion.\n\n2. **Diabetes and Adverse Events**: There is limited evidence indicating that patients with poorly controlled diabetes may face a higher risk of adverse events following total hip arthroplasty.\n\n3. **Social Determinants of Health**: Limited evidence suggests that factors such as education, income, and insurance type may negatively affect patient outcomes, including length of hospital stay and mortality after surgery.\n\n4. **Pharmacological Management with Acetaminophen**: The workgroup suggests considering oral acetaminophen for pain and function improvement in symptomatic osteoarthritis, despite a lack of strong supporting evidence.\n\n5. **Hip-Spine Relationship**: It is suggested that patients with both hip osteoarthritis and stiff spine syndrome may have an increased risk of dislocation post-surgery, based on limited evidence.\n\n6. **Neuraxial vs. General Anesthesia**: Limited evidence supports the use of neuraxial anesthesia to potentially reduce adverse events in patients undergoing total hip arthroplasty.\n\nOverall, the document emphasizes the reliance on clinical consensus and limited evidence in making treatment recommendations for osteoarthritis of the hip."
+        },
+        {
+          "title": "PHARMACOLOGICAL MANAGEMENT: ACETAMINOPHEN",
+          "node_id": "0018",
+          "start_index": 11,
+          "end_index": 11,
+          "summary": "The partial document discusses pharmacological management strategies for patients with symptomatic osteoarthritis of the hip. It highlights the use of oral acetaminophen as a potential option to improve pain and function, despite the lack of strong evidence, relying instead on the consensus opinion of the workgroup. Additionally, it addresses the relationship between hip osteoarthritis and stiff spine syndrome, suggesting that patients with the latter may face a higher risk of dislocation after total hip arthroplasty, although the evidence is considered low quality. Lastly, the document touches on the use of neuraxial anesthesia during total hip arthroplasty, indicating that it may help reduce adverse events, but again, the evidence is classified as low quality. Overall, the recommendations are based on consensus and limited evidence, with several options downgraded due to concerns outlined in the EtD framework."
+        },
+        {
+          "title": "HIP- SPINE RELATIONSHIP",
+          "node_id": "0019",
+          "start_index": 11,
+          "end_index": 11,
+          "summary": "The partial document discusses pharmacological management strategies for patients with symptomatic osteoarthritis of the hip. It highlights the use of oral acetaminophen as a potential option to improve pain and function, despite the lack of strong evidence, relying instead on the consensus opinion of the workgroup. The document also addresses the relationship between hip osteoarthritis and stiff spine syndrome, suggesting that patients with the latter may face a higher risk of dislocation after total hip arthroplasty, although the evidence is rated as low quality. Additionally, it mentions that neuraxial anesthesia may help reduce adverse events during total hip arthroplasty in these patients, but again, the evidence is considered low quality and the strength of the recommendation is limited. Overall, the document emphasizes the reliance on clinical opinion in the absence of robust evidence."
+        },
+        {
+          "title": "NEURAXIAL VS. GENERAL ANESTHESIA",
+          "node_id": "0020",
+          "start_index": 11,
+          "end_index": 12,
+          "summary": "The partial document discusses pharmacological management strategies for patients with symptomatic osteoarthritis of the hip, focusing on the use of oral acetaminophen, the relationship between hip osteoarthritis and stiff spine syndrome, the comparison of neuraxial versus general anesthesia, and the impact of tobacco use on surgical outcomes. It highlights that the recommendations are based on consensus due to insufficient or low-quality evidence. Specifically, acetaminophen is suggested for pain relief, while patients with stiff spine syndrome may face increased dislocation risks post-surgery. Neuraxial anesthesia is noted to potentially reduce adverse events during total hip arthroplasty, and tobacco use is associated with higher risks of complications. Overall, the document emphasizes the need for clinical judgment in the absence of strong evidence."
+        }
+      ]
+    },
+    {
+      "title": "TOBACCO",
+      "node_id": "0021",
+      "start_index": 12,
+      "end_index": 13,
+      "summary": "The partial document discusses the potential risks associated with tobacco use in patients with symptomatic osteoarthritis of the hip undergoing total hip arthroplasty. It indicates that there is limited evidence suggesting an increased risk of adverse events for these patients, with the quality of evidence rated as low. The document also outlines the strength of the recommendation as limited, based on findings from low-quality studies or a single moderate-quality study. Additionally, it includes a roster of voting and non-voting members involved in the development group, primarily from various orthopedic and medical associations, along with staff from the American Academy of Orthopaedic Surgeons (AAOS) involved in clinical quality and value."
+    },
+    {
+      "title": "DEVELOPMENT GROUP ROSTER",
+      "node_id": "0022",
+      "start_index": 13,
+      "end_index": 13,
+      "summary": "The partial document outlines the roster of a development group, detailing the voting and non-voting members involved. It lists key individuals, including co-chairs and representatives from various medical associations related to orthopaedic surgery, physical therapy, and radiology. The document also identifies the AAOS staff members who support the group, highlighting their roles in clinical quality and value. Overall, it emphasizes the collaborative nature of the group, comprising experts from multiple disciplines within the orthopaedic field.",
+      "nodes": [
+        {
+          "title": "VOTING MEMBERS",
+          "node_id": "0023",
+          "start_index": 13,
+          "end_index": 13,
+          "summary": "The partial document outlines the roster of a development group, detailing the voting and non-voting members involved. It lists key individuals, including co-chairs and representatives from various medical associations related to orthopaedic surgery, physical therapy, and radiology. The document also identifies the AAOS staff members who support the group, highlighting their roles in clinical quality and value. Overall, it emphasizes the collaborative nature of the group, comprising experts from multiple disciplines within the orthopaedic field."
+        },
+        {
+          "title": "NON -VOTING MEMBERS",
+          "node_id": "0024",
+          "start_index": 13,
+          "end_index": 13,
+          "summary": "The partial document outlines the roster of a development group, detailing the voting and non-voting members involved. It lists key individuals, including co-chairs and representatives from various medical associations related to orthopaedic surgery, physical therapy, and radiology. The document also identifies the AAOS staff members who support the group, highlighting their roles in clinical quality and value. Overall, it emphasizes the collaborative nature of the group, consisting of experts from multiple disciplines within the orthopaedic field."
+        },
+        {
+          "title": "AAOS STAFF",
+          "node_id": "0025",
+          "start_index": 13,
+          "end_index": 14,
+          "summary": "The partial document outlines the roster of a development group involved in creating clinical practice guidelines for the treatment of osteoarthritis (OA) of the hip in adults. It lists voting and non-voting members, including co-chairs from the American Academy of Orthopaedic Surgeons and The Hip Society, as well as staff from the AAOS. The introduction provides an overview of the guideline's purpose, which is based on a systematic review of literature from August 2022 to August 2023. It aims to integrate current evidence into clinical practice, identify gaps in research, and assist healthcare providers in making informed treatment decisions. The guideline is intended for orthopaedic surgeons and other healthcare professionals managing OA of the hip, emphasizing the importance of evidence-based medicine and the GRADE Evidence-to-Decision Framework in formulating recommendations. It clarifies that the guideline is not exhaustive of all treatment methods and is not meant for resource allocation or ethical considerations. The target patient population includes adults aged 18 and older diagnosed with OA of the hip."
+        }
+      ]
+    },
+    {
+      "title": "INTRODUCTION",
+      "node_id": "0026",
+      "start_index": 14,
+      "end_index": 16,
+      "summary": "The partial document outlines a clinical practice guideline focused on the treatment of osteoarthritis (OA) of the hip in adults. It emphasizes the importance of evidence-based medicine (EBM) and presents recommendations derived from a systematic review of literature conducted between August 2022 and August 2023. The guideline aims to assist healthcare providers, particularly orthopaedic surgeons, in making informed treatment decisions while highlighting gaps in existing research that require further investigation. It addresses the burden of hip OA, including its prevalence, incidence, and significant emotional and physical impacts on patients. The document also discusses the potential benefits and risks associated with various treatment options, advocating for a shared decision-making process between patients and physicians. Additionally, it notes the differences between the current and previous guidelines, the methodology used for the systematic review, and the criteria for evaluating the quality of evidence. The guideline is intended for adult patients diagnosed with hip OA and does not cover other forms of arthritis or less invasive surgical interventions."
+    },
+    {
+      "title": "METHODS",
+      "node_id": "0027",
+      "start_index": 16,
+      "end_index": 16,
+      "summary": "The partial document outlines the development of a clinical practice guideline by the American Academy of Orthopaedic Surgeons (AAOS) for managing osteoarthritis of the hip. It emphasizes the importance of minimizing bias and enhancing transparency in the systematic review process, which involves a comprehensive literature search across multiple databases. The guideline development group, composed of clinical experts and methodologists, established the scope of the guideline through PICO questions to direct their literature search. The document details the methodology for evaluating the quality of evidence, categorizing it into high, moderate, and low quality based on the number and quality of studies reviewed. Additionally, it references appendices that provide background material, data summaries, and a study attrition diagram to illustrate the selection process of included studies.",
+      "nodes": [
+        {
+          "title": "LITERATURE SEARCHES",
+          "node_id": "0028",
+          "start_index": 16,
+          "end_index": 16,
+          "summary": "The partial document outlines the development of a clinical practice guideline by the American Academy of Orthopaedic Surgeons (AAOS) for managing osteoarthritis of the hip. It emphasizes the importance of minimizing bias and enhancing transparency in the systematic review process, which involves a comprehensive literature search across multiple databases. The guideline development group, composed of clinical experts and methodologists, established the scope of the guideline through PICO questions to direct the literature search. The document details the methodology for evaluating the quality of evidence, categorizing it into high, moderate, and low quality based on the number and quality of studies reviewed. Additionally, it mentions the inclusion criteria for the guideline and provides resources for further information on the methodology used."
+        },
+        {
+          "title": "DEFINING THE QUALITY OF EVIDENCE",
+          "node_id": "0029",
+          "start_index": 16,
+          "end_index": 17,
+          "summary": "The partial document outlines the development of a clinical practice guideline by the American Academy of Orthopaedic Surgeons (AAOS) for managing osteoarthritis of the hip. It emphasizes the importance of minimizing bias and enhancing transparency in the systematic review process, which includes defining inclusion criteria, conducting comprehensive literature searches, and evaluating the quality of evidence. The document details the methodology used, including the creation of PICO questions to guide literature searches and the role of a medical librarian in executing these searches across multiple databases. It also explains how the quality of evidence is categorized and how this influences the strength of recommendations, which are determined by the guideline development group through a voting process. The document highlights the collaborative effort of clinical experts and methodologists in formulating reliable recommendations while ensuring that potential conflicts of interest are managed."
+        },
+        {
+          "title": "DEFINING THE STRENGTH OF RECOMMENDATION",
+          "node_id": "0030",
+          "start_index": 17,
+          "end_index": 18,
+          "summary": "The partial document discusses the evaluation of the quality of evidence and the strength of recommendations in clinical practice guidelines (CPGs). It outlines how evidence is categorized into different quality levels, ranging from \"High\" to \"Very Low,\" and how these classifications influence the strength of recommendations. The document emphasizes that strong recommendations are based on high-quality studies with consistent findings, while weaker recommendations may arise from lower-quality evidence or consensus opinions. It also details the voting process among guideline development group members, highlighting the importance of majority approval for recommendations and any changes in their strength. Additionally, it includes tables that summarize the strength and quality of evidence, as well as the implications for patient counseling and the potential impact of future research. Finally, it mentions a review period for external input on the CPG draft, ensuring transparency and consideration of conflicts of interest."
+        },
+        {
+          "title": "UNDERSTANDING THE QUALITY OF EVIDENCE AND STRENGTH OF STATEMENT",
+          "node_id": "0031",
+          "start_index": 18,
+          "end_index": 18,
+          "summary": "The partial document outlines the framework for assessing the quality of evidence and the strength of recommendations in clinical practice guidelines (CPGs). It includes two tables: the first table categorizes the strength and quality of evidence into four levels—Strong, Moderate, Limited, and Consensus—based on the number and quality of studies supporting a recommendation. The second table interprets the strength of a recommendation in terms of patient counseling, the use of decision aids, and the potential impact of future research. Additionally, it describes a review process for the CPG draft, which includes a three-week period for external experts to provide input, ensuring transparency through conflict of interest disclosures."
+        },
+        {
+          "title": "Table I. Strength and Quality Descriptions",
+          "node_id": "0032",
+          "start_index": 18,
+          "end_index": 18,
+          "summary": "The partial document outlines the framework for assessing the quality of evidence and the strength of recommendations in clinical practice guidelines (CPGs). It includes two tables: the first table categorizes the strength and quality of evidence into four levels—Strong, Moderate, Limited, and Consensus—based on the number and quality of studies supporting a recommendation. The second table interprets the strength of a recommendation in terms of patient counseling, the use of decision aids, and the potential impact of future research. Additionally, it describes a review process for the CPG draft, which includes a three-week period for external experts to provide input while disclosing any conflicts of interest."
+        },
+        {
+          "title": "Table II. Interpreting the Strength of a Recommendation or Option",
+          "node_id": "0033",
+          "start_index": 18,
+          "end_index": 18,
+          "summary": "The partial document outlines the framework for assessing the quality of evidence and the strength of recommendations in clinical practice guidelines (CPGs). It includes two tables: the first table categorizes the strength and quality of evidence into four levels—Strong, Moderate, Limited, and Consensus—based on the number and quality of studies supporting a recommendation. The second table interprets the strength of a recommendation in terms of patient counseling, the use of decision aids, and the potential impact of future research. Additionally, it describes a review process for the CPG draft, which includes a three-week period for external experts to provide input and requires disclosure of conflicts of interest."
+        }
+      ]
+    },
+    {
+      "title": "REVIEW PERIOD",
+      "node_id": "0034",
+      "start_index": 18,
+      "end_index": 19,
+      "summary": "The partial document outlines the framework for assessing the quality of evidence and the strength of recommendations in clinical practice guidelines (CPGs). It includes a table categorizing the strength and quality of evidence, ranging from \"Strong\" to \"Consensus,\" based on the number and quality of studies supporting a recommendation. The document also discusses the interpretation of these strengths in relation to patient counseling, decision aids, and the potential impact of future research. \n\nAdditionally, it details the review process for the CPG draft, which involves external content experts and specialty societies, ensuring that conflicts of interest are disclosed. The document emphasizes the importance of stakeholder input and the iterative nature of guideline development, including revisions based on feedback. It outlines the approval process by various AAOS committees and councils, the plans for future revisions based on new evidence, and the dissemination strategies for the finalized guidelines."
+    },
+    {
+      "title": "THE AAOS CPG APPROVAL PROCESS",
+      "node_id": "0035",
+      "start_index": 19,
+      "end_index": 19,
+      "summary": "The partial document outlines the process for developing and reviewing clinical practice guidelines (CPGs) by the American Academy of Orthopaedic Surgeons (AAOS). Key points include the solicitation of nominations for reviewers from specialty societies, the coordination of comments through designated committees, and the importance of disclosing conflicts of interest. The review process allows external stakeholders to provide evidence-based feedback, which is considered for revisions before final approval by the AAOS Board of Directors. The document emphasizes the need for confidentiality during the drafting phase and the responsiveness to critiques from external societies. It also details the approval process involving multiple AAOS committees and the plans for revising the guidelines based on new evidence and practices. Finally, it mentions dissemination plans to share the guidelines with interested readers through press releases and publications."
+    },
+    {
+      "title": "REVISION PLANS",
+      "node_id": "0036",
+      "start_index": 19,
+      "end_index": 19,
+      "summary": "The partial document outlines the process for developing and reviewing clinical practice guidelines (CPGs) by the American Academy of Orthopaedic Surgeons (AAOS). Key points include the solicitation of nominations for reviewers from relevant specialty societies, the coordination of comments through designated committees, and the importance of disclosing conflicts of interest. The review process allows external stakeholders to provide evidence-based feedback, which is considered for revisions before final approval by the AAOS Board of Directors. The document emphasizes the need for confidentiality during the drafting stages and the responsiveness to critiques from external societies. It also details the approval process involving multiple AAOS committees and the plans for revising the guidelines based on new evidence and practices. Finally, it mentions dissemination plans to share the guidelines with the public and stakeholders."
+    },
+    {
+      "title": "CPG DISSEMINATION PLANS",
+      "node_id": "0037",
+      "start_index": 19,
+      "end_index": 21,
+      "summary": "The partial document outlines the process for developing clinical practice guidelines (CPGs) by the American Academy of Orthopaedic Surgeons (AAOS). Key points include the solicitation of reviewers from relevant specialty societies, the coordination of comments and conflict of interest disclosures, and the importance of confidentiality during the review process. The document emphasizes the involvement of various AAOS committees and councils in reviewing and approving the guidelines, with over 200 commentators contributing input. It also highlights the responsiveness to external critiques and the posting of individual responses online. The guidelines are subject to revision based on new evidence and will be updated or withdrawn within five years. Dissemination plans include publication in journals, webinars, and distribution at meetings, ensuring that the best available evidence is accessible to interested readers. Additionally, a study attrition flowchart is included, detailing the review process of articles for inclusion in the guidelines."
+    },
+    {
+      "title": "Study Attrition Flowchart",
+      "node_id": "0038",
+      "start_index": 21,
+      "end_index": 22,
+      "summary": "The partial document outlines the study attrition flowchart detailing the selection process of articles for review, indicating that 4,933 articles were excluded, 766 were recalled for full text review, and ultimately 179 articles were included based on a priori inclusion criteria and quality analysis. It emphasizes the importance of evidence-based recommendations, particularly regarding the use of tranexamic acid (TXA) for patients with symptomatic osteoarthritis of the hip undergoing total hip arthroplasty (THA). The document states that high-quality evidence supports a strong recommendation for TXA to reduce blood loss and the need for transfusions. It summarizes findings from multiple studies, highlighting the positive effects of both intravenous and topical TXA on various outcomes, while also noting a moderate-quality study that did not find significant effects due to reliability issues. Overall, the document presents a comprehensive analysis of the evidence supporting the use of TXA in this clinical context."
+    },
+    {
+      "title": "RECOMMENDATIONS",
+      "node_id": "0039",
+      "start_index": 22,
+      "end_index": 22,
+      "summary": "The partial document discusses recommendations regarding the use of tranexamic acid (TXA) for patients with symptomatic osteoarthritis of the hip undergoing total hip arthroplasty (THA). It emphasizes that high-quality evidence supports a strong recommendation for TXA to reduce blood loss and the need for blood transfusions. The document outlines the criteria for forming recommendations based on the quality of evidence from multiple studies. It details the positive effects of both intravenous (IV) and topical TXA on various outcomes, including hemoglobin levels and transfusion rates, citing numerous high-quality studies that support these findings. However, it also notes a moderate-quality study that did not find significant effects, highlighting issues with its reliability. Additionally, it mentions that while TXA shows benefits in certain areas, it may not impact patient-reported outcomes or functional outcomes significantly, as indicated by some high-quality studies.",
+      "nodes": [
+        {
+          "title": "TRANEXAMIC ACID",
+          "node_id": "0040",
+          "start_index": 22,
+          "end_index": 24,
+          "summary": "The partial document discusses recommendations for the use of tranexamic acid (TXA) and postoperative physical therapy in patients undergoing total hip arthroplasty (THA) for symptomatic osteoarthritis of the hip. It highlights that high-quality evidence supports the use of TXA to reduce blood loss and the need for transfusions, with a strong recommendation based on multiple high-quality studies demonstrating its effectiveness. The document also addresses the safety of TXA in high-risk patients and suggests the need for further research on its dosing and administration.\n\nIn terms of postoperative physical therapy, the document indicates that both formal physical therapy and unsupervised home exercise are supported by high-quality evidence, but the strength of the recommendation is downgraded to moderate due to variability in study methodologies. It notes that while supervised physical therapy shows some benefits over home exercise, more research is needed to establish definitive conclusions. Concerns are raised about the potential limitations of home exercise programs in achieving optimal recovery outcomes."
+        },
+        {
+          "title": "POSTOPERATIVE PHYSICAL THERAPY",
+          "node_id": "0041",
+          "start_index": 24,
+          "end_index": 26,
+          "summary": "The partial document discusses the role of postoperative physical therapy following total hip arthroplasty (THA) for patients with symptomatic osteoarthritis of the hip. It presents high-quality evidence supporting both formal physical therapy and unsupervised home exercise, with a moderate strength of recommendation that was downgraded due to variability in study methodologies and outcomes. The document highlights the positive effects of supervised physiotherapy on various functional measures, while also noting studies that found no significant differences between guided and unguided exercises. Concerns are raised about the potential limitations of home exercise programs and the need for structured rehabilitation to optimize recovery. The document emphasizes the importance of physical activity in postoperative care and suggests that further research is needed to clarify the benefits of physical therapy and identify which patients may succeed with unsupervised exercise. Additionally, it touches on the use of physical therapy as a conservative treatment for mild to moderate osteoarthritis, noting mixed evidence regarding its effectiveness. The need for more comprehensive studies that consider the severity of osteoarthritis and individualized treatment plans is also highlighted."
+        },
+        {
+          "title": "PHYSICAL THERAPY AS CONSERVATIVE TREATMENT",
+          "node_id": "0042",
+          "start_index": 26,
+          "end_index": 28,
+          "summary": "The partial document discusses two conservative treatment options for patients with symptomatic osteoarthritis of the hip: physical therapy and intraarticular corticosteroid injections. \n\nFor physical therapy, it is recommended for patients with mild to moderate osteoarthritis to improve function and reduce pain, with a high quality of evidence but a moderate strength of recommendation due to variability in study designs and interventions. The document highlights mixed findings from various studies regarding the effectiveness of physical therapy, noting that while some studies report significant improvements in various functional outcomes, others find no significant differences compared to control groups. It emphasizes the need for future research to better stratify results based on the severity of osteoarthritis and to compare comprehensive therapy programs against placebo.\n\nIntraarticular corticosteroid injections are also considered for short-term pain relief and functional improvement, with a high quality of evidence and a moderate strength of recommendation, similarly downgraded due to study design heterogeneity and potential adverse effects. The document outlines the benefits of corticosteroid injections in improving pain and function, while also cautioning about risks such as infection and rapidly progressive osteoarthritis. It notes the limited data on cost-effectiveness and resource utilization associated with these injections, which are commonly performed in clinical practice.\n\nOverall, the document underscores the importance of both treatment options while calling for further research to clarify their effectiveness and optimize patient outcomes."
+        },
+        {
+          "title": "INTRAARTICULAR CORTICOSTEROID INJECTION",
+          "node_id": "0043",
+          "start_index": 28,
+          "end_index": 30,
+          "summary": "The partial document discusses the use of intraarticular corticosteroid injections and hyaluronic acid injections for the treatment of symptomatic osteoarthritis of the hip. \n\nFor intraarticular corticosteroid injections, the document highlights that they can improve function and reduce pain in the short term, supported by high-quality evidence from multiple studies. However, the strength of the recommendation is downgraded to moderate due to variability in study designs, dosing, and a lack of reporting on adverse events. The benefits include improved pain and function, but risks such as infection and rapidly progressive osteoarthritis are noted. The document emphasizes the need for further research on adverse events and consistent dosing.\n\nIn contrast, the document strongly recommends against the use of intraarticular hyaluronic acid injections, as they do not show any significant improvement in pain or function compared to placebo, based on high-quality studies. There are no anticipated harms associated with this recommendation, and it is deemed feasible and acceptable in clinical practice. Future research is suggested to explore cost-effectiveness and potential adverse events related to hyaluronic acid injections."
+        },
+        {
+          "title": "INTRAARTICULAR HYALURONIC ACID",
+          "node_id": "0044",
+          "start_index": 30,
+          "end_index": 31,
+          "summary": "The partial document discusses the use of intraarticular hyaluronic acid and oral nonsteroidal anti-inflammatories (NSAIDs) for the treatment of symptomatic osteoarthritis of the hip. It concludes that intraarticular hyaluronic acid should not be used as it does not provide better pain relief or functional improvement than placebo, supported by high-quality studies. The recommendation against its use is strong, with no anticipated harms. The document also highlights the importance of future research on cost-effectiveness and potential adverse events related to hyaluronic acid injections. In contrast, it strongly recommends oral NSAIDs for pain reduction and functional improvement, citing multiple studies that demonstrate their efficacy compared to placebo. While NSAIDs are generally effective and cost-effective, the document notes contraindications for certain patients. Overall, both recommendations are deemed feasible and acceptable within current clinical practice."
+        },
+        {
+          "title": "PHARMACOLOGICAL MANAGEMENT: NSAIDs",
+          "node_id": "0045",
+          "start_index": 31,
+          "end_index": 33,
+          "summary": "The partial document discusses two main topics related to the management of symptomatic hip osteoarthritis: the use of oral nonsteroidal anti-inflammatories (NSAIDs) and the comparison of cemented versus cementless femoral fixation in total hip arthroplasty.\n\n1. **Pharmacological Management with NSAIDs**: The document recommends the use of oral NSAIDs for reducing pain and improving function in patients with symptomatic hip osteoarthritis, supported by high-quality evidence from multiple studies. It highlights the benefits of NSAIDs in improving pain and function scores compared to placebo, while also noting contraindications for their use, such as chronic kidney disease and significant cardiac conditions. The recommendation emphasizes the importance of NSAIDs in minimizing opioid use and their cost-effectiveness, while also calling for further research on adverse events and efficacy in specific populations.\n\n2. **Cemented vs. Cementless Femoral Fixation**: The document presents a moderate recommendation for cemented femoral stems in older adults undergoing total hip arthroplasty, based on low-quality evidence suggesting a lower risk of periprosthetic fractures. It discusses the mixed outcomes of cemented versus cementless fixation, with some studies indicating advantages for each type in different contexts. The recommendation is influenced by the increasing number of older patients and the associated risks of periprosthetic fractures, which have significant mortality rates. The decision on fixation type should be individualized based on patient circumstances, considering the risks associated with each method."
+        },
+        {
+          "title": "CEMENTED VS. CEMENTLESS FEMORAL FIXATION",
+          "node_id": "0046",
+          "start_index": 33,
+          "end_index": 35,
+          "summary": "The partial document discusses the comparison between cemented and cementless femoral fixation in total hip arthroplasty for older adults with symptomatic osteoarthritis. It highlights that low-quality evidence suggests cemented femoral stems may reduce the risk of periprosthetic fractures, leading to a moderate strength recommendation. The rationale for this recommendation includes the risks associated with periprosthetic fractures and the need for proper surgical training in cement techniques. Various studies are cited, showing mixed outcomes regarding revision rates and complications for both fixation types, particularly in different age groups. The document emphasizes the importance of individualized patient decisions based on bone quality and the potential risks of bone cement implantation syndrome. It also notes the high prevalence of cementless fixation in the U.S. and the need for further research on patient factors influencing fixation choice and the cost-effectiveness of both methods. Additionally, the document briefly addresses the lack of a preferred surgical approach for total hip arthroplasty, indicating that each approach has specific risks and benefits, and the decision should be tailored to the individual patient and surgeon's expertise."
+        },
+        {
+          "title": "EXPOSURE APPROACH",
+          "node_id": "0047",
+          "start_index": 35,
+          "end_index": 37,
+          "summary": "The partial document discusses the evaluation of surgical approaches for total hip arthroplasty (THA) in patients with symptomatic osteoarthritis of the hip. It highlights that there is no preferred surgical approach due to the specific risks and benefits associated with each method, supported by high-quality evidence but with a moderate strength of recommendation due to data heterogeneity and potential for future research to influence findings. The document emphasizes the importance of individualized decision-making between patients and surgeons regarding the surgical approach, considering the associated risks such as dislocation and wound complications. It also notes the increasing prevalence of hip osteoarthritis and the need for further research, particularly prospective randomized controlled trials, to better compare different surgical techniques. Additionally, the document addresses the impact of elevated body mass index (BMI) on adverse events following THA, indicating limited evidence of increased risks associated with higher BMI, while stressing the importance of preserving access to THA for medically optimized patients despite potential complications. Overall, the document underscores the need for careful consideration of surgical options and patient factors in the context of THA."
+        }
+      ]
+    },
+    {
+      "title": "OPTIONS",
+      "node_id": "0048",
+      "start_index": 37,
+      "end_index": 37,
+      "summary": "The partial document discusses the relationship between elevated body mass index (BMI) and the risk of adverse events in patients undergoing total hip arthroplasty (THA) for symptomatic hip osteoarthritis. It highlights that the evidence supporting this association is of low quality, with studies showing inconsistent findings. While some studies indicate an increased risk of complications for overweight or obese patients compared to those of normal weight, the overall rates of adverse events remain low. The document emphasizes the challenges in conducting randomized controlled trials due to the non-modifiable nature of BMI and the need for careful consideration of confounding factors. It concludes that while elevated BMI may pose risks, THA remains a beneficial treatment for medically optimized patients, and decisions regarding surgery should be made by the operating surgeon. The document also notes that future research may strengthen the recommendations regarding BMI and THA outcomes.",
+      "nodes": [
+        {
+          "title": "BMI: ADVERSE EVENTS",
+          "node_id": "0049",
+          "start_index": 37,
+          "end_index": 39,
+          "summary": "The partial document discusses the impact of Body Mass Index (BMI) on patient outcomes and adverse events in individuals undergoing total hip arthroplasty (THA) for symptomatic hip osteoarthritis. It highlights that the evidence regarding the relationship between elevated BMI and adverse events is of low quality, with limited strength of recommendation. The document outlines that patients with higher BMI may face increased risks of postoperative complications, including mortality and surgical adverse events, although the absolute rates of these events remain low. It emphasizes the importance of optimizing patients before surgery and suggests that the decision to proceed with THA should be made by the operating surgeon.\n\nAdditionally, the document notes that while patients with elevated BMI may report lower absolute patient-reported outcome scores, the degree of improvement in satisfaction, pain, function, and quality of life after THA is similar to that of patients with normal BMI. It calls for future research to better understand how to select and optimize patients with elevated BMI, the effects of weight loss on postoperative complications, and the improvement of patient-reported outcomes based on different BMI classes. The document also discusses the cost-effectiveness of THA and the feasibility of using BMI as a risk stratification tool in clinical practice."
+        },
+        {
+          "title": "BMI: CLINICAL OUTCOMES",
+          "node_id": "0050",
+          "start_index": 39,
+          "end_index": 40,
+          "summary": "The partial document discusses two main topics related to the management of patients with elevated Body Mass Index (BMI) undergoing total hip arthroplasty (THA) and the use of oral opioids for treating symptomatic osteoarthritis of the hip. \n\n1. **BMI and Total Hip Arthroplasty**: It highlights that patients with elevated BMI may experience lower absolute patient-reported outcome scores post-surgery but achieve similar improvements in satisfaction, pain, function, and quality of life compared to those with normal BMI. The evidence supporting these findings is of low quality, indicating that while patients of all BMI categories improve after THA, those with higher BMI may recover more slowly and have lower postoperative activity levels. The document emphasizes the importance of understanding the impact of BMI on surgical outcomes and suggests that future research is needed to explore the effects of preoperative weight loss on patient outcomes.\n\n2. **Oral Opioids for Osteoarthritis Treatment**: The document advises against the use of oral opioids for nonoperative treatment of symptomatic osteoarthritis of the hip due to a lack of sufficient evidence supporting their efficacy and the associated risks of adverse events. It notes that preoperative opioid use can lead to complications and poorer outcomes after THA. The workgroup recommends removing opioids from treatment protocols, especially in light of the opioid epidemic, and suggests that alternative nonoperative treatments should be prioritized to improve patient outcomes without the risks associated with opioid use. \n\nOverall, the document underscores the need for careful consideration of BMI in surgical outcomes and the avoidance of opioids in managing hip osteoarthritis."
+        },
+        {
+          "title": "PRESCRIPTION OPIOID AS CONSERVATIVE TREATMENT",
+          "node_id": "0051",
+          "start_index": 40,
+          "end_index": 42,
+          "summary": "The partial document discusses the recommendations against the use of oral opioids for the nonoperative treatment of symptomatic osteoarthritis of the hip due to insufficient evidence and significant risks associated with their use. It emphasizes that opioids do not improve pain or function and increase the likelihood of adverse events, particularly in the context of total hip arthroplasty. The document also highlights the need for future research on non-opioid treatments and strategies to help patients wean off opioids before surgery. Additionally, it addresses the risks associated with poorly controlled diabetes in patients undergoing total hip arthroplasty, noting limited evidence on the outcomes of diabetic versus non-diabetic patients. The importance of individualized decision-making regarding surgery for patients with diabetes is also mentioned, along with the lack of consensus on safe HbA1c levels for surgical candidates. Overall, the document advocates for the removal of oral opioids from treatment plans and stresses the importance of patient education regarding the risks of opioid use."
+        },
+        {
+          "title": "DIABETES: ADVERSE EVENTS",
+          "node_id": "0052",
+          "start_index": 42,
+          "end_index": 44,
+          "summary": "The partial document discusses the impact of diabetes and social determinants of health on outcomes after total hip arthroplasty (THA). It highlights limited evidence suggesting that patients with symptomatic osteoarthritis of the hip and poorly controlled diabetes may face a higher risk of adverse events post-surgery, with a low quality of evidence supporting this claim. The document reviews several studies indicating that well-controlled diabetes may not significantly increase complication rates, while uncontrolled diabetes is associated with worse outcomes. It emphasizes the need for individualized decision-making regarding surgery based on diabetes control levels.\n\nAdditionally, the document addresses how social determinants of health, such as education, income, and insurance type, can negatively affect patient outcomes after THA. It summarizes findings from various studies that show higher socioeconomic status and education levels correlate with improved surgical outcomes, including reduced mortality and readmission rates. The document calls for further research to clarify the optimal measures of diabetes control and the effects of social determinants on surgical outcomes."
+        },
+        {
+          "title": "SOCIAL DETERMINANTS OF HEALTH",
+          "node_id": "0053",
+          "start_index": 44,
+          "end_index": 47,
+          "summary": "The partial document discusses the impact of social determinants of health on outcomes following total hip arthroplasty (THA). It highlights that factors such as education, income level, and insurance type can negatively affect length of stay, total cost of care, and mortality rates. The evidence quality is rated as low, based on the analysis of 21 studies, which indicate that higher income and education levels correlate with better health outcomes for patients undergoing THA. Additionally, the document examines how hospital-related factors and living conditions influence patient outcomes, noting mixed findings regarding the type of hospital and its effects on readmission and mortality rates. The role of social support is also addressed, emphasizing its positive impact on patient recovery. The document concludes with recommendations for future research to better understand and mitigate the negative effects of social determinants on THA outcomes. Furthermore, it briefly discusses the use of oral acetaminophen for treating symptomatic osteoarthritis of the hip, suggesting it may improve pain and function despite limited evidence, and emphasizes the need for further research on its efficacy and safety."
+        },
+        {
+          "title": "PHARMACOLOGICAL MANAGEMENT: ACETAMINOPHEN",
+          "node_id": "0054",
+          "start_index": 47,
+          "end_index": 48,
+          "summary": "The partial document discusses two main topics related to the management of osteoarthritis and total hip arthroplasty. \n\n1. **Pharmacological Management with Acetaminophen**: The workgroup recommends considering oral acetaminophen for improving pain and function in patients with symptomatic osteoarthritis of the hip, despite a lack of strong evidence. The recommendation is based on consensus and clinical opinion, as systematic reviews did not yield sufficient studies. Acetaminophen is noted for its cost-effectiveness and availability, but contraindications, particularly in patients with liver disease, should be considered. Future research is encouraged to explore adverse events and optimal dosages.\n\n2. **Hip-Spine Relationship in Total Hip Arthroplasty**: The document suggests that patients with osteoarthritis of the hip and stiff spine syndrome may face an increased risk of dislocation after total hip arthroplasty, although the evidence is of low quality. The recommendation is based on consensus due to the variability in data and the need for further research. The potential complications of dislocation are highlighted, and discussions between surgeons and patients regarding risks are emphasized. The document also notes the increased costs associated with mitigating dislocation risks through advanced surgical techniques."
+        },
+        {
+          "title": "HIP- SPINE RELATIONSHIP",
+          "node_id": "0055",
+          "start_index": 48,
+          "end_index": 50,
+          "summary": "The partial document discusses two main topics related to total hip arthroplasty: the hip-spine relationship and the comparison between neuraxial and general anesthesia. \n\n1. **Hip-Spine Relationship**: The document highlights that patients with osteoarthritis of the hip and stiff spine syndrome may have an increased risk of dislocation after total hip arthroplasty, although the quality of evidence is low. It emphasizes the need for further research to understand the impact of stiff spine on surgical outcomes and suggests that while dislocation is a serious complication, patients with stiff spines should not be denied surgery. The document also discusses the potential benefits and harms of implementing strategies to mitigate dislocation risks, such as using dual mobility constructs, which may increase costs.\n\n2. **Neuraxial vs. General Anesthesia**: The document presents limited evidence suggesting that neuraxial anesthesia may reduce adverse events in patients undergoing total hip arthroplasty. It reviews various studies that indicate neuraxial anesthesia is associated with shorter operative times, lower pain scores, and fewer complications compared to general anesthesia. However, it stresses the importance of individualized anesthesia choices based on patient-specific factors and the need for informed discussions between patients and anesthesiologists regarding the risks and benefits of each option. \n\nOverall, the document underscores the importance of considering specific patient conditions and preferences in the context of total hip arthroplasty to optimize outcomes."
+        },
+        {
+          "title": "NEURAXIAL VS. GENERAL ANESTHESIA",
+          "node_id": "0056",
+          "start_index": 50,
+          "end_index": 52,
+          "summary": "The partial document discusses the comparative effectiveness of neuraxial versus general anesthesia in patients with symptomatic osteoarthritis of the hip undergoing total hip arthroplasty. It highlights limited evidence suggesting that neuraxial anesthesia may reduce adverse events, with a low quality of evidence and limited strength of recommendation. Key findings from various studies indicate that neuraxial anesthesia is associated with shorter operative times, lower pain scores, and potentially fewer complications, although some studies report no significant differences in postoperative adverse effects. The document emphasizes the importance of individualized anesthesia choices based on patient comorbidities and advocates for informed decision-making between patients and anesthesiologists. Additionally, it notes the rising incidence of hip osteoarthritis and the need for future research to better understand the outcomes associated with different anesthesia types. The document also briefly addresses the impact of tobacco use on surgical outcomes, indicating that smokers may face increased risks of complications after total hip arthroplasty, and calls for further research in this area. Overall, it underscores the need for careful consideration of anesthesia options and the implications of tobacco use in surgical settings."
+        },
+        {
+          "title": "TOBACCO",
+          "node_id": "0057",
+          "start_index": 52,
+          "end_index": 54,
+          "summary": "The partial document discusses the impact of tobacco use on patients with symptomatic osteoarthritis of the hip undergoing total hip arthroplasty. It highlights limited evidence suggesting that tobacco users may face increased risks of adverse events post-surgery, with a low quality of evidence supporting this claim. The document reviews findings from eleven low-quality studies, noting that smoking is often considered a more significant risk factor than other forms of tobacco use. It outlines potential harms, including systemic complications and increased periprosthetic joint infections, which could lead to financial burdens and medical comorbidities. The document emphasizes the need for future research to better understand the effects of different tobacco forms on surgical outcomes and the associated healthcare costs. It also discusses the acceptability and feasibility of addressing tobacco use in clinical practice, advocating for open discussions between physicians and patients regarding the risks involved."
+        }
+      ]
+    },
+    {
+      "title": "APPENDICES",
+      "node_id": "0058",
+      "start_index": 54,
+      "end_index": 54,
+      "summary": "The partial document primarily consists of references and included literature related to hip osteoarthritis and total hip arthroplasty. It includes a list of studies that estimate the incidence and prevalence of hip osteoarthritis, systematic reviews on its prevalence, and analyses of the cost-effectiveness of total hip arthroplasty in older patients. Additionally, it references research on the impact of body mass index on quality of life post-surgery, the efficacy of various treatment methods for hip osteoarthritis, and comparisons of surgical approaches in total hip arthroplasty. The document serves as a resource for background material and data summaries related to these topics.",
+      "nodes": [
+        {
+          "title": "Appendix I: References",
+          "node_id": "0059",
+          "start_index": 54,
+          "end_index": 65,
+          "summary": "The partial document primarily consists of references and literature related to hip osteoarthritis and total hip arthroplasty (THA). It includes a comprehensive list of studies that estimate the incidence and prevalence of hip osteoarthritis, analyze the cost-effectiveness of THA, and evaluate various treatment approaches, including the use of tranexamic acid, physical therapy, and different surgical techniques. The document also addresses the impact of body mass index (BMI) on surgical outcomes, complications, and patient-reported outcomes following THA. Additionally, it outlines PICO questions that guide the literature search, focusing on factors such as BMI, postoperative physical therapy, socioeconomic status, and pharmacologic management in patients with symptomatic hip osteoarthritis. Overall, the document serves as a resource for understanding the complexities of managing hip osteoarthritis and the implications of surgical interventions."
+        },
+        {
+          "title": "Appendix II: PICO Questions and Inclusion Criteria Used to Define Literature Search",
+          "node_id": "0060",
+          "start_index": 65,
+          "end_index": 67,
+          "summary": "The partial document outlines the PICO questions and inclusion criteria used for a systematic review related to osteoarthritis (OA) of the hip, particularly focusing on patients undergoing total hip arthroplasty (THA). The PICO questions address various factors affecting patient outcomes post-surgery, including the impact of body mass index (BMI), the use of tranexamic acid, physical therapy, pharmacologic management (NSAIDs and acetaminophen), and the influence of diabetes and socioeconomic status on recovery and complications. The inclusion criteria specify the types of studies eligible for review, emphasizing the need for clinical studies published after 1966, with a minimum number of patients and follow-up durations. The document also details the exclusion of lower-quality studies and non-human research, ensuring that only high-quality, peer-reviewed evidence is considered for the guidelines."
+        },
+        {
+          "title": "Appendix III: Literature Search Strategy",
+          "node_id": "0061",
+          "start_index": 67,
+          "end_index": 79,
+          "summary": "The partial document outlines a comprehensive literature search strategy for a clinical practice guideline related to hip osteoarthritis and arthroplasty. It details the databases used, including MEDLINE, Embase, and the Cochrane Library, along with the search interfaces and the timeline of searches conducted from 2015 to 2023. The search strategy includes specific keywords and terms related to hip osteoarthritis, arthroplasty, body mass index, physical therapy modalities, medications (such as corticosteroids and NSAIDs), and healthcare disparities. Additionally, it highlights the importance of filtering results by publication year and type of study, such as randomized controlled trials and systematic reviews. The document also includes disclosures of conflicts of interest from members of the guideline development group, indicating their affiliations and financial support received from various organizations."
+        },
+        {
+          "title": "Appendix IV: Guideline Development Group Disclosures",
+          "node_id": "0062",
+          "start_index": 79,
+          "end_index": 80,
+          "summary": "The partial document outlines the disclosures of conflicts of interest (COI) from members of the clinical practice guideline development group for the American Academy of Orthopaedic Surgeons. It details the financial relationships and support received by various members, including board memberships, research support, consulting fees, and stock ownership. Each member's affiliations and the nature of their financial disclosures are listed, with some individuals reporting no conflicts. The document emphasizes transparency in the guideline development process by requiring members to disclose any potential conflicts prior to the approval meeting."
+        }
+      ]
+    }
+  ]
+}
