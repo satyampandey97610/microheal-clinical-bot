@@ -45,7 +45,7 @@ class QueryResponse(BaseModel):
     domain: str
     out_of_domain: bool
 
-@app.get("/")
+@app.get("/health")
 def health_check():
     return {"status": "ok", "message": "MicroHeal Clinical Bot API is running."}
 

@@ -17,11 +17,16 @@ COPY requirements.txt .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+ENV STREAMLIT_INTERNAL_PORT=8502 \
+    PORT=8501
+
 # Copy the rest of the application code
 COPY . .
 
-# Expose the port Streamlit runs on
+RUN chmod +x docker/entrypoint.sh
+
+# Single server: FastAPI retrieval + Streamlit UI (proxied) on 8501
 EXPOSE 8501
 
-# Run the Streamlit app
-ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+# Run the Unified Server
+ENTRYPOINT ["/app/docker/entrypoint.sh"]
