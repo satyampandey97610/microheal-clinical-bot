@@ -31,6 +31,8 @@ _HOP_BY_HOP = frozenset(
         "trailers",
         "transfer-encoding",
         "upgrade",
+        "content-length",
+        "content-encoding",
     }
 )
 
