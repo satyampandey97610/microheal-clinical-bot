@@ -78,7 +78,8 @@ MicroHeal Clinical Bot
 ├── PageIndex/              ← PDF indexing pipeline
 ├── docs/                   ← Deployment guide
 ├── logs/                   ← Processing logs
-├── Dockerfile
+├── Dockerfile              ← Builds the unified container
+├── nginx.conf              ← Routes Streamlit (/) and API (/query) on port 8501
 ├── requirements.txt
 └── .env
 ```
@@ -271,12 +272,20 @@ result = gastro.query("How is it treated?", history=history)
 
 ---
 
-## 🐳 Docker Deployment
+## 🐳 Docker Deployment (Production Ready)
+
+The Docker container runs an **Nginx reverse proxy** to serve both the Streamlit UI and the FastAPI server on a single, unified port.
 
 ```bash
 docker build -t microheal-clinical-bot .
-docker run -p 8501:8501 --env-file .env microheal-clinical-bot
+docker run -d -p 8501:8501 --env-file .env microheal-clinical-bot
 ```
+
+Once running on port 8501:
+- `http://localhost:8501/` -> Streamlit Web UI
+- `http://localhost:8501/query` -> FastAPI Backend
+
+This ensures perfect WebSocket compatibility and simple deployment for GitHub or cloud hosting.
 
 ---
 

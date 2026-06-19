@@ -26,10 +26,11 @@
 3. Connect your repo, set `app.py` as the main file
 4. Add `OPENAI_API_KEY` in Streamlit Secrets
 
-### Option 2: Docker
+### Option 2: Docker (Production Ready with Nginx)
+The container uses Nginx to serve both Streamlit (`/`) and FastAPI (`/query`) on a single port (8501) with full WebSocket support.
 ```bash
 docker build -t microheal-clinical-bot .
-docker run -p 8501:8501 --env-file .env microheal-clinical-bot
+docker run -d -p 8501:8501 --env-file .env microheal-clinical-bot
 ```
 
 ### Option 3: WhatsApp Bot / Workflow Integration
@@ -56,7 +57,9 @@ result = engine.query("What is GERD?")
 | File / Directory | Purpose |
 |------------------|---------|
 | `clinical_engine.py` | Core brain — import from any system |
+| `api.py` | FastAPI backend |
 | `app.py` | Streamlit UI frontend |
+| `nginx.conf` | Reverse proxy routing for API and UI |
 | `GastroRAG/gastro_agent.py` | Gastro specialist wrapper |
 | `CardioRAG/cardio_agent.py` | Cardio specialist wrapper |
 | `NephroRAG/nephro_agent.py` | Nephrology specialist wrapper |
