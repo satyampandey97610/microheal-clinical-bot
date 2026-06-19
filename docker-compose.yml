@@ -1,0 +1,40 @@
+version: '3.8'
+
+# HOW TO USE
+# ────────────────────────────────────────────────────────────────────────────
+#
+# 1. Create a .env file in this directory:
+#      OPENAI_API_KEY=sk-your-key-here
+#
+# 2. Start the stack:
+#      docker compose up -d
+#
+# 3. Open the app:
+#      http://localhost:8501/        → Streamlit UI
+#      http://localhost:8501/query   → FastAPI backend
+#      http://localhost:8501/health  → Health check
+#
+# Other commands:
+#      docker compose logs -f
+#      docker compose down
+
+services:
+  clinical-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: microheal_clinical_bot
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    environment:
+      - PORT=8501
+      - STREAMLIT_INTERNAL_PORT=8502
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
