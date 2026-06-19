@@ -17,7 +17,7 @@ cleanup() {
 trap cleanup SIGTERM SIGINT
 
 for _ in $(seq 1 45); do
-  if curl -sf "http://127.0.0.1:${UI_PORT}/_stcore/health" >/dev/null; then
+  if python3 -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:${UI_PORT}/_stcore/health')" 2>/dev/null; then
     break
   fi
   sleep 1
