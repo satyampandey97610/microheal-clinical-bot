@@ -54,14 +54,16 @@ import re
 def format_for_whatsapp(text: str) -> str:
     if not text:
         return text
-    # 1. Convert markdown bold with colons: **Text**: -> *Text:* (bolds correctly on WhatsApp)
+    # 1. Convert markdown headers (# Header or ## Header) to WhatsApp bold: *Header*
+    text = re.sub(r'^#+\s+(.*?)$', r'*\1*', text, flags=re.MULTILINE)
+    # 2. Convert markdown bold with colons: **Text**: -> *Text:* (bolds correctly on WhatsApp)
     text = re.sub(r'\*\*(.*?)\*\*:', r'*\1:*', text)
-    # 2. Convert standard markdown bold: **Text** -> *Text*
+    # 3. Convert standard markdown bold: **Text** -> *Text*
     text = re.sub(r'\*\*(.*?)\*\*', r'*\1*', text)
-    # 3. Convert single asterisk bold with colons: *Text*: -> *Text:*
+    # 4. Convert single asterisk bold with colons: *Text*: -> *Text:*
     text = re.sub(r'\*(.*?)\*:', r'*\1:*', text)
-    # 4. Convert list bullets (-, *, ·, •) to standard WhatsApp bullet (•)
-    text = re.sub(r'^\s*[-*·•]\s+', r'• ', text, flags=re.MULTILINE)
+    # 5. Convert list bullets (-, *, ·, •) to standard WhatsApp bullet (•)
+    text = re.sub(r'^\s*[-*·]\s+', r'• ', text, flags=re.MULTILINE)
     return text
 
 @app.post("/query", response_model=QueryResponse)

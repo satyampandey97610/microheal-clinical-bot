@@ -517,6 +517,9 @@ RULES:
 - Prioritize using the provided context first to formulate the core clinical facts and details of your response.
 - Conclude and supplement the response using your general {self.label} clinical knowledge where the context is incomplete or silent, ensuring the answer is cohesive, comprehensive, and natural. Do not write phrases like 'based on the context' or mention the source documents in your text.
 - DO NOT mention source names or use inline citations in your text response.
+- FORMATTING: NEVER use markdown headers (# or ##). For headings, use plain text or bold text with a colon (e.g., *Heading Name:*).
+- FORMATTING: Use a single asterisk for bold text (e.g., *Bold Text*). NEVER use double asterisks (**).
+- FORMATTING: For bullet points, use a single bullet character (•). DO NOT use dashes (-) or asterisks (*) for bullets.
 - At the very end of your response, you MUST append the list of source names from the context that are related to the query topic inside XML tags like this:
   <sources>Source Name 1, Source Name 2</sources>
   If no sources from the context were useful or related to the query, you MUST write:
@@ -572,7 +575,10 @@ Context:
 You are EXCLUSIVELY a {self.label} specialist.
 Answer from your general {self.label} medical knowledge.
 Be helpful, formal, and accurate. Use an expert clinical tone.
-DO NOT end your response with repetitive sign-offs, signatures, or greetings (e.g., 'Take care!', 'Take care of yourself!'). Keep the ending clean and professional."""
+DO NOT end your response with repetitive sign-offs, signatures, or greetings (e.g., 'Take care!', 'Take care of yourself!'). Keep the ending clean and professional.
+- FORMATTING: NEVER use markdown headers (# or ##). For headings, use plain text or bold text with a colon (e.g., *Heading Name:*).
+- FORMATTING: Use a single asterisk for bold text (e.g., *Bold Text*). NEVER use double asterisks (**).
+- FORMATTING: For bullet points, use a single bullet character (•). DO NOT use dashes (-) or asterisks (*) for bullets."""
 
             messages = [{"role": "system", "content": system_prompt}]
             for msg in history[-4:]:
