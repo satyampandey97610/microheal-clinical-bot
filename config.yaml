@@ -1,8 +1,5 @@
 model: gpt-4o-mini
-<<<<<<< HEAD
 premium_model: gpt-4o-mini
-=======
->>>>>>> 848bcc72937d70826d927480a4dc9666f03d2386
 api_key_env: OPENAI_API_KEY
 max_tokens: 4000
 temperature: 0.1

@@ -1,0 +1,58 @@
+{
+  "doc_name": "digestive_datasets_cran.pdf",
+  "doc_description": "This document provides a comprehensive overview of the DigestiveDataSets package, detailing its curated collection of diverse datasets related to the digestive system and gastrointestinal diseases, along with specific examples and visualizations to aid in research and clinical practice.",
+  "structure": [
+    {
+      "title": "DigestiveDataSets: A Curated Collection of Digestive System and Gastrointestinal Disease Datasets",
+      "node_id": "0000",
+      "start_index": 1,
+      "end_index": 1,
+      "summary": "The partial document describes the DigestiveDataSets package, which is a curated collection of datasets related to the digestive system and gastrointestinal diseases. It highlights the variety of data types included, such as clinical trials, observational studies, and cohort data, covering a wide range of conditions like gastritis, ulcers, pancreatitis, and colorectal diseases. The datasets are intended for use in education, clinical practice, and biomedical research, particularly benefiting fields like gastroenterology, public health, and epidemiology. Additionally, the document lists specific datasets available within the package, showcasing the diversity of topics covered.",
+      "text": "DigestiveDataSets: A Curated\nCollection of Digestive System and\nGastrointestinal Disease Datasets\nIntroduction\nThe DigestiveDataSets  package offers a comprehensive and curated collection of datasets\nfocused on the digestive system, including the stomach, intestines, liver, pancreas, and\nrelated disorders . This package encompasses a variety of data types such as clinical trials,\nobservational studies, experimental datasets, cohort data, and case series, providing broad\ncoverage of gastrointestinal diseases.\nIncluded datasets span a range of conditions such as gastritis, ulcers, pancreatitis, liver\ncirrhosis, colorectal diseases, colon cancer, Helicobacter pylori infection, irritable\nbowel syndrome, intestinal infections, and post-surgical outcomes . These datasets serve\nmultiple purposes in education, clinical practice, and biomedical research, and are particularly\nvaluable in fields such as gastroenterology, public health, and epidemiology.\nAll datasets within DigestiveDataSetslibrary(DigestiveDataSets)\nlibrary(ggplot2)\nlibrary(dplyr)\n#> \n#> Adjuntando el paquete: 'dplyr'\n#> The following objects are masked from 'package:stats':\n#> \n#>     filter, lag\n#> The following objects are masked from 'package:base':\n#> \n#>     intersect, setdiff, setequal, union\nview_datasets_DigestiveDataSets ()\n#>  [1] \"anorexia_weight_change_df\"     \"bleeding_ulcers_df\"           \n#>  [3] \"campylobacter_infections_ts\"   \"cholera_deaths_1849_tbl_df\"   \n#>  [5] \"colon_stageBC_chemo_df\"        \"colonoscopy_features_tbl_df\"  \n#>  [7] \"crc_mirnas_pubmed_tbl_df\"      \"cystic_fibrosis_snps_df\"      \n#>  [9] \"digestive_cancer_survival_df\"  \"ecoli_infections_df\"          \n#> [11] \"gastric_cancer_trial_df\"       \"gi_damage_prevention_df\"      \n#> [13] \"helicobacter_children_tbl_df\"  \"horse_colic_surgery_df\"       \n#> [15] \"ibs_cam_trials_df\"             \"intestinal_smartpill_df\"      ",
+      "nodes": [
+        {
+          "title": "Dataset Suffixes",
+          "node_id": "0001",
+          "start_index": 2,
+          "end_index": 2,
+          "summary": "The partial document discusses the dataset suffixes used in the DigestiveDataSets package, which categorize R objects into types such as data frames, tibbles, and time series. It provides examples of datasets included in the package, such as \"digestive_cancer_survival_df\" for cancer survival times and \"campylobacter_infections_ts\" for infection time series. Additionally, it outlines a minimal data processing example using the \"digestive_cancer_survival_df\" dataset to summarize cancer cases and convert the data into a format suitable for plotting. Finally, it includes a ggplot visualization comparing stomach and colon cancer cases, highlighting the use of specific colors and a minimal theme for the plot.",
+          "text": "Dataset Suffixes\nEach dataset in the DigestiveDataSets  package uses a suffix to denote the type of R object:\n_df: data frame\n_tbl_df: tibble\n_ts: time series\nBelow are selected example datasets included in the DigestiveDataSets  package:\ndigestive_cancer_survival_df : Digestive Cancer Survival Times.\ncampylobacter_infections_ts : Campylobacter Infections Time Series.\ncholera_deaths_1849_tbl_df : Cholera Daily Deaths in England, 1849.\nData Visualization with DigestiveDataSets Data\nDigestive Cancer Survival Times#> [17] \"intestinal_surgery_df\"         \"liver_cirrhosis_prednisone_df\"\n#> [19] \"lynch_ontario_families_df\"     \"norovirus_derbyshire_df\"      \n#> [21] \"pancreatic_cancer_df\"          \"pbc_mayo_survival_df\"         \n#> [23] \"post_ercp_pancreatitis_tbl_df\" \"ugi_bleeding_df\"              \n#> [25] \"weight_loss_df\"\n◦ \n◦ \n◦ \n◦ \n◦ \n◦ \n# Minimal data processing WITHOUT tidyr\ndigestive_cancer_survival_df %>%\nsummarise (\nStomach = sum(stomach, na.rm = TRUE),\nColon = sum(colon, na.rm = TRUE)\n  ) %>%\n# Convert to plot-ready format WITHOUT tidyr\n  {data.frame (\nCancer = names(.),\nCases = unlist(., use.names = FALSE)\n  )} %>%\n# Plot\nggplot(aes(x = Cancer, y = Cases)) +\ngeom_col (fill =c(\"#e63946\" , \"#1d3557\" )) +\nlabs(title = \"Stomach vs Colon Cancer Cases\" ) +\ntheme_minimal ()",
+          "nodes": [
+            {
+              "title": "Digestive Cancer Survival Times",
+              "node_id": "0002",
+              "start_index": 2,
+              "end_index": 2,
+              "summary": "The partial document discusses the dataset suffixes used in the DigestiveDataSets package, which categorize R objects into types such as data frames, tibbles, and time series. It provides examples of datasets included in the package, such as \"digestive_cancer_survival_df\" for cancer survival times, \"campylobacter_infections_ts\" for infection time series, and \"cholera_deaths_1849_tbl_df\" for historical death data. Additionally, it outlines a minimal data processing example using the \"digestive_cancer_survival_df\" dataset to summarize cancer cases and convert the data into a plot-ready format, followed by a ggplot visualization comparing stomach and colon cancer cases.",
+              "text": "Dataset Suffixes\nEach dataset in the DigestiveDataSets  package uses a suffix to denote the type of R object:\n_df: data frame\n_tbl_df: tibble\n_ts: time series\nBelow are selected example datasets included in the DigestiveDataSets  package:\ndigestive_cancer_survival_df : Digestive Cancer Survival Times.\ncampylobacter_infections_ts : Campylobacter Infections Time Series.\ncholera_deaths_1849_tbl_df : Cholera Daily Deaths in England, 1849.\nData Visualization with DigestiveDataSets Data\nDigestive Cancer Survival Times#> [17] \"intestinal_surgery_df\"         \"liver_cirrhosis_prednisone_df\"\n#> [19] \"lynch_ontario_families_df\"     \"norovirus_derbyshire_df\"      \n#> [21] \"pancreatic_cancer_df\"          \"pbc_mayo_survival_df\"         \n#> [23] \"post_ercp_pancreatitis_tbl_df\" \"ugi_bleeding_df\"              \n#> [25] \"weight_loss_df\"\n◦ \n◦ \n◦ \n◦ \n◦ \n◦ \n# Minimal data processing WITHOUT tidyr\ndigestive_cancer_survival_df %>%\nsummarise (\nStomach = sum(stomach, na.rm = TRUE),\nColon = sum(colon, na.rm = TRUE)\n  ) %>%\n# Convert to plot-ready format WITHOUT tidyr\n  {data.frame (\nCancer = names(.),\nCases = unlist(., use.names = FALSE)\n  )} %>%\n# Plot\nggplot(aes(x = Cancer, y = Cases)) +\ngeom_col (fill =c(\"#e63946\" , \"#1d3557\" )) +\nlabs(title = \"Stomach vs Colon Cancer Cases\" ) +\ntheme_minimal ()"
+            },
+            {
+              "title": "Campylobacter Infections Time Series.",
+              "node_id": "0003",
+              "start_index": 3,
+              "end_index": 3,
+              "summary": "The partial document discusses the analysis of Campylobacter infections over time using a time series dataset. It describes the conversion of the time series data into a numeric format for both infections and time. A plot is created using ggplot to visualize the number of Campylobacter infections over time, featuring a line and points in steel blue color. The plot includes labels for the title and axes, and it employs a minimal theme for clarity.",
+              "text": "Campylobacter Infections Time Series.\n# Convert ts to numeric vector and numeric time\ncampy_df <-data.frame (\ninfections = as.numeric (campylobacter_infections_ts),\ntime =as.numeric (time(campylobacter_infections_ts))\n)\n# Plot without warning by using numeric 'time'\nggplot(campy_df, aes(x = time, y = infections)) +\ngeom_line (color = \"steelblue\" ) +\ngeom_point (color = \"steelblue\" ) +\nlabs(\ntitle = \"Campylobacter Infections Over Time\" ,\nx =\"Time (year.fraction)\" ,\ny =\"Number of Infections\"\n  ) +\ntheme_minimal ()"
+            },
+            {
+              "title": "Cholera Daily Deaths in England, 1849.",
+              "node_id": "0004",
+              "start_index": 4,
+              "end_index": 4,
+              "summary": "The partial document discusses a data visualization of cholera deaths in England during the year 1849. It describes the use of the ggplot2 package in R to create a line graph that illustrates the number of deaths over time, with the x-axis representing dates and the y-axis indicating the number of deaths. The graph also differentiates deaths by the cause of death using color coding. The overall theme of the visualization is minimalistic, focusing on clarity and ease of interpretation.",
+              "text": "Cholera Daily Deaths in England, 1849.\nggplot(cholera_deaths_1849_tbl_df, aes(x = date, y = deaths, color =\ncause_of_death)) +\ngeom_line () +\nlabs(\ntitle = \"Cholera Deaths Over Time in 1849\" ,\nx =\"Date\",\ny =\"Number of Deaths\" ,\ncolor = \"Cause of Death\"\n  ) +\ntheme_minimal ()"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "node_id": "0005",
+      "start_index": 5,
+      "end_index": 5,
+      "summary": "The partial document discusses the DigestiveDataSets package, highlighting its extensive collection of datasets related to the digestive system and associated diseases. It emphasizes the inclusion of various types of data, such as clinical trials and observational studies, which cater to diverse applications in research, education, and clinical practice. Additionally, it mentions the availability of detailed information and documentation for each dataset within the package.",
+      "text": "Conclusion\nThe DigestiveDataSets  package offers a comprehensive, well-curated collection of datasets\nfocused on the digestive system and related diseases. By including clinical trials, observational\nstudies, cohort data, and experimental datasets covering a broad spectrum of gastrointestinal\nconditions, this package supports a wide range of applications in research, education, and\nclinical practice.\nFor detailed information and full documentation of each dataset, please refer to the reference\nmanual and help files included within the package.\n"
+    }
+  ]
+}

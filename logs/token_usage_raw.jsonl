@@ -19133,3 +19133,11 @@
 {"timestamp": "2026-06-16T15:01:44.002182", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 144, "completion_tokens": 39, "total_tokens": 183, "model": "gpt-4o-mini"}
 {"timestamp": "2026-06-16T15:01:44.635372", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 265, "completion_tokens": 2, "total_tokens": 267, "model": "gpt-4o-mini"}
 {"timestamp": "2026-06-16T15:01:45.687015", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 87, "completion_tokens": 27, "total_tokens": 114, "model": "gpt-4o-mini"}
+{"timestamp": "2026-06-18T17:54:17.085302", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 268, "completion_tokens": 2, "total_tokens": 270, "model": "gpt-4o-mini"}
+{"timestamp": "2026-06-18T17:54:17.994608", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 39, "completion_tokens": 16, "total_tokens": 55, "model": "gpt-4o-mini"}
+{"timestamp": "2026-06-18T17:54:20.265469", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 5519, "completion_tokens": 16, "total_tokens": 5535, "model": "gpt-4o-mini"}
+{"timestamp": "2026-06-18T17:54:26.537692", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 2325, "completion_tokens": 397, "total_tokens": 2722, "model": "gpt-4o-mini"}
+{"timestamp": "2026-06-18T17:54:44.351403", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 268, "completion_tokens": 2, "total_tokens": 270, "model": "gpt-4o-mini"}
+{"timestamp": "2026-06-18T17:54:45.159255", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 39, "completion_tokens": 15, "total_tokens": 54, "model": "gpt-4o-mini"}
+{"timestamp": "2026-06-18T17:54:46.216340", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 5519, "completion_tokens": 16, "total_tokens": 5535, "model": "gpt-4o-mini"}
+{"timestamp": "2026-06-18T17:54:51.630206", "session_start": "clinical_engine_queries", "pdf_stem": "chat_queries", "prompt_tokens": 2325, "completion_tokens": 389, "total_tokens": 2714, "model": "gpt-4o-mini"}
