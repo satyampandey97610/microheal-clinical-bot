@@ -7,7 +7,9 @@ PUBLIC_PORT="${PORT:-8501}"
 streamlit run app.py \
   --server.port="${UI_PORT}" \
   --server.address=127.0.0.1 \
-  --server.headless=true &
+  --server.headless=true \
+  --server.enableCORS=false \
+  --server.enableXsrfProtection=false &
 STREAMLIT_PID=$!
 
 cleanup() {
@@ -23,4 +25,11 @@ for _ in $(seq 1 45); do
   sleep 1
 done
 
-exec uvicorn server:app --host 0.0.0.0 --port "${PUBLIC_PORT}"
+# Copy nginx config
+cp nginx.conf /etc/nginx/nginx.conf
+
+# Run API in background
+uvicorn api:app --host 127.0.0.1 --port 8000 &
+
+# Start Nginx in foreground
+exec nginx -g 'daemon off;'

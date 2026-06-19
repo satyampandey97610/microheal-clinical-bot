@@ -9,6 +9,8 @@ WORKDIR /app
 # Install system dependencies (required for some Python packages like PyMuPDF)
 RUN apt-get update && apt-get install -y \
     build-essential \
+    curl \
+    nginx \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first to leverage Docker layer caching
