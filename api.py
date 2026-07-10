@@ -44,6 +44,7 @@ class QueryResponse(BaseModel):
     sources: List[SourceItem]
     domain: str
     out_of_domain: bool
+    usage: Optional[Dict[str, Any]] = None
 
 @app.get("/health")
 def health_check():

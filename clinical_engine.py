@@ -257,7 +257,7 @@ def _should_use_premium_model(question: str) -> bool:
     return False
 
 
-def _llm_call(messages: list, temperature: float = 0.1, max_tokens: int = 2000, model: str = None) -> str:
+def _llm_call(messages: list, temperature: float = 0.1, max_tokens: int = 2000, model: str = None, purpose: str = None, usage_tracker: list = None) -> str:
     """Make an LLM call. Uses litellm if available, falls back to openai."""
     api_key = os.getenv("OPENAI_API_KEY")
     model_name = model or _get_default_model()
@@ -284,6 +284,18 @@ def _llm_call(messages: list, temperature: float = 0.1, max_tokens: int = 2000, 
             max_tokens=max_tokens,
             api_key=api_key,
         )
+        if usage_tracker is not None and purpose:
+            try:
+                usage_tracker.append({
+                    "purpose": purpose,
+                    "provider": getattr(response, "provider", "litellm"),
+                    "model": model_name,
+                    "prompt_tokens": response.usage.prompt_tokens,
+                    "completion_tokens": response.usage.completion_tokens,
+                    "total_tokens": response.usage.total_tokens
+                })
+            except Exception as e:
+                print(f"[DEBUG] Failed to track usage: {e}")
         return response.choices[0].message.content.strip()
     except ImportError:
         import openai
@@ -294,19 +306,31 @@ def _llm_call(messages: list, temperature: float = 0.1, max_tokens: int = 2000, 
             temperature=temperature,
             max_tokens=max_tokens,
         )
+        if usage_tracker is not None and purpose:
+            try:
+                usage_tracker.append({
+                    "purpose": purpose,
+                    "provider": "openai",
+                    "model": model_name,
+                    "prompt_tokens": response.usage.prompt_tokens,
+                    "completion_tokens": response.usage.completion_tokens,
+                    "total_tokens": response.usage.total_tokens
+                })
+            except Exception as e:
+                print(f"[DEBUG] Failed to track usage: {e}")
         return response.choices[0].message.content.strip()
 
 
-def _expand_query(query: str, domain_label: str) -> str:
+def _expand_query(query: str, domain_label: str, usage_tracker: list = None) -> str:
     try:
         prompt = f"Expand this {domain_label} medical query with full terms and synonyms. Query: '{query}'. Return ONLY the expanded version."
-        result = _llm_call([{"role": "user", "content": prompt}], max_tokens=60, model="gpt-4o-mini")
+        result = _llm_call([{"role": "user", "content": prompt}], max_tokens=60, model="gpt-4o-mini", purpose="query_expansion", usage_tracker=usage_tracker)
         return result + " " + query
     except Exception:
         return query
 
 
-def _ai_rank(query: str, candidates: list) -> list:
+def _ai_rank(query: str, candidates: list, usage_tracker: list = None) -> list:
     if not candidates:
         return []
     context_list = []
@@ -321,7 +345,7 @@ Return ONLY comma-separated indices like: 0, 2, 5, 8 or NONE.
 {chr(10).join(context_list)}"""
 
     try:
-        ans = _llm_call([{"role": "user", "content": prompt}], temperature=0, max_tokens=40, model="gpt-4o-mini")
+        ans = _llm_call([{"role": "user", "content": prompt}], temperature=0, max_tokens=40, model="gpt-4o-mini", purpose="rerank", usage_tracker=usage_tracker)
         if "NONE" in ans.upper():
             return []
         indices = [int(i.strip()) for i in ans.split(",") if i.strip().isdigit()]
@@ -330,7 +354,7 @@ Return ONLY comma-separated indices like: 0, 2, 5, 8 or NONE.
         return candidates[:5]
 
 
-def _classify_query(query: str, domain_label: str, other_label: str) -> str:
+def _classify_query(query: str, domain_label: str, other_label: str, usage_tracker: list = None) -> str:
     """
     Use the LLM to intelligently classify a query.
     Returns: 'in_domain', 'out_of_domain', or 'casual'
@@ -355,7 +379,8 @@ Reply with ONLY one word: in_domain, out_of_domain, or casual"""
     try:
         result = _llm_call(
             [{"role": "user", "content": prompt}],
-            temperature=0, max_tokens=10, model="gpt-4o-mini"
+            temperature=0, max_tokens=10, model="gpt-4o-mini",
+            purpose="classification", usage_tracker=usage_tracker
         ).lower().strip().replace('"', '').replace("'", "")
 
         if "out" in result:
@@ -435,13 +460,14 @@ class ClinicalEngine:
             dict with keys: answer, sources, domain, out_of_domain
         """
         history = history or []
+        usage_tracker = []
 
         # Dynamically determine the appropriate model tier (standard vs premium) for response generation
         use_premium = _should_use_premium_model(question)
         response_model = _get_premium_model() if use_premium else _get_default_model()
 
         # 1. Use LLM to intelligently classify the query (no hardcoded keywords)
-        classification = _classify_query(question, self.label, self.other_label)
+        classification = _classify_query(question, self.label, self.other_label, usage_tracker)
 
         # 2. Handle out-of-domain
         if classification == "out_of_domain":
@@ -456,7 +482,7 @@ class ClinicalEngine:
                 answer = _llm_call([
                     {"role": "system", "content": redirect_prompt},
                     {"role": "user", "content": question}
-                ], temperature=0.3, max_tokens=100, model="gpt-4o-mini")
+                ], temperature=0.3, max_tokens=100, model="gpt-4o-mini", purpose="redirect_generation", usage_tracker=usage_tracker)
             except Exception:
                 answer = (
                     f"This question falls under {self.other_label}. "
@@ -481,7 +507,7 @@ class ClinicalEngine:
                         f"DO NOT end your response with repetitive sign-offs, signatures, or greetings (e.g., 'Take care!', 'Take care of yourself!'). Keep the ending clean."
                     )},
                     {"role": "user", "content": question}
-                ], temperature=0.5, max_tokens=200, model="gpt-4o-mini")
+                ], temperature=0.5, max_tokens=200, model="gpt-4o-mini", purpose="casual_generation", usage_tracker=usage_tracker)
             except Exception:
                 answer = f"Hello! I'm your {self.label} specialist. How can I help you today?"
 
@@ -534,7 +560,7 @@ Context:
             messages.append({"role": "user", "content": question})
 
             try:
-                answer = _llm_call(messages, temperature=0.1, max_tokens=_get_max_tokens(), model=response_model)
+                answer = _llm_call(messages, temperature=0.1, max_tokens=_get_max_tokens(), model=response_model, purpose="answer_generation", usage_tracker=usage_tracker)
                 # Parse the <sources>...</sources> tag from the response
                 import re
                 sources_match = re.search(r"<sources>(.*?)</sources>", answer, re.IGNORECASE | re.DOTALL)
@@ -566,6 +592,7 @@ Context:
                 "sources": context_results,
                 "domain": self.label,
                 "out_of_domain": False,
+                "usage": {"calls": usage_tracker}
             }
 
         else:
@@ -586,7 +613,7 @@ DO NOT end your response with repetitive sign-offs, signatures, or greetings (e.
             messages.append({"role": "user", "content": question})
 
             try:
-                answer = _llm_call(messages, temperature=0.2, max_tokens=_get_max_tokens(), model=response_model)
+                answer = _llm_call(messages, temperature=0.2, max_tokens=_get_max_tokens(), model=response_model, purpose="answer_generation", usage_tracker=usage_tracker)
             except Exception as e:
                 answer = f"Error generating response: {str(e)}"
 
@@ -596,6 +623,7 @@ DO NOT end your response with repetitive sign-offs, signatures, or greetings (e.
                 "sources": [],
                 "domain": self.label,
                 "out_of_domain": False,
+                "usage": {"calls": usage_tracker}
             }
 
     def get_source_count(self) -> int:
